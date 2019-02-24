@@ -1,0 +1,6 @@
+{
+  "com.venomvendor.library" : [ "BuildConfig", "SimpleSharedPreferences", "SimpleSharedPreferences$1", "SimpleSharedPreferences$2", "SimpleSharedPreferences$3", "SimpleSharedPreferences$4", "SimpleSharedPreferences$5", "SimpleSharedPreferences$6", "SimpleSharedPreferences$a" ],
+  "com.venomvendor.sample.simplesharedpreferences" : [ "BuildConfig", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SimpleSharedPreferencesDemo", "SimpleSharedPreferencesDemo$1" ],
+  "com.venomvendor.sample.simplesharedpreferences.core" : [ "MyApplication" ],
+  "com.venomvendor.sample.simplesharedpreferences.utils" : [ "Constants", "Constants$KEYS" ]
+}

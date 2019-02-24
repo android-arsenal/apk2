@@ -1,0 +1,21 @@
+2018-04-09 21:55:49,740 INFO  DownloadService - Downloading "https://github.com/RobotiumTech/robotium/archive/master.zip", attempt 3
+2018-04-09 21:56:50,189 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 21:56:50,884 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 21:56:50,884 INFO  DownloadService - Downloading "https://github.com/RobotiumTech/robotium/archive/master.zip", attempt 3
+2018-04-09 21:57:52,232 DEBUG FullProcessService - Repository https://github.com/RobotiumTech/robotium available: true
+2018-04-09 21:57:52,232 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 21:57:52,232 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/RobotiumTech/robotium, /tmp/rdisk/484/src]
+2018-04-09 21:57:53,782 INFO  SysUtils - 
+2018-04-09 21:57:53,792 INFO  GitService - Deleted "/tmp/rdisk/484/src/.git": true
+2018-04-09 21:57:53,794 INFO  FullProcessService - Size of directory with sources: 375 KB
+2018-04-09 21:57:53,794 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/484/src]
+2018-04-09 21:57:53,798 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/484/src/.git/
+
+2018-04-09 21:57:53,799 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 21:57:53,800 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 21:57:53,801 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 21:57:53,802 INFO  ProjectBuildService - All script(s): none
+2018-04-09 21:57:53,802 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 21:57:53,802 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 21:57:53,802 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 21:57:53,803 ERROR FullProcessService - Could not find generated or existed APK file

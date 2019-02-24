@@ -1,0 +1,4 @@
+{
+  "org.michaelevans.chromahashview" : [ "BuildConfig", "ChromaHashView", "ChromaHashView$1", "R", "R$drawable", "R$string" ],
+  "org.michaelevans.chromahashview.demo" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style" ]
+}

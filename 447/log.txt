@@ -1,0 +1,194 @@
+2018-05-15 04:21:08,094 INFO  DownloadService - Downloading "https://github.com/BigBadaboom/androidsvg/archive/master.zip", attempt 3
+2018-05-15 04:21:08,600 INFO  DownloadService - Downloaded https://github.com/BigBadaboom/androidsvg/archive/master.zip, attempt 3
+2018-05-15 04:21:08,600 INFO  DownloadService - Size of file "/tmp/rdisk/447/master.zip": 545 KB
+2018-05-15 04:21:08,601 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:21:08,601 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/447/master.zip: true
+2018-05-15 04:21:08,601 DEBUG ZipUtil - Extracting '/tmp/rdisk/447/master.zip' into '/tmp/rdisk/447/src'.
+2018-05-15 04:21:08,633 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-05-15 04:21:08,634 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/447/src]
+2018-05-15 04:21:08,644 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/447/src/.git/
+
+2018-05-15 04:21:08,648 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/447/src/androidsvg-master/gradlew
+2018-05-15 04:21:08,652 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/447/src/androidsvg-master/androidsvg/build.gradle /tmp/rdisk/447/src/androidsvg-master/build.gradle
+2018-05-15 04:21:08,656 INFO  ProjectBuildService - All script(s): /tmp/rdisk/447/src/androidsvg-master/settings.gradle /tmp/rdisk/447/src/androidsvg-master/build.gradle /tmp/rdisk/447/src/androidsvg-master/androidsvg/upload_configuration.gradle /tmp/rdisk/447/src/androidsvg-master/androidsvg/packaging_configuration.gradle /tmp/rdisk/447/src/androidsvg-master/androidsvg/build.gradle
+2018-05-15 04:21:08,656 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:21:08,656 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:21:08,665 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/447/src/androidsvg-master/androidsvg/local.properties
+2018-05-15 04:21:08,666 INFO  ProjectFixService - Build info for "/tmp/rdisk/447/src/androidsvg-master/androidsvg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-05-15 04:21:08,666 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/447/src/androidsvg-master/androidsvg/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-05-15 04:21:08,666 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/447/src/androidsvg-master/local.properties
+2018-05-15 04:21:08,667 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-05-15 04:21:08,667 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-05-15 04:21:08,669 INFO  ProjectFixService - Build info for "/tmp/rdisk/447/src/androidsvg-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-05-15 04:21:08,670 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/447/src/androidsvg-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=8,targetSdkVersion=27]
+2018-05-15 04:21:08,670 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:21:08,670 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:21:08,670 INFO  SysUtils - Execute command: [/tmp/rdisk/447/src/androidsvg-master/gradlew, -b, /tmp/rdisk/447/src/androidsvg-master/androidsvg/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:21:17,248 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-05-15 04:21:17,248 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-15 04:21:17,248 INFO  SysUtils - Execute command: [/tmp/rdisk/447/src/androidsvg-master/gradlew, -b, /tmp/rdisk/447/src/androidsvg-master/androidsvg/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-15 04:21:30,297 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'testCompile' in project ':androidsvg' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':androidsvg' is deprecated. Use 'implementation' instead.
+:androidsvg:preBuild UP-TO-DATE
+:androidsvg:preDebugBuild UP-TO-DATE
+:androidsvg:compileDebugAidl
+:androidsvg:compileDebugNdk NO-SOURCE
+:androidsvg:compileDebugRenderscript
+:androidsvg:checkDebugManifest
+:androidsvg:generateDebugBuildConfig
+:androidsvg:prepareLintJar
+:androidsvg:generateDebugResValues
+:androidsvg:generateDebugResources
+:androidsvg:packageDebugResources
+:androidsvg:platformAttrExtractor
+:androidsvg:processDebugManifest
+:androidsvg:javaPreCompileDebug
+:androidsvg:processDebugResources
+:androidsvg:generateDebugSources
+:androidsvg:compileDebugJavaWithJavacNote: /tmp/rdisk/447/src/androidsvg-master/androidsvg/src/main/java/com/caverock/androidsvg/SVGAndroidRenderer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:androidsvg:extractDebugAnnotations
+:androidsvg:mergeDebugShaders
+:androidsvg:compileDebugShaders
+:androidsvg:generateDebugAssets
+:androidsvg:mergeDebugAssets
+:androidsvg:mergeDebugConsumerProguardFiles
+:androidsvg:packageDebugRenderscript NO-SOURCE
+:androidsvg:processDebugJavaRes NO-SOURCE
+:androidsvg:transformResourcesWithMergeJavaResForDebug
+:androidsvg:transformClassesAndResourcesWithSyncLibJarsForDebug
+:androidsvg:mergeDebugJniLibFolders
+:androidsvg:transformNativeLibsWithMergeJniLibsForDebug
+:androidsvg:transformNativeLibsWithStripDebugSymbolForDebug
+:androidsvg:transformNativeLibsWithSyncJniLibsForDebug
+:androidsvg:bundleDebug
+:androidsvg:compileDebugSources
+:androidsvg:assembleDebug
+:androidsvg:preReleaseBuild UP-TO-DATE
+:androidsvg:compileReleaseAidl
+:androidsvg:compileReleaseNdk NO-SOURCE
+:androidsvg:compileReleaseRenderscript
+:androidsvg:checkReleaseManifest
+:androidsvg:generateReleaseBuildConfig
+:androidsvg:generateReleaseResValues
+:androidsvg:generateReleaseResources
+:androidsvg:packageReleaseResources
+:androidsvg:processReleaseManifest
+:androidsvg:processReleaseResources
+:androidsvg:generateReleaseSources
+:androidsvg:javaPreCompileRelease
+:androidsvg:compileReleaseJavaWithJavacNote: /tmp/rdisk/447/src/androidsvg-master/androidsvg/src/main/java/com/caverock/androidsvg/SVGAndroidRenderer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:androidsvg:extractReleaseAnnotations
+:androidsvg:mergeReleaseShaders
+:androidsvg:compileReleaseShaders
+:androidsvg:generateReleaseAssets
+:androidsvg:mergeReleaseAssets
+:androidsvg:mergeReleaseConsumerProguardFiles
+:androidsvg:packageReleaseRenderscript NO-SOURCE
+:androidsvg:processReleaseJavaRes NO-SOURCE
+:androidsvg:transformResourcesWithMergeJavaResForRelease
+:androidsvg:transformClassesAndResourcesWithSyncLibJarsForRelease
+:androidsvg:mergeReleaseJniLibFolders
+:androidsvg:transformNativeLibsWithMergeJniLibsForRelease
+:androidsvg:transformNativeLibsWithStripDebugSymbolForRelease
+:androidsvg:transformNativeLibsWithSyncJniLibsForRelease
+:androidsvg:bundleRelease
+:androidsvg:compileReleaseSources
+:androidsvg:mergeReleaseResources
+:androidsvg:verifyReleaseResources
+:androidsvg:assembleRelease
+:androidsvg:sourcesJar
+:androidsvg:assemble
+:androidsvg:build
+
+BUILD SUCCESSFUL in 12s
+49 actionable tasks: 49 executed
+
+2018-05-15 04:21:30,311 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:21:30,311 INFO  SysUtils - Execute command: [/tmp/rdisk/447/src/androidsvg-master/gradlew, -b, /tmp/rdisk/447/src/androidsvg-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:21:37,737 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-05-15 04:21:37,737 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-15 04:21:37,737 INFO  SysUtils - Execute command: [/tmp/rdisk/447/src/androidsvg-master/gradlew, -b, /tmp/rdisk/447/src/androidsvg-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-15 04:21:45,548 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'testCompile' in project ':androidsvg' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':androidsvg' is deprecated. Use 'implementation' instead.
+:androidsvg:preBuild UP-TO-DATE
+:androidsvg:preDebugBuild UP-TO-DATE
+:androidsvg:compileDebugAidl UP-TO-DATE
+:androidsvg:compileDebugNdk NO-SOURCE
+:androidsvg:compileDebugRenderscript UP-TO-DATE
+:androidsvg:checkDebugManifest UP-TO-DATE
+:androidsvg:generateDebugBuildConfig UP-TO-DATE
+:androidsvg:prepareLintJar UP-TO-DATE
+:androidsvg:generateDebugResValues UP-TO-DATE
+:androidsvg:generateDebugResources UP-TO-DATE
+:androidsvg:packageDebugResources UP-TO-DATE
+:androidsvg:platformAttrExtractor UP-TO-DATE
+:androidsvg:processDebugManifest UP-TO-DATE
+:androidsvg:processDebugResources UP-TO-DATE
+:androidsvg:generateDebugSources UP-TO-DATE
+:androidsvg:javaPreCompileDebug UP-TO-DATE
+:androidsvg:compileDebugJavaWithJavac UP-TO-DATE
+:androidsvg:extractDebugAnnotations UP-TO-DATE
+:androidsvg:mergeDebugShaders UP-TO-DATE
+:androidsvg:compileDebugShaders UP-TO-DATE
+:androidsvg:generateDebugAssets UP-TO-DATE
+:androidsvg:mergeDebugAssets UP-TO-DATE
+:androidsvg:mergeDebugConsumerProguardFiles UP-TO-DATE
+:androidsvg:packageDebugRenderscript NO-SOURCE
+:androidsvg:processDebugJavaRes NO-SOURCE
+:androidsvg:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:androidsvg:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:androidsvg:mergeDebugJniLibFolders UP-TO-DATE
+:androidsvg:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:androidsvg:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:androidsvg:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:androidsvg:bundleDebug UP-TO-DATE
+:androidsvg:compileDebugSources UP-TO-DATE
+:androidsvg:assembleDebug UP-TO-DATE
+:androidsvg:preReleaseBuild UP-TO-DATE
+:androidsvg:compileReleaseAidl UP-TO-DATE
+:androidsvg:compileReleaseNdk NO-SOURCE
+:androidsvg:compileReleaseRenderscript UP-TO-DATE
+:androidsvg:checkReleaseManifest UP-TO-DATE
+:androidsvg:generateReleaseBuildConfig UP-TO-DATE
+:androidsvg:generateReleaseResValues UP-TO-DATE
+:androidsvg:generateReleaseResources UP-TO-DATE
+:androidsvg:packageReleaseResources UP-TO-DATE
+:androidsvg:processReleaseManifest UP-TO-DATE
+:androidsvg:processReleaseResources UP-TO-DATE
+:androidsvg:generateReleaseSources UP-TO-DATE
+:androidsvg:javaPreCompileRelease UP-TO-DATE
+:androidsvg:compileReleaseJavaWithJavac UP-TO-DATE
+:androidsvg:extractReleaseAnnotations UP-TO-DATE
+:androidsvg:mergeReleaseShaders UP-TO-DATE
+:androidsvg:compileReleaseShaders UP-TO-DATE
+:androidsvg:generateReleaseAssets UP-TO-DATE
+:androidsvg:mergeReleaseAssets UP-TO-DATE
+:androidsvg:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:androidsvg:packageReleaseRenderscript NO-SOURCE
+:androidsvg:processReleaseJavaRes NO-SOURCE
+:androidsvg:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:androidsvg:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:androidsvg:mergeReleaseJniLibFolders UP-TO-DATE
+:androidsvg:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:androidsvg:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:androidsvg:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:androidsvg:bundleRelease UP-TO-DATE
+:androidsvg:compileReleaseSources UP-TO-DATE
+:androidsvg:mergeReleaseResources UP-TO-DATE
+:androidsvg:verifyReleaseResources UP-TO-DATE
+:androidsvg:assembleRelease UP-TO-DATE
+:androidsvg:sourcesJar UP-TO-DATE
+:androidsvg:assemble UP-TO-DATE
+:androidsvg:build
+
+BUILD SUCCESSFUL in 7s
+49 actionable tasks: 49 up-to-date
+
+2018-05-15 04:21:45,562 ERROR FullProcessService - Project build has not produced APK file
+2018-05-15 04:21:45,575 ERROR FullProcessService - Could not find generated or existed APK file

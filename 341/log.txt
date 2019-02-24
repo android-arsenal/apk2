@@ -1,0 +1,566 @@
+2018-04-10 18:10:55,311 INFO  DownloadService - Downloading "https://github.com/chrisjenx/Paralloid/archive/master.zip", attempt 3
+2018-04-10 18:10:56,098 INFO  DownloadService - Downloaded https://github.com/chrisjenx/Paralloid/archive/master.zip, attempt 3
+2018-04-10 18:10:56,098 INFO  DownloadService - Size of file "/tmp/rdisk/341/master.zip": 2 MB
+2018-04-10 18:10:56,098 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:10:56,099 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/341/master.zip: true
+2018-04-10 18:10:56,099 DEBUG ZipUtil - Extracting '/tmp/rdisk/341/master.zip' into '/tmp/rdisk/341/src'.
+2018-04-10 18:10:56,122 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-10 18:10:56,122 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/341/src]
+2018-04-10 18:10:56,130 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/341/src/.git/
+
+2018-04-10 18:10:56,134 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/341/src/Paralloid-master/gradlew
+2018-04-10 18:10:56,138 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/341/src/Paralloid-master/paralloid/build.gradle /tmp/rdisk/341/src/Paralloid-master/paralloidexample/build.gradle /tmp/rdisk/341/src/Paralloid-master/paralloidviews/build.gradle /tmp/rdisk/341/src/Paralloid-master/build.gradle
+2018-04-10 18:10:56,141 INFO  ProjectBuildService - All script(s): /tmp/rdisk/341/src/Paralloid-master/settings.gradle /tmp/rdisk/341/src/Paralloid-master/paralloidviews/build.gradle /tmp/rdisk/341/src/Paralloid-master/paralloidexample/build.gradle /tmp/rdisk/341/src/Paralloid-master/paralloid/build.gradle /tmp/rdisk/341/src/Paralloid-master/build.gradle
+2018-04-10 18:10:56,142 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:10:56,142 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:10:56,149 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/341/src/Paralloid-master/paralloid/local.properties
+2018-04-10 18:10:56,149 INFO  ProjectFixService - Build info for "/tmp/rdisk/341/src/Paralloid-master/paralloid/build.gradle": [buildToolsVersion=19.0.0,compileSdkVersion=19,minSdkVersion=7,targetSdkVersion=19]
+2018-04-10 18:10:56,150 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/341/src/Paralloid-master/paralloid/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=7,targetSdkVersion=19]
+2018-04-10 18:10:56,150 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/341/src/Paralloid-master/paralloidexample/local.properties
+2018-04-10 18:10:56,151 INFO  ProjectFixService - Build info for "/tmp/rdisk/341/src/Paralloid-master/paralloidexample/build.gradle": [buildToolsVersion=18.1.1,compileSdkVersion=18,minSdkVersion=14,targetSdkVersion=18]
+2018-04-10 18:10:56,151 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/341/src/Paralloid-master/paralloidexample/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=18,minSdkVersion=14,targetSdkVersion=18]
+2018-04-10 18:10:56,151 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/341/src/Paralloid-master/paralloidviews/local.properties
+2018-04-10 18:10:56,152 INFO  ProjectFixService - Build info for "/tmp/rdisk/341/src/Paralloid-master/paralloidviews/build.gradle": [buildToolsVersion=19.0.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-10 18:10:56,152 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/341/src/Paralloid-master/paralloidviews/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-10 18:10:56,153 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/341/src/Paralloid-master/local.properties
+2018-04-10 18:10:56,153 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.8-all.zip
+2018-04-10 18:10:56,153 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.8-bin.zip)
+2018-04-10 18:10:56,165 INFO  ProjectFixService - Build info for "/tmp/rdisk/341/src/Paralloid-master/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-10 18:10:56,166 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:10:56,166 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:10:56,166 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/paralloid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:11:05,677 INFO  ProjectTaskService - Detected possible tasks: 46
+2018-04-10 18:11:05,677 INFO  ProjectTaskService - Excluded tasks (5): deviceCheck lint connectedCheck uninstallAll check
+2018-04-10 18:11:05,678 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/paralloid/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, build]
+2018-04-10 18:11:13,186 INFO  SysUtils - Configuration on demand is an incubating feature.
+:paralloid:compileLint
+:paralloid:copyDebugLint UP-TO-DATE
+:paralloid:mergeDebugProguardFiles
+:paralloid:packageDebugAidl UP-TO-DATE
+:paralloid:preBuild UP-TO-DATE
+:paralloid:preDebugBuild UP-TO-DATE
+:paralloid:prepareDebugDependencies
+:paralloid:compileDebugAidl
+:paralloid:compileDebugRenderscript
+:paralloid:generateDebugBuildConfig
+:paralloid:mergeDebugAssets
+:paralloid:mergeDebugResources
+:paralloid:processDebugManifest
+:paralloid:processDebugResources
+:paralloid:generateDebugSources
+:paralloid:compileDebugNote: /tmp/rdisk/341/src/Paralloid-master/paralloid/src/main/java/uk/co/chrisjenx/paralloid/utils/ParallaxHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:paralloid:processDebugJavaRes UP-TO-DATE
+:paralloid:packageDebugJar
+:paralloid:packageDebugLocalJar UP-TO-DATE
+:paralloid:packageDebugRenderscript UP-TO-DATE
+:paralloid:packageDebugResources
+:paralloid:bundleDebug
+:paralloid:assembleDebug
+:paralloid:copyReleaseLint UP-TO-DATE
+:paralloid:mergeReleaseProguardFiles
+:paralloid:packageReleaseAidl UP-TO-DATE
+:paralloid:preReleaseBuild UP-TO-DATE
+:paralloid:prepareReleaseDependencies
+:paralloid:compileReleaseAidl
+:paralloid:compileReleaseRenderscript
+:paralloid:generateReleaseBuildConfig
+:paralloid:mergeReleaseAssets
+:paralloid:mergeReleaseResources
+:paralloid:processReleaseManifest
+:paralloid:processReleaseResources
+:paralloid:generateReleaseSources
+:paralloid:compileReleaseNote: /tmp/rdisk/341/src/Paralloid-master/paralloid/src/main/java/uk/co/chrisjenx/paralloid/utils/ParallaxHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:paralloid:processReleaseJavaRes UP-TO-DATE
+:paralloid:packageReleaseJar
+:paralloid:packageReleaseLocalJar UP-TO-DATE
+:paralloid:packageReleaseRenderscript UP-TO-DATE
+:paralloid:packageReleaseResources
+:paralloid:bundleRelease
+:paralloid:assembleRelease
+:paralloid:signArchives SKIPPED
+:paralloid:assemble
+:paralloid:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.078 secs
+
+2018-04-10 18:11:13,194 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:11:13,194 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/paralloidexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:11:20,862 INFO  ProjectTaskService - Detected possible tasks: 50
+2018-04-10 18:11:20,862 INFO  ProjectTaskService - Excluded tasks (9): deviceCheck lint uninstallRelease installRelease connectedCheck uninstallAll check installDebug uninstallDebug
+2018-04-10 18:11:20,862 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/paralloidexample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, installRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, installDebug, -x, uninstallDebug, build]
+2018-04-10 18:11:29,950 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-10 18:11:29,951 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:paralloid:compileLint
+:paralloid:copyReleaseLint UP-TO-DATE
+:paralloid:mergeReleaseProguardFiles UP-TO-DATE
+:paralloid:packageReleaseAidl UP-TO-DATE
+:paralloid:preBuild UP-TO-DATE
+:paralloid:preReleaseBuild UP-TO-DATE
+:paralloid:prepareReleaseDependencies
+:paralloid:compileReleaseAidl UP-TO-DATE
+:paralloid:compileReleaseRenderscript UP-TO-DATE
+:paralloid:generateReleaseBuildConfig UP-TO-DATE
+:paralloid:mergeReleaseAssets UP-TO-DATE
+:paralloid:mergeReleaseResources UP-TO-DATE
+:paralloid:processReleaseManifest UP-TO-DATE
+:paralloid:processReleaseResources UP-TO-DATE
+:paralloid:generateReleaseSources UP-TO-DATE
+:paralloid:compileRelease UP-TO-DATE
+:paralloid:processReleaseJavaRes UP-TO-DATE
+:paralloid:packageReleaseJar UP-TO-DATE
+:paralloid:packageReleaseLocalJar UP-TO-DATE
+:paralloid:packageReleaseRenderscript UP-TO-DATE
+:paralloid:packageReleaseResources UP-TO-DATE
+:paralloid:bundleRelease UP-TO-DATE
+:paralloidexample:preBuild UP-TO-DATE
+:paralloidexample:preDebugBuild UP-TO-DATE
+:paralloidexample:preReleaseBuild UP-TO-DATE
+:paralloidviews:compileLint
+:paralloidviews:copyReleaseLint UP-TO-DATE
+:paralloidviews:mergeReleaseProguardFiles
+:paralloidviews:packageReleaseAidl UP-TO-DATE
+:paralloidviews:preBuild UP-TO-DATE
+:paralloidviews:preReleaseBuild UP-TO-DATE
+:paralloidviews:preDebugBuild UP-TO-DATE
+:paralloidviews:preTestBuild UP-TO-DATE
+:paralloidviews:prepareUkCoChrisjenxParalloidParalloid030SNAPSHOTLibrary
+:paralloidviews:prepareReleaseDependencies
+:paralloidviews:compileReleaseAidl
+:paralloidviews:compileReleaseRenderscript
+:paralloidviews:generateReleaseBuildConfig
+:paralloidviews:mergeReleaseAssets
+:paralloidviews:mergeReleaseResources
+:paralloidviews:processReleaseManifest
+:paralloidviews:processReleaseResources
+:paralloidviews:generateReleaseSources
+:paralloidviews:compileRelease
+:paralloidviews:processReleaseJavaRes UP-TO-DATE
+:paralloidviews:packageReleaseJar
+:paralloidviews:packageReleaseLocalJar UP-TO-DATE
+:paralloidviews:packageReleaseRenderscript UP-TO-DATE
+:paralloidviews:packageReleaseResources
+:paralloidviews:bundleRelease
+:paralloidexample:prepareComAndroidSupportAppcompatV71800Library
+:paralloidexample:prepareUkCoChrisjenxParalloidParalloid030SNAPSHOTLibrary
+:paralloidexample:prepareUkCoChrisjenxParalloidParalloidviews030SNAPSHOTLibrary
+:paralloidexample:prepareDebugDependencies
+:paralloidexample:compileDebugAidl
+:paralloidexample:compileDebugRenderscript
+:paralloidexample:generateDebugBuildConfig
+:paralloidexample:mergeDebugAssets
+:paralloidexample:mergeDebugResources
+:paralloidexample:processDebugManifest
+[AndroidManifest.xml:3, manifestMerge3672321776985874050.xml:2] Main manifest has <uses-sdk android:targetSdkVersion='18'> but library uses targetSdkVersion='19'
+:paralloidexample:processDebugManifest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':paralloidexample:processDebugManifest'.
+> Manifest merging failed. See console for more info.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':paralloidexample:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:283)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$1.run(DefaultTaskPlanExecutor.java:33)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:214)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:276)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:142)
+	at org.gradle.api.internal.changedetection.state.DefaultTaskArtifactStateCacheAccess.longRunningOperation(DefaultTaskArtifactStateCacheAccess.java:78)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:31)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:86)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:67)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:54)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:166)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.api.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:58)
+Caused by: java.lang.RuntimeException: Manifest merging failed. See console for more info.
+	at com.android.builder.AndroidBuilder.doMerge(AndroidBuilder.java:476)
+	at com.android.builder.AndroidBuilder.mergeLibraryManifests(AndroidBuilder.java:462)
+	at com.android.builder.AndroidBuilder.processManifest(AndroidBuilder.java:302)
+	at com.android.builder.AndroidBuilder$processManifest.call(Unknown Source)
+	at com.android.build.gradle.tasks.ProcessAppManifest.doFullTaskAction(ProcessAppManifest.groovy:65)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:71)
+	at org.gradle.util.JavaMethod.invoke(JavaMethod.java:62)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:212)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:201)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:527)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:510)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 52 more
+
+
+BUILD FAILED
+
+Total time: 8.687 secs
+
+2018-04-10 18:11:29,970 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:11:29,970 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/paralloidviews/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:11:36,293 INFO  ProjectTaskService - Detected possible tasks: 46
+2018-04-10 18:11:36,294 INFO  ProjectTaskService - Excluded tasks (5): deviceCheck lint connectedCheck uninstallAll check
+2018-04-10 18:11:36,294 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/paralloidviews/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, check, build]
+2018-04-10 18:11:43,535 INFO  SysUtils - Configuration on demand is an incubating feature.
+:paralloidviews:compileLint
+:paralloidviews:copyDebugLint UP-TO-DATE
+:paralloidviews:mergeDebugProguardFiles
+:paralloidviews:packageDebugAidl UP-TO-DATE
+:paralloid:compileLint
+:paralloid:copyReleaseLint UP-TO-DATE
+:paralloid:mergeReleaseProguardFiles UP-TO-DATE
+:paralloid:packageReleaseAidl UP-TO-DATE
+:paralloid:preBuild UP-TO-DATE
+:paralloid:preReleaseBuild UP-TO-DATE
+:paralloid:prepareReleaseDependencies
+:paralloid:compileReleaseAidl UP-TO-DATE
+:paralloid:compileReleaseRenderscript UP-TO-DATE
+:paralloid:generateReleaseBuildConfig UP-TO-DATE
+:paralloid:mergeReleaseAssets UP-TO-DATE
+:paralloid:mergeReleaseResources UP-TO-DATE
+:paralloid:processReleaseManifest UP-TO-DATE
+:paralloid:processReleaseResources UP-TO-DATE
+:paralloid:generateReleaseSources UP-TO-DATE
+:paralloid:compileRelease UP-TO-DATE
+:paralloid:processReleaseJavaRes UP-TO-DATE
+:paralloid:packageReleaseJar UP-TO-DATE
+:paralloid:packageReleaseLocalJar UP-TO-DATE
+:paralloid:packageReleaseRenderscript UP-TO-DATE
+:paralloid:packageReleaseResources UP-TO-DATE
+:paralloid:bundleRelease UP-TO-DATE
+:paralloidviews:preBuild UP-TO-DATE
+:paralloidviews:preDebugBuild UP-TO-DATE
+:paralloidviews:preReleaseBuild UP-TO-DATE
+:paralloidviews:preTestBuild UP-TO-DATE
+:paralloidviews:prepareUkCoChrisjenxParalloidParalloid030SNAPSHOTLibrary UP-TO-DATE
+:paralloidviews:prepareDebugDependencies
+:paralloidviews:compileDebugAidl
+:paralloidviews:compileDebugRenderscript
+:paralloidviews:generateDebugBuildConfig
+:paralloidviews:mergeDebugAssets
+:paralloidviews:mergeDebugResources
+:paralloidviews:processDebugManifest
+:paralloidviews:processDebugResources
+:paralloidviews:generateDebugSources
+:paralloidviews:compileDebug
+:paralloidviews:processDebugJavaRes UP-TO-DATE
+:paralloidviews:packageDebugJar
+:paralloidviews:packageDebugLocalJar UP-TO-DATE
+:paralloidviews:packageDebugRenderscript UP-TO-DATE
+:paralloidviews:packageDebugResources
+:paralloidviews:bundleDebug
+:paralloidviews:assembleDebug
+:paralloidviews:copyReleaseLint UP-TO-DATE
+:paralloidviews:mergeReleaseProguardFiles UP-TO-DATE
+:paralloidviews:packageReleaseAidl UP-TO-DATE
+:paralloidviews:prepareReleaseDependencies
+:paralloidviews:compileReleaseAidl UP-TO-DATE
+:paralloidviews:compileReleaseRenderscript UP-TO-DATE
+:paralloidviews:generateReleaseBuildConfig UP-TO-DATE
+:paralloidviews:mergeReleaseAssets UP-TO-DATE
+:paralloidviews:mergeReleaseResources UP-TO-DATE
+:paralloidviews:processReleaseManifest UP-TO-DATE
+:paralloidviews:processReleaseResources UP-TO-DATE
+:paralloidviews:generateReleaseSources UP-TO-DATE
+:paralloidviews:compileRelease UP-TO-DATE
+:paralloidviews:processReleaseJavaRes UP-TO-DATE
+:paralloidviews:packageReleaseJar UP-TO-DATE
+:paralloidviews:packageReleaseLocalJar UP-TO-DATE
+:paralloidviews:packageReleaseRenderscript UP-TO-DATE
+:paralloidviews:packageReleaseResources UP-TO-DATE
+:paralloidviews:bundleRelease UP-TO-DATE
+:paralloidviews:assembleRelease UP-TO-DATE
+:paralloidviews:signArchives SKIPPED
+:paralloidviews:assemble
+:paralloidviews:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.814 secs
+
+2018-04-10 18:11:43,555 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:11:43,557 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:11:50,341 INFO  ProjectTaskService - Detected possible tasks: 56
+2018-04-10 18:11:50,341 INFO  ProjectTaskService - Excluded tasks (9): deviceCheck lint uninstallRelease installRelease connectedCheck uninstallAll check installDebug uninstallDebug
+2018-04-10 18:11:50,341 INFO  SysUtils - Execute command: [/tmp/rdisk/341/src/Paralloid-master/gradlew, -b, /tmp/rdisk/341/src/Paralloid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, installRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, installDebug, -x, uninstallDebug, build]
+2018-04-10 18:11:57,201 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-10 18:11:57,201 INFO  SysUtils - Configuration on demand is an incubating feature.
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:paralloid:compileLint
+:paralloid:copyDebugLint UP-TO-DATE
+:paralloid:mergeDebugProguardFiles UP-TO-DATE
+:paralloid:packageDebugAidl UP-TO-DATE
+:paralloid:preBuild UP-TO-DATE
+:paralloid:preDebugBuild UP-TO-DATE
+:paralloid:prepareDebugDependencies
+:paralloid:compileDebugAidl UP-TO-DATE
+:paralloid:compileDebugRenderscript UP-TO-DATE
+:paralloid:generateDebugBuildConfig UP-TO-DATE
+:paralloid:mergeDebugAssets UP-TO-DATE
+:paralloid:mergeDebugResources UP-TO-DATE
+:paralloid:processDebugManifest UP-TO-DATE
+:paralloid:processDebugResources UP-TO-DATE
+:paralloid:generateDebugSources UP-TO-DATE
+:paralloid:compileDebug UP-TO-DATE
+:paralloid:processDebugJavaRes UP-TO-DATE
+:paralloid:packageDebugJar UP-TO-DATE
+:paralloid:packageDebugLocalJar UP-TO-DATE
+:paralloid:packageDebugRenderscript UP-TO-DATE
+:paralloid:packageDebugResources UP-TO-DATE
+:paralloid:bundleDebug UP-TO-DATE
+:paralloid:assembleDebug UP-TO-DATE
+:paralloid:copyReleaseLint UP-TO-DATE
+:paralloid:mergeReleaseProguardFiles UP-TO-DATE
+:paralloid:packageReleaseAidl UP-TO-DATE
+:paralloid:preReleaseBuild UP-TO-DATE
+:paralloid:prepareReleaseDependencies
+:paralloid:compileReleaseAidl UP-TO-DATE
+:paralloid:compileReleaseRenderscript UP-TO-DATE
+:paralloid:generateReleaseBuildConfig UP-TO-DATE
+:paralloid:mergeReleaseAssets UP-TO-DATE
+:paralloid:mergeReleaseResources UP-TO-DATE
+:paralloid:processReleaseManifest UP-TO-DATE
+:paralloid:processReleaseResources UP-TO-DATE
+:paralloid:generateReleaseSources UP-TO-DATE
+:paralloid:compileRelease UP-TO-DATE
+:paralloid:processReleaseJavaRes UP-TO-DATE
+:paralloid:packageReleaseJar UP-TO-DATE
+:paralloid:packageReleaseLocalJar UP-TO-DATE
+:paralloid:packageReleaseRenderscript UP-TO-DATE
+:paralloid:packageReleaseResources UP-TO-DATE
+:paralloid:bundleRelease UP-TO-DATE
+:paralloid:assembleRelease UP-TO-DATE
+:paralloid:signArchives SKIPPED
+:paralloid:assemble UP-TO-DATE
+:paralloid:build
+:paralloidexample:preBuild UP-TO-DATE
+:paralloidexample:preDebugBuild UP-TO-DATE
+:paralloidexample:preReleaseBuild UP-TO-DATE
+:paralloidviews:compileLint
+:paralloidviews:copyReleaseLint UP-TO-DATE
+:paralloidviews:mergeReleaseProguardFiles UP-TO-DATE
+:paralloidviews:packageReleaseAidl UP-TO-DATE
+:paralloidviews:preBuild UP-TO-DATE
+:paralloidviews:preReleaseBuild UP-TO-DATE
+:paralloidviews:preDebugBuild UP-TO-DATE
+:paralloidviews:preTestBuild UP-TO-DATE
+:paralloidviews:prepareUkCoChrisjenxParalloidParalloid030SNAPSHOTLibrary UP-TO-DATE
+:paralloidviews:prepareReleaseDependencies
+:paralloidviews:compileReleaseAidl UP-TO-DATE
+:paralloidviews:compileReleaseRenderscript UP-TO-DATE
+:paralloidviews:generateReleaseBuildConfig UP-TO-DATE
+:paralloidviews:mergeReleaseAssets UP-TO-DATE
+:paralloidviews:mergeReleaseResources UP-TO-DATE
+:paralloidviews:processReleaseManifest UP-TO-DATE
+:paralloidviews:processReleaseResources UP-TO-DATE
+:paralloidviews:generateReleaseSources UP-TO-DATE
+:paralloidviews:compileRelease UP-TO-DATE
+:paralloidviews:processReleaseJavaRes UP-TO-DATE
+:paralloidviews:packageReleaseJar UP-TO-DATE
+:paralloidviews:packageReleaseLocalJar UP-TO-DATE
+:paralloidviews:packageReleaseRenderscript UP-TO-DATE
+:paralloidviews:packageReleaseResources UP-TO-DATE
+:paralloidviews:bundleRelease UP-TO-DATE
+:paralloidexample:prepareComAndroidSupportAppcompatV71800Library UP-TO-DATE
+:paralloidexample:prepareUkCoChrisjenxParalloidParalloid030SNAPSHOTLibrary UP-TO-DATE
+:paralloidexample:prepareUkCoChrisjenxParalloidParalloidviews030SNAPSHOTLibrary UP-TO-DATE
+:paralloidexample:prepareDebugDependencies
+:paralloidexample:compileDebugAidl UP-TO-DATE
+:paralloidexample:compileDebugRenderscript UP-TO-DATE
+:paralloidexample:generateDebugBuildConfig UP-TO-DATE
+:paralloidexample:mergeDebugAssets UP-TO-DATE
+:paralloidexample:mergeDebugResources UP-TO-DATE
+:paralloidexample:processDebugManifest
+[AndroidManifest.xml:3, manifestMerge1022493314139016960.xml:2] Main manifest has <uses-sdk android:targetSdkVersion='18'> but library uses targetSdkVersion='19'
+:paralloidexample:processDebugManifest FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':paralloidexample:processDebugManifest'.
+> Manifest merging failed. See console for more info.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':paralloidexample:processDebugManifest'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:283)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$1.run(DefaultTaskPlanExecutor.java:33)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:214)
+	at org.gradle.cache.internal.DefaultCacheAccess.longRunningOperation(DefaultCacheAccess.java:276)
+	at org.gradle.cache.internal.DefaultPersistentDirectoryStore.longRunningOperation(DefaultPersistentDirectoryStore.java:142)
+	at org.gradle.api.internal.changedetection.state.DefaultTaskArtifactStateCacheAccess.longRunningOperation(DefaultTaskArtifactStateCacheAccess.java:78)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:31)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:86)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:67)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:54)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:166)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.api.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:58)
+Caused by: java.lang.RuntimeException: Manifest merging failed. See console for more info.
+	at com.android.builder.AndroidBuilder.doMerge(AndroidBuilder.java:476)
+	at com.android.builder.AndroidBuilder.mergeLibraryManifests(AndroidBuilder.java:462)
+	at com.android.builder.AndroidBuilder.processManifest(AndroidBuilder.java:302)
+	at com.android.builder.AndroidBuilder$processManifest.call(Unknown Source)
+	at com.android.build.gradle.tasks.ProcessAppManifest.doFullTaskAction(ProcessAppManifest.groovy:65)
+	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.groovy:71)
+	at org.gradle.util.JavaMethod.invoke(JavaMethod.java:62)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:212)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:201)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:527)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:510)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 52 more
+
+
+BUILD FAILED
+
+Total time: 6.45 secs
+
+2018-04-10 18:11:57,221 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:11:57,242 ERROR FullProcessService - Could not find generated or existed APK file

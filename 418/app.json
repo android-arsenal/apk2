@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "at.univie.sensorium",
+    "label" : "Sensorium",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.1.12",
+    "versionCode" : 15,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS", "android.permission.ACCESS_WIFI_STATE", "android.permission.ACCESS_NETWORK_STATE", "android.permission.READ_PHONE_STATE", "android.permission.INTERNET", "android.permission.RECEIVE_BOOT_COMPLETED", "android.permission.ACCESS_WIFI_STATE", "android.permission.CHANGE_WIFI_STATE", "android.permission.BLUETOOTH", "android.permission.BLUETOOTH_ADMIN", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAACjlBMVEUAAAAAAADZ2dkAAAAAAAAAAAAAAACHh4cAAAAAAAAAAAD9/f3////Z2dn/9PT/xcX/qqr/qan/vr7/8vL/+vr/srL/o6P/sLD/4eH//Pz//v7/5+f/np7/tbX/oqL/7e3/qKj/09P/5ub/l5f/5eX/3d3/p6f/6en/8PD/ycn/q6v/t7f/oaH/xsb/pqb/u7v/w8P/29v/mZn/9fX/zc3/xMT/6ur/ysr/urr/rq7/2dn/4uL/ubn/mpr/7Oz/1dX/0dH/wsL/7u7/lpb/paX/ra3/1tb/2tr/oKD//f3/trb/s7P/8fH/r6//yMj/x8f/nZ3/7+//8/P/rKz/n5/Me3uuq6vAdXX39PT/+fn/zMz/4+O0sLBGLCx/enqibGyMhIRLSkqMWVn+39//+/v/0tKmUVFnZ2f5mpqYjo5vQ0P/pKT/VFT/9vb/6+vqoKBNQ0P95+d5WVm9pKT/BAT/EBD/5OT/4OD/wcGRR0e4uLju7u5bS0vIGxuNRUX/nJz/3Nz/wMBhEhLv7+9RUVFRSUpuXmD/mJj/19f/tLT/6OhhRERRTU14Pj+pODqSkpK2trbs1NRcRUVqOTpvWVr/lZXs7OxLS0v8p6d1cXHApqaONDWmQEH/9/f/m5tubm5gU1P39/f+/v6Sf390ZmZVQ0RuX2GioqK4c3NGRkZ4a2ucaGiGhoZISEiTk5OMRUf/+PifhYVqaWn+1tbS0tK0sbHGcHD5tLT/3t7/z8+SLy+IVFX/y8udnZ1rY2P+srKBSkybm5ttbW2ST1D/2NiZmZlvb2+Xl5dxcXFoREWlOzzX19d0dHT/3997MzT/v7/R0dH7+/thXF1tXmCtra1wbm6al5iIiIiMjIyDg4OBfscuAAAAC3RSTlMAA8ULEhMRyCQ2Oj47ZF8AAAK1SURBVDjLjdP3V1JRAAdwFGd8VZ4y4qn4coCgImiYGogioqSQg4bajrIybe+hZmTZ3tMGle09Ndt7Y1nWf9NT88R7eDx97y/v+97nnHvvufdxOP8TH18ehg3P14fDDRnyU2gYnwiP6H8M4XL8hkACoUg8UkJGiqMi+5Afx98LkdHSmMFHahSN/L1RbFw8kEDIZHw53USJQyGFEmRScoqEnjRaRUIiHQKlqqFJi0f6aG0GkCECVBIvlDoGmUlISc7KHqvT50CbDUMuGynykJVrTDMMrDpfABMEBSwUq4TQXFhkgXFcsREosUIGUExExsE2XsNHTGlxWXlFGGhCAAQTZcmNqjI7DCKJrSAHUgsoesRkMlCikjdh4qTJCRUJ+sLK0pwqTT9SVzOQdMrUadNnzJw1m6KLQznHQE+noocnSp9bMw92FMxfgNqFDkeFuM5B1OtQy0CLFi/RVZkhsi1dtnxFZfhKKVIjicpVqxlozVrCYUKCglq3fsNGSUNjE+yWZEhJT1S3qVlFLyIpUYbNzi1pxhaot25rLbMyboF2e3PfZsJbG6kdO3fVNxhDk8tNKHIwELV7D0Gj8grs3bf/QEs8eVCgF5jzwESHDh/pO4VM4dFjx0+0kSfrowsFejARgVOnz5gEcJ0913S+vS1frtWiIZSFqAs1Fy9dvnL12nUXnDeibjaFQ6wBC926zQu7c/fe/QcPO6jORyTVBV0VWOjxk6eAnv6H5Aqzw/ksTQ5hF1jo+QuXnT6wIh295Tpd50s4ol6BhV6/caFa3Hft+JTMKne2G/QRYKG371x0sQkHX7//oPa40wPo4ydXf/scJYy1tJkJ6Zd2eKF/KfnKt3YI4BwW/Y03cnd7oW/fPUq3m0Y97hB2fvz0KO4ef05AYO8vdn57lt7AAA43KHjEsAkO4v4B8TnVi8a5lFIAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1531,
+  "locales" : [ "", "pt_BR" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"15\" android:versionName=\"1.1.12\" package=\"at.univie.sensorium\" platformBuildVersionCode=\"19\" platformBuildVersionName=\"4.4.2-1456859\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH\" />\n\t<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f060000\" android:label=\"Sensorium\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:name=\"at.univie.sensorium.SensoriumApplication\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Sensorium\" android:name=\"at.univie.sensorium.SensoriumActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Sensorium Log\" android:name=\"at.univie.sensorium.SensorDebugActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"at.univie.sensorium.SeattleSensorsActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"Sensorium Configuration\" android:name=\"at.univie.sensorium.preferences.SensorPreferenceActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"at.univie.sensorium.SensorBootCompletedReceiver\" android:permission=\"android.permission.RECEIVE_BOOT_COMPLETED\" android:enabled=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.BOOT_COMPLETED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"at.univie.sensorium.preferences.CampaignTrackingBroadcastReceiver\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.android.vending.INSTALL_REFERRER\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"at.univie.sensorium.SensorService\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1346057,
+  "crc32" : 404070145,
+  "sha256" : "ebf2388e69c651475a17f7b034e1fb48b707b1cb856af6679cb8a3ea0d16fe5d",
+  "buildTime" : 1523360170000
+}

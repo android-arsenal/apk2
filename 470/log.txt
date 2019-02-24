@@ -1,0 +1,128 @@
+2018-04-09 22:23:53,684 INFO  DownloadService - Downloading "https://github.com/deano2390/FlowTextView/archive/master.zip", attempt 3
+2018-04-09 22:24:54,287 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 22:24:54,964 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 22:24:54,964 INFO  DownloadService - Downloading "https://github.com/deano2390/FlowTextView/archive/master.zip", attempt 3
+2018-04-09 22:25:56,227 DEBUG FullProcessService - Repository https://github.com/deano2390/FlowTextView available: true
+2018-04-09 22:25:56,227 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 22:25:56,227 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/deano2390/FlowTextView, /tmp/rdisk/470/src]
+2018-04-09 22:25:57,982 INFO  SysUtils - 
+2018-04-09 22:25:57,986 INFO  GitService - Deleted "/tmp/rdisk/470/src/.git": true
+2018-04-09 22:25:57,990 INFO  FullProcessService - Size of directory with sources: 511 KB
+2018-04-09 22:25:57,990 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/470/src]
+2018-04-09 22:25:57,994 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/470/src/.git/
+
+2018-04-09 22:25:57,996 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/470/src/gradlew
+2018-04-09 22:25:57,999 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/470/src/flowtextview-sample/build.gradle /tmp/rdisk/470/src/flowtextview/build.gradle /tmp/rdisk/470/src/build.gradle
+2018-04-09 22:25:58,002 INFO  ProjectBuildService - All script(s): /tmp/rdisk/470/src/settings.gradle /tmp/rdisk/470/src/flowtextview/build.gradle /tmp/rdisk/470/src/flowtextview-sample/build.gradle /tmp/rdisk/470/src/build.gradle
+2018-04-09 22:25:58,002 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 22:25:58,002 INFO  ProjectFixService - Fixing project...
+2018-04-09 22:25:58,008 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/470/src/flowtextview-sample/local.properties
+2018-04-09 22:25:58,008 INFO  ProjectFixService - Build info for "/tmp/rdisk/470/src/flowtextview-sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=19]
+2018-04-09 22:25:58,009 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/470/src/flowtextview/local.properties
+2018-04-09 22:25:58,009 INFO  ProjectFixService - Build info for "/tmp/rdisk/470/src/flowtextview/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=15]
+2018-04-09 22:25:58,009 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/470/src/local.properties
+2018-04-09 22:25:58,009 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-09 22:25:58,009 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-09 22:25:58,010 INFO  ProjectFixService - Build info for "/tmp/rdisk/470/src/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=15]
+2018-04-09 22:25:58,010 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 22:25:58,010 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 22:25:58,010 INFO  SysUtils - Execute command: [/tmp/rdisk/470/src/gradlew, -b, /tmp/rdisk/470/src/flowtextview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 22:26:05,660 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-09 22:26:05,660 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 22:26:05,660 INFO  SysUtils - Execute command: [/tmp/rdisk/470/src/gradlew, -b, /tmp/rdisk/470/src/flowtextview-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 22:26:26,209 INFO  SysUtils - Configuration on demand is an incubating feature.
+:flowtextview-sample:preBuild
+:flowtextview-sample:compileDebugNdk
+:flowtextview:compileLint
+:flowtextview:copyReleaseLint UP-TO-DATE
+:flowtextview:mergeReleaseProguardFiles
+:flowtextview:preBuild
+:flowtextview:preReleaseBuild
+:flowtextview:checkReleaseManifest
+:flowtextview:prepareReleaseDependencies
+:flowtextview:compileReleaseAidl
+:flowtextview:compileReleaseRenderscript
+:flowtextview:generateReleaseBuildConfig
+:flowtextview:generateReleaseAssets UP-TO-DATE
+:flowtextview:mergeReleaseAssets
+:flowtextview:generateReleaseResValues
+:flowtextview:generateReleaseResources
+:flowtextview:packageReleaseResources
+:flowtextview:processReleaseManifest
+:flowtextview:processReleaseResources
+:flowtextview:generateReleaseSources
+:flowtextview:compileReleaseJava
+:flowtextview:processReleaseJavaRes UP-TO-DATE
+:flowtextview:packageReleaseJar
+:flowtextview:compileReleaseNdk
+:flowtextview:packageReleaseJniLibs UP-TO-DATE
+:flowtextview:packageReleaseLocalJar UP-TO-DATE
+:flowtextview:packageReleaseRenderscript UP-TO-DATE
+:flowtextview:bundleRelease
+:flowtextview-sample:preDebugBuild
+:flowtextview-sample:checkDebugManifest
+:flowtextview-sample:preReleaseBuild
+:flowtextview-sample:prepareComAndroidSupportAppcompatV72103Library
+:flowtextview-sample:prepareComAndroidSupportSupportV42103Library
+:flowtextview-sample:prepareSrcFlowtextviewUnspecifiedLibrary
+:flowtextview-sample:prepareDebugDependencies
+:flowtextview-sample:compileDebugAidl
+:flowtextview-sample:compileDebugRenderscript
+:flowtextview-sample:generateDebugBuildConfig
+:flowtextview-sample:generateDebugAssets UP-TO-DATE
+:flowtextview-sample:mergeDebugAssets
+:flowtextview-sample:generateDebugResValues
+:flowtextview-sample:generateDebugResources
+:flowtextview-sample:mergeDebugResources/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:flowtextview-sample:processDebugManifest
+:flowtextview-sample:processDebugResources
+:flowtextview-sample:generateDebugSources
+:flowtextview-sample:compileDebugJava
+:flowtextview-sample:preDexDebug
+:flowtextview-sample:dexDebug
+:flowtextview-sample:processDebugJavaRes UP-TO-DATE
+:flowtextview-sample:validateDebugSigning
+:flowtextview-sample:packageDebug
+:flowtextview-sample:zipalignDebug
+:flowtextview-sample:assembleDebug
+:flowtextview-sample:checkReleaseManifest
+:flowtextview-sample:prepareReleaseDependencies
+:flowtextview-sample:compileReleaseAidl
+:flowtextview-sample:compileReleaseRenderscript
+:flowtextview-sample:generateReleaseBuildConfig
+:flowtextview-sample:generateReleaseAssets UP-TO-DATE
+:flowtextview-sample:mergeReleaseAssets
+:flowtextview-sample:generateReleaseResValues
+:flowtextview-sample:generateReleaseResources
+:flowtextview-sample:mergeReleaseResources/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/470/src/flowtextview-sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:flowtextview-sample:processReleaseManifest
+:flowtextview-sample:processReleaseResources
+:flowtextview-sample:generateReleaseSources
+:flowtextview-sample:compileReleaseJava
+:flowtextview-sample:lintVitalRelease
+:flowtextview-sample:compileReleaseNdk
+:flowtextview-sample:preDexRelease
+:flowtextview-sample:dexRelease
+:flowtextview-sample:processReleaseJavaRes UP-TO-DATE
+:flowtextview-sample:packageRelease
+:flowtextview-sample:assembleRelease
+:flowtextview-sample:assemble
+:flowtextview-sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.13 secs
+
+2018-04-09 22:26:26,244 INFO  FullProcessService - Found APK file: /tmp/rdisk/470/src/flowtextview-sample/build/outputs/apk/flowtextview-sample-release-unsigned.apk

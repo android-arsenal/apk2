@@ -1,0 +1,160 @@
+2018-04-10 18:26:41,829 INFO  DownloadService - Downloading "https://github.com/mg6maciej/android-maps-extensions/archive/master.zip", attempt 3
+2018-04-10 18:26:42,284 INFO  DownloadService - Downloaded https://github.com/mg6maciej/android-maps-extensions/archive/master.zip, attempt 3
+2018-04-10 18:26:42,284 INFO  DownloadService - Size of file "/tmp/rdisk/283/master.zip": 272 KB
+2018-04-10 18:26:42,284 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:26:42,285 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/283/master.zip: true
+2018-04-10 18:26:42,285 DEBUG ZipUtil - Extracting '/tmp/rdisk/283/master.zip' into '/tmp/rdisk/283/src'.
+2018-04-10 18:26:42,302 INFO  FullProcessService - Size of directory with sources: 516 KB
+2018-04-10 18:26:42,302 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/283/src]
+2018-04-10 18:26:42,307 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/283/src/.git/
+
+2018-04-10 18:26:42,310 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/283/src/android-maps-extensions-master/gradlew
+2018-04-10 18:26:42,314 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions-demo/build.gradle /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions/build.gradle /tmp/rdisk/283/src/android-maps-extensions-master/build.gradle
+2018-04-10 18:26:42,316 INFO  ProjectBuildService - All script(s): /tmp/rdisk/283/src/android-maps-extensions-master/settings.gradle /tmp/rdisk/283/src/android-maps-extensions-master/build.gradle /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions/build.gradle /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions-demo/build.gradle
+2018-04-10 18:26:42,317 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:26:42,317 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:26:42,323 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions-demo/local.properties
+2018-04-10 18:26:42,324 INFO  ProjectFixService - Build info for "/tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions-demo/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 18:26:42,324 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions/local.properties
+2018-04-10 18:26:42,325 INFO  ProjectFixService - Build info for "/tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 18:26:42,325 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/283/src/android-maps-extensions-master/local.properties
+2018-04-10 18:26:42,325 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-10 18:26:42,326 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-10 18:26:42,327 INFO  ProjectFixService - Build info for "/tmp/rdisk/283/src/android-maps-extensions-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 18:26:42,327 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:26:42,327 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:26:42,327 INFO  SysUtils - Execute command: [/tmp/rdisk/283/src/android-maps-extensions-master/gradlew, -b, /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:26:51,192 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-10 18:26:51,192 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:26:51,192 INFO  SysUtils - Execute command: [/tmp/rdisk/283/src/android-maps-extensions-master/gradlew, -b, /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:27:23,048 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android-maps-extensions:preBuild UP-TO-DATE
+:android-maps-extensions:preReleaseBuild UP-TO-DATE
+:android-maps-extensions:checkReleaseManifest
+:android-maps-extensions:preDebugAndroidTestBuild UP-TO-DATE
+:android-maps-extensions:preDebugBuild UP-TO-DATE
+:android-maps-extensions:preDebugUnitTestBuild UP-TO-DATE
+:android-maps-extensions:preReleaseUnitTestBuild UP-TO-DATE
+:android-maps-extensions:prepareComAndroidSupportSupportV42400Library
+:android-maps-extensions:prepareComGoogleAndroidGmsPlayServicesBase1020Library
+:android-maps-extensions:prepareComGoogleAndroidGmsPlayServicesBasement1020Library
+:android-maps-extensions:prepareComGoogleAndroidGmsPlayServicesMaps1020Library
+:android-maps-extensions:prepareComGoogleAndroidGmsPlayServicesTasks1020Library
+:android-maps-extensions:prepareReleaseDependencies
+:android-maps-extensions:compileReleaseAidl
+:android-maps-extensions:compileReleaseNdk UP-TO-DATE
+:android-maps-extensions:compileLint
+:android-maps-extensions:copyReleaseLint UP-TO-DATE
+:android-maps-extensions:compileReleaseRenderscript
+:android-maps-extensions:generateReleaseBuildConfig
+:android-maps-extensions:generateReleaseResValues
+:android-maps-extensions:generateReleaseResources
+:android-maps-extensions:mergeReleaseResources
+:android-maps-extensions:processReleaseManifest
+:android-maps-extensions:processReleaseResources
+:android-maps-extensions:generateReleaseSources
+:android-maps-extensions:incrementalReleaseJavaCompilationSafeguard
+:android-maps-extensions:javaPreCompileRelease
+:android-maps-extensions:compileReleaseJavaWithJavac
+:android-maps-extensions:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:android-maps-extensions:extractReleaseAnnotations
+:android-maps-extensions:mergeReleaseShaders
+:android-maps-extensions:compileReleaseShaders
+:android-maps-extensions:generateReleaseAssets
+:android-maps-extensions:mergeReleaseAssets
+:android-maps-extensions:mergeReleaseProguardFiles
+:android-maps-extensions:packageReleaseRenderscript UP-TO-DATE
+:android-maps-extensions:packageReleaseResources
+:android-maps-extensions:processReleaseJavaRes UP-TO-DATE
+:android-maps-extensions:transformResourcesWithMergeJavaResForRelease
+:android-maps-extensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android-maps-extensions:mergeReleaseJniLibFolders
+:android-maps-extensions:transformNativeLibsWithMergeJniLibsForRelease
+:android-maps-extensions:transformNativeLibsWithStripDebugSymbolForRelease
+:android-maps-extensions:transformNativeLibsWithSyncJniLibsForRelease
+:android-maps-extensions:bundleRelease
+:android-maps-extensions-demo:preBuild UP-TO-DATE
+:android-maps-extensions-demo:preDebugBuild UP-TO-DATE
+:android-maps-extensions-demo:checkDebugManifest
+:android-maps-extensions-demo:preReleaseBuild UP-TO-DATE
+:android-maps-extensions-demo:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:android-maps-extensions-demo:prepareComAndroidSupportAppcompatV72340Library
+:android-maps-extensions-demo:prepareComAndroidSupportSupportV42340Library
+:android-maps-extensions-demo:prepareComAndroidSupportSupportVectorDrawable2340Library
+:android-maps-extensions-demo:prepareComGoogleAndroidGmsPlayServices3265Library
+:android-maps-extensions-demo:prepareDebugDependencies
+:android-maps-extensions-demo:compileDebugAidl
+:android-maps-extensions-demo:compileDebugRenderscript
+:android-maps-extensions-demo:generateDebugBuildConfig
+:android-maps-extensions-demo:generateDebugResValues
+:android-maps-extensions-demo:generateDebugResources
+:android-maps-extensions-demo:mergeDebugResources
+:android-maps-extensions-demo:processDebugManifest
+:android-maps-extensions-demo:processDebugResources
+:android-maps-extensions-demo:generateDebugSources
+:android-maps-extensions-demo:incrementalDebugJavaCompilationSafeguard
+:android-maps-extensions-demo:javaPreCompileDebug
+:android-maps-extensions-demo:compileDebugJavaWithJavac
+:android-maps-extensions-demo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:android-maps-extensions-demo:compileDebugNdk UP-TO-DATE
+:android-maps-extensions-demo:compileDebugSources
+:android-maps-extensions-demo:mergeDebugShaders
+:android-maps-extensions-demo:compileDebugShaders
+:android-maps-extensions-demo:generateDebugAssets
+:android-maps-extensions-demo:mergeDebugAssets
+:android-maps-extensions-demo:transformClassesWithDexForDebug
+:android-maps-extensions-demo:mergeDebugJniLibFolders
+:android-maps-extensions-demo:transformNativeLibsWithMergeJniLibsForDebug
+:android-maps-extensions-demo:transformNativeLibsWithStripDebugSymbolForDebug
+:android-maps-extensions-demo:processDebugJavaRes UP-TO-DATE
+:android-maps-extensions-demo:transformResourcesWithMergeJavaResForDebug
+:android-maps-extensions-demo:validateSigningDebug
+:android-maps-extensions-demo:packageDebug
+:android-maps-extensions-demo:assembleDebug
+:android-maps-extensions-demo:checkReleaseManifest
+:android-maps-extensions-demo:prepareReleaseDependencies
+:android-maps-extensions-demo:compileReleaseAidl
+:android-maps-extensions-demo:compileReleaseRenderscript
+:android-maps-extensions-demo:generateReleaseBuildConfig
+:android-maps-extensions-demo:generateReleaseResValues
+:android-maps-extensions-demo:generateReleaseResources
+:android-maps-extensions-demo:mergeReleaseResources
+:android-maps-extensions-demo:processReleaseManifest
+:android-maps-extensions-demo:processReleaseResources
+:android-maps-extensions-demo:generateReleaseSources
+:android-maps-extensions-demo:incrementalReleaseJavaCompilationSafeguard
+:android-maps-extensions-demo:javaPreCompileRelease
+:android-maps-extensions-demo:compileReleaseJavaWithJavac
+:android-maps-extensions-demo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:android-maps-extensions-demo:compileReleaseNdk UP-TO-DATE
+:android-maps-extensions-demo:compileReleaseSources
+:android-maps-extensions-demo:lintVitalRelease
+:android-maps-extensions-demo:mergeReleaseShaders
+:android-maps-extensions-demo:compileReleaseShaders
+:android-maps-extensions-demo:generateReleaseAssets
+:android-maps-extensions-demo:mergeReleaseAssets
+:android-maps-extensions-demo:transformClassesWithDexForRelease
+:android-maps-extensions-demo:mergeReleaseJniLibFolders
+:android-maps-extensions-demo:transformNativeLibsWithMergeJniLibsForRelease
+:android-maps-extensions-demo:transformNativeLibsWithStripDebugSymbolForRelease
+:android-maps-extensions-demo:processReleaseJavaRes UP-TO-DATE
+:android-maps-extensions-demo:transformResourcesWithMergeJavaResForRelease
+:android-maps-extensions-demo:packageRelease
+:android-maps-extensions-demo:assembleRelease
+:android-maps-extensions-demo:assemble
+:android-maps-extensions-demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 31.614 secs
+
+2018-04-10 18:27:23,113 INFO  FullProcessService - Found APK file: /tmp/rdisk/283/src/android-maps-extensions-master/android-maps-extensions-demo/build/outputs/apk/android-maps-extensions-demo-release-unsigned.apk

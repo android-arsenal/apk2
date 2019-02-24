@@ -1,0 +1,230 @@
+2018-04-10 17:29:31,914 INFO  DownloadService - Downloading "https://github.com/neild001/SeekArc/archive/master.zip", attempt 3
+2018-04-10 17:29:32,743 INFO  DownloadService - Downloaded https://github.com/neild001/SeekArc/archive/master.zip, attempt 3
+2018-04-10 17:29:32,743 INFO  DownloadService - Size of file "/tmp/rdisk/393/master.zip": 704 KB
+2018-04-10 17:29:32,743 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 17:29:32,743 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/393/master.zip: true
+2018-04-10 17:29:32,743 DEBUG ZipUtil - Extracting '/tmp/rdisk/393/master.zip' into '/tmp/rdisk/393/src'.
+2018-04-10 17:29:32,758 INFO  FullProcessService - Size of directory with sources: 765 KB
+2018-04-10 17:29:32,758 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/393/src]
+2018-04-10 17:29:32,764 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/393/src/.git/
+
+2018-04-10 17:29:32,766 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/393/src/SeekArc-master/gradlew
+2018-04-10 17:29:32,769 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/393/src/SeekArc-master/SeekArc_library/build.gradle /tmp/rdisk/393/src/SeekArc-master/SeekArc_sample/build.gradle /tmp/rdisk/393/src/SeekArc-master/build.gradle
+2018-04-10 17:29:32,771 INFO  ProjectBuildService - All script(s): /tmp/rdisk/393/src/SeekArc-master/settings.gradle /tmp/rdisk/393/src/SeekArc-master/build.gradle /tmp/rdisk/393/src/SeekArc-master/SeekArc_sample/build.gradle /tmp/rdisk/393/src/SeekArc-master/SeekArc_library/build.gradle
+2018-04-10 17:29:32,771 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 17:29:32,771 INFO  ProjectFixService - Fixing project...
+2018-04-10 17:29:32,777 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/393/src/SeekArc-master/SeekArc_library/local.properties
+2018-04-10 17:29:32,777 INFO  ProjectFixService - Build info for "/tmp/rdisk/393/src/SeekArc-master/SeekArc_library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 17:29:32,778 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/393/src/SeekArc-master/SeekArc_sample/local.properties
+2018-04-10 17:29:32,778 INFO  ProjectFixService - Build info for "/tmp/rdisk/393/src/SeekArc-master/SeekArc_sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 17:29:32,778 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/393/src/SeekArc-master/local.properties
+2018-04-10 17:29:32,779 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2018-04-10 17:29:32,779 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2018-04-10 17:29:32,780 INFO  ProjectFixService - Build info for "/tmp/rdisk/393/src/SeekArc-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 17:29:32,780 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 17:29:32,780 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:29:32,780 INFO  SysUtils - Execute command: [/tmp/rdisk/393/src/SeekArc-master/gradlew, -b, /tmp/rdisk/393/src/SeekArc-master/SeekArc_library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:29:40,925 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-10 17:29:40,925 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-10 17:29:40,925 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-10 17:29:40,925 INFO  SysUtils - Execute command: [/tmp/rdisk/393/src/SeekArc-master/gradlew, -b, /tmp/rdisk/393/src/SeekArc-master/SeekArc_library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-10 17:29:56,618 INFO  SysUtils - Configuration on demand is an incubating feature.
+:SeekArc_library:preBuild UP-TO-DATE
+:SeekArc_library:preDebugBuild UP-TO-DATE
+:SeekArc_library:compileDebugNdk UP-TO-DATE
+:SeekArc_library:compileLint
+:SeekArc_library:copyDebugLint UP-TO-DATE
+:SeekArc_library:checkDebugManifest
+:SeekArc_library:preDebugAndroidTestBuild UP-TO-DATE
+:SeekArc_library:preDebugUnitTestBuild UP-TO-DATE
+:SeekArc_library:preReleaseBuild UP-TO-DATE
+:SeekArc_library:preReleaseUnitTestBuild UP-TO-DATE
+:SeekArc_library:prepareComAndroidSupportAppcompatV72311Library
+:SeekArc_library:prepareComAndroidSupportSupportV42311Library
+:SeekArc_library:prepareDebugDependencies
+:SeekArc_library:compileDebugAidl
+:SeekArc_library:compileDebugRenderscript
+:SeekArc_library:generateDebugBuildConfig
+:SeekArc_library:generateDebugAssets UP-TO-DATE
+:SeekArc_library:mergeDebugAssets
+:SeekArc_library:generateDebugResValues
+:SeekArc_library:generateDebugResources
+:SeekArc_library:mergeDebugResources
+:SeekArc_library:processDebugManifest
+:SeekArc_library:processDebugResources
+:SeekArc_library:generateDebugSources
+:SeekArc_library:compileDebugJavaWithJavacNote: /tmp/rdisk/393/src/SeekArc-master/SeekArc_library/src/com/triggertrap/seekarc/SeekArc.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:SeekArc_library:extractDebugAnnotations
+:SeekArc_library:mergeDebugProguardFiles
+:SeekArc_library:packageDebugRenderscript UP-TO-DATE
+:SeekArc_library:packageDebugResources
+:SeekArc_library:processDebugJavaRes UP-TO-DATE
+:SeekArc_library:transformResourcesWithMergeJavaResForDebug
+:SeekArc_library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:SeekArc_library:mergeDebugJniLibFolders
+:SeekArc_library:transformNative_libsWithMergeJniLibsForDebug
+:SeekArc_library:transformNative_libsWithSyncJniLibsForDebug
+:SeekArc_library:bundleDebug
+:SeekArc_library:compileDebugSources
+:SeekArc_library:assembleDebug
+:SeekArc_library:compileReleaseNdk UP-TO-DATE
+:SeekArc_library:copyReleaseLint UP-TO-DATE
+:SeekArc_library:checkReleaseManifest
+:SeekArc_library:prepareReleaseDependencies
+:SeekArc_library:compileReleaseAidl
+:SeekArc_library:compileReleaseRenderscript
+:SeekArc_library:generateReleaseBuildConfig
+:SeekArc_library:generateReleaseAssets UP-TO-DATE
+:SeekArc_library:mergeReleaseAssets
+:SeekArc_library:generateReleaseResValues
+:SeekArc_library:generateReleaseResources
+:SeekArc_library:mergeReleaseResources
+:SeekArc_library:processReleaseManifest
+:SeekArc_library:processReleaseResources
+:SeekArc_library:generateReleaseSources
+:SeekArc_library:compileReleaseJavaWithJavacNote: /tmp/rdisk/393/src/SeekArc-master/SeekArc_library/src/com/triggertrap/seekarc/SeekArc.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:SeekArc_library:extractReleaseAnnotations
+:SeekArc_library:mergeReleaseProguardFiles
+:SeekArc_library:packageReleaseRenderscript UP-TO-DATE
+:SeekArc_library:packageReleaseResources
+:SeekArc_library:processReleaseJavaRes UP-TO-DATE
+:SeekArc_library:transformResourcesWithMergeJavaResForRelease
+:SeekArc_library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:SeekArc_library:mergeReleaseJniLibFolders
+:SeekArc_library:transformNative_libsWithMergeJniLibsForRelease
+:SeekArc_library:transformNative_libsWithSyncJniLibsForRelease
+:SeekArc_library:bundleRelease
+:SeekArc_library:compileReleaseSources
+:SeekArc_library:assembleRelease
+:SeekArc_library:assemble
+:SeekArc_library:lint
+:SeekArc_library:prepareDebugUnitTestDependencies
+:SeekArc_library:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:SeekArc_library:processDebugUnitTestJavaRes UP-TO-DATE
+:SeekArc_library:compileDebugUnitTestSources UP-TO-DATE
+:SeekArc_library:mockableAndroidJar
+:SeekArc_library:assembleDebugUnitTest
+:SeekArc_library:testDebugUnitTest
+:SeekArc_library:prepareReleaseUnitTestDependencies
+:SeekArc_library:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:SeekArc_library:processReleaseUnitTestJavaRes UP-TO-DATE
+:SeekArc_library:compileReleaseUnitTestSources UP-TO-DATE
+:SeekArc_library:assembleReleaseUnitTest
+:SeekArc_library:testReleaseUnitTest
+:SeekArc_library:test
+:SeekArc_library:check
+:SeekArc_library:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.263 secs
+
+2018-04-10 17:29:56,660 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:29:56,660 INFO  SysUtils - Execute command: [/tmp/rdisk/393/src/SeekArc-master/gradlew, -b, /tmp/rdisk/393/src/SeekArc-master/SeekArc_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:30:02,679 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-10 17:30:02,679 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 17:30:02,679 INFO  SysUtils - Execute command: [/tmp/rdisk/393/src/SeekArc-master/gradlew, -b, /tmp/rdisk/393/src/SeekArc-master/SeekArc_sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 17:30:25,645 INFO  SysUtils - Configuration on demand is an incubating feature.
+:SeekArc_library:preBuild UP-TO-DATE
+:SeekArc_library:preReleaseBuild UP-TO-DATE
+:SeekArc_library:compileReleaseNdk UP-TO-DATE
+:SeekArc_library:compileLint
+:SeekArc_library:copyReleaseLint UP-TO-DATE
+:SeekArc_library:checkReleaseManifest
+:SeekArc_library:preDebugAndroidTestBuild UP-TO-DATE
+:SeekArc_library:preDebugBuild UP-TO-DATE
+:SeekArc_library:preDebugUnitTestBuild UP-TO-DATE
+:SeekArc_library:preReleaseUnitTestBuild UP-TO-DATE
+:SeekArc_library:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:SeekArc_library:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:SeekArc_library:prepareReleaseDependencies
+:SeekArc_library:compileReleaseAidl UP-TO-DATE
+:SeekArc_library:compileReleaseRenderscript UP-TO-DATE
+:SeekArc_library:generateReleaseBuildConfig UP-TO-DATE
+:SeekArc_library:generateReleaseAssets UP-TO-DATE
+:SeekArc_library:mergeReleaseAssets UP-TO-DATE
+:SeekArc_library:generateReleaseResValues UP-TO-DATE
+:SeekArc_library:generateReleaseResources UP-TO-DATE
+:SeekArc_library:mergeReleaseResources UP-TO-DATE
+:SeekArc_library:processReleaseManifest UP-TO-DATE
+:SeekArc_library:processReleaseResources UP-TO-DATE
+:SeekArc_library:generateReleaseSources UP-TO-DATE
+:SeekArc_library:compileReleaseJavaWithJavac UP-TO-DATE
+:SeekArc_library:extractReleaseAnnotations UP-TO-DATE
+:SeekArc_library:mergeReleaseProguardFiles UP-TO-DATE
+:SeekArc_library:packageReleaseRenderscript UP-TO-DATE
+:SeekArc_library:packageReleaseResources UP-TO-DATE
+:SeekArc_library:processReleaseJavaRes UP-TO-DATE
+:SeekArc_library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:SeekArc_library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:SeekArc_library:mergeReleaseJniLibFolders UP-TO-DATE
+:SeekArc_library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:SeekArc_library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:SeekArc_library:bundleRelease UP-TO-DATE
+:SeekArc_sample:preBuild UP-TO-DATE
+:SeekArc_sample:preDebugBuild UP-TO-DATE
+:SeekArc_sample:checkDebugManifest
+:SeekArc_sample:preReleaseBuild UP-TO-DATE
+:SeekArc_sample:prepareComAndroidSupportAppcompatV72311Library
+:SeekArc_sample:prepareComAndroidSupportSupportV42311Library
+:SeekArc_sample:prepareSeekArcMasterSeekArc_libraryUnspecifiedLibrary
+:SeekArc_sample:prepareDebugDependencies
+:SeekArc_sample:compileDebugAidl
+:SeekArc_sample:compileDebugRenderscript
+:SeekArc_sample:generateDebugBuildConfig
+:SeekArc_sample:generateDebugAssets UP-TO-DATE
+:SeekArc_sample:mergeDebugAssets
+:SeekArc_sample:generateDebugResValues
+:SeekArc_sample:generateDebugResources
+:SeekArc_sample:mergeDebugResources
+:SeekArc_sample:processDebugManifest
+:SeekArc_sample:processDebugResources
+:SeekArc_sample:generateDebugSources
+:SeekArc_sample:compileDebugJavaWithJavac
+:SeekArc_sample:compileDebugNdk UP-TO-DATE
+:SeekArc_sample:compileDebugSources
+:SeekArc_sample:transformClassesWithDexForDebug
+:SeekArc_sample:mergeDebugJniLibFolders
+:SeekArc_sample:transformNative_libsWithMergeJniLibsForDebug
+:SeekArc_sample:processDebugJavaRes UP-TO-DATE
+:SeekArc_sample:transformResourcesWithMergeJavaResForDebug
+:SeekArc_sample:validateDebugSigning
+:SeekArc_sample:packageDebug
+:SeekArc_sample:zipalignDebug
+:SeekArc_sample:assembleDebug
+:SeekArc_sample:checkReleaseManifest
+:SeekArc_sample:prepareReleaseDependencies
+:SeekArc_sample:compileReleaseAidl
+:SeekArc_sample:compileReleaseRenderscript
+:SeekArc_sample:generateReleaseBuildConfig
+:SeekArc_sample:generateReleaseAssets UP-TO-DATE
+:SeekArc_sample:mergeReleaseAssets
+:SeekArc_sample:generateReleaseResValues
+:SeekArc_sample:generateReleaseResources
+:SeekArc_sample:mergeReleaseResources
+:SeekArc_sample:processReleaseManifest
+:SeekArc_sample:processReleaseResources
+:SeekArc_sample:generateReleaseSources
+:SeekArc_sample:compileReleaseJavaWithJavac
+:SeekArc_sample:compileReleaseNdk UP-TO-DATE
+:SeekArc_sample:compileReleaseSources
+:SeekArc_sample:lintVitalRelease
+:SeekArc_sample:transformClassesWithDexForRelease
+:SeekArc_sample:mergeReleaseJniLibFolders
+:SeekArc_sample:transformNative_libsWithMergeJniLibsForRelease
+:SeekArc_sample:processReleaseJavaRes UP-TO-DATE
+:SeekArc_sample:transformResourcesWithMergeJavaResForRelease
+:SeekArc_sample:packageRelease
+:SeekArc_sample:assembleRelease
+:SeekArc_sample:assemble
+:SeekArc_sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.52 secs
+
+2018-04-10 17:30:25,724 INFO  FullProcessService - Found APK file: /tmp/rdisk/393/src/SeekArc-master/SeekArc_sample/build/outputs/apk/seekarc-sample-SeekArc_sample-release-unsigned-1.1[2].apk

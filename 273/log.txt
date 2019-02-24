@@ -1,0 +1,358 @@
+2018-05-15 05:05:24,790 INFO  DownloadService - Downloading "https://github.com/tony19/logback-android/archive/master.zip", attempt 3
+2018-05-15 05:06:25,270 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-15 05:06:25,956 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-15 05:06:25,956 INFO  DownloadService - Downloading "https://github.com/tony19/logback-android/archive/master.zip", attempt 3
+2018-05-15 05:07:27,359 DEBUG FullProcessService - Repository https://github.com/tony19/logback-android available: true
+2018-05-15 05:07:27,359 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-15 05:07:27,360 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tony19/logback-android, /tmp/rdisk/273/src]
+2018-05-15 05:07:29,566 INFO  SysUtils - 
+2018-05-15 05:07:29,582 INFO  GitService - Deleted "/tmp/rdisk/273/src/.git": true
+2018-05-15 05:07:29,608 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-05-15 05:07:29,608 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/273/src]
+2018-05-15 05:07:29,613 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/273/src/.git/
+
+2018-05-15 05:07:29,634 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/273/src/gradlew
+2018-05-15 05:07:29,651 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/273/src/logback-android/build.gradle /tmp/rdisk/273/src/build.gradle
+2018-05-15 05:07:29,668 INFO  ProjectBuildService - All script(s): /tmp/rdisk/273/src/settings.gradle /tmp/rdisk/273/src/logback-android/build.gradle /tmp/rdisk/273/src/gradle/uberjar.gradle /tmp/rdisk/273/src/gradle/readme.gradle /tmp/rdisk/273/src/gradle/license.gradle /tmp/rdisk/273/src/gradle/docs.gradle /tmp/rdisk/273/src/gradle/deploy.gradle /tmp/rdisk/273/src/gradle/analysis.gradle /tmp/rdisk/273/src/build.gradle
+2018-05-15 05:07:29,668 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 05:07:29,668 INFO  ProjectFixService - Fixing project...
+2018-05-15 05:07:29,709 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/273/src/logback-android/local.properties
+2018-05-15 05:07:29,712 INFO  ProjectFixService - Build info for "/tmp/rdisk/273/src/logback-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 05:07:29,712 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/273/src/logback-android/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 05:07:29,713 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/273/src/local.properties
+2018-05-15 05:07:29,714 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-bin.zip
+2018-05-15 05:07:29,717 INFO  ProjectFixService - Build info for "/tmp/rdisk/273/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 05:07:29,717 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/273/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-15 05:07:29,717 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 05:07:29,717 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 05:07:29,717 INFO  SysUtils - Execute command: [/tmp/rdisk/273/src/gradlew, -b, /tmp/rdisk/273/src/logback-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 05:07:55,403 INFO  ProjectTaskService - Detected possible tasks: 90
+2018-05-15 05:07:55,403 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-15 05:07:55,404 INFO  SysUtils - Execute command: [/tmp/rdisk/273/src/gradlew, -b, /tmp/rdisk/273/src/logback-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-15 05:12:56,308 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exit value: 143)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-15 05:12:56,309 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration(s) specified but the install task does not exist in project :logback-android.
+:logback-android:preBuild UP-TO-DATE
+:logback-android:preReleaseBuild UP-TO-DATE
+:logback-android:compileReleaseAidl
+:logback-android:compileReleaseRenderscript
+:logback-android:generateReleaseResValues
+:logback-android:generateReleaseResources
+:logback-android:packageReleaseResources
+:logback-android:platformAttrExtractor
+:logback-android:checkReleaseManifest
+:logback-android:processReleaseManifest
+:logback-android:androidSourcesJar
+:logback-android:processReleaseResources
+:logback-android:generateReleaseJavadocjavadoc: warning - Error reading file: /root/Applications/android-sdk/docs/reference/package-list
+/tmp/rdisk/273/src/logback-android/src/main/java/ch/qos/logback/core/android/AndroidContextUtil.java:162: warning - Tag @link: reference not found: android.app.backup.BackupAgent
+
+2 warnings
+:logback-android:androidJavadocsJar
+:logback-android:preDebugBuild UP-TO-DATE
+:logback-android:compileDebugAidl
+:logback-android:compileDebugNdk NO-SOURCE
+:logback-android:compileDebugRenderscript
+:logback-android:prepareLintJar
+:logback-android:generateDebugResValues
+:logback-android:generateDebugResources
+:logback-android:packageDebugResources
+:logback-android:checkDebugManifest
+:logback-android:processDebugManifest
+:logback-android:processDebugResources
+:logback-android:generateDebugSources
+:logback-android:javaPreCompileDebug
+:logback-android:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:logback-android:extractDebugAnnotations
+:logback-android:mergeDebugShaders
+:logback-android:compileDebugShaders
+:logback-android:generateDebugAssets
+:logback-android:mergeDebugAssets
+:logback-android:mergeDebugConsumerProguardFiles
+:logback-android:packageDebugRenderscript NO-SOURCE
+:logback-android:processDebugJavaRes NO-SOURCE
+:logback-android:transformResourcesWithMergeJavaResForDebug
+:logback-android:transformClassesAndResourcesWithSyncLibJarsForDebug
+:logback-android:mergeDebugJniLibFolders
+:logback-android:transformNativeLibsWithMergeJniLibsForDebug
+:logback-android:transformNativeLibsWithStripDebugSymbolForDebug
+:logback-android:transformNativeLibsWithSyncJniLibsForDebug
+:logback-android:bundleDebug
+:logback-android:compileDebugSources
+:logback-android:assembleDebug
+:logback-android:compileReleaseNdk NO-SOURCE
+:logback-android:generateReleaseSources
+:logback-android:javaPreCompileRelease
+:logback-android:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:logback-android:extractReleaseAnnotations
+:logback-android:mergeReleaseShaders
+:logback-android:compileReleaseShaders
+:logback-android:generateReleaseAssets
+:logback-android:mergeReleaseAssets
+:logback-android:mergeReleaseConsumerProguardFiles
+:logback-android:packageReleaseRenderscript NO-SOURCE
+:logback-android:processReleaseJavaRes NO-SOURCE
+:logback-android:transformResourcesWithMergeJavaResForRelease
+:logback-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+:logback-android:mergeReleaseJniLibFolders
+:logback-android:transformNativeLibsWithMergeJniLibsForRelease
+:logback-android:transformNativeLibsWithStripDebugSymbolForRelease
+:logback-android:transformNativeLibsWithSyncJniLibsForRelease
+:logback-android:bundleRelease
+:logback-android:compileReleaseSources
+:logback-android:mergeReleaseResources
+:logback-android:verifyReleaseResources
+:logback-android:assembleRelease
+:logback-android:signArchives SKIPPED
+:logback-android:assemble
+:logback-android:lint
+Ran lint on variant debug: 1 issues found
+Ran lint on variant release: 1 issues found
+Wrote HTML report to file:///tmp/rdisk/273/src/logback-android/build/reports/lint-results.html
+Wrote XML report to file:///tmp/rdisk/273/src/logback-android/build/reports/lint-results.xml
+:logback-android:preDebugUnitTestBuild UP-TO-DATE
+:logback-android:javaPreCompileDebugUnitTest
+:logback-android:compileDebugUnitTestJavaWithJavacNote: CAL10NAnnotationProcessor 0.8.1 initialized
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:logback-android:mergeDebugResources
+:logback-android:generateDebugUnitTestConfig
+:logback-android:mockableAndroidJar
+:logback-android:processDebugUnitTestJavaRes
+:logback-android:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:logback-android:testDebugUnitTest
+
+ch.qos.logback.classic.net.SSLSocketReceiverTest > testUsingDefaultConfig FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at ch.qos.logback.classic.net.SSLSocketReceiverTest.testUsingDefaultConfig(SSLSocketReceiverTest.java:45)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 1 more
+
+ch.qos.logback.classic.net.SocketReceiverTest > testStartStop FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+ch.qos.logback.classic.net.SocketReceiverTest > testStartUnknownHost FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+ch.qos.logback.classic.net.SocketReceiverTest > testStartNoRemoteAddress FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+ch.qos.logback.classic.net.SocketReceiverTest > testServerSlowToAcceptConnection FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+ch.qos.logback.classic.net.SocketReceiverTest > testServerDropsConnection FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+ch.qos.logback.classic.net.SocketReceiverTest > testNoDispatchEventForDisabledLevel FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+ch.qos.logback.classic.net.SocketReceiverTest > testStartNoPort FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+ch.qos.logback.classic.net.SocketReceiverTest > testDispatchEventForEnabledLevel FAILED
+    java.net.UnknownHostException: ppl-vbauer-6768415: ppl-vbauer-6768415: Name or service not known
+        at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
+        at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:204)
+        at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+        at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+        at java.net.Socket.connect(Socket.java:589)
+        at java.net.Socket.connect(Socket.java:538)
+        at java.net.Socket.<init>(Socket.java:434)
+        at java.net.Socket.<init>(Socket.java:244)
+        at ch.qos.logback.classic.net.SocketReceiverTest.setUp(SocketReceiverTest.java:74)
+
+        Caused by:
+        java.net.UnknownHostException: ppl-vbauer-6768415: Name or service not known
+            at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+            at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+            at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+            at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
+            ... 8 more
+
+    java.lang.NullPointerException
+        at ch.qos.logback.classic.net.SocketReceiverTest.tearDown(SocketReceiverTest.java:89)
+
+2018-05-15 05:12:56,367 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 05:12:56,367 INFO  SysUtils - Execute command: [/tmp/rdisk/273/src/gradlew, -b, /tmp/rdisk/273/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 05:13:06,090 INFO  ProjectTaskService - Detected possible tasks: 95
+2018-05-15 05:13:06,090 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-15 05:13:06,090 INFO  SysUtils - Execute command: [/tmp/rdisk/273/src/gradlew, -b, /tmp/rdisk/273/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]

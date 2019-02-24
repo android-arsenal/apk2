@@ -1,0 +1,21 @@
+2018-04-10 11:13:14,923 INFO  DownloadService - Downloading "https://github.com/AlexGilleran/IceSoap/archive/master.zip", attempt 3
+2018-04-10 11:14:15,397 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 11:14:16,066 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 11:14:16,066 INFO  DownloadService - Downloading "https://github.com/AlexGilleran/IceSoap/archive/master.zip", attempt 3
+2018-04-10 11:15:17,378 DEBUG FullProcessService - Repository https://github.com/AlexGilleran/IceSoap available: true
+2018-04-10 11:15:17,389 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 11:15:17,389 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/AlexGilleran/IceSoap, /tmp/rdisk/428/src]
+2018-04-10 11:15:21,342 INFO  SysUtils - 
+2018-04-10 11:15:21,358 INFO  GitService - Deleted "/tmp/rdisk/428/src/.git": true
+2018-04-10 11:15:21,385 INFO  FullProcessService - Size of directory with sources: 10 MB
+2018-04-10 11:15:21,385 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/428/src]
+2018-04-10 11:15:21,391 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/428/src/.git/
+
+2018-04-10 11:15:21,408 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 11:15:21,408 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 11:15:21,425 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 11:15:21,442 INFO  ProjectBuildService - All script(s): none
+2018-04-10 11:15:21,442 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 11:15:21,442 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 11:15:21,442 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 11:15:21,460 ERROR FullProcessService - Could not find generated or existed APK file

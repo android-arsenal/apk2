@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.haarman.listviewanimations",
+    "label" : "ListViewAnimations",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "3.1.0",
+    "versionCode" : 2018041018,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "20",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "com.android.vending.BILLING" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAA2FBMVEUAAABMo8FewucAAABCmrtLvugAAAAzj7EytOQAAAAmaoQeaocAAAAdV2oXUGUWT2MAAAAAAAAAAAAAAAAAAABNosBcwOZdwuhBkrJEm7xRwOlQv+g9iKUAAAAzkLIzfponcIogdJMsbIYAAAAeW28XVWwWVGoXVmwiXHAAAAAAAAAAAAAAAABOpsNbwedav+RYuuGA//9HnLxWwelTvOMQUHAzteUyrd0LNUopdZAjf6EkfZ8KMUUgX3IYVm0YVm0YWW4AHCsAAAAAAAAAAAAAAAAAAAAAAABljB40AAAASHRSTlMAb5MFwv8JxP8K0f8IapKVAxEcHgRdenk/wv//jQLDks//nAZ+qKunWRQgIg9IX2BdAsL/9hD/9xjN//kaj72+tRIXJCcmBwGtI9yHAAAAy0lEQVRIx+3VxxKCMBRA0WAUAUEDxN7FXrD33v//j9wFFomPpc5w1u9OJslkglAo9IUUCUDy5nE0FkAUs0COKwHEZRaoWiIATWWBbiRToKShs4CYlg2yTOLtmlAMouS3bzqdEcjmuPM0XxAolsq8QK4Ir7eKeYFaq4s0HO4KzVabr9PlrkB7/QGfPeTuARFHAJf/5k2P3DHjTqbgPJnNfRZLMNArysqz3oCBut357A9gIB9PZ8/lCgb4dn8wT1uHT4m+fJx3+BWEEPoAZfU3QFT0YIYAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 863,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2018041018\" android:versionName=\"3.1.0\" package=\"com.haarman.listviewanimations\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"20\" />\n\t<uses-permission android:name=\"com.android.vending.BILLING\" />\n\t<application android:theme=\"resourceId:0x7f080000\" android:label=\"ListViewAnimations\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"com.haarman.listviewanimations.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Appearance Animation\" android:name=\"com.haarman.listviewanimations.appearance.AppearanceExamplesActivity\" />\n\t\t<activity android:label=\"Google cards\" android:name=\"com.haarman.listviewanimations.googlecards.GoogleCardsActivity\" />\n\t\t<activity android:label=\"Item Manipulation\" android:name=\"com.haarman.listviewanimations.itemmanipulation.ItemManipulationsExamplesActivity\" />\n\t\t<activity android:label=\"DynamicListView\" android:name=\"com.haarman.listviewanimations.itemmanipulation.DynamicListViewActivity\" />\n\t\t<activity android:label=\"GridView\" android:name=\"com.haarman.listviewanimations.gridview.GridViewActivity\" />\n\t\t<activity android:label=\"Expand list items\" android:name=\"com.haarman.listviewanimations.itemmanipulation.expandablelistitems.ExpandableListItemActivity\" />\n\t\t<activity android:label=\"StickyListHeaders\" android:name=\"com.haarman.listviewanimations.StickyListHeadersActivity\" />\n\t\t<activity android:name=\"com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeTouchListenerTestActivity\" />\n\t\t<activity android:name=\"com.nhaarman.listviewanimations.itemmanipulation.dragdrop.DynamicListViewTestActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2048735,
+  "crc32" : 381162689,
+  "sha256" : "eca69f782120225d25ab17962d018f237461414e621f05e15c52d1acebda8a7f",
+  "buildTime" : 1523385876000
+}

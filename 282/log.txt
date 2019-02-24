@@ -1,0 +1,174 @@
+2018-05-15 04:33:10,373 INFO  DownloadService - Downloading "https://github.com/googlemaps/android-maps-utils/archive/master.zip", attempt 3
+2018-05-15 04:33:10,822 INFO  DownloadService - Downloaded https://github.com/googlemaps/android-maps-utils/archive/master.zip, attempt 3
+2018-05-15 04:33:10,822 INFO  DownloadService - Size of file "/tmp/rdisk/282/master.zip": 460 KB
+2018-05-15 04:33:10,822 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:33:10,823 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/282/master.zip: true
+2018-05-15 04:33:10,823 DEBUG ZipUtil - Extracting '/tmp/rdisk/282/master.zip' into '/tmp/rdisk/282/src'.
+2018-05-15 04:33:10,856 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-15 04:33:10,856 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/282/src]
+2018-05-15 04:33:10,861 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/282/src/.git/
+
+2018-05-15 04:33:10,866 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/282/src/android-maps-utils-master/gradlew
+2018-05-15 04:33:10,871 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/282/src/android-maps-utils-master/demo/build.gradle /tmp/rdisk/282/src/android-maps-utils-master/library/build.gradle /tmp/rdisk/282/src/android-maps-utils-master/build.gradle
+2018-05-15 04:33:10,875 INFO  ProjectBuildService - All script(s): /tmp/rdisk/282/src/android-maps-utils-master/settings.gradle /tmp/rdisk/282/src/android-maps-utils-master/library/build.gradle /tmp/rdisk/282/src/android-maps-utils-master/demo/build.gradle /tmp/rdisk/282/src/android-maps-utils-master/build.gradle
+2018-05-15 04:33:10,876 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:33:10,876 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:33:10,887 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/282/src/android-maps-utils-master/demo/local.properties
+2018-05-15 04:33:10,887 INFO  ProjectFixService - Build info for "/tmp/rdisk/282/src/android-maps-utils-master/demo/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-05-15 04:33:10,887 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/282/src/android-maps-utils-master/library/local.properties
+2018-05-15 04:33:10,888 INFO  ProjectFixService - Build info for "/tmp/rdisk/282/src/android-maps-utils-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-05-15 04:33:10,888 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/282/src/android-maps-utils-master/local.properties
+2018-05-15 04:33:10,889 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-05-15 04:33:10,889 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-05-15 04:33:10,890 INFO  ProjectFixService - Build info for "/tmp/rdisk/282/src/android-maps-utils-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-05-15 04:33:10,890 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:33:10,891 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:33:10,891 INFO  SysUtils - Execute command: [/tmp/rdisk/282/src/android-maps-utils-master/gradlew, -b, /tmp/rdisk/282/src/android-maps-utils-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:33:19,422 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-15 04:33:19,422 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:33:19,422 INFO  SysUtils - Execute command: [/tmp/rdisk/282/src/android-maps-utils-master/gradlew, -b, /tmp/rdisk/282/src/android-maps-utils-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 04:33:46,655 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:checkDebugManifest
+:demo:preReleaseBuild UP-TO-DATE
+:demo:prepareComAndroidSupportSupportCompat2520Library
+:demo:prepareComAndroidSupportSupportCoreUi2520Library
+:demo:prepareComAndroidSupportSupportCoreUtils2520Library
+:demo:prepareComAndroidSupportSupportFragment2520Library
+:demo:prepareComAndroidSupportSupportMediaCompat2520Library
+:demo:prepareComAndroidSupportSupportV42520Library
+:demo:prepareComGoogleAndroidGmsPlayServicesBase1104Library
+:demo:prepareComGoogleAndroidGmsPlayServicesBasement1104Library
+:demo:prepareComGoogleAndroidGmsPlayServicesMaps1104Library
+:demo:prepareComGoogleAndroidGmsPlayServicesTasks1104Library
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportCompat2520Library
+:library:prepareComAndroidSupportSupportCoreUi2520Library
+:library:prepareComAndroidSupportSupportCoreUtils2520Library
+:library:prepareComAndroidSupportSupportFragment2520Library
+:library:prepareComAndroidSupportSupportMediaCompat2520Library
+:library:prepareComAndroidSupportSupportV42520Library
+:library:prepareComGoogleAndroidGmsPlayServicesBase1104Library
+:library:prepareComGoogleAndroidGmsPlayServicesBasement1104Library
+:library:prepareComGoogleAndroidGmsPlayServicesMaps1104Library
+:library:prepareComGoogleAndroidGmsPlayServicesTasks1104Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:incrementalDebugJavaCompilationSafeguard
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/282/src/android-maps-utils-master/demo/src/com/google/maps/android/utils/demo/PolySimplifyDemoActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:demo:compileDebugNdk UP-TO-DATE
+:demo:compileDebugSources
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexForDebug
+:demo:mergeDebugJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:incrementalReleaseJavaCompilationSafeguard
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/282/src/android-maps-utils-master/demo/src/com/google/maps/android/utils/demo/PolySimplifyDemoActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:demo:compileReleaseNdk UP-TO-DATE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexForRelease
+:demo:mergeReleaseJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 26.936 secs
+
+2018-05-15 04:33:46,710 INFO  FullProcessService - Found APK file: /tmp/rdisk/282/src/android-maps-utils-master/demo/build/outputs/apk/demo-release-unsigned.apk

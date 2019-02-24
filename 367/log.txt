@@ -1,0 +1,224 @@
+2018-05-15 04:26:09,487 INFO  DownloadService - Downloading "https://github.com/dmytrodanylyk/android-process-button/archive/master.zip", attempt 3
+2018-05-15 04:26:10,646 INFO  DownloadService - Downloaded https://github.com/dmytrodanylyk/android-process-button/archive/master.zip, attempt 3
+2018-05-15 04:26:10,646 INFO  DownloadService - Size of file "/tmp/rdisk/367/master.zip": 1 MB
+2018-05-15 04:26:10,646 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:26:10,647 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/367/master.zip: true
+2018-05-15 04:26:10,647 DEBUG ZipUtil - Extracting '/tmp/rdisk/367/master.zip' into '/tmp/rdisk/367/src'.
+2018-05-15 04:26:10,664 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-15 04:26:10,664 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/367/src]
+2018-05-15 04:26:10,669 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/367/src/.git/
+
+2018-05-15 04:26:10,671 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/367/src/android-process-button-master/gradlew
+2018-05-15 04:26:10,674 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/367/src/android-process-button-master/library/build.gradle /tmp/rdisk/367/src/android-process-button-master/sample/build.gradle /tmp/rdisk/367/src/android-process-button-master/build.gradle
+2018-05-15 04:26:10,676 INFO  ProjectBuildService - All script(s): /tmp/rdisk/367/src/android-process-button-master/settings.gradle /tmp/rdisk/367/src/android-process-button-master/sample/build.gradle /tmp/rdisk/367/src/android-process-button-master/maven_push.gradle /tmp/rdisk/367/src/android-process-button-master/library/build.gradle /tmp/rdisk/367/src/android-process-button-master/build.gradle
+2018-05-15 04:26:10,677 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:26:10,677 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:26:10,684 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/367/src/android-process-button-master/library/local.properties
+2018-05-15 04:26:10,685 INFO  ProjectFixService - Build info for "/tmp/rdisk/367/src/android-process-button-master/library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-05-15 04:26:10,685 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/367/src/android-process-button-master/sample/local.properties
+2018-05-15 04:26:10,686 INFO  ProjectFixService - Build info for "/tmp/rdisk/367/src/android-process-button-master/sample/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-05-15 04:26:10,686 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/367/src/android-process-button-master/local.properties
+2018-05-15 04:26:10,686 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-15 04:26:10,687 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-15 04:26:10,688 INFO  ProjectFixService - Build info for "/tmp/rdisk/367/src/android-process-button-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=21,minSdkVersion=14,targetSdkVersion=21]
+2018-05-15 04:26:10,688 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:26:10,688 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:26:10,688 INFO  SysUtils - Execute command: [/tmp/rdisk/367/src/android-process-button-master/gradlew, -b, /tmp/rdisk/367/src/android-process-button-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:26:17,725 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-05-15 04:26:17,725 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-05-15 04:26:17,726 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-05-15 04:26:17,726 INFO  SysUtils - Execute command: [/tmp/rdisk/367/src/android-process-button-master/gradlew, -b, /tmp/rdisk/367/src/android-process-button-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-15 04:26:34,319 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42103Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:processDebugJavaRes UP-TO-DATE
+:library:compileDebugJavaNote: /tmp/rdisk/367/src/android-process-button-master/library/src/main/java/com/dd/processbutton/iml/ActionProcessButton.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractDebugAnnotations
+:library:mergeDebugProguardFiles
+:library:packageDebugJar
+:library:compileDebugNdk UP-TO-DATE
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:packageDebugResources
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJavaNote: /tmp/rdisk/367/src/android-process-button-master/library/src/main/java/com/dd/processbutton/iml/ActionProcessButton.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:lint
+Ran lint on variant debug: 12 issues found
+Ran lint on variant release: 12 issues found
+Wrote HTML report to file:/tmp/rdisk/367/src/android-process-button-master/library/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/367/src/android-process-button-master/library/build/outputs/lint-results.xml
+:library:preCompileDebugUnitTestJava
+:library:prepareDebugUnitTestDependencies
+:library:processDebugUnitTestJavaRes UP-TO-DATE
+:library:compileDebugUnitTestJava UP-TO-DATE
+:library:compileDebugUnitTestSources UP-TO-DATE
+:library:mockableAndroidJar
+:library:assembleDebugUnitTest
+:library:testDebug
+:library:preCompileReleaseUnitTestJava
+:library:prepareReleaseUnitTestDependencies
+:library:processReleaseUnitTestJavaRes UP-TO-DATE
+:library:compileReleaseUnitTestJava UP-TO-DATE
+:library:compileReleaseUnitTestSources UP-TO-DATE
+:library:assembleReleaseUnitTest
+:library:testRelease
+:library:test
+:library:check
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.131 secs
+
+2018-05-15 04:26:34,328 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:26:34,328 INFO  SysUtils - Execute command: [/tmp/rdisk/367/src/android-process-button-master/gradlew, -b, /tmp/rdisk/367/src/android-process-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:26:40,664 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-05-15 04:26:40,664 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-05-15 04:26:40,664 INFO  SysUtils - Execute command: [/tmp/rdisk/367/src/android-process-button-master/gradlew, -b, /tmp/rdisk/367/src/android-process-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-05-15 04:26:57,185 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportV42103Library UP-TO-DATE
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJava UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportSupportV42103Library
+:sample:prepareComGithubDmytrodanylykAndroidProcessButtonLibrary104Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:compileDebugJava
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:preDexDebug
+:sample:dexDebug
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:compileReleaseJava
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:preDexRelease
+:sample:dexRelease
+:sample:packageRelease
+:sample:zipalignRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.096 secs
+
+2018-05-15 04:26:57,202 INFO  FullProcessService - Found APK file: /tmp/rdisk/367/src/android-process-button-master/sample/build/outputs/apk/release_1.0.4_11_15-05-2018.apk

@@ -1,0 +1,22 @@
+2018-04-09 21:53:37,078 INFO  DownloadService - Downloading "https://github.com/Imaginea/bot-bot/archive/master.zip", attempt 3
+2018-04-09 21:54:37,548 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 21:54:38,309 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 21:54:38,309 INFO  DownloadService - Downloading "https://github.com/Imaginea/bot-bot/archive/master.zip", attempt 3
+2018-04-09 21:55:39,540 DEBUG FullProcessService - Repository https://github.com/Imaginea/bot-bot available: true
+2018-04-09 21:55:39,540 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 21:55:39,540 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Imaginea/bot-bot, /tmp/rdisk/486/src]
+2018-04-09 21:55:43,033 INFO  SysUtils - 
+2018-04-09 21:55:43,040 INFO  GitService - Deleted "/tmp/rdisk/486/src/.git": true
+2018-04-09 21:55:43,047 INFO  FullProcessService - Size of directory with sources: 21 MB
+2018-04-09 21:55:43,047 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/486/src]
+2018-04-09 21:55:43,051 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/486/src/.git/
+
+2018-04-09 21:55:43,056 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 21:55:43,056 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 21:55:43,060 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 21:55:43,065 INFO  ProjectBuildService - All script(s): none
+2018-04-09 21:55:43,065 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 21:55:43,065 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 21:55:43,065 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 21:55:43,069 INFO  FullProcessService - Found existed APK file in the project: /tmp/rdisk/486/src/wordpress.apk
+2018-04-09 21:55:43,069 INFO  FullProcessService - Found APK file: /tmp/rdisk/486/src/wordpress.apk

@@ -1,0 +1,51 @@
+2018-05-16 17:46:22,402 INFO  DownloadService - Downloading "https://github.com/pardom-zz/ActiveAndroid/archive/master.zip", attempt 3
+2018-05-16 17:46:26,763 INFO  DownloadService - Downloaded https://github.com/pardom-zz/ActiveAndroid/archive/master.zip, attempt 3
+2018-05-16 17:46:26,763 INFO  DownloadService - Size of file "/tmp/rdisk/327/master.zip": 12 MB
+2018-05-16 17:46:26,763 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-16 17:46:26,764 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/327/master.zip: true
+2018-05-16 17:46:26,764 DEBUG ZipUtil - Extracting '/tmp/rdisk/327/master.zip' into '/tmp/rdisk/327/src'.
+2018-05-16 17:46:26,899 INFO  FullProcessService - Size of directory with sources: 18 MB
+2018-05-16 17:46:26,900 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/327/src]
+2018-05-16 17:46:26,904 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/327/src/.git/
+
+2018-05-16 17:46:26,907 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/327/src/ActiveAndroid-master/gradlew
+2018-05-16 17:46:26,909 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/327/src/ActiveAndroid-master/build.gradle
+2018-05-16 17:46:26,912 INFO  ProjectBuildService - All script(s): /tmp/rdisk/327/src/ActiveAndroid-master/gradle-mvn-push.gradle /tmp/rdisk/327/src/ActiveAndroid-master/build.gradle
+2018-05-16 17:46:26,912 INFO  ProjectBuildService - Remote scripts: none
+2018-05-16 17:46:26,912 INFO  ProjectFixService - Fixing project...
+2018-05-16 17:46:26,918 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/327/src/ActiveAndroid-master/local.properties
+2018-05-16 17:46:26,919 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.8-bin.zip
+2018-05-16 17:46:26,920 INFO  ProjectFixService - Build info for "/tmp/rdisk/327/src/ActiveAndroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:46:26,920 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/327/src/ActiveAndroid-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:46:26,920 INFO  ProjectFixService - Project was maybe fixed
+2018-05-16 17:46:26,920 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:46:26,921 INFO  SysUtils - Execute command: [/tmp/rdisk/327/src/ActiveAndroid-master/gradlew, -b, /tmp/rdisk/327/src/ActiveAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:46:32,536 INFO  ProjectTaskService - Detected possible tasks: 43
+2018-05-16 17:46:32,536 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-05-16 17:46:32,537 INFO  SysUtils - Execute command: [/tmp/rdisk/327/src/ActiveAndroid-master/gradlew, -b, /tmp/rdisk/327/src/ActiveAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-05-16 17:46:40,154 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:processResources UP-TO-DATE
+:classes
+:jar
+:javadocs/tmp/rdisk/327/src/ActiveAndroid-master/src/com/activeandroid/query/From.java:332: warning: no @return
+    public int count() {
+               ^
+
+1 warning
+:javadocsJar
+:sourcesJar
+:signArchives SKIPPED
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.176 secs
+
+2018-05-16 17:46:40,159 ERROR FullProcessService - Project build has not produced APK file
+2018-05-16 17:46:40,164 ERROR FullProcessService - Could not find generated or existed APK file

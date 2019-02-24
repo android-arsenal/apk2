@@ -1,0 +1,361 @@
+2018-04-10 10:53:59,870 INFO  DownloadService - Downloading "https://github.com/MohammadAG/Xposed-Tinted-Status-Bar/archive/master.zip", attempt 3
+2018-04-10 10:55:00,502 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 10:55:01,512 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 10:55:01,512 INFO  DownloadService - Downloading "https://github.com/MohammadAG/Xposed-Tinted-Status-Bar/archive/master.zip", attempt 3
+2018-04-10 10:56:02,883 DEBUG FullProcessService - Repository https://github.com/MohammadAG/Xposed-Tinted-Status-Bar available: true
+2018-04-10 10:56:02,883 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 10:56:02,883 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MohammadAG/Xposed-Tinted-Status-Bar, /tmp/rdisk/446/src]
+2018-04-10 10:56:09,377 INFO  SysUtils - 
+2018-04-10 10:56:09,382 INFO  GitService - Deleted "/tmp/rdisk/446/src/.git": true
+2018-04-10 10:56:09,386 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-10 10:56:09,386 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/446/src]
+2018-04-10 10:56:09,390 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/446/src/.git/
+
+2018-04-10 10:56:09,394 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/446/src/gradlew
+2018-04-10 10:56:09,397 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/446/src/build.gradle
+2018-04-10 10:56:09,400 INFO  ProjectBuildService - All script(s): /tmp/rdisk/446/src/build.gradle
+2018-04-10 10:56:09,400 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 10:56:09,400 INFO  ProjectFixService - Fixing project...
+2018-04-10 10:56:09,406 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/446/src/local.properties
+2018-04-10 10:56:09,407 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2018-04-10 10:56:09,407 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2018-04-10 10:56:09,408 INFO  ProjectFixService - Build info for "/tmp/rdisk/446/src/build.gradle": [buildToolsVersion=21.0.2,compileSdkVersion=21,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 10:56:09,408 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/446/src/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 10:56:09,409 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 10:56:09,409 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 10:56:09,409 INFO  SysUtils - Execute command: [/tmp/rdisk/446/src/gradlew, -b, /tmp/rdisk/446/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 10:56:20,170 INFO  ProjectTaskService - Detected possible tasks: 52
+2018-04-10 10:56:20,170 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 10:56:20,170 INFO  SysUtils - Execute command: [/tmp/rdisk/446/src/gradlew, -b, /tmp/rdisk/446/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 10:56:40,067 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild
+:compileDebugNdk
+:preDebugBuild
+:checkDebugManifest
+:preReleaseBuild
+:prepareComGithubCastorflexSmoothprogressbarLibrary040Library
+:prepareComGithubChrisbanesActionbarpulltorefreshLibrary099Library
+:prepareComLarswerkmanHoloColorPicker14Library
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:compileDebugJavaNote: /tmp/rdisk/446/src/src/com/mohammadag/colouredstatusbar/hooks/WindowDecorActionBarHooks.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:preDexDebug
+:dexDebug
+:processDebugJavaRes UP-TO-DATE
+:validateDebugSigning
+:packageDebug
+:zipalignDebug
+:assembleDebug
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:generateReleaseAssets UP-TO-DATE
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:compileReleaseJavaNote: /tmp/rdisk/446/src/src/com/mohammadag/colouredstatusbar/hooks/WindowDecorActionBarHooks.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:lintVitalRelease
+/tmp/rdisk/446/src/res/values/contributors.xml:20: Error: "contributor_0" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="contributor_0">
+                  ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:25: Error: "contributor_1" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="contributor_1">
+                  ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:30: Error: "contributor_2" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="contributor_2">
+                  ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:35: Error: "contributor_3" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="contributor_3">
+                  ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:40: Error: "contributor_4" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="contributor_4">
+                  ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:45: Error: "contributor_5" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="contributor_5">
+                  ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:52: Error: "library_1" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="library_1">
+                  ~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:57: Error: "library_2" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="library_2">
+                  ~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:64: Error: "designer_1" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="designer_1">
+                  ~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:71: Error: "translator_1" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_1">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:76: Error: "translator_2" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_2">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:81: Error: "translator_3" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_3">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:86: Error: "translator_5" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_5">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:91: Error: "translator_6" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_6">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:96: Error: "translator_7" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_7">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:101: Error: "translator_8" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_8">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/contributors.xml:106: Error: "translator_9" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="translator_9">
+                  ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/non_translatable.xml:12: Error: "overlay_values" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="overlay_values">
+                  ~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:9: Error: "loading_title" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="loading_title">Loading…</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:17: Error: "contributors" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="contributors">Contributors</string>
+            ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:18: Error: "contributors_summary" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="contributors_summary">See the helpful community behind Tinted Status Bar, thanks to everyone listed here!</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:19: Error: "coders" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="coders">Coders</string>
+            ~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:20: Error: "designers" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="designers">Designers</string>
+            ~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:21: Error: "libraries" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="libraries">Libraries</string>
+            ~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:22: Error: "translators" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="translators">Translators</string>
+            ~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:25: Error: "link_facebook" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_facebook">Add me on Facebook</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:26: Error: "link_twitter" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_twitter">Follow me on Twitter</string>
+            ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:27: Error: "link_google_plus" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_google_plus">Add me on Google+</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:28: Error: "link_github" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_github">Follow me on Github</string>
+            ~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:29: Error: "link_github_library" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_github_library">Fork it on Github</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:30: Error: "link_xda" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_xda">View XDA Developers profile</string>
+            ~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:31: Error: "link_youtube" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_youtube">Subscribe to my YouTube channel</string>
+            ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:32: Error: "link_linkedin" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_linkedin">Connect with me on LinkedIn</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:33: Error: "link_generic" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_generic">View my website</string>
+            ~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:34: Error: "link_generic_library" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="link_generic_library">View library website</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:38: Error: "action_search" is not translated in "de" (German), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="action_search">Search</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:67: Error: "advanced" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="advanced">Advanced</string>
+            ~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:68: Error: "action_bar" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="action_bar">Action Bar</string>
+            ~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:69: Error: "per_app_settings" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="per_app_settings">Per app settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:70: Error: "appearance" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="appearance">Appearance</string>
+            ~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:71: Error: "reverse_tint_actionbar_title" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="reverse_tint_actionbar_title">Reverse tint action bar</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:72: Error: "reverse_tint_actionbar_summary" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="reverse_tint_actionbar_summary">Set the status bar color to the action bar</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:75: Error: "per_app_tints_title" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="per_app_tints_title">Per app tints</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:76: Error: "per_app_tints_summary" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="per_app_tints_summary">Configure your status bar tint and Action Bar reverse tints here</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:79: Error: "max_hsv_title" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="max_hsv_title">Max HS[V] for black icons</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:80: Error: "max_hsv_summary" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="max_hsv_summary">Maximum HS[V] before auto-switching to black icons when action bar has no title text</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:81: Error: "current_hsv_value" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="current_hsv_value">Current value: %s</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:84: Error: "awesome_ab_color_picker_title" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="awesome_ab_color_picker_title">Notification color picker</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:85: Error: "awesome_ab_color_picker_summary" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="awesome_ab_color_picker_summary">Lets you dynamically set the color for the activity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:88: Error: "system_cf_mode_title" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="system_cf_mode_title">System icon ColorFilter mode</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:89: Error: "notification_cf_mode_title" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="notification_cf_mode_title">Notification icon ColorFilter mode</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:90: Error: "cf_mode" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="cf_mode">ColorFilter modes</string>
+            ~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:91: Error: "explain_cf_mode_text" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="explain_cf_mode_text">Explain the following settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:92: Error: "cf_mode_explanation" is not translated in "id" (Indonesian) [MissingTranslation]
+    <string name="cf_mode_explanation">Changing the ColorFilter mode allows you to have more control over how icon colors are changed, MULTIPLY may preserve colors of the original icon, while SRC_ATOP guarantees the color you selected to be set.</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:97: Error: "debug_mode_title" is not translated in "de" (German), "pt" (Portuguese) [MissingTranslation]
+    <string name="debug_mode_title">Debug mode</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:98: Error: "debug_mode_summary" is not translated in "de" (German), "pt" (Portuguese) [MissingTranslation]
+    <string name="debug_mode_summary">Enables logging to logcat and/or Xposed logs</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:99: Error: "react_lightsout_title" is not translated in "de" (German), "pt" (Portuguese) [MissingTranslation]
+    <string name="react_lightsout_title">React to lights out</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:100: Error: "react_lightsout_summary" is not translated in "de" (German), "pt" (Portuguese) [MissingTranslation]
+    <string name="react_lightsout_summary">Changes color of elements according to lights out mode</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:101: Error: "respect_kitkat_api_title" is not translated in "de" (German), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="respect_kitkat_api_title">Respect KitKat APIs</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:102: Error: "respect_kitkat_api_summary" is not translated in "de" (German), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="respect_kitkat_api_summary">Settings for apps that request translucency will be ignored</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:103: Error: "overlay_mode_title" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="overlay_mode_title">Overlay mode</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:104: Error: "overlay_mode_summary" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="overlay_mode_summary">Choose the type of overlay to be shown over the tinted color</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:105: Error: "semi_transparent_overlay_opacity_title" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="semi_transparent_overlay_opacity_title">Overlay opacity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:106: Error: "white_icon_tint_with_overlay_title" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="white_icon_tint_with_overlay_title">White icon tint with overlay</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:107: Error: "white_icon_tint_with_overlay_message" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="white_icon_tint_with_overlay_message">Force a white icon tint when using an overlay</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:110: Error: "default_settings_title" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="default_settings_title">Default settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:111: Error: "default_settings_summary" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="default_settings_summary">Defaults for some per app settings</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:136: Error: "notification_add_app" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="notification_add_app">Add app</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:137: Error: "notification_add_activity" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="notification_add_activity">Add activity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:138: Error: "apply_touch_color" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="apply_touch_color">Apply touch color</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:139: Error: "apply_general_color" is not translated in "de" (German), "id" (Indonesian), "ko" (Korean), "pt" (Portuguese) [MissingTranslation]
+    <string name="apply_general_color">Apply general color</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:142: Error: "overlay_entries" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string-array name="overlay_entries">
+                  ~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:149: Error: "download_description" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="download_description">Tinted Status Bar Plugin</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:150: Error: "title_activity_plugins" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="title_activity_plugins">Plugins</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:151: Error: "plugins_title" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="plugins_title">Download plugins</string>
+            ~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:152: Error: "plugins_summary" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="plugins_summary">Plugins extend the functionality of Tinted Status Bar in apps where it can\'t automatically detect tints</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:153: Error: "plugin_version" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="plugin_version">Version: %1$s (%2$d)</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:154: Error: "plugin_version_update" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="plugin_version_update">Update available: %1$s (%2$d)</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:155: Error: "open_xposed" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="open_xposed">Xposed Installer</string>
+            ~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:156: Error: "uninstall" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="uninstall">Uninstall</string>
+            ~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:157: Error: "legacy_gradient_mode_title" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="legacy_gradient_mode_title">Legacy gradient mode</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/rdisk/446/src/res/values/strings.xml:158: Error: "legacy_gradient_mode_summary" is not translated in "de" (German), "es" (Spanish), "id" (Indonesian), "it" (Italian), "ja" (Japanese), "ko" (Korean), "pl" (Polish), "pt" (Portuguese), "zh-rCN" (Chinese: China) [MissingTranslation]
+    <string name="legacy_gradient_mode_summary">Even when overlay is set to none, draw the gradient when 66000000 is used or when an app is made for KitKat</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MissingTranslation":
+   If an application has more than one locale, then all the strings declared
+   in one language should also be translated in all other languages.
+
+   If the string should not be translated, you can add the attribute
+   translatable="false" on the <string> element, or you can define all your
+   non-translatable strings in a resource file called donottranslate.xml. Or,
+   you can ignore the issue with a tools:ignore="MissingTranslation"
+   attribute.
+
+   By default this detector allows regions of a language to just provide a
+   subset of the strings and fall back to the standard language strings. You
+   can require all regions to provide a full translation by setting the
+   environment variable ANDROID_LINT_COMPLETE_REGIONS.
+
+   You can tell lint (and other tools) which language is the default language
+   in your res/values/ folder by specifying tools:locale="languageCode" for
+   the root <resources> element in your resource file. (The tools prefix
+   refers to the namespace declaration http://schemas.android.com/tools.)
+
+82 errors, 0 warnings
+Wrote HTML report to file:/tmp/rdisk/446/src/build/outputs/lint-results-release-fatal.html
+Wrote XML report to /tmp/rdisk/446/src/build/outputs/lint-results-release-fatal.xml
+:compileReleaseNdk
+:preDexRelease
+:dexRelease
+:processReleaseJavaRes UP-TO-DATE
+:packageRelease
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.44 secs
+
+2018-04-10 10:56:40,088 INFO  FullProcessService - Found APK file: /tmp/rdisk/446/src/build/outputs/apk/src-release-unsigned.apk

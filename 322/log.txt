@@ -1,0 +1,106 @@
+2016-07-13 03:23:12,939 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/mockito/mockito/archive/master.zip", attempt 3
+2016-07-13 03:23:16,119 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/mockito/mockito/archive/master.zip, attempt 3
+2016-07-13 03:23:17,560 DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src'.
+2016-07-13 03:23:18,112 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 2 MB
+2016-07-13 03:23:18,265 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradlew
+2016-07-13 03:23:18,350 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/buildSrc/build.gradle
+2016-07-13 03:23:18,408 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/buildSrc/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/coverage.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/gradle-fix.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/ide.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/javadoc.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/osgi.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/pom.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/publish.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/release.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradle/version.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/settings.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/subprojects/extTest/extTest.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/subprojects/testng/testng.gradle
+2016-07-13 03:23:18,426 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-07-13 03:23:18,428 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-07-13 03:23:18,600 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-07-13 03:23:18,600 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-07-13 03:23:18,605 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-13 03:23:18,607 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-13 03:23:18,612 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-07-13 03:23:18,613 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-07-13 03:23:18,615 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/local.properties
+2016-07-13 03:23:18,626 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: true (https://services.gradle.org/distributions/gradle-2.11-all.zip)
+2016-07-13 03:23:18,628 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.11-bin.zip)
+2016-07-13 03:23:18,689 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-13 03:23:18,703 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-13 03:23:18,707 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/buildSrc/local.properties
+2016-07-13 03:23:18,732 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-13 03:23:18,733 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/buildSrc/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-13 03:23:18,734 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-07-13 03:23:18,741 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-13 03:23:18,745 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/build.gradle, tasks]
+2016-07-13 03:24:00,643 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 85
+2016-07-13 03:24:00,644 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: javadoc test check
+2016-07-13 03:24:00,644 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/build.gradle, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2016-07-13 03:24:29,407 INFO  c.g.v.a.s.a.ProjectBuildService - :buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+Version: 2.0.87-beta
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:mockitoJavadoc
+:javadocJar
+:sourcesJar
+:assemble
+:build
+:extTest:compileJava UP-TO-DATE
+:extTest:processResources UP-TO-DATE
+:extTest:classes UP-TO-DATE
+:extTest:jar
+:extTest:assemble
+:extTest:build
+:testng:compileJava
+:testng:processResources UP-TO-DATE
+:testng:classes
+:testng:jar
+:testng:sourcesJar
+:testng:assemble
+:testng:build
+
+BUILD SUCCESSFUL
+
+Total time: 28.15 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+
+2016-07-13 03:24:29,495 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-13 03:24:29,495 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/buildSrc/build.gradle, tasks]
+2016-07-13 03:24:38,929 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 61
+2016-07-13 03:24:38,929 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-07-13 03:24:38,929 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468358592096-0/src/mockito-master/buildSrc/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-07-13 03:24:49,483 INFO  c.g.v.a.s.a.ProjectBuildService - :buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:assemble UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.033 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+
+2016-07-13 03:24:49,572 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-13 03:24:49,685 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

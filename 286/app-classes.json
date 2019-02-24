@@ -1,0 +1,4 @@
+{
+  "com.commonsware.cwac.anddown" : [ "AndDown", "BuildConfig", "R" ],
+  "com.commonsware.cwac.anddown.demo" : [ "AndDownDemoActivity", "BuildConfig", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$raw", "R$string" ]
+}

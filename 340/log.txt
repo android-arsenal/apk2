@@ -1,0 +1,219 @@
+2018-04-10 18:11:57,305 INFO  DownloadService - Downloading "https://github.com/nirhart/ParallaxScroll/archive/master.zip", attempt 3
+2018-04-10 18:11:59,233 INFO  DownloadService - Downloaded https://github.com/nirhart/ParallaxScroll/archive/master.zip, attempt 3
+2018-04-10 18:11:59,233 INFO  DownloadService - Size of file "/tmp/rdisk/340/master.zip": 639 KB
+2018-04-10 18:11:59,233 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:11:59,234 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/340/master.zip: true
+2018-04-10 18:11:59,234 DEBUG ZipUtil - Extracting '/tmp/rdisk/340/master.zip' into '/tmp/rdisk/340/src'.
+2018-04-10 18:11:59,248 INFO  FullProcessService - Size of directory with sources: 747 KB
+2018-04-10 18:11:59,248 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/340/src]
+2018-04-10 18:11:59,256 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/340/src/.git/
+
+2018-04-10 18:11:59,259 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/340/src/ParallaxScroll-master/gradlew
+2018-04-10 18:11:59,261 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScroll/build.gradle /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScrollExample/build.gradle /tmp/rdisk/340/src/ParallaxScroll-master/build.gradle
+2018-04-10 18:11:59,264 INFO  ProjectBuildService - All script(s): /tmp/rdisk/340/src/ParallaxScroll-master/settings.gradle /tmp/rdisk/340/src/ParallaxScroll-master/build.gradle /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScrollExample/build.gradle /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScroll/build.gradle
+2018-04-10 18:11:59,264 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:11:59,264 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:11:59,269 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScroll/local.properties
+2018-04-10 18:11:59,270 INFO  ProjectFixService - Build info for "/tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScroll/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-04-10 18:11:59,271 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScrollExample/local.properties
+2018-04-10 18:11:59,271 INFO  ProjectFixService - Build info for "/tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScrollExample/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-04-10 18:11:59,271 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/340/src/ParallaxScroll-master/local.properties
+2018-04-10 18:11:59,272 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-10 18:11:59,272 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-10 18:11:59,273 INFO  ProjectFixService - Build info for "/tmp/rdisk/340/src/ParallaxScroll-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=25]
+2018-04-10 18:11:59,273 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:11:59,273 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:11:59,274 INFO  SysUtils - Execute command: [/tmp/rdisk/340/src/ParallaxScroll-master/gradlew, -b, /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:12:06,790 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-04-10 18:12:06,790 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-10 18:12:06,791 INFO  SysUtils - Execute command: [/tmp/rdisk/340/src/ParallaxScroll-master/gradlew, -b, /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-10 18:12:15,612 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ParallaxScroll:preBuild UP-TO-DATE
+:ParallaxScroll:preDebugBuild UP-TO-DATE
+:ParallaxScroll:checkDebugManifest
+:ParallaxScroll:prepareDebugDependencies
+:ParallaxScroll:compileDebugAidl
+:ParallaxScroll:compileDebugNdk UP-TO-DATE
+:ParallaxScroll:compileLint
+:ParallaxScroll:copyDebugLint UP-TO-DATE
+:ParallaxScroll:mergeDebugShaders
+:ParallaxScroll:compileDebugShaders
+:ParallaxScroll:generateDebugAssets
+:ParallaxScroll:mergeDebugAssets
+:ParallaxScroll:mergeDebugProguardFiles
+:ParallaxScroll:packageDebugRenderscript UP-TO-DATE
+:ParallaxScroll:compileDebugRenderscript
+:ParallaxScroll:generateDebugResValues
+:ParallaxScroll:generateDebugResources
+:ParallaxScroll:packageDebugResources
+:ParallaxScroll:processDebugManifest
+:ParallaxScroll:generateDebugBuildConfig
+:ParallaxScroll:processDebugResources
+:ParallaxScroll:generateDebugSources
+:ParallaxScroll:incrementalDebugJavaCompilationSafeguard
+:ParallaxScroll:javaPreCompileDebug
+:ParallaxScroll:compileDebugJavaWithJavac
+:ParallaxScroll:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ParallaxScroll:processDebugJavaRes UP-TO-DATE
+:ParallaxScroll:transformResourcesWithMergeJavaResForDebug
+:ParallaxScroll:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ParallaxScroll:mergeDebugJniLibFolders
+:ParallaxScroll:transformNativeLibsWithMergeJniLibsForDebug
+:ParallaxScroll:transformNativeLibsWithStripDebugSymbolForDebug
+:ParallaxScroll:transformNativeLibsWithSyncJniLibsForDebug
+:ParallaxScroll:bundleDebug
+:ParallaxScroll:compileDebugSources
+:ParallaxScroll:assembleDebug
+:ParallaxScroll:preReleaseBuild UP-TO-DATE
+:ParallaxScroll:checkReleaseManifest
+:ParallaxScroll:prepareReleaseDependencies
+:ParallaxScroll:compileReleaseAidl
+:ParallaxScroll:compileReleaseNdk UP-TO-DATE
+:ParallaxScroll:copyReleaseLint UP-TO-DATE
+:ParallaxScroll:mergeReleaseShaders
+:ParallaxScroll:compileReleaseShaders
+:ParallaxScroll:generateReleaseAssets
+:ParallaxScroll:mergeReleaseAssets
+:ParallaxScroll:mergeReleaseProguardFiles
+:ParallaxScroll:packageReleaseRenderscript UP-TO-DATE
+:ParallaxScroll:compileReleaseRenderscript
+:ParallaxScroll:generateReleaseResValues
+:ParallaxScroll:generateReleaseResources
+:ParallaxScroll:packageReleaseResources
+:ParallaxScroll:processReleaseManifest
+:ParallaxScroll:generateReleaseBuildConfig
+:ParallaxScroll:processReleaseResources
+:ParallaxScroll:generateReleaseSources
+:ParallaxScroll:incrementalReleaseJavaCompilationSafeguard
+:ParallaxScroll:javaPreCompileRelease
+:ParallaxScroll:compileReleaseJavaWithJavac
+:ParallaxScroll:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ParallaxScroll:processReleaseJavaRes UP-TO-DATE
+:ParallaxScroll:transformResourcesWithMergeJavaResForRelease
+:ParallaxScroll:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ParallaxScroll:mergeReleaseJniLibFolders
+:ParallaxScroll:transformNativeLibsWithMergeJniLibsForRelease
+:ParallaxScroll:transformNativeLibsWithStripDebugSymbolForRelease
+:ParallaxScroll:transformNativeLibsWithSyncJniLibsForRelease
+:ParallaxScroll:bundleRelease
+:ParallaxScroll:compileReleaseSources
+:ParallaxScroll:assembleRelease
+:ParallaxScroll:assemble
+:ParallaxScroll:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.385 secs
+
+2018-04-10 18:12:15,622 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:12:15,622 INFO  SysUtils - Execute command: [/tmp/rdisk/340/src/ParallaxScroll-master/gradlew, -b, /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScrollExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:12:23,055 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-10 18:12:23,055 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:12:23,056 INFO  SysUtils - Execute command: [/tmp/rdisk/340/src/ParallaxScroll-master/gradlew, -b, /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScrollExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:12:37,611 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ParallaxScroll:preBuild UP-TO-DATE
+:ParallaxScroll:preReleaseBuild UP-TO-DATE
+:ParallaxScroll:checkReleaseManifest
+:ParallaxScroll:prepareReleaseDependencies
+:ParallaxScroll:compileReleaseAidl UP-TO-DATE
+:ParallaxScroll:compileReleaseNdk UP-TO-DATE
+:ParallaxScroll:compileLint UP-TO-DATE
+:ParallaxScroll:copyReleaseLint UP-TO-DATE
+:ParallaxScroll:mergeReleaseShaders UP-TO-DATE
+:ParallaxScroll:compileReleaseShaders UP-TO-DATE
+:ParallaxScroll:generateReleaseAssets UP-TO-DATE
+:ParallaxScroll:mergeReleaseAssets UP-TO-DATE
+:ParallaxScroll:mergeReleaseProguardFiles UP-TO-DATE
+:ParallaxScroll:packageReleaseRenderscript UP-TO-DATE
+:ParallaxScroll:compileReleaseRenderscript UP-TO-DATE
+:ParallaxScroll:generateReleaseResValues UP-TO-DATE
+:ParallaxScroll:generateReleaseResources UP-TO-DATE
+:ParallaxScroll:packageReleaseResources UP-TO-DATE
+:ParallaxScroll:processReleaseManifest UP-TO-DATE
+:ParallaxScroll:generateReleaseBuildConfig UP-TO-DATE
+:ParallaxScroll:processReleaseResources UP-TO-DATE
+:ParallaxScroll:generateReleaseSources UP-TO-DATE
+:ParallaxScroll:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ParallaxScroll:javaPreCompileRelease
+:ParallaxScroll:compileReleaseJavaWithJavac UP-TO-DATE
+:ParallaxScroll:processReleaseJavaRes UP-TO-DATE
+:ParallaxScroll:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ParallaxScroll:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ParallaxScroll:mergeReleaseJniLibFolders UP-TO-DATE
+:ParallaxScroll:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:ParallaxScroll:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:ParallaxScroll:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:ParallaxScroll:bundleRelease UP-TO-DATE
+:ParallaxScrollExample:preBuild UP-TO-DATE
+:ParallaxScrollExample:preDebugBuild UP-TO-DATE
+:ParallaxScrollExample:checkDebugManifest
+:ParallaxScrollExample:prepareDebugDependencies
+:ParallaxScrollExample:compileDebugAidl
+:ParallaxScrollExample:compileDebugRenderscript
+:ParallaxScrollExample:generateDebugBuildConfig
+:ParallaxScrollExample:generateDebugResValues
+:ParallaxScrollExample:generateDebugResources
+:ParallaxScrollExample:mergeDebugResources
+:ParallaxScrollExample:processDebugManifest
+:ParallaxScrollExample:processDebugResources
+:ParallaxScrollExample:generateDebugSources
+:ParallaxScrollExample:incrementalDebugJavaCompilationSafeguard
+:ParallaxScrollExample:javaPreCompileDebug
+:ParallaxScrollExample:compileDebugJavaWithJavac
+:ParallaxScrollExample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ParallaxScrollExample:compileDebugNdk UP-TO-DATE
+:ParallaxScrollExample:compileDebugSources
+:ParallaxScrollExample:mergeDebugShaders
+:ParallaxScrollExample:compileDebugShaders
+:ParallaxScrollExample:generateDebugAssets
+:ParallaxScrollExample:mergeDebugAssets
+:ParallaxScrollExample:transformClassesWithDexForDebug
+:ParallaxScrollExample:mergeDebugJniLibFolders
+:ParallaxScrollExample:transformNativeLibsWithMergeJniLibsForDebug
+:ParallaxScrollExample:transformNativeLibsWithStripDebugSymbolForDebug
+:ParallaxScrollExample:processDebugJavaRes UP-TO-DATE
+:ParallaxScrollExample:transformResourcesWithMergeJavaResForDebug
+:ParallaxScrollExample:validateSigningDebug
+:ParallaxScrollExample:packageDebug
+:ParallaxScrollExample:assembleDebug
+:ParallaxScrollExample:preReleaseBuild UP-TO-DATE
+:ParallaxScrollExample:checkReleaseManifest
+:ParallaxScrollExample:prepareReleaseDependencies
+:ParallaxScrollExample:compileReleaseAidl
+:ParallaxScrollExample:compileReleaseRenderscript
+:ParallaxScrollExample:generateReleaseBuildConfig
+:ParallaxScrollExample:generateReleaseResValues
+:ParallaxScrollExample:generateReleaseResources
+:ParallaxScrollExample:mergeReleaseResources
+:ParallaxScrollExample:processReleaseManifest
+:ParallaxScrollExample:processReleaseResources
+:ParallaxScrollExample:generateReleaseSources
+:ParallaxScrollExample:incrementalReleaseJavaCompilationSafeguard
+:ParallaxScrollExample:javaPreCompileRelease
+:ParallaxScrollExample:compileReleaseJavaWithJavac
+:ParallaxScrollExample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ParallaxScrollExample:compileReleaseNdk UP-TO-DATE
+:ParallaxScrollExample:compileReleaseSources
+:ParallaxScrollExample:lintVitalRelease
+:ParallaxScrollExample:mergeReleaseShaders
+:ParallaxScrollExample:compileReleaseShaders
+:ParallaxScrollExample:generateReleaseAssets
+:ParallaxScrollExample:mergeReleaseAssets
+:ParallaxScrollExample:transformClassesWithDexForRelease
+:ParallaxScrollExample:mergeReleaseJniLibFolders
+:ParallaxScrollExample:transformNativeLibsWithMergeJniLibsForRelease
+:ParallaxScrollExample:transformNativeLibsWithStripDebugSymbolForRelease
+:ParallaxScrollExample:processReleaseJavaRes UP-TO-DATE
+:ParallaxScrollExample:transformResourcesWithMergeJavaResForRelease
+:ParallaxScrollExample:packageRelease
+:ParallaxScrollExample:assembleRelease
+:ParallaxScrollExample:assemble
+:ParallaxScrollExample:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.315 secs
+
+2018-04-10 18:12:37,629 INFO  FullProcessService - Found APK file: /tmp/rdisk/340/src/ParallaxScroll-master/ParallaxScrollExample/build/outputs/apk/ParallaxScrollExample-release-unsigned.apk

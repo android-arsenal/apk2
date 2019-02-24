@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "edu.vanderbilt.demoapp.test",
+    "label" : "Intents",
+    "icon" : null,
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 2633,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"edu.vanderbilt.demoapp.test\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"26\" />\n\t<instrumentation android:label=\"Tests for edu.vanderbilt.demoapp\" android:name=\"android.support.test.runner.AndroidJUnitRunner\" android:targetPackage=\"edu.vanderbilt.demoapp\" android:handleProfiling=\"false\" android:functionalTest=\"false\" />\n\t<application android:label=\"Intents\">\n\t\t<uses-library android:name=\"android.test.runner\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1195086,
+  "crc32" : 3079005731,
+  "sha256" : "c15d12eed3272a5352811bc9adf008eb8a4f51dff1f94d35641696d573363b51",
+  "buildTime" : 1526492675000
+}

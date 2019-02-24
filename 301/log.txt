@@ -1,0 +1,21 @@
+2018-01-03 18:53:06,931 INFO  DownloadService - Downloading "https://github.com/bytedeco/javacv/archive/master.zip", attempt 3
+2018-01-03 18:54:07,359 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-01-03 18:54:08,025 INFO  GithubDownloadService - Default branch of this repository: master
+2018-01-03 18:54:08,025 INFO  DownloadService - Downloading "https://github.com/bytedeco/javacv/archive/master.zip", attempt 3
+2018-01-03 18:55:09,333 DEBUG FullProcessService - Repository https://github.com/bytedeco/javacv available: true
+2018-01-03 18:55:09,333 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-01-03 18:55:09,333 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/bytedeco/javacv, /tmp/1515005586929-0/src]
+2018-01-03 18:55:11,358 INFO  SysUtils - 
+2018-01-03 18:55:11,363 INFO  GitService - Deleted "/tmp/1515005586929-0/src/.git": true
+2018-01-03 18:55:11,366 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-01-03 18:55:11,366 INFO  SysUtils - Execute command: [git, init, /tmp/1515005586929-0/src]
+2018-01-03 18:55:11,378 INFO  SysUtils - Initialized empty Git repository in /tmp/1515005586929-0/src/.git/
+
+2018-01-03 18:55:11,379 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-01-03 18:55:11,379 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-01-03 18:55:11,381 INFO  ProjectBuildService - Build script(s): none
+2018-01-03 18:55:11,383 INFO  ProjectBuildService - All script(s): none
+2018-01-03 18:55:11,383 INFO  ProjectBuildService - Remote scripts: none
+2018-01-03 18:55:11,383 ERROR FullProcessService - Project is not correct Gradle project
+2018-01-03 18:55:11,383 ERROR FullProcessService - Project build has not produced APK file
+2018-01-03 18:55:11,385 ERROR FullProcessService - Could not find generated or existed APK file

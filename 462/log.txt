@@ -1,0 +1,21 @@
+2018-04-09 22:35:06,943 INFO  DownloadService - Downloading "https://github.com/tomj74/chunk-templates/archive/master.zip", attempt 3
+2018-04-09 22:36:07,419 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 22:36:08,112 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 22:36:08,112 INFO  DownloadService - Downloading "https://github.com/tomj74/chunk-templates/archive/master.zip", attempt 3
+2018-04-09 22:37:09,479 DEBUG FullProcessService - Repository https://github.com/tomj74/chunk-templates available: true
+2018-04-09 22:37:09,479 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 22:37:09,479 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tomj74/chunk-templates, /tmp/rdisk/462/src]
+2018-04-09 22:37:11,192 INFO  SysUtils - 
+2018-04-09 22:37:11,197 INFO  GitService - Deleted "/tmp/rdisk/462/src/.git": true
+2018-04-09 22:37:11,200 INFO  FullProcessService - Size of directory with sources: 715 KB
+2018-04-09 22:37:11,200 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/462/src]
+2018-04-09 22:37:11,205 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/462/src/.git/
+
+2018-04-09 22:37:11,208 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 22:37:11,208 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 22:37:11,211 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 22:37:11,213 INFO  ProjectBuildService - All script(s): none
+2018-04-09 22:37:11,213 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 22:37:11,213 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 22:37:11,213 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 22:37:11,216 ERROR FullProcessService - Could not find generated or existed APK file

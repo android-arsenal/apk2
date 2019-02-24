@@ -1,0 +1,21 @@
+2018-04-10 11:36:19,353 INFO  DownloadService - Downloading "https://github.com/square/seismic/archive/master.zip", attempt 3
+2018-04-10 11:37:19,971 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 11:37:20,619 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 11:37:20,619 INFO  DownloadService - Downloading "https://github.com/square/seismic/archive/master.zip", attempt 3
+2018-04-10 11:38:21,849 DEBUG FullProcessService - Repository https://github.com/square/seismic available: true
+2018-04-10 11:38:21,849 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 11:38:21,849 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/square/seismic, /tmp/rdisk/417/src]
+2018-04-10 11:38:23,155 INFO  SysUtils - 
+2018-04-10 11:38:23,163 INFO  GitService - Deleted "/tmp/rdisk/417/src/.git": true
+2018-04-10 11:38:23,165 INFO  FullProcessService - Size of directory with sources: 37 KB
+2018-04-10 11:38:23,165 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/417/src]
+2018-04-10 11:38:23,170 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/417/src/.git/
+
+2018-04-10 11:38:23,172 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 11:38:23,172 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 11:38:23,173 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 11:38:23,175 INFO  ProjectBuildService - All script(s): none
+2018-04-10 11:38:23,175 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 11:38:23,175 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 11:38:23,175 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 11:38:23,176 ERROR FullProcessService - Could not find generated or existed APK file

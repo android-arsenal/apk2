@@ -1,0 +1,279 @@
+2018-04-10 18:44:02,177 INFO  DownloadService - Downloading "https://github.com/nhaarman/ListViewAnimations/archive/master.zip", attempt 3
+2018-04-10 18:44:04,534 INFO  DownloadService - Downloaded https://github.com/nhaarman/ListViewAnimations/archive/master.zip, attempt 3
+2018-04-10 18:44:04,534 INFO  DownloadService - Size of file "/tmp/rdisk/250/master.zip": 3 MB
+2018-04-10 18:44:04,534 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:44:04,535 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/250/master.zip: true
+2018-04-10 18:44:04,535 DEBUG ZipUtil - Extracting '/tmp/rdisk/250/master.zip' into '/tmp/rdisk/250/src'.
+2018-04-10 18:44:04,592 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-04-10 18:44:04,592 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/250/src]
+2018-04-10 18:44:04,598 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/250/src/.git/
+
+2018-04-10 18:44:04,604 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/250/src/ListViewAnimations-master/gradlew
+2018-04-10 18:44:04,610 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/250/src/ListViewAnimations-master/example/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/lib-core-slh/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/lib-core/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/lib-manipulation/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/build.gradle
+2018-04-10 18:44:04,615 INFO  ProjectBuildService - All script(s): /tmp/rdisk/250/src/ListViewAnimations-master/settings.gradle /tmp/rdisk/250/src/ListViewAnimations-master/pushMaven.gradle /tmp/rdisk/250/src/ListViewAnimations-master/publishGhPages.gradle /tmp/rdisk/250/src/ListViewAnimations-master/lib-manipulation/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/lib-core/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/lib-core-slh/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/generateJavadoc.gradle /tmp/rdisk/250/src/ListViewAnimations-master/example/build.gradle /tmp/rdisk/250/src/ListViewAnimations-master/build.gradle
+2018-04-10 18:44:04,616 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:44:04,616 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:44:04,632 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/250/src/ListViewAnimations-master/example/local.properties
+2018-04-10 18:44:04,633 INFO  ProjectFixService - Build info for "/tmp/rdisk/250/src/ListViewAnimations-master/example/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=14,targetSdkVersion=20]
+2018-04-10 18:44:04,633 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/250/src/ListViewAnimations-master/lib-core-slh/local.properties
+2018-04-10 18:44:04,634 INFO  ProjectFixService - Build info for "/tmp/rdisk/250/src/ListViewAnimations-master/lib-core-slh/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=8,targetSdkVersion=20]
+2018-04-10 18:44:04,634 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/250/src/ListViewAnimations-master/lib-core/local.properties
+2018-04-10 18:44:04,634 INFO  ProjectFixService - Build info for "/tmp/rdisk/250/src/ListViewAnimations-master/lib-core/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=8,targetSdkVersion=20]
+2018-04-10 18:44:04,634 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/250/src/ListViewAnimations-master/lib-manipulation/local.properties
+2018-04-10 18:44:04,635 INFO  ProjectFixService - Build info for "/tmp/rdisk/250/src/ListViewAnimations-master/lib-manipulation/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=8,targetSdkVersion=20]
+2018-04-10 18:44:04,635 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/250/src/ListViewAnimations-master/local.properties
+2018-04-10 18:44:04,635 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.12-all.zip
+2018-04-10 18:44:04,635 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.12-bin.zip)
+2018-04-10 18:44:04,638 INFO  ProjectFixService - Build info for "/tmp/rdisk/250/src/ListViewAnimations-master/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=20,minSdkVersion=8,targetSdkVersion=20]
+2018-04-10 18:44:04,638 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:44:04,638 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:44:04,638 INFO  SysUtils - Execute command: [/tmp/rdisk/250/src/ListViewAnimations-master/gradlew, -b, /tmp/rdisk/250/src/ListViewAnimations-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:44:15,174 INFO  ProjectTaskService - Detected possible tasks: 51
+2018-04-10 18:44:15,175 INFO  ProjectTaskService - Excluded tasks (12): lintDebug deviceCheck lint uninstallRelease installRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:44:15,175 INFO  SysUtils - Execute command: [/tmp/rdisk/250/src/ListViewAnimations-master/gradlew, -b, /tmp/rdisk/250/src/ListViewAnimations-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, installRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:44:40,940 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-10 18:44:40,940 INFO  SysUtils - Configuration on demand is an incubating feature.
+DEBUG BUILD 3.1.0-SNAPSHOT
+DEBUG BUILD 3.1.0-SNAPSHOT
+DEBUG BUILD 3.1.0-SNAPSHOT
+Relying on packaging to define the extension of the main artifact has been deprecated and is scheduled to be removed in Gradle 2.0
+:example:preBuild
+:example:compileDebugNdk
+:example:preDebugBuild
+:example:checkDebugManifest
+:example:preReleaseBuild
+:lib-core:compileLint
+:lib-core:copyReleaseLint UP-TO-DATE
+:lib-core:preBuild
+:lib-core:preReleaseBuild
+:lib-core:checkReleaseManifest
+:lib-core:prepareReleaseDependencies
+:lib-core:compileReleaseAidl
+:lib-core:compileReleaseRenderscript
+:lib-core:generateReleaseBuildConfig
+:lib-core:generateReleaseAssets UP-TO-DATE
+:lib-core:mergeReleaseAssets
+:lib-core:generateReleaseResValues
+:lib-core:generateReleaseResources
+:lib-core:packageReleaseResources
+:lib-core:processReleaseManifest
+:lib-core:processReleaseResources
+:lib-core:generateReleaseSources
+:lib-core:compileReleaseJavaNote: /tmp/rdisk/250/src/ListViewAnimations-master/lib-core/src/main/java/com/nhaarman/listviewanimations/BaseAdapterDecorator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:lib-core:extractReleaseAnnotations
+:lib-core:mergeReleaseProguardFiles
+:lib-core:processReleaseJavaRes UP-TO-DATE
+:lib-core:packageReleaseJar
+:lib-core:compileReleaseNdk
+:lib-core:packageReleaseJniLibs UP-TO-DATE
+:lib-core:packageReleaseLocalJar UP-TO-DATE
+:lib-core:packageReleaseRenderscript UP-TO-DATE
+:lib-core:bundleRelease
+:lib-core-slh:compileLint
+:lib-core-slh:copyReleaseLint UP-TO-DATE
+:lib-core-slh:preBuild
+:lib-core-slh:preReleaseBuild
+:lib-core-slh:checkReleaseManifest
+:lib-core-slh:preDebugBuild
+:lib-core-slh:preDebugTestBuild
+:lib-core-slh:prepareComNhaarmanListviewanimationsLibCore310SNAPSHOTLibrary
+:lib-core-slh:prepareSeEmilsjolanderStickylistheaders250Library
+:lib-core-slh:prepareReleaseDependencies
+:lib-core-slh:compileReleaseAidl
+:lib-core-slh:compileReleaseRenderscript
+:lib-core-slh:generateReleaseBuildConfig
+:lib-core-slh:generateReleaseAssets UP-TO-DATE
+:lib-core-slh:mergeReleaseAssets
+:lib-core-slh:generateReleaseResValues
+:lib-core-slh:generateReleaseResources
+:lib-core-slh:mergeReleaseResources
+:lib-core-slh:processReleaseManifest
+:lib-core-slh:processReleaseResources
+:lib-core-slh:generateReleaseSources
+:lib-core-slh:compileReleaseJava
+:lib-core-slh:extractReleaseAnnotations
+:lib-core-slh:mergeReleaseProguardFiles
+:lib-core-slh:processReleaseJavaRes UP-TO-DATE
+:lib-core-slh:packageReleaseJar
+:lib-core-slh:compileReleaseNdk
+:lib-core-slh:packageReleaseJniLibs UP-TO-DATE
+:lib-core-slh:packageReleaseLocalJar UP-TO-DATE
+:lib-core-slh:packageReleaseRenderscript UP-TO-DATE
+:lib-core-slh:packageReleaseResources
+:lib-core-slh:bundleRelease
+:lib-manipulation:compileLint
+:lib-manipulation:copyReleaseLint UP-TO-DATE
+:lib-manipulation:preBuild
+:lib-manipulation:preReleaseBuild
+:lib-manipulation:checkReleaseManifest
+:lib-manipulation:preDebugBuild
+:lib-manipulation:preDebugTestBuild
+:lib-manipulation:prepareComNhaarmanListviewanimationsLibCore310SNAPSHOTLibrary
+:lib-manipulation:prepareReleaseDependencies
+:lib-manipulation:compileReleaseAidl
+:lib-manipulation:compileReleaseRenderscript
+:lib-manipulation:generateReleaseBuildConfig
+:lib-manipulation:generateReleaseAssets UP-TO-DATE
+:lib-manipulation:mergeReleaseAssets
+:lib-manipulation:generateReleaseResValues
+:lib-manipulation:generateReleaseResources
+:lib-manipulation:mergeReleaseResources
+:lib-manipulation:processReleaseManifest
+:lib-manipulation:processReleaseResources
+:lib-manipulation:generateReleaseSources
+:lib-manipulation:compileReleaseJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:lib-manipulation:extractReleaseAnnotations
+Extracted 3 Annotations:
+    @IdRes: 2
+ @ColorRes: 1
+Annotations written to /tmp/rdisk/250/src/ListViewAnimations-master/lib-manipulation/build/intermediates/bundles/release/annotations.zip
+:lib-manipulation:mergeReleaseProguardFiles
+:lib-manipulation:processReleaseJavaRes UP-TO-DATE
+:lib-manipulation:packageReleaseJar
+:lib-manipulation:compileReleaseNdk
+:lib-manipulation:packageReleaseJniLibs UP-TO-DATE
+:lib-manipulation:packageReleaseLocalJar UP-TO-DATE
+:lib-manipulation:packageReleaseRenderscript UP-TO-DATE
+:lib-manipulation:packageReleaseResources
+:lib-manipulation:bundleRelease
+:example:prepareComAndroidSupportSupportV42000Library
+:example:prepareComNhaarmanListviewanimationsLibCore310SNAPSHOTLibrary
+:example:prepareComNhaarmanListviewanimationsLibCoreSlh310SNAPSHOTLibrary
+:example:prepareComNhaarmanListviewanimationsLibManipulation310SNAPSHOTLibrary
+:example:prepareSeEmilsjolanderStickylistheaders250Library
+:example:prepareDebugDependencies
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:generateDebugBuildConfig
+:example:generateDebugAssets UP-TO-DATE
+:example:mergeDebugAssets
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:compileDebugJava
+:example:preDexDebug
+:example:dexDebug
+:example:processDebugJavaRes UP-TO-DATE
+:example:validateDebugSigning
+:example:packageDebug
+:example:zipalignDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:generateReleaseBuildConfig
+:example:generateReleaseAssets UP-TO-DATE
+:example:mergeReleaseAssets
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:compileReleaseJava
+:example:lintVitalRelease
+:example:compileReleaseNdk
+:example:preDexRelease
+:example:dexRelease
+:example:processReleaseJavaRes UP-TO-DATE
+:example:validateReleaseSigning
+:example:packageRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem was found with the configuration of task ':example:packageRelease'.
+> File '/root/.android/nhaarman.keystore' specified for property 'signingConfig.storeFile' does not exist.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskValidationException: A problem was found with the configuration of task ':example:packageRelease'.
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:289)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:86)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:67)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:61)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:54)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:166)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Caused by: org.gradle.api.InvalidUserDataException: File '/root/.android/nhaarman.keystore' specified for property 'signingConfig.storeFile' does not exist.
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:47)
+	... 42 more
+
+
+BUILD FAILED
+
+Total time: 25.299 secs
+
+2018-04-10 18:44:40,964 INFO  FullProcessService - Found APK file: /tmp/rdisk/250/src/ListViewAnimations-master/example/build/outputs/apk/example-debug.apk

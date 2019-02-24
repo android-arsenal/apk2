@@ -1,0 +1,203 @@
+2018-05-15 05:21:07,126 INFO  DownloadService - Downloading "https://github.com/emilsjolander/StickyListHeaders/archive/master.zip", attempt 3
+2018-05-15 05:22:07,832 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-05-15 05:22:08,555 INFO  GithubDownloadService - Default branch of this repository: master
+2018-05-15 05:22:08,555 INFO  DownloadService - Downloading "https://github.com/emilsjolander/StickyListHeaders/archive/master.zip", attempt 3
+2018-05-15 05:23:09,928 DEBUG FullProcessService - Repository https://github.com/emilsjolander/StickyListHeaders available: true
+2018-05-15 05:23:09,928 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-05-15 05:23:09,928 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/emilsjolander/StickyListHeaders, /tmp/rdisk/266/src]
+2018-05-15 05:23:12,797 INFO  SysUtils - 
+2018-05-15 05:23:12,811 INFO  GitService - Deleted "/tmp/rdisk/266/src/.git": true
+2018-05-15 05:23:12,813 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-15 05:23:12,813 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/266/src]
+2018-05-15 05:23:12,818 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/266/src/.git/
+
+2018-05-15 05:23:12,821 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/266/src/gradlew
+2018-05-15 05:23:12,823 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/266/src/library/build.gradle /tmp/rdisk/266/src/sample/build.gradle /tmp/rdisk/266/src/build.gradle
+2018-05-15 05:23:12,825 INFO  ProjectBuildService - All script(s): /tmp/rdisk/266/src/settings.gradle /tmp/rdisk/266/src/sample/build.gradle /tmp/rdisk/266/src/library/gradle-mvn-push.gradle /tmp/rdisk/266/src/library/build.gradle /tmp/rdisk/266/src/build.gradle
+2018-05-15 05:23:12,825 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 05:23:12,825 INFO  ProjectFixService - Fixing project...
+2018-05-15 05:23:12,833 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/266/src/library/local.properties
+2018-05-15 05:23:12,833 INFO  ProjectFixService - Build info for "/tmp/rdisk/266/src/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=22]
+2018-05-15 05:23:12,834 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/266/src/sample/local.properties
+2018-05-15 05:23:12,834 INFO  ProjectFixService - Build info for "/tmp/rdisk/266/src/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=22]
+2018-05-15 05:23:12,834 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/266/src/local.properties
+2018-05-15 05:23:12,835 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-15 05:23:12,835 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-15 05:23:12,836 INFO  ProjectFixService - Build info for "/tmp/rdisk/266/src/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=7,targetSdkVersion=22]
+2018-05-15 05:23:12,836 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 05:23:12,836 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 05:23:12,836 INFO  SysUtils - Execute command: [/tmp/rdisk/266/src/gradlew, -b, /tmp/rdisk/266/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 05:23:27,748 INFO  ProjectTaskService - Detected possible tasks: 61
+2018-05-15 05:23:27,749 INFO  ProjectTaskService - Excluded tasks (14): lintDebug mockableAndroidJar deviceCheck lint uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug
+2018-05-15 05:23:27,749 INFO  SysUtils - Execute command: [/tmp/rdisk/266/src/gradlew, -b, /tmp/rdisk/266/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-05-15 05:23:38,062 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidJavadocs/tmp/rdisk/266/src/library/src/se/emilsjolander/stickylistheaders/StickyListHeadersListView.java:603: warning: no @return
+    public boolean getAreHeadersSticky() {
+                   ^
+
+1 warning
+:library:androidJavadocsJar
+:library:androidSourcesJar
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugProguardFiles
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:compileDebugJavaNote: /tmp/rdisk/266/src/library/src/se/emilsjolander/stickylistheaders/DistinctMultiHashMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processDebugJavaRes UP-TO-DATE
+:library:packageDebugJar
+:library:compileDebugNdk UP-TO-DATE
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:bundleDebug
+:library:assembleDebug
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaNote: /tmp/rdisk/266/src/library/src/se/emilsjolander/stickylistheaders/DistinctMultiHashMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:library:assembleRelease
+:library:signArchives SKIPPED
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.891 secs
+
+2018-05-15 05:23:38,070 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 05:23:38,070 INFO  SysUtils - Execute command: [/tmp/rdisk/266/src/gradlew, -b, /tmp/rdisk/266/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 05:23:44,543 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-05-15 05:23:44,544 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-05-15 05:23:44,544 INFO  SysUtils - Execute command: [/tmp/rdisk/266/src/gradlew, -b, /tmp/rdisk/266/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-05-15 05:24:07,744 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:compileDebugNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:compileReleaseJava UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAppcompatV72200Library
+:sample:prepareComAndroidSupportSupportV42200Library
+:sample:prepareSeEmilsjolanderLibrary270Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+AAPT warning(Job{title=Cruncher abc_spinner_mtrl_am_alpha.9.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/266/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/266/src/sample/res/drawable-hdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/266/src/sample/res/drawable-mdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJavaNote: /tmp/rdisk/266/src/sample/src/se/emilsjolander/stickylistheaders/sample/TestActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:zipalignDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseAssets UP-TO-DATE
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/266/src/sample/res/drawable-mdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/266/src/sample/res/drawable-hdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT warning(Job{title=Cruncher abc_spinner_mtrl_am_alpha.9.png, latch=BooleanLatch{signaled=false}, result=false}): /tmp/rdisk/266/src/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJavaNote: /tmp/rdisk/266/src/sample/src/se/emilsjolander/stickylistheaders/sample/TestActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:lintVitalRelease
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.754 secs
+
+2018-05-15 05:24:07,787 INFO  FullProcessService - Found APK file: /tmp/rdisk/266/src/sample/build/outputs/apk/sample-release-unsigned.apk

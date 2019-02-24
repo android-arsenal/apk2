@@ -1,0 +1,136 @@
+2018-04-10 18:40:06,925 INFO  DownloadService - Downloading "https://github.com/ribot/easy-adapter/archive/master.zip", attempt 3
+2018-04-10 18:40:06,926 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 18:40:07,329 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 18:40:07,329 INFO  DownloadService - Downloading "https://github.com/ribot/easy-adapter/archive/master.zip", attempt 3
+2018-04-10 18:40:09,235 INFO  DownloadService - Downloaded https://github.com/ribot/easy-adapter/archive/master.zip, attempt 3
+2018-04-10 18:40:09,236 INFO  DownloadService - Size of file "/tmp/rdisk/258/master.zip": 389 KB
+2018-04-10 18:40:09,236 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:40:09,236 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/258/master.zip: true
+2018-04-10 18:40:09,236 DEBUG ZipUtil - Extracting '/tmp/rdisk/258/master.zip' into '/tmp/rdisk/258/src'.
+2018-04-10 18:40:09,256 INFO  FullProcessService - Size of directory with sources: 477 KB
+2018-04-10 18:40:09,256 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/258/src]
+2018-04-10 18:40:09,261 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/258/src/.git/
+
+2018-04-10 18:40:09,265 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/258/src/easy-adapter-master/gradlew
+2018-04-10 18:40:09,268 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/258/src/easy-adapter-master/demo/build.gradle /tmp/rdisk/258/src/easy-adapter-master/library/build.gradle /tmp/rdisk/258/src/easy-adapter-master/build.gradle
+2018-04-10 18:40:09,271 INFO  ProjectBuildService - All script(s): /tmp/rdisk/258/src/easy-adapter-master/settings.gradle /tmp/rdisk/258/src/easy-adapter-master/library/publish.gradle /tmp/rdisk/258/src/easy-adapter-master/library/build.gradle /tmp/rdisk/258/src/easy-adapter-master/dependencies.gradle /tmp/rdisk/258/src/easy-adapter-master/demo/build.gradle /tmp/rdisk/258/src/easy-adapter-master/build.gradle
+2018-04-10 18:40:09,272 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:40:09,272 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:40:09,282 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/258/src/easy-adapter-master/demo/local.properties
+2018-04-10 18:40:09,284 INFO  ProjectFixService - Build info for "/tmp/rdisk/258/src/easy-adapter-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2018-04-10 18:40:09,285 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/258/src/easy-adapter-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-04-10 18:40:09,285 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/258/src/easy-adapter-master/library/local.properties
+2018-04-10 18:40:09,288 INFO  ProjectFixService - Build info for "/tmp/rdisk/258/src/easy-adapter-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=7,targetSdkVersion=<null>]
+2018-04-10 18:40:09,288 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/258/src/easy-adapter-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-04-10 18:40:09,288 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/258/src/easy-adapter-master/local.properties
+2018-04-10 18:40:09,289 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.6-all.zip
+2018-04-10 18:40:09,289 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.6-bin.zip)
+2018-04-10 18:40:09,292 INFO  ProjectFixService - Build info for "/tmp/rdisk/258/src/easy-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=7,targetSdkVersion=<null>]
+2018-04-10 18:40:09,292 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/258/src/easy-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-04-10 18:40:09,292 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:40:09,292 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:40:09,292 INFO  SysUtils - Execute command: [/tmp/rdisk/258/src/easy-adapter-master/gradlew, -b, /tmp/rdisk/258/src/easy-adapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:40:20,949 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-10 18:40:20,949 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:40:20,949 INFO  SysUtils - Execute command: [/tmp/rdisk/258/src/easy-adapter-master/gradlew, -b, /tmp/rdisk/258/src/easy-adapter-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:40:45,978 INFO  SysUtils - Configuration on demand is an incubating feature.
+Note: OOS Sonatype credentials not found in your local properties
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:checkDebugManifest
+:demo:preReleaseBuild UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportRecyclerviewV72301Library
+:library:prepareComAndroidSupportSupportV42301Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:bundleRelease
+:demo:prepareComAndroidSupportAppcompatV72301Library
+:demo:prepareComAndroidSupportRecyclerviewV72301Library
+:demo:prepareComAndroidSupportSupportV42301Library
+:demo:prepareUkCoRibotLibrary151SNAPSHOTLibrary
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugAssets UP-TO-DATE
+:demo:mergeDebugAssets
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:compileDebugJavaWithJavacNote: /tmp/rdisk/258/src/easy-adapter-master/demo/src/main/java/uk/co/ribot/easyadapterdemo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileDebugNdk UP-TO-DATE
+:demo:compileDebugSources
+:demo:preDexDebug
+:demo:dexDebug
+:demo:validateDebugSigning
+:demo:packageDebug
+:demo:zipalignDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseAssets UP-TO-DATE
+:demo:mergeReleaseAssets
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:compileReleaseJavaWithJavacNote: /tmp/rdisk/258/src/easy-adapter-master/demo/src/main/java/uk/co/ribot/easyadapterdemo/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileReleaseNdk UP-TO-DATE
+:demo:compileReleaseSources
+:demo:preDexRelease
+:demo:dexRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.574 secs
+
+2018-04-10 18:40:46,022 INFO  FullProcessService - Found APK file: /tmp/rdisk/258/src/easy-adapter-master/demo/build/outputs/apk/demo-release-unsigned.apk

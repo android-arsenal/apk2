@@ -1,0 +1,21 @@
+2018-04-10 11:04:05,409 INFO  DownloadService - Downloading "https://github.com/criedel/bitlyj/archive/master.zip", attempt 3
+2018-04-10 11:05:05,863 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 11:05:06,583 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 11:05:06,583 INFO  DownloadService - Downloading "https://github.com/criedel/bitlyj/archive/master.zip", attempt 3
+2018-04-10 11:06:07,732 DEBUG FullProcessService - Repository https://github.com/criedel/bitlyj available: true
+2018-04-10 11:06:07,732 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 11:06:07,732 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/criedel/bitlyj, /tmp/rdisk/432/src]
+2018-04-10 11:06:10,560 INFO  SysUtils - 
+2018-04-10 11:06:10,570 INFO  GitService - Deleted "/tmp/rdisk/432/src/.git": true
+2018-04-10 11:06:10,571 INFO  FullProcessService - Size of directory with sources: 45 KB
+2018-04-10 11:06:10,571 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/432/src]
+2018-04-10 11:06:10,576 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/432/src/.git/
+
+2018-04-10 11:06:10,577 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 11:06:10,577 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 11:06:10,580 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 11:06:10,581 INFO  ProjectBuildService - All script(s): none
+2018-04-10 11:06:10,581 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 11:06:10,581 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 11:06:10,581 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 11:06:10,582 ERROR FullProcessService - Could not find generated or existed APK file

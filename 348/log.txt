@@ -1,0 +1,10 @@
+2018-04-10 18:10:01,432 INFO  DownloadService - Downloading "https://github.com/jblough/Android-Pdf-Viewer-Library/archive/master.zip", attempt 3
+2018-04-10 18:10:02,400 INFO  DownloadService - Downloaded https://github.com/jblough/Android-Pdf-Viewer-Library/archive/master.zip, attempt 3
+2018-04-10 18:10:02,400 INFO  DownloadService - Size of file "/tmp/rdisk/348/master.zip": 3 MB
+2018-04-10 18:10:02,400 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:10:02,401 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/348/master.zip: false
+2018-04-10 18:10:02,401 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-04-10 18:10:02,401 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:10:02,401 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:10:02,401 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:10:02,401 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,137 @@
+2018-05-15 04:26:59,395 INFO  DownloadService - Downloading "https://github.com/satyan/sugar/archive/master.zip", attempt 3
+2018-05-15 04:26:59,985 INFO  DownloadService - Downloaded https://github.com/satyan/sugar/archive/master.zip, attempt 3
+2018-05-15 04:26:59,985 INFO  DownloadService - Size of file "/tmp/rdisk/337/master.zip": 174 KB
+2018-05-15 04:26:59,985 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:26:59,986 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/337/master.zip: true
+2018-05-15 04:26:59,986 DEBUG ZipUtil - Extracting '/tmp/rdisk/337/master.zip' into '/tmp/rdisk/337/src'.
+2018-05-15 04:27:00,007 INFO  FullProcessService - Size of directory with sources: 395 KB
+2018-05-15 04:27:00,007 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/337/src]
+2018-05-15 04:27:00,012 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/337/src/.git/
+
+2018-05-15 04:27:00,017 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/337/src/sugar-master/gradlew
+2018-05-15 04:27:00,021 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/337/src/sugar-master/example/build.gradle /tmp/rdisk/337/src/sugar-master/library/build.gradle /tmp/rdisk/337/src/sugar-master/build.gradle
+2018-05-15 04:27:00,025 INFO  ProjectBuildService - All script(s): /tmp/rdisk/337/src/sugar-master/settings.gradle /tmp/rdisk/337/src/sugar-master/maven_push.gradle /tmp/rdisk/337/src/sugar-master/library/build.gradle /tmp/rdisk/337/src/sugar-master/example/build.gradle /tmp/rdisk/337/src/sugar-master/build.gradle
+2018-05-15 04:27:00,025 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:27:00,025 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:27:00,035 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/337/src/sugar-master/example/local.properties
+2018-05-15 04:27:00,036 INFO  ProjectFixService - Build info for "/tmp/rdisk/337/src/sugar-master/example/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-15 04:27:00,036 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/337/src/sugar-master/library/local.properties
+2018-05-15 04:27:00,037 INFO  ProjectFixService - Build info for "/tmp/rdisk/337/src/sugar-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-15 04:27:00,040 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/337/src/sugar-master/local.properties
+2018-05-15 04:27:00,041 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-05-15 04:27:00,041 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-05-15 04:27:00,044 INFO  ProjectFixService - Build info for "/tmp/rdisk/337/src/sugar-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-15 04:27:00,044 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:27:00,044 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:27:00,044 INFO  SysUtils - Execute command: [/tmp/rdisk/337/src/sugar-master/gradlew, -b, /tmp/rdisk/337/src/sugar-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:27:10,410 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-05-15 04:27:10,410 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:27:10,410 INFO  SysUtils - Execute command: [/tmp/rdisk/337/src/sugar-master/gradlew, -b, /tmp/rdisk/337/src/sugar-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 04:27:38,519 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+Incremental java compilation is an incubating feature.
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild UP-TO-DATE
+:example:checkDebugManifest
+:example:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:compileReleaseAidl
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavac/tmp/rdisk/337/src/sugar-master/library/src/main/java/com/orm/SugarRecord.java:285: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+        return sum(type, field, null, null);
+                                      ^
+  cast to String for a varargs call
+  cast to String[] for a non-varargs call and to suppress this warning
+Note: /tmp/rdisk/337/src/sugar-master/library/src/main/java/com/orm/helper/MultiDexHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:example:prepareComAndroidSupportAnimatedVectorDrawable2330Library
+:example:prepareComAndroidSupportAppcompatV72330Library
+:example:prepareComAndroidSupportSupportV42330Library
+:example:prepareComAndroidSupportSupportVectorDrawable2330Library
+:example:prepareComGithubSatyanLibrary071201405082137Library
+:example:prepareDebugDependencies
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:generateDebugBuildConfig
+:example:generateDebugAssets UP-TO-DATE
+:example:mergeDebugAssets
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:compileDebugJavaWithJavac
+:example:compileDebugNdk UP-TO-DATE
+:example:compileDebugSources
+:example:prePackageMarkerForDebug
+:example:transformClassesWithDexForDebug
+:example:mergeDebugJniLibFolders
+:example:transformNative_libsWithMergeJniLibsForDebug
+:example:processDebugJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateDebugSigning
+:example:packageDebug
+:example:zipalignDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:generateReleaseBuildConfig
+:example:generateReleaseAssets UP-TO-DATE
+:example:mergeReleaseAssets
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk UP-TO-DATE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:prePackageMarkerForRelease
+:example:transformClassesWithDexForRelease
+:example:mergeReleaseJniLibFolders
+:example:transformNative_libsWithMergeJniLibsForRelease
+:example:processReleaseJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL
+
+Total time: 27.652 secs
+
+2018-05-15 04:27:38,566 INFO  FullProcessService - Found APK file: /tmp/rdisk/337/src/sugar-master/example/build/outputs/apk/example-release-unsigned.apk

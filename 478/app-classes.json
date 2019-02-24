@@ -1,0 +1,4 @@
+{
+  "com.romainpiel.shimmer" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$styleable", "Shimmer", "Shimmer$1", "Shimmer$1$1", "Shimmer$2", "ShimmerButton", "ShimmerTextView", "ShimmerViewBase", "ShimmerViewHelper", "ShimmerViewHelper$AnimationSetupCallback" ],
+  "com.romainpiel.shimmer.sample" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "R$styleable" ]
+}

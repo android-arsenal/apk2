@@ -1,0 +1,108 @@
+2018-04-10 10:56:42,531 INFO  DownloadService - Downloading "https://github.com/jgilfelt/SystemBarTint/archive/master.zip", attempt 3
+2018-04-10 10:57:43,160 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 10:57:43,872 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 10:57:43,872 INFO  DownloadService - Downloading "https://github.com/jgilfelt/SystemBarTint/archive/master.zip", attempt 3
+2018-04-10 10:58:45,143 DEBUG FullProcessService - Repository https://github.com/jgilfelt/SystemBarTint available: true
+2018-04-10 10:58:45,143 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 10:58:45,143 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jgilfelt/SystemBarTint, /tmp/rdisk/445/src]
+2018-04-10 10:58:47,173 INFO  SysUtils - 
+2018-04-10 10:58:47,185 INFO  GitService - Deleted "/tmp/rdisk/445/src/.git": true
+2018-04-10 10:58:47,187 INFO  FullProcessService - Size of directory with sources: 593 KB
+2018-04-10 10:58:47,187 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/445/src]
+2018-04-10 10:58:47,194 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/445/src/.git/
+
+2018-04-10 10:58:47,196 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/445/src/gradlew
+2018-04-10 10:58:47,198 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/445/src/library/build.gradle /tmp/rdisk/445/src/sample/build.gradle /tmp/rdisk/445/src/build.gradle
+2018-04-10 10:58:47,200 INFO  ProjectBuildService - All script(s): /tmp/rdisk/445/src/settings.gradle /tmp/rdisk/445/src/sample/build.gradle /tmp/rdisk/445/src/library/build.gradle /tmp/rdisk/445/src/build.gradle
+2018-04-10 10:58:47,201 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-10 10:58:47,866 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-04-10 10:58:47,866 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-10 10:58:48,054 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-04-10 10:58:48,054 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-04-10 10:58:48,054 INFO  ProjectFixService - Fixing project...
+2018-04-10 10:58:48,062 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/445/src/library/local.properties
+2018-04-10 10:58:48,063 INFO  ProjectFixService - Build info for "/tmp/rdisk/445/src/library/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 10:58:48,063 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/445/src/library/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 10:58:48,064 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/445/src/sample/local.properties
+2018-04-10 10:58:48,065 INFO  ProjectFixService - Build info for "/tmp/rdisk/445/src/sample/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 10:58:48,065 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/445/src/sample/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 10:58:48,066 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/445/src/local.properties
+2018-04-10 10:58:48,066 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.11-all.zip
+2018-04-10 10:58:48,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.11-bin.zip)
+2018-04-10 10:58:48,067 INFO  ProjectFixService - Build info for "/tmp/rdisk/445/src/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 10:58:48,068 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/445/src/build.gradle": [buildToolsVersion=20.0.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 10:58:48,068 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 10:58:48,068 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 10:58:48,068 INFO  SysUtils - Execute command: [/tmp/rdisk/445/src/gradlew, -b, /tmp/rdisk/445/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 10:59:01,605 INFO  ProjectTaskService - Detected possible tasks: 54
+2018-04-10 10:59:01,605 INFO  ProjectTaskService - Excluded tasks (11): lintDebug androidJavadocs deviceCheck lint androidSourcesJar connectedCheck uninstallAll androidJavadocsJar check connectedAndroidTest lintRelease
+2018-04-10 10:59:01,605 INFO  SysUtils - Execute command: [/tmp/rdisk/445/src/gradlew, -b, /tmp/rdisk/445/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, check, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-10 10:59:10,392 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidJavadocsJar
+:library:androidSourcesJar
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugProguardFiles
+:library:preBuild
+:library:preDebugBuild
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:compileDebugJavaNote: /tmp/rdisk/445/src/library/src/com/readystatesoftware/systembartint/SystemBarTintManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processDebugJavaRes UP-TO-DATE
+:library:packageDebugJar
+:library:compileDebugNdk
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:bundleDebug
+:library:assembleDebug
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaNote: /tmp/rdisk/445/src/library/src/com/readystatesoftware/systembartint/SystemBarTintManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:library:assembleRelease
+:library:jarRelease
+:library:signArchives SKIPPED
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.351 secs
+
+2018-04-10 10:59:10,398 INFO  FullProcessService - Found APK file: /tmp/rdisk/445/src/sample/sample-release.apk

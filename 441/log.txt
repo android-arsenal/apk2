@@ -1,0 +1,8 @@
+09:34:05.359 [main] INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/findbugs/findbugs/archive/master.zip", attempt 3
+09:34:08.529 [main] INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/findbugs/findbugs/archive/master.zip, attempt 3
+09:34:55.579 [main] DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464924844726-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1464924844726-0/src'.
+09:34:57.450 [main] INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 65 MB
+09:34:57.450 [main] ERROR c.g.v.a.s.FullProcessService - Source directory should be less than 40 MB
+09:34:57.450 [main] ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+09:34:57.450 [main] ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+09:34:57.649 [main] ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

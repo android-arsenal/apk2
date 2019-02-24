@@ -1,0 +1,21 @@
+2018-04-09 21:51:32,516 INFO  DownloadService - Downloading "https://github.com/wmbest2/rats/archive/master.zip", attempt 3
+2018-04-09 21:52:33,194 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 21:52:33,884 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 21:52:33,884 INFO  DownloadService - Downloading "https://github.com/wmbest2/rats/archive/master.zip", attempt 3
+2018-04-09 21:53:35,261 DEBUG FullProcessService - Repository https://github.com/wmbest2/rats available: true
+2018-04-09 21:53:35,261 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 21:53:35,261 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/wmbest2/rats, /tmp/rdisk/488/src]
+2018-04-09 21:53:37,050 INFO  SysUtils - 
+2018-04-09 21:53:37,059 INFO  GitService - Deleted "/tmp/rdisk/488/src/.git": true
+2018-04-09 21:53:37,060 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-04-09 21:53:37,060 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/488/src]
+2018-04-09 21:53:37,065 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/488/src/.git/
+
+2018-04-09 21:53:37,066 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-09 21:53:37,066 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-09 21:53:37,067 INFO  ProjectBuildService - Build script(s): none
+2018-04-09 21:53:37,068 INFO  ProjectBuildService - All script(s): none
+2018-04-09 21:53:37,068 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 21:53:37,068 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-09 21:53:37,068 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 21:53:37,069 ERROR FullProcessService - Could not find generated or existed APK file

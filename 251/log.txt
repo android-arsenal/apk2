@@ -1,0 +1,319 @@
+2018-04-10 18:43:01,394 INFO  DownloadService - Downloading "https://github.com/nicolasjafelle/PagingListView/archive/master.zip", attempt 3
+2018-04-10 18:43:01,799 INFO  DownloadService - Downloaded https://github.com/nicolasjafelle/PagingListView/archive/master.zip, attempt 3
+2018-04-10 18:43:01,800 INFO  DownloadService - Size of file "/tmp/rdisk/251/master.zip": 174 KB
+2018-04-10 18:43:01,800 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:43:01,800 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/251/master.zip: true
+2018-04-10 18:43:01,800 DEBUG ZipUtil - Extracting '/tmp/rdisk/251/master.zip' into '/tmp/rdisk/251/src'.
+2018-04-10 18:43:01,809 INFO  FullProcessService - Size of directory with sources: 194 KB
+2018-04-10 18:43:01,809 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/251/src]
+2018-04-10 18:43:01,814 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/251/src/.git/
+
+2018-04-10 18:43:01,816 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/gradlew
+2018-04-10 18:43:01,819 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/build.gradle /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build.gradle /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/build.gradle
+2018-04-10 18:43:01,821 INFO  ProjectBuildService - All script(s): /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/settings.gradle /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/build.gradle /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build.gradle /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/build.gradle
+2018-04-10 18:43:01,821 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-10 18:43:02,312 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-04-10 18:43:02,312 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-04-10 18:43:02,312 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:43:02,332 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/local.properties
+2018-04-10 18:43:02,332 INFO  ProjectFixService - Build info for "/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=22]
+2018-04-10 18:43:02,333 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/local.properties
+2018-04-10 18:43:02,334 INFO  ProjectFixService - Build info for "/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=22]
+2018-04-10 18:43:02,334 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/local.properties
+2018-04-10 18:43:02,335 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-10 18:43:02,335 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-10 18:43:02,336 INFO  ProjectFixService - Build info for "/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=22]
+2018-04-10 18:43:02,336 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:43:02,336 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:43:02,336 INFO  SysUtils - Execute command: [/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/gradlew, -b, /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:43:09,981 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-10 18:43:09,982 INFO  ProjectTaskService - Detected possible tasks: 4
+2018-04-10 18:43:09,982 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2018-04-10 18:43:09,982 INFO  SysUtils - Execute command: [/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/gradlew, -b, /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2018-04-10 18:43:26,538 INFO  SysUtils - Configuration on demand is an incubating feature.
+:PagingListView:compileLint
+:PagingListView:copyDebugLint UP-TO-DATE
+:PagingListView:mergeDebugProguardFiles
+:PagingListView:preBuild UP-TO-DATE
+:PagingListView:preDebugBuild UP-TO-DATE
+:PagingListView:checkDebugManifest
+:PagingListView:prepareDebugDependencies
+:PagingListView:compileDebugAidl
+:PagingListView:compileDebugRenderscript
+:PagingListView:generateDebugBuildConfig
+:PagingListView:generateDebugAssets UP-TO-DATE
+:PagingListView:mergeDebugAssets
+:PagingListView:generateDebugResValues
+:PagingListView:generateDebugResources
+:PagingListView:packageDebugResources
+:PagingListView:processDebugManifest
+:PagingListView:processDebugResources
+:PagingListView:generateDebugSources
+:PagingListView:processDebugJavaRes UP-TO-DATE
+:PagingListView:compileDebugJavaNote: /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/src/main/java/com/paging/listview/PagingListView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:PagingListView:packageDebugJar
+:PagingListView:compileDebugNdk UP-TO-DATE
+:PagingListView:packageDebugJniLibs UP-TO-DATE
+:PagingListView:packageDebugLocalJar UP-TO-DATE
+:PagingListView:packageDebugRenderscript UP-TO-DATE
+:PagingListView:bundleDebug
+:PagingListView:compileDebugSources
+:PagingListView:assembleDebug
+:PagingListView:copyReleaseLint UP-TO-DATE
+:PagingListView:mergeReleaseProguardFiles
+:PagingListView:preReleaseBuild UP-TO-DATE
+:PagingListView:checkReleaseManifest
+:PagingListView:prepareReleaseDependencies
+:PagingListView:compileReleaseAidl
+:PagingListView:compileReleaseRenderscript
+:PagingListView:generateReleaseBuildConfig
+:PagingListView:generateReleaseAssets UP-TO-DATE
+:PagingListView:mergeReleaseAssets
+:PagingListView:generateReleaseResValues
+:PagingListView:generateReleaseResources
+:PagingListView:packageReleaseResources
+:PagingListView:processReleaseManifest
+:PagingListView:processReleaseResources
+:PagingListView:generateReleaseSources
+:PagingListView:processReleaseJavaRes UP-TO-DATE
+:PagingListView:compileReleaseJavaNote: /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/src/main/java/com/paging/listview/PagingListView.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:PagingListView:packageReleaseJar
+:PagingListView:compileReleaseNdk UP-TO-DATE
+:PagingListView:packageReleaseJniLibs UP-TO-DATE
+:PagingListView:packageReleaseLocalJar UP-TO-DATE
+:PagingListView:packageReleaseRenderscript UP-TO-DATE
+:PagingListView:bundleRelease
+:PagingListView:compileReleaseSources
+:PagingListView:assembleRelease
+:PagingListView:signArchives SKIPPED
+:PagingListView:assemble
+:PagingListView:lint
+Ran lint on variant debug: 8 issues found
+Ran lint on variant release: 8 issues found
+Wrote HTML report to file:/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListView/build/outputs/lint-results.xml
+:PagingListView:preCompileDebugUnitTestJava
+:PagingListView:preDebugUnitTestBuild UP-TO-DATE
+:PagingListView:prepareDebugUnitTestDependencies
+:PagingListView:processDebugUnitTestJavaRes UP-TO-DATE
+:PagingListView:compileDebugUnitTestJava UP-TO-DATE
+:PagingListView:compileDebugUnitTestSources UP-TO-DATE
+:PagingListView:mockableAndroidJar
+:PagingListView:assembleDebugUnitTest
+:PagingListView:testDebug
+:PagingListView:preCompileReleaseUnitTestJava
+:PagingListView:preReleaseUnitTestBuild UP-TO-DATE
+:PagingListView:prepareReleaseUnitTestDependencies
+:PagingListView:processReleaseUnitTestJavaRes UP-TO-DATE
+:PagingListView:compileReleaseUnitTestJava UP-TO-DATE
+:PagingListView:compileReleaseUnitTestSources UP-TO-DATE
+:PagingListView:assembleReleaseUnitTest
+:PagingListView:testRelease
+:PagingListView:test
+:PagingListView:check
+:PagingListView:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.146 secs
+
+2018-04-10 18:43:26,546 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:43:26,546 INFO  SysUtils - Execute command: [/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/gradlew, -b, /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:43:34,699 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-10 18:43:34,700 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll androidJavadocsJar testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-04-10 18:43:34,700 INFO  SysUtils - Execute command: [/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/gradlew, -b, /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-04-10 18:43:41,690 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-10 18:43:41,690 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':PagingListViewSample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':PagingListViewSample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:101)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:64)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.select(DefaultBuildExecuter.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:142)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+BUILD FAILED
+
+Total time: 6.57 secs
+
+2018-04-10 18:43:41,690 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-04-10 18:43:41,690 INFO  SysUtils - Execute command: [/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/gradlew, -b, /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-10 18:44:01,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+:PagingListView:compileLint
+:PagingListView:copyReleaseLint UP-TO-DATE
+:PagingListView:mergeReleaseProguardFiles UP-TO-DATE
+:PagingListView:preBuild UP-TO-DATE
+:PagingListView:preReleaseBuild UP-TO-DATE
+:PagingListView:checkReleaseManifest
+:PagingListView:prepareReleaseDependencies
+:PagingListView:compileReleaseAidl UP-TO-DATE
+:PagingListView:compileReleaseRenderscript UP-TO-DATE
+:PagingListView:generateReleaseBuildConfig UP-TO-DATE
+:PagingListView:generateReleaseAssets UP-TO-DATE
+:PagingListView:mergeReleaseAssets UP-TO-DATE
+:PagingListView:generateReleaseResValues UP-TO-DATE
+:PagingListView:generateReleaseResources UP-TO-DATE
+:PagingListView:packageReleaseResources UP-TO-DATE
+:PagingListView:processReleaseManifest UP-TO-DATE
+:PagingListView:processReleaseResources UP-TO-DATE
+:PagingListView:generateReleaseSources UP-TO-DATE
+:PagingListView:processReleaseJavaRes UP-TO-DATE
+:PagingListView:compileReleaseJava UP-TO-DATE
+:PagingListView:packageReleaseJar UP-TO-DATE
+:PagingListView:compileReleaseNdk UP-TO-DATE
+:PagingListView:packageReleaseJniLibs UP-TO-DATE
+:PagingListView:packageReleaseLocalJar UP-TO-DATE
+:PagingListView:packageReleaseRenderscript UP-TO-DATE
+:PagingListView:bundleRelease UP-TO-DATE
+:PagingListViewSample:preBuild UP-TO-DATE
+:PagingListViewSample:preDebugBuild UP-TO-DATE
+:PagingListViewSample:checkDebugManifest
+:PagingListViewSample:preReleaseBuild UP-TO-DATE
+:PagingListViewSample:preparePagingListViewProjectPagingListViewUnspecifiedLibrary
+:PagingListViewSample:prepareDebugDependencies
+:PagingListViewSample:compileDebugAidl
+:PagingListViewSample:compileDebugRenderscript
+:PagingListViewSample:generateDebugBuildConfig
+:PagingListViewSample:generateDebugAssets UP-TO-DATE
+:PagingListViewSample:mergeDebugAssets
+:PagingListViewSample:generateDebugResValues
+:PagingListViewSample:generateDebugResources
+:PagingListViewSample:mergeDebugResources
+:PagingListViewSample:processDebugManifest
+:PagingListViewSample:processDebugResources
+:PagingListViewSample:generateDebugSources
+:PagingListViewSample:processDebugJavaRes UP-TO-DATE
+:PagingListViewSample:compileDebugJava
+:PagingListViewSample:compileDebugNdk UP-TO-DATE
+:PagingListViewSample:compileDebugSources
+:PagingListViewSample:preDexDebug
+:PagingListViewSample:dexDebug
+:PagingListViewSample:validateDebugSigning
+:PagingListViewSample:packageDebug
+:PagingListViewSample:zipalignDebug
+:PagingListViewSample:assembleDebug
+:PagingListViewSample:checkReleaseManifest
+:PagingListViewSample:prepareReleaseDependencies
+:PagingListViewSample:compileReleaseAidl
+:PagingListViewSample:compileReleaseRenderscript
+:PagingListViewSample:generateReleaseBuildConfig
+:PagingListViewSample:generateReleaseAssets UP-TO-DATE
+:PagingListViewSample:mergeReleaseAssets
+:PagingListViewSample:generateReleaseResValues
+:PagingListViewSample:generateReleaseResources
+:PagingListViewSample:mergeReleaseResources
+:PagingListViewSample:processReleaseManifest
+:PagingListViewSample:processReleaseResources
+:PagingListViewSample:generateReleaseSources
+:PagingListViewSample:processReleaseJavaRes UP-TO-DATE
+:PagingListViewSample:compileReleaseJava
+:PagingListViewSample:compileReleaseNdk UP-TO-DATE
+:PagingListViewSample:compileReleaseSources
+:PagingListViewSample:lintVitalRelease SKIPPED
+:PagingListViewSample:preDexRelease
+:PagingListViewSample:dexRelease
+:PagingListViewSample:packageRelease
+:PagingListViewSample:assembleRelease
+:PagingListViewSample:assemble
+:PagingListViewSample:compileLint
+:PagingListViewSample:lint
+Ran lint on variant debug: 8 issues found
+Ran lint on variant release: 8 issues found
+Wrote HTML report to file:/tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build/outputs/lint-results.xml
+:PagingListViewSample:preCompileDebugUnitTestJava
+:PagingListViewSample:preDebugUnitTestBuild UP-TO-DATE
+:PagingListViewSample:prepareDebugUnitTestDependencies
+:PagingListViewSample:processDebugUnitTestJavaRes UP-TO-DATE
+:PagingListViewSample:compileDebugUnitTestJava UP-TO-DATE
+:PagingListViewSample:compileDebugUnitTestSources UP-TO-DATE
+:PagingListViewSample:mockableAndroidJar
+:PagingListViewSample:assembleDebugUnitTest
+:PagingListViewSample:testDebug
+:PagingListViewSample:preCompileReleaseUnitTestJava
+:PagingListViewSample:preReleaseUnitTestBuild UP-TO-DATE
+:PagingListViewSample:prepareReleaseUnitTestDependencies
+:PagingListViewSample:processReleaseUnitTestJavaRes UP-TO-DATE
+:PagingListViewSample:compileReleaseUnitTestJava UP-TO-DATE
+:PagingListViewSample:compileReleaseUnitTestSources UP-TO-DATE
+:PagingListViewSample:assembleReleaseUnitTest
+:PagingListViewSample:testRelease
+:PagingListViewSample:test
+:PagingListViewSample:check
+:PagingListViewSample:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.986 secs
+
+2018-04-10 18:44:01,095 INFO  FullProcessService - Found APK file: /tmp/rdisk/251/src/PagingListView-master/PagingListViewProject/PagingListViewSample/build/outputs/apk/PagingListViewSample-release-unsigned.apk

@@ -1,0 +1,6 @@
+{
+  "auto.parcel.sample" : [ "BuildConfig", "DetailActivity", "MainActivity", "MainActivity$1", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SampleData", "SampleData$1", "SampleData$2" ],
+  "model1" : [ "HeightBucket" ],
+  "model2" : [ "$AutoValue_Address", "$AutoValue_Address$Builder", "Address", "Address$Builder", "AutoValue_Address", "AutoValue_Address$1" ],
+  "model3" : [ "$AutoValue_Person", "$AutoValue_Person$Builder", "AutoValue_Person", "AutoValue_Person$1", "Person", "Person$Builder" ]
+}

@@ -1,0 +1,21 @@
+2018-04-10 11:01:57,862 INFO  DownloadService - Downloading "https://github.com/nostra13/Android-Simple-Social-Sharing/archive/master.zip", attempt 3
+2018-04-10 11:02:58,525 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 11:02:59,322 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 11:02:59,322 INFO  DownloadService - Downloading "https://github.com/nostra13/Android-Simple-Social-Sharing/archive/master.zip", attempt 3
+2018-04-10 11:04:00,531 DEBUG FullProcessService - Repository https://github.com/nostra13/Android-Simple-Social-Sharing available: true
+2018-04-10 11:04:00,532 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 11:04:00,532 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/nostra13/Android-Simple-Social-Sharing, /tmp/rdisk/435/src]
+2018-04-10 11:04:05,360 INFO  SysUtils - 
+2018-04-10 11:04:05,366 INFO  GitService - Deleted "/tmp/rdisk/435/src/.git": true
+2018-04-10 11:04:05,370 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-10 11:04:05,370 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/435/src]
+2018-04-10 11:04:05,377 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/435/src/.git/
+
+2018-04-10 11:04:05,381 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 11:04:05,381 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 11:04:05,384 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 11:04:05,388 INFO  ProjectBuildService - All script(s): none
+2018-04-10 11:04:05,388 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 11:04:05,388 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 11:04:05,388 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 11:04:05,391 ERROR FullProcessService - Could not find generated or existed APK file

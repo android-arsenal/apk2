@@ -1,0 +1,10 @@
+2016-11-13 22:14:42,238 INFO  DownloadService - Downloading "https://github.com/osmdroid/osmdroid/archive/master.zip", attempt 3
+2016-11-13 22:15:10,613 INFO  DownloadService - Downloaded https://github.com/osmdroid/osmdroid/archive/master.zip, attempt 3
+2016-11-13 22:15:10,613 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2016-11-13 22:15:10,622 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1479053682234-0/master.zip: true
+2016-11-13 22:15:10,622 DEBUG ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1479053682234-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1479053682234-0/src'.
+2016-11-13 22:15:11,559 INFO  FullProcessService - Size of directory with sources: 58 MB
+2016-11-13 22:15:11,559 ERROR FullProcessService - Source directory should be less than 50 MB
+2016-11-13 22:15:11,559 ERROR FullProcessService - Project will not be processed
+2016-11-13 22:15:11,559 ERROR FullProcessService - Project build has not produced APK file
+2016-11-13 22:15:11,585 ERROR FullProcessService - Could not find generated or existed APK file

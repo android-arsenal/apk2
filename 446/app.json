@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.mohammadag.colouredstatusbar",
+    "label" : "Tinted Status Bar",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.8.9.5",
+    "versionCode" : 15,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD4klEQVRo3u1YzU7kRhD+vm57RiwoQtlbIt6APEDE45ADJ8Q9L4E4ceE59pQze9lT9g3IDS0i8SBATFflYLen3dP+wyQiilsqdbttt7+v6qvqngHmNrf/d2Nq8vT09PDx8fEMwAFJWGthrYUxBtZakESe5/W1N5IgCWMMyObSqgoRgapCVeGcg3MOqor1el1fO+cgIo37AG52dnbOLy4uvvYSOD4+Pry/v79+eHjYA1CD9H2WZTXgcOyf8eC9xQS8hYCdc1skQjIAsLu7u9rf3//56uqqQSKLCdze3p4VRbHnPWmtharCWpsMofeoqtYEuiIQEhCRLeD+OnxGRHB3d7f38vJyBuCXTgJFURyoag0gBOhNRBpeTnk7nIvf9VIKJRXOt1lRFAcx3i0CzjkYYzoXShEJwfflQCihIcCrPIBzDr0EQg8OARwD9e+lCMQySlkMOnw/1bIu8CGJxYcf8fGHI7DyriHrsTWENUBmgMxWvVFkRpEbQVaZpSBj2Rs4WAoIB0JAFUAFoopPnz/jfrXaIpMi0RqBuM8W32H3+59Aeq+zHpdggdwoFlawsIrcCpZWsLCCpXVYWFfeM4LcOuRGkNPVxAwUQAn2ty9feiMyWEJh+Df3AVKhShgIqICBwlBhKCAVtvK0pYPxY0g5hh8riNI8eADQBPBRBOIXVBUq/iOswZNam4E3ga0ImAC88eCrOVJK6UCa4FUhLUk8iIBP1K0ErD5CogSPcswKOCl1BCxKwDY0lgQ8ydIq7yckm7IY1+AIeC1u5FXO117nRj4eaLN3G2KeKLSKgEIrXWpicwwj4Hfl3ioUlseUBlUVhmUebLyuDdBN0yACUgMnt8GjRTqvzoFNKRWIOBBe+wBVQZWyh8BoaQwMQR+aQiAuAB4Q8ftFXEBGldGwCpHEn7e/469vvwZHB1Rk2JyrIsf4qFi6euPxAGzs9XW1406uQnEppb40duL4HBT3Q/aXGGTbeHAVig9y8a7c9kwcsUGluQNsW+6NklAXidRzYc4M3l86gE5O4hhcfGBrS/hUFNoOZ33AR0uor6TGINsWHxqFLk93rdFK4OjoqDUph/Z9EejTe1v/9PSE6+vrcRHo03QqUmMk9JrE7T0Lhb+ohibnGAm9JmknJfEUIlNy4M2T+K2IjAE5WkJDohEv3FZup8hs6FrZ2I+ldtmpkpqyTjb1I23Hhn8a+KsJDPl4F6m3itabEfg3QHY181//e30mMBOYCcwE3h+Bm/cKNsuym14C6/X6XERW7w28iKycc+dbu37q4ZOTk8PlcnlG8uAdYFdV/eP5+fn88vLyK+Y2t7k12t9ec/VKreSuxwAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 749,
+  "locales" : [ "", "in", "it", "ko", "pt_BR", "fi", "es", "tr", "ro", "lt", "pl", "zh_CN", "pt", "ar", "fr", "ru", "ja", "sk", "iw", "de", "zh", "cs", "sv", "el", "nl" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"15\" android:versionName=\"1.8.9.5\" package=\"com.mohammadag.colouredstatusbar\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<android:uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" android:maxSdkVersion=\"18\" />\n\t<application android:theme=\"resourceId:0x7f0c0001\" android:label=\"Tinted Status Bar\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Per app tints\" android:name=\"com.mohammadag.colouredstatusbar.activities.PackageListActivity\" android:configChanges=\"0x480\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.mohammadag.colouredstatusbar.PER_APP_SETTINGS\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Tinted Status Bar\" android:name=\"com.mohammadag.colouredstatusbar.activities.SettingsActivity\" />\n\t\t<activity-alias android:name=\"com.mohammadag.colouredstatusbar.MainActivity\" android:targetActivity=\"com.mohammadag.colouredstatusbar.activities.SettingsActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity-alias>\n\t\t<activity android:label=\"Contributors\" android:name=\"com.mohammadag.colouredstatusbar.activities.ContributorsActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.mohammadag.colouredstatusbar.SHOW_CONTRIBUTORS\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"xposedmodule\" android:value=\"true\" />\n\t\t<meta-data android:name=\"xposedminversion\" android:value=\"54+\" />\n\t\t<meta-data android:name=\"xposeddescription\" android:value=\"Tint the status bar based on current activity\" />\n\t\t<activity android:label=\"Tinted Status Bar Settings\" android:name=\"com.mohammadag.colouredstatusbar.activities.ApplicationSettings\" />\n\t\t<activity android:name=\"com.mohammadag.colouredstatusbar.activities.ColorPickerActivity\" />\n\t\t<activity android:name=\"com.mohammadag.colouredstatusbar.activities.ScreenColorPickerActivity\" android:exported=\"true\" android:launchMode=\"singleInstance\" />\n\t\t<activity android:name=\"com.mohammadag.colouredstatusbar.activities.ActivitesListActivity\" android:configChanges=\"0x480\" />\n\t\t<activity android:label=\"Plugins\" android:name=\"com.mohammadag.colouredstatusbar.activities.PluginDownloaderActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.mohammadag.colouredstatusbar.DOWNLOAD_PLUGINS\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"com.mohammadag.colouredstatusbar.PackageChangedReceiver\" android:exported=\"false\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.PACKAGE_ADDED\" />\n\t\t\t\t<action android:name=\"android.intent.action.PACKAGE_CHANGED\" />\n\t\t\t\t<action android:name=\"android.intent.action.PACKAGE_REMOVED\" />\n\t\t\t\t<data android:scheme=\"package\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t</application>\n</manifest>\n",
+  "fileSize" : 467933,
+  "crc32" : 3899636697,
+  "sha256" : "63f99a9e7b596f75788428aebd7d2a7a59130133c47b35ddf7b1edb9cc12d6ac",
+  "buildTime" : 1523357799000
+}

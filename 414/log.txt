@@ -1,0 +1,40 @@
+2018-04-10 17:20:22,502 INFO  DownloadService - Downloading "https://github.com/art2limit/Compass-View/archive/master.zip", attempt 3
+2018-04-10 17:20:26,188 INFO  DownloadService - Downloaded https://github.com/art2limit/Compass-View/archive/master.zip, attempt 3
+2018-04-10 17:20:26,188 INFO  DownloadService - Size of file "/tmp/rdisk/414/master.zip": 18 MB
+2018-04-10 17:20:26,188 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 17:20:26,189 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/414/master.zip: true
+2018-04-10 17:20:26,189 DEBUG ZipUtil - Extracting '/tmp/rdisk/414/master.zip' into '/tmp/rdisk/414/src'.
+2018-04-10 17:20:26,372 INFO  FullProcessService - Size of directory with sources: 19 MB
+2018-04-10 17:20:26,372 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/414/src]
+2018-04-10 17:20:26,383 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/414/src/.git/
+
+2018-04-10 17:20:26,385 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/414/src/Compass-View-master/gradlew
+2018-04-10 17:20:26,387 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/414/src/Compass-View-master/build.gradle
+2018-04-10 17:20:26,389 INFO  ProjectBuildService - All script(s): /tmp/rdisk/414/src/Compass-View-master/settings.gradle /tmp/rdisk/414/src/Compass-View-master/build.gradle
+2018-04-10 17:20:26,390 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 17:20:26,390 INFO  ProjectFixService - Fixing project...
+2018-04-10 17:20:26,394 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/414/src/Compass-View-master/local.properties
+2018-04-10 17:20:26,394 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-04-10 17:20:26,395 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-04-10 17:20:26,395 INFO  ProjectFixService - Build info for "/tmp/rdisk/414/src/Compass-View-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:20:26,396 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/414/src/Compass-View-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:20:26,396 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 17:20:26,396 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:20:26,396 INFO  SysUtils - Execute command: [/tmp/rdisk/414/src/Compass-View-master/gradlew, -b, /tmp/rdisk/414/src/Compass-View-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:20:31,074 INFO  ProjectTaskService - Detected possible tasks: 46
+2018-04-10 17:20:31,074 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-10 17:20:31,075 INFO  SysUtils - Execute command: [/tmp/rdisk/414/src/Compass-View-master/gradlew, -b, /tmp/rdisk/414/src/Compass-View-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-10 17:20:35,486 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileJava NO-SOURCE
+:processResources NO-SOURCE
+:classes UP-TO-DATE
+:jar
+:sourcesJar
+:assemble
+:build
+
+BUILD SUCCESSFUL in 4s
+2 actionable tasks: 2 executed
+
+2018-04-10 17:20:35,489 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 17:20:35,492 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "garin.artemiy.compassview",
+    "label" : "Compass View",
+    "icon" : "res/drawable-hdpi-v4/arrow.png",
+    "versionName" : "1.0",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-hdpi-v4/arrow.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAAgVBMVEUAAAAmJiYnJycnJycnJycmJiYlJSUlJSUmJiYnJycmJiYmJiYnJyclJSUmJiYmJiYmJiYmJiYmJiYpKSknJyclJSUmJiYnJycmJiYnJycAAAAiIiInJyclJSUnJycoKCgmJiYnJycmJiYhISEkJCQmJiYlJSUjIyMlJSUiIiImJibtOk/6AAAAKnRSTlMAREJV7OtTYfb1X+7t/fGFhvDzMjRS8vplYwEP0jDgQNsu3jY4SkskuCb4RwpMAAAB7ElEQVRo3u2V63KCMBCF1waBam/aiqKCl955/wcsFRWyhmSVJK0ze355mfEbz+dZATgcDofDubL0bv6CKoJ+6J8axUVxO/D+XUtqyfX8fcWw2OUu9N1wFZ8911SfXNGg+vN78HqIH79RXKD46FmcUH303AsKRfqO76RQUktu6NerD7+ilerSL16Onx1FcaGNm55NVDdcYaS68Ct7vVc+tO9XbvjhsX78NHLXs9zwOHyun7xMElc9yxdxOoMmFtKpmzspX8TxbC5j52ni4k5GqOHyJQkLgHoe2PdaNnyKRT3b8Csv57dhBRb13H1HaDn7z8PYsmerO1J4VWOt+lV5bcFa9Ct7TSqvbVhrfuWGR5P6HRXWll+54aRBbcGCjTuJLmIKZqyFOylfxCSdU7D4TopuXqWGNVjccxx1Wk4KVCzqORYdliM3rMeinofCxnLMWLwjes96r0bshX4NXs3Yi/yavBKwF/hdLA1eCVjsd7kwc7Nc75WElfzmGaXlVaD1SsM2/AYr2m8qW2sbpmGPPa8z6oIqbtJKJWH3PdOpAJutpmEqdtdznp1zHV+36uWchS13lL+d91+wede9S8MCfGRgM1Ss5TCWsYxlLGMZy1jGMpaxjGUsYxnLWMYy9r9gP7+O+QYOh8PhcK4nP4+FLPH0KEB8AAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1656,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.0\" package=\"garin.artemiy.compassview\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f07000a\" android:label=\"Compass View\" android:icon=\"res/drawable-hdpi-v4/arrow.png\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"garin.artemiy.compassview.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"garin.artemiy.compassview.example.DemoActivity\" />\n\t\t<activity android:name=\"garin.artemiy.compassview.example.DemoFragmentActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1246682,
+  "crc32" : 2282452147,
+  "sha256" : "e5cf0eee0d24cda0b28ccd914c009e1b7a3533d0123fcf6e41bc905ccca611ad",
+  "buildTime" : 1508182110000
+}

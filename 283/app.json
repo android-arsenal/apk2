@@ -1,0 +1,37 @@
+{
+  "meta" : {
+    "packageName" : "pl.mg6.android.maps.extensions.demo",
+    "label" : "Maps Extensions Demo",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.4.1-SNAPSHOT",
+    "versionCode" : 8,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_NETWORK_STATE", "android.permission.INTERNET", "android.permission.WRITE_EXTERNAL_STORAGE", "com.google.android.providers.gsf.permission.READ_GSERVICES" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2300,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "ms", "kn_IN", "et", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "be", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"8\" android:versionName=\"1.4.1-SNAPSHOT\" package=\"pl.mg6.android.maps.extensions.demo\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"23\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"com.google.android.providers.gsf.permission.READ_GSERVICES\" />\n\t<application android:theme=\"resourceId:0x7f0800e5\" android:label=\"Maps Extensions Demo\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:name=\"pl.mg6.android.maps.extensions.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"com.google.android.maps.v2.API_KEY\" android:value=\"AIzaSyCxf3mMH7rhbk3JyH9gZPX3Ko2KLEQEEqU\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1739619,
+  "crc32" : 1710660646,
+  "sha256" : "d81216ca7d82675381588b0486f0aba2aa127c954fa97cf12cf1979d41d34e7f",
+  "buildTime" : 1523384842000
+}

@@ -1,0 +1,220 @@
+2018-04-10 17:20:35,516 INFO  DownloadService - Downloading "https://github.com/rtyley/spongycastle/archive/master.zip", attempt 3
+2018-04-10 17:20:38,023 INFO  DownloadService - Downloaded https://github.com/rtyley/spongycastle/archive/master.zip, attempt 3
+2018-04-10 17:20:38,023 INFO  DownloadService - Size of file "/tmp/rdisk/411/master.zip": 13 MB
+2018-04-10 17:20:38,023 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 17:20:38,030 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/411/master.zip: true
+2018-04-10 17:20:38,030 DEBUG ZipUtil - Extracting '/tmp/rdisk/411/master.zip' into '/tmp/rdisk/411/src'.
+2018-04-10 17:20:38,824 INFO  FullProcessService - Size of directory with sources: 35 MB
+2018-04-10 17:20:38,824 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/411/src]
+2018-04-10 17:20:38,836 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/411/src/.git/
+
+2018-04-10 17:20:38,920 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 17:20:38,920 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 17:20:39,003 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/411/src/spongycastle-master/build.gradle /tmp/rdisk/411/src/spongycastle-master/mail/build.gradle /tmp/rdisk/411/src/spongycastle-master/pg/build.gradle /tmp/rdisk/411/src/spongycastle-master/pkix/build.gradle /tmp/rdisk/411/src/spongycastle-master/prov/build.gradle
+2018-04-10 17:20:39,090 INFO  ProjectBuildService - All script(s): /tmp/rdisk/411/src/spongycastle-master/settings.gradle /tmp/rdisk/411/src/spongycastle-master/prov/build.gradle /tmp/rdisk/411/src/spongycastle-master/pkix/build.gradle /tmp/rdisk/411/src/spongycastle-master/pg/build.gradle /tmp/rdisk/411/src/spongycastle-master/mail/build.gradle /tmp/rdisk/411/src/spongycastle-master/build.gradle
+2018-04-10 17:20:39,090 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 17:20:39,090 INFO  ProjectFixService - Fixing project...
+2018-04-10 17:20:39,255 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/411/src/spongycastle-master/local.properties
+2018-04-10 17:20:39,257 INFO  ProjectFixService - Build info for "/tmp/rdisk/411/src/spongycastle-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:20:39,257 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/411/src/spongycastle-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:20:39,257 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/411/src/spongycastle-master/mail/local.properties
+2018-04-10 17:20:39,259 INFO  ProjectFixService - Build info for "/tmp/rdisk/411/src/spongycastle-master/mail/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:20:39,259 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/411/src/spongycastle-master/mail/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:20:39,260 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/411/src/spongycastle-master/pg/local.properties
+2018-04-10 17:20:39,262 INFO  ProjectFixService - Build info for "/tmp/rdisk/411/src/spongycastle-master/pg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:20:39,262 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/411/src/spongycastle-master/pg/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:20:39,262 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/411/src/spongycastle-master/pkix/local.properties
+2018-04-10 17:20:39,264 INFO  ProjectFixService - Build info for "/tmp/rdisk/411/src/spongycastle-master/pkix/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:20:39,264 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/411/src/spongycastle-master/pkix/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:20:39,265 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/411/src/spongycastle-master/prov/local.properties
+2018-04-10 17:20:39,267 INFO  ProjectFixService - Build info for "/tmp/rdisk/411/src/spongycastle-master/prov/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:20:39,267 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/411/src/spongycastle-master/prov/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:20:39,267 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 17:20:39,267 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:20:39,268 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:20:43,359 INFO  ProjectTaskService - Detected possible tasks: 45
+2018-04-10 17:20:43,360 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-10 17:20:43,360 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-10 17:21:02,610 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:core:processResources NO-SOURCE
+:core:classes
+:core:jar
+:core:assemble
+:core:build
+:prov:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:prov:processResources
+:prov:classes
+:prov:jar
+:pkix:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:pkix:processResources NO-SOURCE
+:pkix:classes
+:pkix:jar
+:mail:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:mail:processResources
+:mail:classes
+:mail:jar
+:mail:assemble
+:mail:build
+:pg:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: /tmp/rdisk/411/src/spongycastle-master/pg/src/main/java/org/bouncycastle/openpgp/examples/RSAKeyPairGenerator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:pg:processResources NO-SOURCE
+:pg:classes
+:pg:jar
+:pg:assemble
+:pg:build
+:pkix:assemble
+:pkix:build
+:prov:assemble
+:prov:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.13 secs
+
+2018-04-10 17:21:02,744 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:21:02,745 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/mail/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:21:06,604 INFO  ProjectTaskService - Detected possible tasks: 45
+2018-04-10 17:21:06,604 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-10 17:21:06,604 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/mail/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-10 17:21:11,792 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:compileJava UP-TO-DATE
+:core:processResources NO-SOURCE
+:core:classes UP-TO-DATE
+:core:jar UP-TO-DATE
+:prov:compileJava UP-TO-DATE
+:prov:processResources UP-TO-DATE
+:prov:classes UP-TO-DATE
+:prov:jar UP-TO-DATE
+:pkix:compileJava UP-TO-DATE
+:pkix:processResources NO-SOURCE
+:pkix:classes UP-TO-DATE
+:pkix:jar UP-TO-DATE
+:mail:compileJava UP-TO-DATE
+:mail:processResources UP-TO-DATE
+:mail:classes UP-TO-DATE
+:mail:jar UP-TO-DATE
+:mail:assemble UP-TO-DATE
+:mail:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.072 secs
+
+2018-04-10 17:21:11,917 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:21:11,917 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/pg/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:21:15,636 INFO  ProjectTaskService - Detected possible tasks: 45
+2018-04-10 17:21:15,636 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-10 17:21:15,637 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/pg/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-10 17:21:20,474 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:compileJava UP-TO-DATE
+:core:processResources NO-SOURCE
+:core:classes UP-TO-DATE
+:core:jar UP-TO-DATE
+:prov:compileJava UP-TO-DATE
+:prov:processResources UP-TO-DATE
+:prov:classes UP-TO-DATE
+:prov:jar UP-TO-DATE
+:pg:compileJava UP-TO-DATE
+:pg:processResources NO-SOURCE
+:pg:classes UP-TO-DATE
+:pg:jar UP-TO-DATE
+:pg:assemble UP-TO-DATE
+:pg:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.715 secs
+
+2018-04-10 17:21:20,600 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:21:20,601 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/pkix/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:21:24,346 INFO  ProjectTaskService - Detected possible tasks: 45
+2018-04-10 17:21:24,347 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-10 17:21:24,347 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/pkix/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-10 17:21:29,385 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:compileJava UP-TO-DATE
+:core:processResources NO-SOURCE
+:core:classes UP-TO-DATE
+:core:jar UP-TO-DATE
+:prov:compileJava UP-TO-DATE
+:prov:processResources UP-TO-DATE
+:prov:classes UP-TO-DATE
+:prov:jar UP-TO-DATE
+:pkix:compileJava UP-TO-DATE
+:pkix:processResources NO-SOURCE
+:pkix:classes UP-TO-DATE
+:pkix:jar UP-TO-DATE
+:pkix:assemble UP-TO-DATE
+:pkix:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.919 secs
+
+2018-04-10 17:21:29,513 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:21:29,513 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/prov/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:21:33,225 INFO  ProjectTaskService - Detected possible tasks: 45
+2018-04-10 17:21:33,226 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-04-10 17:21:33,226 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/411/src/spongycastle-master/prov/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-04-10 17:21:37,977 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:compileJava UP-TO-DATE
+:core:processResources NO-SOURCE
+:core:classes UP-TO-DATE
+:core:jar UP-TO-DATE
+:prov:compileJava UP-TO-DATE
+:prov:processResources UP-TO-DATE
+:prov:classes UP-TO-DATE
+:prov:jar UP-TO-DATE
+:prov:assemble UP-TO-DATE
+:prov:build
+
+BUILD SUCCESSFUL
+
+Total time: 4.605 secs
+
+2018-04-10 17:21:38,102 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 17:21:38,223 ERROR FullProcessService - Could not find generated or existed APK file

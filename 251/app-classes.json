@@ -1,0 +1,4 @@
+{
+  "com.paging.listview" : [ "BuildConfig", "LoadingView", "PagingBaseAdapter", "PagingListView", "PagingListView$1", "PagingListView$Pagingable", "R", "R$dimen", "R$id", "R$layout", "R$string" ],
+  "com.paging.listview.sample" : [ "BuildConfig", "MainActivity", "MainActivity$1", "MainActivity$CountryAsyncTask", "MyPagingAdaper", "R", "R$attr", "R$dimen", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style", "SafeAsyncTask", "SafeAsyncTask$Task", "SafeAsyncTask$Task$1", "SafeAsyncTask$Task$2", "SafeAsyncTask$Task$3", "SafeAsyncTask$Task$4", "SafeAsyncTask$Task$5", "SafeAsyncTask$Task$6" ]
+}

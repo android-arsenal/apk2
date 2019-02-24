@@ -1,0 +1,337 @@
+2018-04-10 17:23:09,779 INFO  DownloadService - Downloading "https://github.com/facebook/conceal/archive/master.zip", attempt 3
+2018-04-10 17:23:23,518 INFO  DownloadService - Downloaded https://github.com/facebook/conceal/archive/master.zip, attempt 3
+2018-04-10 17:23:23,518 INFO  DownloadService - Size of file "/tmp/rdisk/408/master.zip": 20 MB
+2018-04-10 17:23:23,518 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 17:23:23,519 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/408/master.zip: true
+2018-04-10 17:23:23,519 DEBUG ZipUtil - Extracting '/tmp/rdisk/408/master.zip' into '/tmp/rdisk/408/src'.
+2018-04-10 17:23:23,841 INFO  FullProcessService - Size of directory with sources: 40 MB
+2018-04-10 17:23:23,841 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/408/src]
+2018-04-10 17:23:23,846 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/408/src/.git/
+
+2018-04-10 17:23:23,854 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/408/src/conceal-master/gradlew
+2018-04-10 17:23:23,862 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/408/src/conceal-master/build.gradle
+2018-04-10 17:23:23,869 INFO  ProjectBuildService - All script(s): /tmp/rdisk/408/src/conceal-master/build.gradle
+2018-04-10 17:23:23,869 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 17:23:23,869 INFO  ProjectFixService - Fixing project...
+2018-04-10 17:23:23,885 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/408/src/conceal-master/local.properties
+2018-04-10 17:23:23,885 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4-bin.zip
+2018-04-10 17:23:23,886 INFO  ProjectFixService - Build info for "/tmp/rdisk/408/src/conceal-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=17]
+2018-04-10 17:23:23,886 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 17:23:23,886 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:23:23,886 INFO  SysUtils - Execute command: [/tmp/rdisk/408/src/conceal-master/gradlew, -b, /tmp/rdisk/408/src/conceal-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:23:32,808 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-10 17:23:32,808 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-10 17:23:32,809 INFO  SysUtils - Execute command: [/tmp/rdisk/408/src/conceal-master/gradlew, -b, /tmp/rdisk/408/src/conceal-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-10 17:26:38,391 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:checkDebugManifest
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugNdk NO-SOURCE
+:compileLint
+:copyDebugLint NO-SOURCE
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:mergeDebugAssets
+:mergeDebugProguardFiles
+:packageDebugRenderscript NO-SOURCE
+:compileDebugRenderscript
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:processDebugManifest
+:generateDebugBuildConfig
+:processDebugResources
+:generateDebugSources
+:incrementalDebugJavaCompilationSafeguard
+:javaPreCompileDebug
+:ndkBuildRelease
+Android NDK: APP_PLATFORM not set. Defaulting to minimum supported version android-14.    
+Android NDK: WARNING: APP_PLATFORM android-14 is higher than android:minSdkVersion 9 in ./AndroidManifest.xml. NDK binaries will *not* be comptible with devices older than android-14. See https://android.googlesource.com/platform/ndk/+/master/docs/user/common_problems.md for more information.    
+/root/Applications/android-sdk/ndk-bundle/build/core/setup-app.mk:81: Android NDK: Application targets deprecated ABI(s): armeabi    
+/root/Applications/android-sdk/ndk-bundle/build/core/setup-app.mk:82: Android NDK: Support for these ABIs will be removed in a future NDK release.    
+make: Entering directory `/tmp/rdisk/408/src/conceal-master'
+[armeabi] Compile++ thumb: concealjni <= CipherHybrid.cpp
+[armeabi] Compile++ thumb: concealjni <= DecryptHybrid.cpp
+[armeabi] Compile++ thumb: concealjni <= EncryptHybrid.cpp
+[armeabi] Compile++ thumb: concealjni <= JavaArrays.cpp
+[armeabi] Compile++ thumb: concealjni <= JKeyChain.cpp
+[armeabi] Compile++ thumb: concealjni <= KeyChainFromJava.cpp
+[armeabi] Compile++ thumb: concealjni <= MacDecoderHybrid.cpp
+[armeabi] Compile++ thumb: concealjni <= MacEncoderHybrid.cpp
+[armeabi] Compile++ thumb: concealjni <= OnLoad.cpp
+[armeabi] Compile++ thumb: concealjni <= PBKDF2Hybrid.cpp
+[armeabi] Compile++ thumb: fb <= assert.cpp
+[armeabi] Compile++ thumb: fb <= ByteBuffer.cpp
+[armeabi] Compile++ thumb: fb <= Countable.cpp
+[armeabi] Compile++ thumb: fb <= Environment.cpp
+[armeabi] Compile++ thumb: fb <= Exceptions.cpp
+[armeabi] Compile++ thumb: fb <= fbjni.cpp
+[armeabi] Compile++ thumb: fb <= Hybrid.cpp
+[armeabi] Compile++ thumb: fb <= jni_helpers.cpp
+[armeabi] Compile++ thumb: fb <= LocalString.cpp
+[armeabi] Compile++ thumb: fb <= OnLoad.cpp
+[armeabi] Compile++ thumb: fb <= References.cpp
+[armeabi] Compile++ thumb: fb <= WeakReference.cpp
+[armeabi] Compile++ thumb: fb <= log.cpp
+[armeabi] Compile++ thumb: fb <= lyra.cpp
+[armeabi] Compile++ thumb: fb <= onload.cpp
+[armeabi] SharedLibrary  : libfb.so
+[armeabi] Compile++ thumb: concealcpp <= Cipher.cpp
+[armeabi] Compile++ thumb: concealcpp <= CryptoConfig.cpp
+[armeabi] Compile++ thumb: concealcpp <= Decrypt.cpp
+[armeabi] Compile++ thumb: concealcpp <= DecryptStream.cpp
+[armeabi] Compile++ thumb: concealcpp <= Encrypt.cpp
+[armeabi] Compile++ thumb: concealcpp <= EncryptStream.cpp
+[armeabi] Compile++ thumb: concealcpp <= MacConfig.cpp
+[armeabi] Compile++ thumb: concealcpp <= MacDecoder.cpp
+[armeabi] Compile++ thumb: concealcpp <= MacEncoder.cpp
+[armeabi] Compile++ thumb: concealcpp <= PBKDF2.cpp
+[armeabi] Compile++ thumb: concealcpp <= SliceMethods.cpp
+[armeabi] Compile++ thumb: concealcpp <= TailBuffer.cpp
+[armeabi] Compile++ thumb: concealcpp <= TransformBuffer.cpp
+[armeabi] Compile++ thumb: concealcpp <= WithState.cpp
+[armeabi] StaticLibrary  : libconcealcpp.a
+[armeabi] SharedLibrary  : libconcealjni.so
+[armeabi] Install        : libconcealjni.so => libs/armeabi/libconcealjni.so
+[armeabi] Install        : libfb.so => libs/armeabi/libfb.so
+[armeabi-v7a] Compile++ thumb: concealjni <= CipherHybrid.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= DecryptHybrid.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= EncryptHybrid.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= JavaArrays.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= JKeyChain.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= KeyChainFromJava.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= MacDecoderHybrid.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= MacEncoderHybrid.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= OnLoad.cpp
+[armeabi-v7a] Compile++ thumb: concealjni <= PBKDF2Hybrid.cpp
+[armeabi-v7a] Compile++ thumb: fb <= assert.cpp
+[armeabi-v7a] Compile++ thumb: fb <= ByteBuffer.cpp
+[armeabi-v7a] Compile++ thumb: fb <= Countable.cpp
+[armeabi-v7a] Compile++ thumb: fb <= Environment.cpp
+[armeabi-v7a] Compile++ thumb: fb <= Exceptions.cpp
+[armeabi-v7a] Compile++ thumb: fb <= fbjni.cpp
+[armeabi-v7a] Compile++ thumb: fb <= Hybrid.cpp
+[armeabi-v7a] Compile++ thumb: fb <= jni_helpers.cpp
+[armeabi-v7a] Compile++ thumb: fb <= LocalString.cpp
+[armeabi-v7a] Compile++ thumb: fb <= OnLoad.cpp
+[armeabi-v7a] Compile++ thumb: fb <= References.cpp
+[armeabi-v7a] Compile++ thumb: fb <= WeakReference.cpp
+[armeabi-v7a] Compile++ thumb: fb <= log.cpp
+[armeabi-v7a] Compile++ thumb: fb <= lyra.cpp
+[armeabi-v7a] Compile++ thumb: fb <= onload.cpp
+[armeabi-v7a] SharedLibrary  : libfb.so
+[armeabi-v7a] Compile++ thumb: concealcpp <= Cipher.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= CryptoConfig.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= Decrypt.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= DecryptStream.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= Encrypt.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= EncryptStream.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= MacConfig.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= MacDecoder.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= MacEncoder.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= PBKDF2.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= SliceMethods.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= TailBuffer.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= TransformBuffer.cpp
+[armeabi-v7a] Compile++ thumb: concealcpp <= WithState.cpp
+[armeabi-v7a] StaticLibrary  : libconcealcpp.a
+[armeabi-v7a] SharedLibrary  : libconcealjni.so
+[armeabi-v7a] Install        : libconcealjni.so => libs/armeabi-v7a/libconcealjni.so
+[armeabi-v7a] Install        : libfb.so => libs/armeabi-v7a/libfb.so
+[arm64-v8a] Compile++      : concealjni <= CipherHybrid.cpp
+[arm64-v8a] Compile++      : concealjni <= DecryptHybrid.cpp
+[arm64-v8a] Compile++      : concealjni <= EncryptHybrid.cpp
+[arm64-v8a] Compile++      : concealjni <= JavaArrays.cpp
+[arm64-v8a] Compile++      : concealjni <= JKeyChain.cpp
+[arm64-v8a] Compile++      : concealjni <= KeyChainFromJava.cpp
+[arm64-v8a] Compile++      : concealjni <= MacDecoderHybrid.cpp
+[arm64-v8a] Compile++      : concealjni <= MacEncoderHybrid.cpp
+[arm64-v8a] Compile++      : concealjni <= OnLoad.cpp
+[arm64-v8a] Compile++      : concealjni <= PBKDF2Hybrid.cpp
+[arm64-v8a] Compile++      : fb <= assert.cpp
+[arm64-v8a] Compile++      : fb <= ByteBuffer.cpp
+[arm64-v8a] Compile++      : fb <= Countable.cpp
+[arm64-v8a] Compile++      : fb <= Environment.cpp
+[arm64-v8a] Compile++      : fb <= Exceptions.cpp
+[arm64-v8a] Compile++      : fb <= fbjni.cpp
+[arm64-v8a] Compile++      : fb <= Hybrid.cpp
+[arm64-v8a] Compile++      : fb <= jni_helpers.cpp
+[arm64-v8a] Compile++      : fb <= LocalString.cpp
+[arm64-v8a] Compile++      : fb <= OnLoad.cpp
+[arm64-v8a] Compile++      : fb <= References.cpp
+[arm64-v8a] Compile++      : fb <= WeakReference.cpp
+[arm64-v8a] Compile++      : fb <= log.cpp
+[arm64-v8a] Compile++      : fb <= lyra.cpp
+[arm64-v8a] Compile++      : fb <= onload.cpp
+[arm64-v8a] SharedLibrary  : libfb.so
+[arm64-v8a] Compile++      : concealcpp <= Cipher.cpp
+[arm64-v8a] Compile++      : concealcpp <= CryptoConfig.cpp
+[arm64-v8a] Compile++      : concealcpp <= Decrypt.cpp
+[arm64-v8a] Compile++      : concealcpp <= DecryptStream.cpp
+[arm64-v8a] Compile++      : concealcpp <= Encrypt.cpp
+[arm64-v8a] Compile++      : concealcpp <= EncryptStream.cpp
+[arm64-v8a] Compile++      : concealcpp <= MacConfig.cpp
+[arm64-v8a] Compile++      : concealcpp <= MacDecoder.cpp
+[arm64-v8a] Compile++      : concealcpp <= MacEncoder.cpp
+[arm64-v8a] Compile++      : concealcpp <= PBKDF2.cpp
+[arm64-v8a] Compile++      : concealcpp <= SliceMethods.cpp
+[arm64-v8a] Compile++      : concealcpp <= TailBuffer.cpp
+[arm64-v8a] Compile++      : concealcpp <= TransformBuffer.cpp
+[arm64-v8a] Compile++      : concealcpp <= WithState.cpp
+[arm64-v8a] StaticLibrary  : libconcealcpp.a
+[arm64-v8a] SharedLibrary  : libconcealjni.so
+[arm64-v8a] Install        : libconcealjni.so => libs/arm64-v8a/libconcealjni.so
+[arm64-v8a] Install        : libfb.so => libs/arm64-v8a/libfb.so
+[x86] Compile++      : concealjni <= CipherHybrid.cpp
+[x86] Compile++      : concealjni <= DecryptHybrid.cpp
+[x86] Compile++      : concealjni <= EncryptHybrid.cpp
+[x86] Compile++      : concealjni <= JavaArrays.cpp
+[x86] Compile++      : concealjni <= JKeyChain.cpp
+[x86] Compile++      : concealjni <= KeyChainFromJava.cpp
+[x86] Compile++      : concealjni <= MacDecoderHybrid.cpp
+[x86] Compile++      : concealjni <= MacEncoderHybrid.cpp
+[x86] Compile++      : concealjni <= OnLoad.cpp
+[x86] Compile++      : concealjni <= PBKDF2Hybrid.cpp
+[x86] Compile++      : fb <= assert.cpp
+[x86] Compile++      : fb <= ByteBuffer.cpp
+[x86] Compile++      : fb <= Countable.cpp
+[x86] Compile++      : fb <= Environment.cpp
+[x86] Compile++      : fb <= Exceptions.cpp
+[x86] Compile++      : fb <= fbjni.cpp
+[x86] Compile++      : fb <= Hybrid.cpp
+[x86] Compile++      : fb <= jni_helpers.cpp
+[x86] Compile++      : fb <= LocalString.cpp
+[x86] Compile++      : fb <= OnLoad.cpp
+[x86] Compile++      : fb <= References.cpp
+[x86] Compile++      : fb <= WeakReference.cpp
+[x86] Compile++      : fb <= log.cpp
+[x86] Compile++      : fb <= lyra.cpp
+[x86] Compile++      : fb <= onload.cpp
+[x86] SharedLibrary  : libfb.so
+[x86] Compile++      : concealcpp <= Cipher.cpp
+[x86] Compile++      : concealcpp <= CryptoConfig.cpp
+[x86] Compile++      : concealcpp <= Decrypt.cpp
+[x86] Compile++      : concealcpp <= DecryptStream.cpp
+[x86] Compile++      : concealcpp <= Encrypt.cpp
+[x86] Compile++      : concealcpp <= EncryptStream.cpp
+[x86] Compile++      : concealcpp <= MacConfig.cpp
+[x86] Compile++      : concealcpp <= MacDecoder.cpp
+[x86] Compile++      : concealcpp <= MacEncoder.cpp
+[x86] Compile++      : concealcpp <= PBKDF2.cpp
+[x86] Compile++      : concealcpp <= SliceMethods.cpp
+[x86] Compile++      : concealcpp <= TailBuffer.cpp
+[x86] Compile++      : concealcpp <= TransformBuffer.cpp
+[x86] Compile++      : concealcpp <= WithState.cpp
+[x86] StaticLibrary  : libconcealcpp.a
+[x86] SharedLibrary  : libconcealjni.so
+[x86] Install        : libconcealjni.so => libs/x86/libconcealjni.so
+[x86] Install        : libfb.so => libs/x86/libfb.so
+[x86_64] Compile++      : concealjni <= CipherHybrid.cpp
+[x86_64] Compile++      : concealjni <= DecryptHybrid.cpp
+[x86_64] Compile++      : concealjni <= EncryptHybrid.cpp
+[x86_64] Compile++      : concealjni <= JavaArrays.cpp
+[x86_64] Compile++      : concealjni <= JKeyChain.cpp
+[x86_64] Compile++      : concealjni <= KeyChainFromJava.cpp
+[x86_64] Compile++      : concealjni <= MacDecoderHybrid.cpp
+[x86_64] Compile++      : concealjni <= MacEncoderHybrid.cpp
+[x86_64] Compile++      : concealjni <= OnLoad.cpp
+[x86_64] Compile++      : concealjni <= PBKDF2Hybrid.cpp
+[x86_64] Compile++      : fb <= assert.cpp
+[x86_64] Compile++      : fb <= ByteBuffer.cpp
+[x86_64] Compile++      : fb <= Countable.cpp
+[x86_64] Compile++      : fb <= Environment.cpp
+[x86_64] Compile++      : fb <= Exceptions.cpp
+[x86_64] Compile++      : fb <= fbjni.cpp
+[x86_64] Compile++      : fb <= Hybrid.cpp
+[x86_64] Compile++      : fb <= jni_helpers.cpp
+[x86_64] Compile++      : fb <= LocalString.cpp
+[x86_64] Compile++      : fb <= OnLoad.cpp
+[x86_64] Compile++      : fb <= References.cpp
+[x86_64] Compile++      : fb <= WeakReference.cpp
+[x86_64] Compile++      : fb <= log.cpp
+[x86_64] Compile++      : fb <= lyra.cpp
+[x86_64] Compile++      : fb <= onload.cpp
+[x86_64] SharedLibrary  : libfb.so
+[x86_64] Compile++      : concealcpp <= Cipher.cpp
+[x86_64] Compile++      : concealcpp <= CryptoConfig.cpp
+[x86_64] Compile++      : concealcpp <= Decrypt.cpp
+[x86_64] Compile++      : concealcpp <= DecryptStream.cpp
+[x86_64] Compile++      : concealcpp <= Encrypt.cpp
+[x86_64] Compile++      : concealcpp <= EncryptStream.cpp
+[x86_64] Compile++      : concealcpp <= MacConfig.cpp
+[x86_64] Compile++      : concealcpp <= MacDecoder.cpp
+[x86_64] Compile++      : concealcpp <= MacEncoder.cpp
+[x86_64] Compile++      : concealcpp <= PBKDF2.cpp
+[x86_64] Compile++      : concealcpp <= SliceMethods.cpp
+[x86_64] Compile++      : concealcpp <= TailBuffer.cpp
+[x86_64] Compile++      : concealcpp <= TransformBuffer.cpp
+[x86_64] Compile++      : concealcpp <= WithState.cpp
+[x86_64] StaticLibrary  : libconcealcpp.a
+[x86_64] SharedLibrary  : libconcealjni.so
+[x86_64] Install        : libconcealjni.so => libs/x86_64/libconcealjni.so
+[x86_64] Install        : libfb.so => libs/x86_64/libfb.so
+make: Leaving directory `/tmp/rdisk/408/src/conceal-master'
+:compileDebugJavaWithJavacNote: /tmp/rdisk/408/src/conceal-master/first-party/soloader/SysUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:processDebugJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mergeDebugJniLibFolders
+:transformNativeLibsWithMergeJniLibsForDebug
+:transformNativeLibsWithStripDebugSymbolForDebug
+:transformNativeLibsWithSyncJniLibsForDebug
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:preReleaseBuild UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseNdk NO-SOURCE
+:copyReleaseLint NO-SOURCE
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:mergeReleaseAssets
+:mergeReleaseProguardFiles
+:packageReleaseRenderscript NO-SOURCE
+:compileReleaseRenderscript
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:processReleaseManifest
+:generateReleaseBuildConfig
+:processReleaseResources
+:generateReleaseSources
+:incrementalReleaseJavaCompilationSafeguard
+:javaPreCompileRelease
+:compileReleaseJavaWithJavacNote: /tmp/rdisk/408/src/conceal-master/first-party/soloader/SysUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:processReleaseJavaRes NO-SOURCE
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mergeReleaseJniLibFolders
+:transformNativeLibsWithMergeJniLibsForRelease
+:transformNativeLibsWithStripDebugSymbolForRelease
+:transformNativeLibsWithSyncJniLibsForRelease
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 3 mins 5.077 secs
+
+2018-04-10 17:26:38,422 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 17:26:38,450 ERROR FullProcessService - Could not find generated or existed APK file

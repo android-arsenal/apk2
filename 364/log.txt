@@ -1,0 +1,10 @@
+2018-04-10 18:08:17,876 INFO  DownloadService - Downloading "https://github.com/saik0/UnifiedPreference/archive/master.zip", attempt 3
+2018-04-10 18:08:18,509 INFO  DownloadService - Downloaded https://github.com/saik0/UnifiedPreference/archive/master.zip, attempt 3
+2018-04-10 18:08:18,510 INFO  DownloadService - Size of file "/tmp/rdisk/364/master.zip": 116 KB
+2018-04-10 18:08:18,510 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:08:18,510 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/364/master.zip: false
+2018-04-10 18:08:18,510 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-04-10 18:08:18,510 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:08:18,510 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:08:18,510 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:08:18,510 ERROR FullProcessService - Could not find generated or existed APK file

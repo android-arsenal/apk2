@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.commonsware.cwac.anddown.demo",
+    "label" : "CWAC: AndDown",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 12,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.commonsware.cwac.anddown.demo\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"23\" />\n\t<application android:label=\"CWAC: AndDown\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\">\n\t\t<activity android:label=\"CWAC: AndDown\" android:name=\"com.commonsware.cwac.anddown.demo.AndDownDemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 56534,
+  "crc32" : 1132928434,
+  "sha256" : "f0990fb7f36aad8cca672ec13ce51a998b986ea921e047f934e7d0521b39d265",
+  "buildTime" : 1523384752000
+}

@@ -1,0 +1,7 @@
+2016-07-18 03:26:16,857 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/jayway/powermock/archive/master.zip", attempt 3
+2016-07-18 03:26:19,500 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/jayway/powermock/archive/master.zip, attempt 3
+2016-07-18 03:26:21,565 INFO  c.g.v.a.s.FullProcessService - Archive with sources does not contain any build script
+2016-07-18 03:26:21,565 ERROR c.g.v.a.s.FullProcessService - Could not find directory with sources
+2016-07-18 03:26:21,565 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-07-18 03:26:21,565 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-18 03:26:21,598 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

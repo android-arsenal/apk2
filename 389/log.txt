@@ -1,0 +1,129 @@
+2018-05-15 04:23:27,759 INFO  DownloadService - Downloading "https://github.com/Kaopiz/android-segmented-control/archive/master.zip", attempt 3
+2018-05-15 04:23:28,161 INFO  DownloadService - Downloaded https://github.com/Kaopiz/android-segmented-control/archive/master.zip, attempt 3
+2018-05-15 04:23:28,161 INFO  DownloadService - Size of file "/tmp/rdisk/389/master.zip": 363 KB
+2018-05-15 04:23:28,161 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:23:28,161 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/389/master.zip: true
+2018-05-15 04:23:28,161 DEBUG ZipUtil - Extracting '/tmp/rdisk/389/master.zip' into '/tmp/rdisk/389/src'.
+2018-05-15 04:23:28,174 INFO  FullProcessService - Size of directory with sources: 574 KB
+2018-05-15 04:23:28,174 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/389/src]
+2018-05-15 04:23:28,180 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/389/src/.git/
+
+2018-05-15 04:23:28,183 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/389/src/android-segmented-control-master/gradlew
+2018-05-15 04:23:28,186 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/389/src/android-segmented-control-master/demo/build.gradle /tmp/rdisk/389/src/android-segmented-control-master/library/build.gradle /tmp/rdisk/389/src/android-segmented-control-master/build.gradle
+2018-05-15 04:23:28,188 INFO  ProjectBuildService - All script(s): /tmp/rdisk/389/src/android-segmented-control-master/settings.gradle /tmp/rdisk/389/src/android-segmented-control-master/maven_push.gradle /tmp/rdisk/389/src/android-segmented-control-master/library/build.gradle /tmp/rdisk/389/src/android-segmented-control-master/demo/build.gradle /tmp/rdisk/389/src/android-segmented-control-master/build.gradle
+2018-05-15 04:23:28,188 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:23:28,188 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:23:28,196 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/389/src/android-segmented-control-master/demo/local.properties
+2018-05-15 04:23:28,196 INFO  ProjectFixService - Build info for "/tmp/rdisk/389/src/android-segmented-control-master/demo/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-05-15 04:23:28,197 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/389/src/android-segmented-control-master/library/local.properties
+2018-05-15 04:23:28,197 INFO  ProjectFixService - Build info for "/tmp/rdisk/389/src/android-segmented-control-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-05-15 04:23:28,197 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/389/src/android-segmented-control-master/local.properties
+2018-05-15 04:23:28,198 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2018-05-15 04:23:28,198 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2018-05-15 04:23:28,200 INFO  ProjectFixService - Build info for "/tmp/rdisk/389/src/android-segmented-control-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=8,targetSdkVersion=23]
+2018-05-15 04:23:28,200 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:23:28,200 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:23:28,200 INFO  SysUtils - Execute command: [/tmp/rdisk/389/src/android-segmented-control-master/gradlew, -b, /tmp/rdisk/389/src/android-segmented-control-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:23:36,886 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-05-15 04:23:36,886 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:23:36,886 INFO  SysUtils - Execute command: [/tmp/rdisk/389/src/android-segmented-control-master/gradlew, -b, /tmp/rdisk/389/src/android-segmented-control-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 04:24:02,730 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:checkDebugManifest
+:demo:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavacNote: /tmp/rdisk/389/src/android-segmented-control-master/library/src/main/java/info/hoang8f/android/segmented/SegmentedGroup.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:extractReleaseAnnotations
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNative_libsWithMergeJniLibsForRelease
+:library:transformNative_libsWithSyncJniLibsForRelease
+:library:bundleRelease
+:demo:prepareComAndroidSupportAppcompatV72311Library
+:demo:prepareComAndroidSupportSupportV42311Library
+:demo:prepareInfoHoang8fLibrary106Library
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugAssets UP-TO-DATE
+:demo:mergeDebugAssets
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:compileDebugJavaWithJavacNote: /tmp/rdisk/389/src/android-segmented-control-master/demo/src/main/java/info/hoang8f/mymo/segmented/demo/SampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileDebugNdk UP-TO-DATE
+:demo:compileDebugSources
+:demo:transformClassesWithDexForDebug
+:demo:mergeDebugJniLibFolders
+:demo:transformNative_libsWithMergeJniLibsForDebug
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateDebugSigning
+:demo:packageDebug
+:demo:zipalignDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseAssets UP-TO-DATE
+:demo:mergeReleaseAssets
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:compileReleaseJavaWithJavacNote: /tmp/rdisk/389/src/android-segmented-control-master/demo/src/main/java/info/hoang8f/mymo/segmented/demo/SampleActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:demo:compileReleaseNdk UP-TO-DATE
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:transformClassesWithDexForRelease
+:demo:mergeReleaseJniLibFolders
+:demo:transformNative_libsWithMergeJniLibsForRelease
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.388 secs
+
+2018-05-15 04:24:02,775 INFO  FullProcessService - Found APK file: /tmp/rdisk/389/src/android-segmented-control-master/demo/build/outputs/apk/demo-release-unsigned.apk

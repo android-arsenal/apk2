@@ -1,0 +1,10 @@
+2018-05-15 04:23:27,296 INFO  DownloadService - Downloading "https://github.com/square/retrofit/archive/master.zip", attempt 3
+2018-05-15 04:23:27,746 INFO  DownloadService - Downloaded https://github.com/square/retrofit/archive/master.zip, attempt 3
+2018-05-15 04:23:27,746 INFO  DownloadService - Size of file "/tmp/rdisk/401/master.zip": 454 KB
+2018-05-15 04:23:27,746 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:23:27,747 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/401/master.zip: false
+2018-05-15 04:23:27,747 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-05-15 04:23:27,747 ERROR FullProcessService - Could not find directory with sources
+2018-05-15 04:23:27,747 ERROR FullProcessService - Project will not be processed
+2018-05-15 04:23:27,747 ERROR FullProcessService - Project build has not produced APK file
+2018-05-15 04:23:27,747 ERROR FullProcessService - Could not find generated or existed APK file

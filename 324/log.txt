@@ -1,0 +1,235 @@
+2018-05-15 04:30:47,887 INFO  DownloadService - Downloading "https://github.com/rmtheis/android-ocr/archive/master.zip", attempt 3
+2018-05-15 04:30:50,994 INFO  DownloadService - Downloaded https://github.com/rmtheis/android-ocr/archive/master.zip, attempt 3
+2018-05-15 04:30:50,994 INFO  DownloadService - Size of file "/tmp/rdisk/324/master.zip": 15 MB
+2018-05-15 04:30:50,994 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:30:50,995 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/324/master.zip: true
+2018-05-15 04:30:50,995 DEBUG ZipUtil - Extracting '/tmp/rdisk/324/master.zip' into '/tmp/rdisk/324/src'.
+2018-05-15 04:30:51,133 INFO  FullProcessService - Size of directory with sources: 15 MB
+2018-05-15 04:30:51,133 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/324/src]
+2018-05-15 04:30:51,138 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/324/src/.git/
+
+2018-05-15 04:30:51,141 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/324/src/android-ocr-master/gradlew
+2018-05-15 04:30:51,144 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/324/src/android-ocr-master/OCRTest/build.gradle /tmp/rdisk/324/src/android-ocr-master/build.gradle
+2018-05-15 04:30:51,146 INFO  ProjectBuildService - All script(s): /tmp/rdisk/324/src/android-ocr-master/settings.gradle /tmp/rdisk/324/src/android-ocr-master/build.gradle /tmp/rdisk/324/src/android-ocr-master/OCRTest/build.gradle
+2018-05-15 04:30:51,146 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:30:51,146 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:30:51,151 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/324/src/android-ocr-master/OCRTest/local.properties
+2018-05-15 04:30:51,152 INFO  ProjectFixService - Build info for "/tmp/rdisk/324/src/android-ocr-master/OCRTest/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=10]
+2018-05-15 04:30:51,152 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/324/src/android-ocr-master/local.properties
+2018-05-15 04:30:51,153 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-05-15 04:30:51,153 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-05-15 04:30:51,154 INFO  ProjectFixService - Build info for "/tmp/rdisk/324/src/android-ocr-master/build.gradle": [buildToolsVersion=24.0.2,compileSdkVersion=19,minSdkVersion=9,targetSdkVersion=10]
+2018-05-15 04:30:51,154 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:30:51,154 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:30:51,154 INFO  SysUtils - Execute command: [/tmp/rdisk/324/src/android-ocr-master/gradlew, -b, /tmp/rdisk/324/src/android-ocr-master/OCRTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:30:57,761 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-05-15 04:30:57,761 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:30:57,761 INFO  SysUtils - Execute command: [/tmp/rdisk/324/src/android-ocr-master/gradlew, -b, /tmp/rdisk/324/src/android-ocr-master/OCRTest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 04:31:42,264 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:OCRTest:preBuild UP-TO-DATE
+:OCRTest:preDebugBuild UP-TO-DATE
+:OCRTest:checkDebugManifest
+:OCRTest:preReleaseBuild UP-TO-DATE
+:OCRTest:prepareComRmtheisTessTwo604Library
+:OCRTest:prepareDebugDependencies
+:OCRTest:compileDebugAidl
+:OCRTest:compileDebugRenderscript
+:OCRTest:generateDebugBuildConfig
+:OCRTest:mergeDebugShaders
+:OCRTest:compileDebugShaders
+:OCRTest:generateDebugAssets
+:OCRTest:mergeDebugAssets
+:OCRTest:generateDebugResValues
+:OCRTest:generateDebugResources
+:OCRTest:mergeDebugResources
+:OCRTest:processDebugManifest
+:OCRTest:processDebugResources
+:OCRTest:generateDebugSources
+:OCRTest:incrementalDebugJavaCompilationSafeguard
+:OCRTest:compileDebugJavaWithJavac
+:OCRTest:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:OCRTest:compileDebugNdk UP-TO-DATE
+:OCRTest:compileDebugSources
+:OCRTest:prePackageMarkerForDebug
+:OCRTest:transformClassesWithDexForDebug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 1623 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:OCRTest:mergeDebugJniLibFolders
+:OCRTest:transformNative_libsWithMergeJniLibsForDebug
+:OCRTest:processDebugJavaRes UP-TO-DATE
+:OCRTest:transformResourcesWithMergeJavaResForDebug
+:OCRTest:validateDebugSigning
+:OCRTest:packageDebug
+:OCRTest:zipalignDebug
+:OCRTest:assembleDebug
+:OCRTest:checkReleaseManifest
+:OCRTest:prepareReleaseDependencies
+:OCRTest:compileReleaseAidl
+:OCRTest:compileReleaseRenderscript
+:OCRTest:generateReleaseBuildConfig
+:OCRTest:mergeReleaseShaders
+:OCRTest:compileReleaseShaders
+:OCRTest:generateReleaseAssets
+:OCRTest:mergeReleaseAssets
+:OCRTest:generateReleaseResValues
+:OCRTest:generateReleaseResources
+:OCRTest:mergeReleaseResources
+:OCRTest:processReleaseManifest
+:OCRTest:processReleaseResources
+:OCRTest:generateReleaseSources
+:OCRTest:incrementalReleaseJavaCompilationSafeguard
+:OCRTest:compileReleaseJavaWithJavac
+:OCRTest:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:OCRTest:compileReleaseNdk UP-TO-DATE
+:OCRTest:compileReleaseSources
+:OCRTest:lintVitalRelease
+:OCRTest:prePackageMarkerForRelease
+:OCRTest:processReleaseJavaRes UP-TO-DATE
+:OCRTest:transformResourcesWithMergeJavaResForRelease
+:OCRTest:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.2.1
+Reading input...
+Reading program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/google-api-translate-java-0.98-mod2.jar] (filtered)
+Reading program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/microsoft-translator-java-api-0.6-mod.jar] (filtered)
+Reading program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/jtar-1.0.4.jar] (filtered)
+Reading program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/json_simple-1.1.jar] (filtered)
+Reading program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/intermediates/exploded-aar/com.rmtheis/tess-two/6.0.4/jars/classes.jar] (filtered)
+Reading program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar] (filtered)
+Reading program directory [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/intermediates/classes/release] (filtered)
+Reading library jar [/root/Applications/android-sdk/platforms/android-19/android.jar]
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 3412
+  Final number of library classes:    3412
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 119
+  Final number of program classes:    119
+Optimizing...
+  Number of finalized classes:                 11
+  Number of unboxed enum classes:              1
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                13
+  Number of staticized methods:                8
+  Number of finalized methods:                 140
+  Number of removed method parameters:         4
+  Number of inlined constant parameters:       4
+  Number of inlined constant return values:    3
+  Number of inlined short method calls:        19
+  Number of inlined unique method calls:       57
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                3
+  Number of variable peephole optimizations:   394
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      1
+  Number of branch peephole optimizations:     192
+  Number of string peephole optimizations:     95
+  Number of simplified instructions:           46
+  Number of removed instructions:              455
+  Number of removed local variables:           21
+  Number of removed exception blocks:          7
+  Number of optimized local variable frames:   0   (disabled)
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 119
+  Final number of program classes:    118
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 2
+  Number of removed method parameters:         3
+  Number of inlined constant parameters:       1
+  Number of inlined constant return values:    1
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   4
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     5
+  Number of string peephole optimizations:     4
+  Number of simplified instructions:           3
+  Number of removed instructions:              298
+  Number of removed local variables:           27
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0   (disabled)
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 118
+  Final number of program classes:    118
+Optimizing...
+  Number of finalized classes:                 0
+  Number of unboxed enum classes:              0
+  Number of vertically merged classes:         0   (disabled)
+  Number of horizontally merged classes:       0   (disabled)
+  Number of removed write-only fields:         0   (disabled)
+  Number of privatized fields:                 0   (disabled)
+  Number of inlined constant fields:           0   (disabled)
+  Number of privatized methods:                0
+  Number of staticized methods:                0
+  Number of finalized methods:                 0
+  Number of removed method parameters:         0
+  Number of inlined constant parameters:       0
+  Number of inlined constant return values:    0
+  Number of inlined short method calls:        0
+  Number of inlined unique method calls:       0
+  Number of inlined tail recursion calls:      0
+  Number of merged code blocks:                0
+  Number of variable peephole optimizations:   0
+  Number of arithmetic peephole optimizations: 0   (disabled)
+  Number of cast peephole optimizations:       0   (disabled)
+  Number of field peephole optimizations:      0
+  Number of branch peephole optimizations:     0
+  Number of string peephole optimizations:     0
+  Number of simplified instructions:           0
+  Number of removed instructions:              0
+  Number of removed local variables:           0
+  Number of removed exception blocks:          0
+  Number of optimized local variable frames:   0   (disabled)
+Writing output...
+Preparing output jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar]
+  Copying resources from program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/google-api-translate-java-0.98-mod2.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/microsoft-translator-java-api-0.6-mod.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/jtar-1.0.4.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/libs/json_simple-1.1.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/intermediates/exploded-aar/com.rmtheis/tess-two/6.0.4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/intermediates/transforms/mergeJavaRes/release/jars/2/1f/main.jar] (filtered)
+  Copying resources from program directory [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/intermediates/classes/release] (filtered)
+Printing classes to [/tmp/rdisk/324/src/android-ocr-master/OCRTest/build/outputs/mapping/release/dump.txt]...
+:OCRTest:transformClassesWithDexForRelease
+:OCRTest:mergeReleaseJniLibFolders
+:OCRTest:transformNative_libsWithMergeJniLibsForRelease
+:OCRTest:packageRelease
+:OCRTest:assembleRelease
+:OCRTest:assemble
+:OCRTest:build
+
+BUILD SUCCESSFUL
+
+Total time: 44.084 secs
+
+2018-05-15 04:31:42,279 INFO  FullProcessService - Found APK file: /tmp/rdisk/324/src/android-ocr-master/OCRTest/build/outputs/apk/OCRTest-release-unsigned.apk

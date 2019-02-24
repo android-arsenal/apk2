@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.uncopt.android.example.justify",
+    "label" : "Justified Text Library Demo",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.3",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABMlBMVEX////////////////////+/v5xcXFkZGT////R0dFERET////z8/NLS0v////c3NzS0tL////////////////////Q0NDExMT////w8PBISEj////////T09P///98fHxubm57e3v///////////////9ERET///////////////////+IiIh6enqHh4f////X19f////t7e1ISEjs7Oz///////+3t7f////////////////////o6Ojh4eH////29vZMTEz////Pz8/////9/f1mZmZZWVn///////////////+fn5+RkZH////d3d3////m5uZFRUX///+tra2dnZ3////////////////////////////////7+/tRUVFhYWHq6ur///9QUFD///////+hjLe7AAAAZnRSTlMAPpKjAczx9SrX/wrP/W/U1iApKzZy19oNz/0OKNaF7fHthjGWMgAjd4h4JOru6iXVEND+0BFz3TdEFRtt0dMIzvws1wLM9PhMoLFe4+ce1BbS/3bg5E5fZrrMplIEzfv20RP7Z7ubonqQAAABOklEQVRIx+WS11ICURBEFyS6BBFhBQEV8xpAUURcJCdBshgwh///BV/u7KWsq9XwynnurpnuakmaVQzGOQCjgfQms8UKYDGbmMFmn4ew25hBdjgRvdMh008u9wKA28VTexYBPGM1eZcAvFzv8ysAfh/plwNBJHQwsMIMoTBWazhEJyKrawDrUT3DRmQTILol3NX2L4Sind09AHVfN6gHhwBHKuljcayleIwZjk8SiD5xekYnkso5gJLkqVMXAKmxmtKXAGmu1zJXABmN9NlcHgmdz2WZoVDEai0WmKFUrlQBKuUS/VSrXwPUa9OPT25oAA2Zj695A9DUx9dqYy21W8zQ6fYQfa/boRP9wS3AoM9TD+8AhtL0td4/PIoZPQkNzy+vf+R8GwkN/4zv/UN84XOyC9LX92QZZo4fr6LIpOpArnUAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 659,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.3\" package=\"com.uncopt.android.example.justify\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"19\" />\n\t<application android:theme=\"resourceId:0x7f070000\" android:label=\"Justified Text Library Demo\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Justified Text Library Demo\" android:name=\"com.uncopt.android.example.justify.ExampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 361321,
+  "crc32" : 2870768713,
+  "sha256" : "a7b2f1fdc6521ffd99473477f8758bdf406a6d713d6b5d01d4cc0487e216db40",
+  "buildTime" : 1496784440000
+}

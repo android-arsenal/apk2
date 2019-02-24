@@ -1,0 +1,21 @@
+2018-04-10 10:49:12,744 INFO  DownloadService - Downloading "https://github.com/japgolly/svg-android/archive/master.zip", attempt 3
+2018-04-10 10:50:13,196 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 10:50:13,878 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 10:50:13,878 INFO  DownloadService - Downloading "https://github.com/japgolly/svg-android/archive/master.zip", attempt 3
+2018-04-10 10:51:15,126 DEBUG FullProcessService - Repository https://github.com/japgolly/svg-android available: true
+2018-04-10 10:51:15,126 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 10:51:15,126 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/japgolly/svg-android, /tmp/rdisk/448/src]
+2018-04-10 10:51:16,598 INFO  SysUtils - 
+2018-04-10 10:51:16,611 INFO  GitService - Deleted "/tmp/rdisk/448/src/.git": true
+2018-04-10 10:51:16,612 INFO  FullProcessService - Size of directory with sources: 248 KB
+2018-04-10 10:51:16,612 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/448/src]
+2018-04-10 10:51:16,617 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/448/src/.git/
+
+2018-04-10 10:51:16,618 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 10:51:16,618 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 10:51:16,620 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 10:51:16,621 INFO  ProjectBuildService - All script(s): none
+2018-04-10 10:51:16,621 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 10:51:16,621 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 10:51:16,621 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 10:51:16,622 ERROR FullProcessService - Could not find generated or existed APK file

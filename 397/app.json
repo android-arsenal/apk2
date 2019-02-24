@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "net.equasoft.demoapplication",
+    "label" : "RatingReminderDemo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1493,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"net.equasoft.demoapplication\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f090082\" android:label=\"RatingReminderDemo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"net.equasoft.demoapplication.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1297817,
+  "crc32" : 208893135,
+  "sha256" : "d87c4ed4bf1bf89a83d29bad9f598fdb2e5b339a51d3f08256f52b1092339fc4",
+  "buildTime" : 1523381309000
+}

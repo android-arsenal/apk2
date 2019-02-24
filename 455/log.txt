@@ -1,0 +1,7 @@
+2016-07-19 01:10:11,310 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/cucumber/cucumber/archive/master.zip", attempt 3
+2016-07-19 01:10:14,698 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/cucumber/cucumber/archive/master.zip, attempt 3
+2016-07-19 01:10:15,272 INFO  c.g.v.a.s.FullProcessService - Archive with sources does not contain any build script
+2016-07-19 01:10:15,272 ERROR c.g.v.a.s.FullProcessService - Could not find directory with sources
+2016-07-19 01:10:15,273 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-07-19 01:10:15,273 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-19 01:10:15,294 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

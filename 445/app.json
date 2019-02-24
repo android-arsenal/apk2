@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.readystatesoftware.systembartint.sample",
+    "label" : "System Bar Tint Examples",
+    "icon" : "res/drawable-mdpi/ic_launcher.png",
+    "versionName" : "1.0.3",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAFUElEQVRoQ+2aX0xbVRzHv/cWRvmzMwVdWRBS/wwW2CiVrYwobsSpD2pisuzFpCYm+qayMRaJ+kJcmhgTH+yLhmgi8UV9MVkk2YP82ZYBAsLQbSA6dMiEpDI87A+TC9ff5dL23vaW3tvSlRlO0pb2nvM7v8/v3zn3XATc4024x/XH/wpAfN79c4+MjQ1FFpe/G9pdS5GzrESP1gP2CtbXJUDY0F6RIcsXec1B0n0hEiCngvV2CljO2Mh5IUOULvL99aTjrU2AdHhq0wPpsLp2zk0PbHogSQvclRByFAHuJ2RU1Qq4yYEhWt+HewTc+CdJ7Wl4ygBytypKA/vqZeyqjF7MF+8Aw71AfxdwaRBYXEwMZl0BbDZglxvY/zTgqpGRla0qPjMpY+AsMHBGQB6B7T0ow027F5avXr8eAAa7gd5OYPI3ayDrAlD8KOCh3Uh1HVDgoO0fbaluzcsUKmThDgGjI+Rq5WdN27IF2FNDHiKY3fsEZGaqF38fpTFnCIiAFbB4LWGAwhKa/EnFmkBhsTrNHdpOjfSRJb8HLv8ILC3Fm169bs8hGA9Qe4g86AJstPtaXpbxC4H3k9eGzgE3541lWQLIzVPjuvoAUO4ik4qq0LGfgB9o27fWROZQgPwHVU/uPSDDWRo2zOA5AQMUZqNDesNYAmg4SYpXq0LVuFaFXrtqVj1r/Zxl5GWCcdfJKNiu5kvHt8BXn4blxAHo0W2nj/nUJP2EQIbPR8e1NfXM9xapOBw6DBx+FTjbDnzpjwSoNd5Ol7NuqgtLofuBY74slBPACe8i5gIrN0BJNCX+FBmrcRhH0h6PgLdaMghgGW1+bXKJ0iX+VCyA052y5oam0ZdLADYCmKcKEVFWkkAxM7TSk0EAOQSwiC/8t0NDBNgI4FljgDJ2ijwghTzQ5LufADJx3BsggGQ9YEbtcJ8qj50AGLrbFwiAlvPVJiJDusxfjAXwtS6EmnwOAshCo3eKQkjrxtTfNrs8WWho2U4ANwjguobeJo3xI8YAO1kbhVA4B972PUQAOTjqnSAPJLj2WzN8qLfbsxVHW3YQAMfn/mldCI3zV4wBHmOtuhxo9jkJII8ARjEbkBJUJbFhVZ48NLY40dU+SwDXNACi9Ct/3RjgEfaxrow2+8oIgKHBO0IeoN2Y6Wau0qwlzkUeON5SSgABAvgj1FWGIF3hb8YC+IByQA4lcbOvEhXubWj9aBzz80YhFCyNinxrZTI4QvkMlgetBOfOXLz0cjE622cIYJx6KXmnVEIbATQZAzzM3teF0Du+xwkg37TdU9Gxo30Kn/nHNCEkSBP8PWMAJ3uXAMIeqH+uGI6i7BVubd2J9908SDDUtD7Qj74yOof+89okFgngpDFACTuhK6PmFbmbPW3SVf6hMUAxe4MAgkeLqa/1iWGL0iT3GwMUsdd0OaCdIJhCQaxwGIkrIaa0WMiRIZeY4sE5BOlP3moMsIN5qYwqObCeUyaibmzv0+m5NMXbYgEc0YRQIhPHGpP8uqCRLP3FvzEGKGQvEADScLweHZhrmE+a5qeMARzsGV0ZjS1kXS1qydVKCM3w08YAD7C6NHnAEoMU4GeNAQpYTYpywJKCcTqL0t+8zxggn7lMhtB6KmRNlhJCs/yCMcB9rHS1jFoTGu6d+tygAi/N8TFjgG2sJCIHIpevRMHCC512hQn+HWsh1F5X65TyLhDAhDEAYw7ddtq8uqm3vHYd4HzaGMBuz75AHelUZkO3pYWF23QgGf2Y1U4/0sk+lM+N3JQH3FP0inrQrcQBnSGbPHlKH6Jy8/AvvaL+1SB9KiUx83+vvUFPuV716QAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 20,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"1.0.3\" package=\"com.readystatesoftware.systembartint.sample\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"19\" />\n\t<application android:theme=\"resourceId:0x7f060002\" android:label=\"System Bar Tint Examples\" android:icon=\"res/drawable-mdpi/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"System Bar Tint Examples\" android:name=\"com.readystatesoftware.systembartint.sample.SamplesListActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f060003\" android:label=\"Default Example\" android:name=\"com.readystatesoftware.systembartint.sample.DefaultActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"com.readystatesoftware.systembartint.SAMPLE\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f060000\" android:label=\"Match Action Bar Example\" android:name=\"com.readystatesoftware.systembartint.sample.MatchActionBarActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"com.readystatesoftware.systembartint.SAMPLE\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f060003\" android:label=\"Color Example\" android:name=\"com.readystatesoftware.systembartint.sample.ColorActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"com.readystatesoftware.systembartint.SAMPLE\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 55202,
+  "crc32" : 1118788822,
+  "sha256" : "497d548d520bf2334e1aa7918eb58194ced9fe391f715bcf0122512856143d45",
+  "buildTime" : 1523357927000
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.sothree.slidinguppanel.demo",
+    "label" : "Sliding Up Panel Demo",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "3.4.0",
+    "versionCode" : 17,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAE00lEQVRYw82WXYhVVRTHf2vvc86d62iiJlGGX9gQlaOGYk2aIU5MkAlDYUJTTxEaFfUQRdFb9PFgTA8RhRTlgy9JL5b0hUb1oFA5EakP86CjJmbmOB/3no+9ejjn3nvuuTNjkkxt2JyPvfda/7XWf6294D8eUntxp37oxPdumBatUXzaLOgaAPAAksFvl1d2bzssQTm4cvw6wfvUQ8PxMBn8do1deveAl541C1X9gMSCSCqnJk/+pbVFWaqgfiBiFgIDJtuWCJopUxDNnhSs0sKz+E9b/xVlCSCKokk9BPXDqhPAT58NB08FYrL1wndOj1ePpjpQN6XP5aowUFM9mgeg2pi1FSkA/+ccu/z+nB6v8TP1gGSalQIJc2HUTIFk75IpUwHR9FD9aH4/oJp5YNIQZFkgRV7lmCwArgGi/t8pLg4xLsIEM1AxDWe6nGPV1QWb5rgoOAc4xCVo9RLEldQelwF06RQUwnE0HEHUIXEVN2sBpm8vbu0O4kSRaLwhU4uTHABNUUltuhgnFu7vxy3dBOFoYy2bhCO42x5Cu19FXZyKuXiK5NAHeCsfxnt0L3HbtUg0hqDNZ4seEBTJoZQkwgXXULp9K2bJOjSqtFigUYjt6Ka0ug8nPk587NaPMfOXUXm/By6ewntkD4kESBI2nRXn6tQqhKCGMEWsgMbVFusls0CjChqOpcRLIuIDb2KX3kNb3x6qn2zHGA/pegqtjrR6QLU5BPlFaYqTThC/1IoaS100Dve9gb/mMaof9iJemWD9M4SfvYRdtQ0XzEZc3GzkhB7IES1VkKaVFJWrA00aRDIWDryOzFlE0P0y4b4XsCu3omd/Q8TAvGUQV5t1NGcBOQI6RJO0/ApNgGqzJkRI01bEEJz7lWT/K5iOe9Hh02AseCW0Mgwz5kESZ7IzGaqFSlhHln5LHKLOgV9GXIygaRHJCo+4BPXL2dmEJHHI0g3opTOIV0ozPq6A34ZUh7PzrlH0Jr8LUg0yehZ39iheRzexPws/GgPbli5HYyTt1xEsWovGFTQcJdncj7+6j+p7PXhd29GThzDlOYg/A84dRcTmDJy0EDUYaqMx4oM7sfMWw5Z+IgJ07Dw6dp7In43pfRczcz7EVcR4mGOfU931AOaWzdjOXqJPn8Xb9CLu+JfYi0OoyISFyGshWm0EZbyfPqJ6fSfBhqdJbtqIO/41WA/v5h5M+1yS8WEkaMcIMHgQ74lvMNYn7O/CrngQWbIOt3MVxvObZKtmlbTpMnIFAAjW82Hfc4QnD2PuehLb2QvqcEM/En31Giy+E9uxCYkqGGuI9u4gEg+78XnMrZtJdm3BvzAIpZm5q16b0tBrSUNpXH+KYL0S5ufduIE9uPLclKDjf1IiwZ38Hv3uLSwJRBGmegl5/As4cwT39h34fxxDSu0N8tWantYsyK7RSRoSCcpYVaT6V7rd80ECjCagMYgB42FHfid5Zz12eAhjDBqUs3Qt9AKtHZFm16pO3XVk3qmlpOR6CQVMEmJGz4BfSm/oppAWW8cCB1JQLu0qrqDhbfkWW7dQJ23JGn72mvq9y3ngag1lgkqoXLYpvXraaamEdloBpBywOQ+4E9UqIY5gWkIQEZZUTzS1+heO7F8uwo0yPeEfmrOi5xf+D+Nvqdgf0lpTG50AAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1761,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"17\" android:versionName=\"3.4.0\" package=\"com.sothree.slidinguppanel.demo\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0700ae\" android:label=\"Sliding Up Panel Demo\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Sliding Up Panel Demo\" android:name=\"com.sothree.slidinguppanel.demo.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1763096,
+  "crc32" : 3269221902,
+  "sha256" : "fe67ba7fea1994f983358fad2eb56b1ee1d28ec845a7f7d31e616f5513ffb731",
+  "buildTime" : 1526443709000
+}

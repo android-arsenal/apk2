@@ -1,0 +1,1070 @@
+2018-04-10 18:24:47,894 INFO  DownloadService - Downloading "https://github.com/commonsguy/cwac-anddown/archive/master.zip", attempt 3
+2018-04-10 18:24:48,468 INFO  DownloadService - Downloaded https://github.com/commonsguy/cwac-anddown/archive/master.zip, attempt 3
+2018-04-10 18:24:48,468 INFO  DownloadService - Size of file "/tmp/rdisk/286/master.zip": 85 KB
+2018-04-10 18:24:48,468 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:24:48,469 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/286/master.zip: true
+2018-04-10 18:24:48,469 DEBUG ZipUtil - Extracting '/tmp/rdisk/286/master.zip' into '/tmp/rdisk/286/src'.
+2018-04-10 18:24:48,478 INFO  FullProcessService - Size of directory with sources: 202 KB
+2018-04-10 18:24:48,478 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/286/src]
+2018-04-10 18:24:48,483 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/286/src/.git/
+
+2018-04-10 18:24:48,485 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 18:24:48,485 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 18:24:48,488 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/286/src/cwac-anddown-master/anddown/build.gradle /tmp/rdisk/286/src/cwac-anddown-master/demo/build.gradle /tmp/rdisk/286/src/cwac-anddown-master/build.gradle
+2018-04-10 18:24:48,490 INFO  ProjectBuildService - All script(s): /tmp/rdisk/286/src/cwac-anddown-master/settings.gradle /tmp/rdisk/286/src/cwac-anddown-master/demo/build.gradle /tmp/rdisk/286/src/cwac-anddown-master/build.gradle /tmp/rdisk/286/src/cwac-anddown-master/anddown/build.gradle
+2018-04-10 18:24:48,490 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:24:48,490 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:24:48,496 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/286/src/cwac-anddown-master/anddown/local.properties
+2018-04-10 18:24:48,496 INFO  ProjectFixService - Build info for "/tmp/rdisk/286/src/cwac-anddown-master/anddown/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=8,targetSdkVersion=26]
+2018-04-10 18:24:48,496 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/286/src/cwac-anddown-master/demo/local.properties
+2018-04-10 18:24:48,497 INFO  ProjectFixService - Build info for "/tmp/rdisk/286/src/cwac-anddown-master/demo/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 18:24:48,497 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/286/src/cwac-anddown-master/local.properties
+2018-04-10 18:24:48,497 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-10 18:24:48,498 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-10 18:24:48,498 INFO  ProjectFixService - Build info for "/tmp/rdisk/286/src/cwac-anddown-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=8,targetSdkVersion=23]
+2018-04-10 18:24:48,499 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:24:48,499 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:24:48,499 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/286/src/cwac-anddown-master/anddown/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:25:03,097 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-04-10 18:25:03,098 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-10 18:25:03,098 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/286/src/cwac-anddown-master/anddown/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-10 18:25:33,988 INFO  SysUtils - Configuration on demand is an incubating feature.
+:anddown:preBuild UP-TO-DATE
+:anddown:preDebugBuild UP-TO-DATE
+:anddown:checkDebugManifest
+:anddown:prepareDebugDependencies
+:anddown:compileDebugAidl
+:anddown:compileLint
+:anddown:copyDebugLint NO-SOURCE
+:anddown:mergeDebugShaders
+:anddown:compileDebugShaders
+:anddown:generateDebugAssets
+:anddown:mergeDebugAssets
+:anddown:mergeDebugProguardFiles
+:anddown:packageDebugRenderscript NO-SOURCE
+:anddown:compileDebugRenderscript
+:anddown:generateDebugResValues
+:anddown:generateDebugResources
+:anddown:packageDebugResources
+:anddown:processDebugManifest
+:anddown:generateDebugBuildConfig
+:anddown:processDebugResources
+:anddown:generateDebugSources
+:anddown:incrementalDebugJavaCompilationSafeguard
+:anddown:javaPreCompileDebug
+:anddown:compileDebugJavaWithJavac
+:anddown:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:anddown:processDebugJavaRes NO-SOURCE
+:anddown:transformResourcesWithMergeJavaResForDebug
+:anddown:transformClassesAndResourcesWithSyncLibJarsForDebug
+:anddown:generateJsonModelDebug
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/armeabi-v7a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/arm64-v8a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/x86
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/x86_64
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/debug/mips64
+:anddown:externalNativeBuildDebug
+Build anddown mips64
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/mips64/libanddown.so
+Build anddown mips
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/mips/libanddown.so
+Build anddown x86_64
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/libanddown.so
+Build anddown x86
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86/libanddown.so
+Build anddown arm64-v8a
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libanddown.so
+Build anddown armeabi-v7a
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libanddown.so
+Build anddown armeabi
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/armeabi/libanddown.so
+:anddown:mergeDebugJniLibFolders
+:anddown:transformNativeLibsWithMergeJniLibsForDebug
+:anddown:transformNativeLibsWithStripDebugSymbolForDebug
+:anddown:transformNativeLibsWithSyncJniLibsForDebug
+:anddown:bundleDebug
+:anddown:compileDebugSources
+:anddown:assembleDebug
+:anddown:preReleaseBuild UP-TO-DATE
+:anddown:checkReleaseManifest
+:anddown:prepareReleaseDependencies
+:anddown:compileReleaseAidl
+:anddown:copyReleaseLint NO-SOURCE
+:anddown:mergeReleaseShaders
+:anddown:compileReleaseShaders
+:anddown:generateReleaseAssets
+:anddown:mergeReleaseAssets
+:anddown:mergeReleaseProguardFiles
+:anddown:packageReleaseRenderscript NO-SOURCE
+:anddown:compileReleaseRenderscript
+:anddown:generateReleaseResValues
+:anddown:generateReleaseResources
+:anddown:packageReleaseResources
+:anddown:processReleaseManifest
+:anddown:generateReleaseBuildConfig
+:anddown:processReleaseResources
+:anddown:generateReleaseSources
+:anddown:incrementalReleaseJavaCompilationSafeguard
+:anddown:javaPreCompileRelease
+:anddown:compileReleaseJavaWithJavac
+:anddown:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:anddown:processReleaseJavaRes NO-SOURCE
+:anddown:transformResourcesWithMergeJavaResForRelease
+:anddown:transformClassesAndResourcesWithSyncLibJarsForRelease
+:anddown:generateJsonModelRelease
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:243 (message):
+  armeabi is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/armeabi-v7a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/arm64-v8a
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/x86
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/x86_64
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:273 (message):
+  mips is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /root/Applications/android-sdk/ndk-bundle
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /root/Applications/android-sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeDetermineSystem.cmake:98 (include)
+  CMakeLists.txt
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working C compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Check for working CXX compiler: /root/Applications/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+CMake Warning at /root/Applications/android-sdk/ndk-bundle/build/cmake/android.toolchain.cmake:282 (message):
+  mips64 is deprecated and will be removed in a future NDK release.
+Call Stack (most recent call first):
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/3.6.0-rc2/CMakeSystem.cmake:6 (include)
+  /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/rdisk/286/src/cwac-anddown-master/anddown/.externalNativeBuild/cmake/release/mips64
+:anddown:externalNativeBuildRelease
+Build anddown mips64
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/release/obj/mips64/libanddown.so
+Build anddown mips
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/release/obj/mips/libanddown.so
+Build anddown x86_64
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/release/obj/x86_64/libanddown.so
+Build anddown x86
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/release/obj/x86/libanddown.so
+Build anddown arm64-v8a
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/release/obj/arm64-v8a/libanddown.so
+Build anddown armeabi-v7a
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libanddown.so
+Build anddown armeabi
+[1/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/anddown.c.o
+[2/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/autolink.c.o
+[3/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/buffer.c.o
+[4/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/document.c.o
+[5/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/escape.c.o
+[6/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html.c.o
+[7/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_blocks.c.o
+[8/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/html_smartypants.c.o
+[9/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/stack.c.o
+[10/11] Building C object CMakeFiles/anddown.dir/src/main/cpp/hoedown/version.c.o
+[11/11] Linking C shared library ../../../../build/intermediates/cmake/release/obj/armeabi/libanddown.so
+:anddown:mergeReleaseJniLibFolders
+:anddown:transformNativeLibsWithMergeJniLibsForRelease
+:anddown:transformNativeLibsWithStripDebugSymbolForRelease
+:anddown:transformNativeLibsWithSyncJniLibsForRelease
+:anddown:bundleRelease
+:anddown:compileReleaseSources
+:anddown:assembleRelease
+:anddown:assemble
+:anddown:build
+
+BUILD SUCCESSFUL
+
+Total time: 30.399 secs
+
+2018-04-10 18:25:34,014 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:25:34,014 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/286/src/cwac-anddown-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:25:41,308 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-04-10 18:25:41,309 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:25:41,309 INFO  SysUtils - Execute command: [gradle, -b, /tmp/rdisk/286/src/cwac-anddown-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:25:54,227 INFO  SysUtils - Configuration on demand is an incubating feature.
+:anddown:preBuild UP-TO-DATE
+:anddown:preReleaseBuild UP-TO-DATE
+:anddown:checkReleaseManifest
+:anddown:prepareReleaseDependencies
+:anddown:compileReleaseAidl UP-TO-DATE
+:anddown:compileLint UP-TO-DATE
+:anddown:copyReleaseLint NO-SOURCE
+:anddown:mergeReleaseShaders UP-TO-DATE
+:anddown:compileReleaseShaders UP-TO-DATE
+:anddown:generateReleaseAssets UP-TO-DATE
+:anddown:mergeReleaseAssets UP-TO-DATE
+:anddown:mergeReleaseProguardFiles UP-TO-DATE
+:anddown:packageReleaseRenderscript NO-SOURCE
+:anddown:compileReleaseRenderscript UP-TO-DATE
+:anddown:generateReleaseResValues UP-TO-DATE
+:anddown:generateReleaseResources UP-TO-DATE
+:anddown:packageReleaseResources UP-TO-DATE
+:anddown:processReleaseManifest UP-TO-DATE
+:anddown:generateReleaseBuildConfig UP-TO-DATE
+:anddown:processReleaseResources UP-TO-DATE
+:anddown:generateReleaseSources UP-TO-DATE
+:anddown:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:anddown:javaPreCompileRelease
+:anddown:compileReleaseJavaWithJavac UP-TO-DATE
+:anddown:processReleaseJavaRes NO-SOURCE
+:anddown:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:anddown:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:anddown:generateJsonModelRelease UP-TO-DATE
+:anddown:externalNativeBuildRelease
+Build anddown mips64
+ninja: no work to do.
+Build anddown mips
+ninja: no work to do.
+Build anddown x86_64
+ninja: no work to do.
+Build anddown x86
+ninja: no work to do.
+Build anddown arm64-v8a
+ninja: no work to do.
+Build anddown armeabi-v7a
+ninja: no work to do.
+Build anddown armeabi
+ninja: no work to do.
+:anddown:mergeReleaseJniLibFolders UP-TO-DATE
+:anddown:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:anddown:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:anddown:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:anddown:bundleRelease UP-TO-DATE
+:demo:preBuild UP-TO-DATE
+:demo:preDebugBuild UP-TO-DATE
+:demo:checkDebugManifest
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:processArmeabi-v7aDebugManifest
+:demo:processArmeabi-v7aDebugResources
+:demo:processArmeabiDebugManifest
+:demo:processArmeabiDebugResources
+:demo:processUniversalDebugManifest
+:demo:processUniversalDebugResources
+:demo:processX86DebugManifest
+:demo:processX86DebugResources
+:demo:processX86_64DebugManifest
+:demo:processX86_64DebugResources
+:demo:generateDebugSources
+:demo:incrementalDebugJavaCompilationSafeguard
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/286/src/cwac-anddown-master/demo/src/main/java/com/commonsware/cwac/anddown/demo/AndDownDemoActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexForDebug
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningArmeabi-v7aDebug
+:demo:packageArmeabi-v7aDebug
+:demo:assembleArmeabi-v7aDebug
+:demo:validateSigningArmeabiDebug
+:demo:packageArmeabiDebug
+:demo:assembleArmeabiDebug
+:demo:validateSigningUniversalDebug
+:demo:packageUniversalDebug
+:demo:assembleUniversalDebug
+:demo:validateSigningX86Debug
+:demo:packageX86Debug
+:demo:assembleX86Debug
+:demo:validateSigningX86_64Debug
+:demo:packageX86_64Debug
+:demo:assembleX86_64Debug
+:demo:compileDebugSources
+:demo:assembleDebug
+:demo:preReleaseBuild UP-TO-DATE
+:demo:checkReleaseManifest
+:demo:prepareComCommonswareCwacAnddown040Library
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:processArmeabi-v7aReleaseManifest
+:demo:processArmeabi-v7aReleaseResources
+:demo:processArmeabiReleaseManifest
+:demo:processArmeabiReleaseResources
+:demo:processUniversalReleaseManifest
+:demo:processUniversalReleaseResources
+:demo:processX86ReleaseManifest
+:demo:processX86ReleaseResources
+:demo:processX86_64ReleaseManifest
+:demo:processX86_64ReleaseResources
+:demo:generateReleaseSources
+:demo:incrementalReleaseJavaCompilationSafeguard
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/286/src/cwac-anddown-master/demo/src/main/java/com/commonsware/cwac/anddown/demo/AndDownDemoActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithDexForRelease
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseJniLibFolders
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageArmeabi-v7aRelease
+:demo:assembleArmeabi-v7aRelease
+:demo:packageArmeabiRelease
+:demo:assembleArmeabiRelease
+:demo:packageUniversalRelease
+:demo:assembleUniversalRelease
+:demo:packageX86Release
+:demo:assembleX86Release
+:demo:packageX86_64Release
+:demo:assembleX86_64Release
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.65 secs
+
+2018-04-10 18:25:54,258 INFO  FullProcessService - Found APK file: /tmp/rdisk/286/src/cwac-anddown-master/demo/build/outputs/apk/demo-x86_64-release-unsigned.apk

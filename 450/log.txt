@@ -1,0 +1,21 @@
+2018-04-10 10:45:00,025 INFO  DownloadService - Downloading "https://github.com/JonnyHaystack/build-prop-tools/archive/master.zip", attempt 3
+2018-04-10 10:46:00,625 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 10:46:01,473 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 10:46:01,473 INFO  DownloadService - Downloading "https://github.com/JonnyHaystack/build-prop-tools/archive/master.zip", attempt 3
+2018-04-10 10:47:02,976 DEBUG FullProcessService - Repository https://github.com/JonnyHaystack/build-prop-tools available: true
+2018-04-10 10:47:02,977 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 10:47:02,977 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/JonnyHaystack/build-prop-tools, /tmp/rdisk/450/src]
+2018-04-10 10:47:08,198 INFO  SysUtils - 
+2018-04-10 10:47:08,206 INFO  GitService - Deleted "/tmp/rdisk/450/src/.git": true
+2018-04-10 10:47:08,207 INFO  FullProcessService - Size of directory with sources: 499 KB
+2018-04-10 10:47:08,207 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/450/src]
+2018-04-10 10:47:08,214 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/450/src/.git/
+
+2018-04-10 10:47:08,215 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 10:47:08,215 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 10:47:08,217 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 10:47:08,218 INFO  ProjectBuildService - All script(s): none
+2018-04-10 10:47:08,218 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 10:47:08,218 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 10:47:08,218 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 10:47:08,219 ERROR FullProcessService - Could not find generated or existed APK file

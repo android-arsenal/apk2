@@ -1,0 +1,626 @@
+2018-04-10 18:18:55,222 INFO  DownloadService - Downloading "https://github.com/wuman/android-oauth-client/archive/master.zip", attempt 3
+2018-04-10 18:18:55,651 INFO  DownloadService - Downloaded https://github.com/wuman/android-oauth-client/archive/master.zip, attempt 3
+2018-04-10 18:18:55,651 INFO  DownloadService - Size of file "/tmp/rdisk/315/master.zip": 412 KB
+2018-04-10 18:18:55,651 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:18:55,652 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/315/master.zip: true
+2018-04-10 18:18:55,652 DEBUG ZipUtil - Extracting '/tmp/rdisk/315/master.zip' into '/tmp/rdisk/315/src'.
+2018-04-10 18:18:55,683 INFO  FullProcessService - Size of directory with sources: 728 KB
+2018-04-10 18:18:55,683 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/315/src]
+2018-04-10 18:18:55,689 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/315/src/.git/
+
+2018-04-10 18:18:55,695 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/315/src/android-oauth-client-master/gradlew
+2018-04-10 18:18:55,701 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/315/src/android-oauth-client-master/library/build.gradle /tmp/rdisk/315/src/android-oauth-client-master/samples/build.gradle /tmp/rdisk/315/src/android-oauth-client-master/build.gradle
+2018-04-10 18:18:55,706 INFO  ProjectBuildService - All script(s): /tmp/rdisk/315/src/android-oauth-client-master/settings.gradle /tmp/rdisk/315/src/android-oauth-client-master/samples/build.gradle /tmp/rdisk/315/src/android-oauth-client-master/library/build.gradle /tmp/rdisk/315/src/android-oauth-client-master/build.gradle
+2018-04-10 18:18:55,707 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:18:55,707 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:18:55,720 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/315/src/android-oauth-client-master/library/local.properties
+2018-04-10 18:18:55,724 INFO  ProjectFixService - Build info for "/tmp/rdisk/315/src/android-oauth-client-master/library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=17,minSdkVersion=9,targetSdkVersion=<null>]
+2018-04-10 18:18:55,724 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/315/src/android-oauth-client-master/library/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=17,minSdkVersion=9,targetSdkVersion=27]
+2018-04-10 18:18:55,725 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/315/src/android-oauth-client-master/samples/local.properties
+2018-04-10 18:18:55,728 INFO  ProjectFixService - Build info for "/tmp/rdisk/315/src/android-oauth-client-master/samples/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=17,minSdkVersion=9,targetSdkVersion=<null>]
+2018-04-10 18:18:55,728 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/315/src/android-oauth-client-master/samples/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=17,minSdkVersion=9,targetSdkVersion=27]
+2018-04-10 18:18:55,729 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/315/src/android-oauth-client-master/local.properties
+2018-04-10 18:18:55,729 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-10 18:18:55,730 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-10 18:18:55,731 INFO  ProjectFixService - Build info for "/tmp/rdisk/315/src/android-oauth-client-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=17,minSdkVersion=9,targetSdkVersion=<null>]
+2018-04-10 18:18:55,731 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/315/src/android-oauth-client-master/build.gradle": [buildToolsVersion=21.1.2,compileSdkVersion=17,minSdkVersion=9,targetSdkVersion=27]
+2018-04-10 18:18:55,732 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:18:55,732 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:18:55,732 INFO  SysUtils - Execute command: [/tmp/rdisk/315/src/android-oauth-client-master/gradlew, -b, /tmp/rdisk/315/src/android-oauth-client-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:19:06,748 INFO  ProjectTaskService - Detected possible tasks: 57
+2018-04-10 18:19:06,749 INFO  ProjectTaskService - Excluded tasks (10): lintDebug deviceCheck lint connectedCheck uninstallAll test check connectedAndroidTest lintRelease testDebug
+2018-04-10 18:19:06,749 INFO  SysUtils - Execute command: [/tmp/rdisk/315/src/android-oauth-client-master/gradlew, -b, /tmp/rdisk/315/src/android-oauth-client-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-04-10 18:19:17,493 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-10 18:19:17,493 INFO  SysUtils - Configuration on demand is an incubating feature.
+versionName: 0.0.1-SNAPSHOT
+version: 0.0.1-SNAPSHOT
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugProguardFiles
+:library:preBuild
+:library:preDebugBuild
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:compileDebugJavaNote: /tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/OAuthDialogFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:processDebugJavaRes UP-TO-DATE
+:library:packageDebugJar
+:library:compileDebugNdk
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:bundleDebug
+:library:assembleDebug
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaNote: /tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/OAuthDialogFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:library:assembleRelease
+:library:jar
+:library:javadocRelease/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/explicit/LenientTokenResponseException.java:65: warning: no @return
+    public final TokenErrorResponse getDetails() {
+                                    ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:27: warning: no description for @param
+     * @param codeOrToken
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:28: warning: no description for @param
+     * @param error
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:29: warning: no description for @param
+     * @param implicitResponseUrl
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:30: warning: no description for @param
+     * @param signal
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:39: warning: no description for @param
+     * @param dialog
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:51: warning: no description for @param
+     * @param inflater
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:52: warning: no description for @param
+     * @param container
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:53: warning: no description for @param
+     * @param savedInstanceState
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:54: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:70: warning: no description for @param
+     * @param url
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:71: warning: no description for @param
+     * @param view
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:72: error: @param name not found
+     * @param current page loading progress, represented by an integer between 0
+              ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationDialogController.java:78: warning: no @param for progress
+    boolean setProgressShown(String url, View view, int progress);
+            ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:74: warning: no description for @param
+     * @param authorizationRequestUrl
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:84: warning: no description for @param
+     * @param authorizationRequestUrl
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:94: warning: no description for @param
+     * @param authorizationRequestUrl
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:99: warning: no @return
+    String getRedirectUri() throws IOException;
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:99: warning: no @throws for java.io.IOException
+    String getRedirectUri() throws IOException;
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:102: warning: no @return
+    String waitForVerifierCode() throws IOException;
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:102: warning: no @throws for java.io.IOException
+    String waitForVerifierCode() throws IOException;
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:105: warning: no @return
+    String waitForExplicitCode() throws IOException;
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:105: warning: no @throws for java.io.IOException
+    String waitForExplicitCode() throws IOException;
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:108: warning: no @return
+    ImplicitResponseUrl waitForImplicitResponseUrl() throws IOException;
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:108: warning: no @throws for java.io.IOException
+    ImplicitResponseUrl waitForImplicitResponseUrl() throws IOException;
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationUIController.java:111: warning: no @throws for java.io.IOException
+    void stop() throws IOException;
+         ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:125: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:140: warning: no @throws for java.io.IOException
+    public OAuthHmacCredential load10aCredential(String userId) throws IOException {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:159: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:160: warning: no description for @throws
+     * @throws IOException
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:182: warning: no description for @param
+     * @param temporaryToken
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:183: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:198: warning: no description for @param
+     * @param temporaryCredentials
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:199: warning: no description for @param
+     * @param verifierCode
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:200: warning: no description for @return
+     * @return
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:260: warning: no @return
+    public AuthorizationCodeRequestUrl newExplicitAuthorizationUrl() {
+                                       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:284: warning: no @return
+    public BrowserClientRequestUrl newImplicitAuthorizationUrl() {
+                                   ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:297: warning: no description for @throws
+     * @throws IOException
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:318: error: @param name not found
+     * @param response implicit authorization token response
+              ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:322: warning: no description for @throws
+     * @throws IOException
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:324: warning: no @param for implicitResponse
+    public Credential createAndStoreCredential(ImplicitResponseUrl implicitResponse, String userId)
+                      ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:446: warning: no description for @param
+         * @param temporaryTokenRequestUrl
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:447: warning: no description for @return
+         * @return
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:457: warning: no description for @return
+         * @return
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:540: warning: no @param for credentialCreatedListener
+        public Builder setCredentialCreatedListener(
+                       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:540: warning: no @return
+        public Builder setCredentialCreatedListener(
+                       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:549: warning: no @return
+        public final CredentialCreatedListener getGeneralCredentialCreatedListener() {
+                                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:101: warning: no @throws for java.io.IOException
+        void onCredentialCreated(Credential credential, ImplicitResponseUrl implicitResponse)
+             ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:108: warning: no description for @param
+         * @param credential
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:109: warning: no description for @param
+         * @param oauth10aResponse
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/AuthorizationFlow.java:110: warning: no description for @throws
+         * @throws IOException
+           ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:65: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:72: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:80: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:81: warning: no description for @param
+     * @param fullScreen
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:89: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:90: warning: no description for @param
+     * @param fullScreen
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:98: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:99: warning: no description for @param
+     * @param fullScreen
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:100: warning: no description for @param
+     * @param horizontalProgress
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:109: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:110: warning: no description for @param
+     * @param fullScreen
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:111: warning: no description for @param
+     * @param horizontalProgress
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:120: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:121: warning: no description for @param
+     * @param fullScreen
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:122: warning: no description for @param
+     * @param horizontalProgress
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:123: error: no tag name after @
+     * @param hideFullScreenTitle if you set this flag to true, {@param horizontalProgress} will be ignored
+                                                                ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:138: warning: no description for @param
+     * @param fragmentManager
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:139: warning: no description for @param
+     * @param fullScreen
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:140: warning: no description for @param
+     * @param horizontalProgress
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/DialogFragmentController.java:141: error: no tag name after @
+     * @param hideFullScreenTitle if you set this flag to true, {@param horizontalProgress} will be ignored
+                                                                ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/OAuthManager.java:282: warning: no description for @param
+     * @param <T>
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/OAuthManager.java:308: warning: no description for @param
+     * @param <V>
+       ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/FileCredentialStore.java:103: warning: no @param for file
+  protected boolean isSymbolicLink(File file) throws IOException {
+                    ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/FileCredentialStore.java:103: warning: no @return
+  protected boolean isSymbolicLink(File file) throws IOException {
+                    ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/FileCredentialStore.java:103: warning: no @throws for java.io.IOException
+  protected boolean isSymbolicLink(File file) throws IOException {
+                    ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/FileCredentialStore.java:37: error: self-closing element not allowed
+ * {@link Beta} <br/>
+                ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/FileCredentialStore.java:67: warning: no @throws for java.io.IOException
+  public FileCredentialStore(File file, JsonFactory jsonFactory) throws IOException {
+         ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/FilePersistedCredential.java:24: error: self-closing element not allowed
+ * {@link Beta} <br/>
+                ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/FilePersistedCredentials.java:27: error: self-closing element not allowed
+ * {@link Beta} <br/>
+                ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/store/SharedPreferencesCredentialStore.java:19: error: self-closing element not allowed
+ * {@link Beta} <br/>
+                ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:121: warning: no @return
+    public final String getAccessToken() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:132: warning: no @param for accessToken
+    public ImplicitResponseUrl setAccessToken(String accessToken) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:132: warning: no @return
+    public ImplicitResponseUrl setAccessToken(String accessToken) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:142: warning: no @return
+    public final String getTokenType() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:155: warning: no @param for tokenType
+    public ImplicitResponseUrl setTokenType(String tokenType) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:155: warning: no @return
+    public ImplicitResponseUrl setTokenType(String tokenType) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:164: warning: no @return
+    public final Long getExpiresInSeconds() {
+                      ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:176: warning: no @param for expiresInSeconds
+    public ImplicitResponseUrl setExpiresInSeconds(Long expiresInSeconds) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:176: warning: no @return
+    public ImplicitResponseUrl setExpiresInSeconds(Long expiresInSeconds) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:184: warning: no @return
+    public final String getScope() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:195: warning: no @param for scope
+    public ImplicitResponseUrl setScope(String scope) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:195: warning: no @return
+    public ImplicitResponseUrl setScope(String scope) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:204: warning: no @return
+    public final String getState() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:216: warning: no @param for state
+    public ImplicitResponseUrl setState(String state) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:216: warning: no @return
+    public ImplicitResponseUrl setState(String state) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:230: warning: no @return
+    public final String getError() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:247: warning: no @param for error
+    public ImplicitResponseUrl setError(String error) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:247: warning: no @return
+    public ImplicitResponseUrl setError(String error) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:257: warning: no @return
+    public final String getErrorDescription() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:270: warning: no @param for errorDescription
+    public ImplicitResponseUrl setErrorDescription(String errorDescription) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:270: warning: no @return
+    public ImplicitResponseUrl setErrorDescription(String errorDescription) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:280: warning: no @return
+    public final String getErrorUri() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:293: warning: no @param for errorUri
+    public ImplicitResponseUrl setErrorUri(String errorUri) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth2/implicit/ImplicitResponseUrl.java:293: warning: no @return
+    public ImplicitResponseUrl setErrorUri(String errorUri) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth/OAuth10aResponseUrl.java:31: warning: no @return
+    public final String getToken() {
+                        ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth/OAuth10aResponseUrl.java:42: warning: no @param for token
+    public OAuth10aResponseUrl setToken(String token) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth/OAuth10aResponseUrl.java:42: warning: no @return
+    public OAuth10aResponseUrl setToken(String token) {
+                               ^
+/tmp/rdisk/315/src/android-oauth-client-master/library/src/main/java/com/wuman/android/auth/oauth/OAuthHmacCredential.java:39: error: reference not found
+ * {@link com.google.api.client.extensions.oauth.helpers.oauth.OAuthHmacCredential}
+          ^
+
+9 errors
+100 warnings
+:library:javadocRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:javadocRelease'.
+> Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/315/src/android-oauth-client-master/library/build/tmp/javadocRelease/javadoc.options'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:javadocRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:58)
+Caused by: org.gradle.api.GradleException: Javadoc generation failed. Generated Javadoc options file (useful for troubleshooting): '/tmp/rdisk/315/src/android-oauth-client-master/library/build/tmp/javadocRelease/javadoc.options'
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:55)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:31)
+	at org.gradle.api.tasks.javadoc.Javadoc.executeExternalJavadoc(Javadoc.java:140)
+	at org.gradle.api.tasks.javadoc.Javadoc.generate(Javadoc.java:128)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:218)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:579)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:562)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 47 more
+Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/lib/jvm/java-8-oracle/bin/javadoc'' finished with non-zero exit value 1
+	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:365)
+	at org.gradle.process.internal.DefaultExecAction.execute(DefaultExecAction.java:31)
+	at org.gradle.api.tasks.javadoc.internal.JavadocGenerator.execute(JavadocGenerator.java:52)
+	... 58 more
+
+
+BUILD FAILED
+
+Total time: 10.26 secs
+
+2018-04-10 18:19:17,505 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:19:17,505 INFO  SysUtils - Execute command: [/tmp/rdisk/315/src/android-oauth-client-master/gradlew, -b, /tmp/rdisk/315/src/android-oauth-client-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:19:24,757 INFO  ProjectTaskService - Detected possible tasks: 58
+2018-04-10 18:19:24,757 INFO  ProjectTaskService - Excluded tasks (13): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-04-10 18:19:24,757 INFO  SysUtils - Execute command: [/tmp/rdisk/315/src/android-oauth-client-master/gradlew, -b, /tmp/rdisk/315/src/android-oauth-client-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-04-10 18:19:52,741 INFO  SysUtils - Configuration on demand is an incubating feature.
+versionName: 0.0.1-SNAPSHOT
+version: 0.0.1-SNAPSHOT
+:samples:preBuild
+:samples:compileDebugNdk
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:compileReleaseJava UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:samples:preDebugBuild
+:samples:checkDebugManifest
+:samples:preReleaseBuild
+:samples:prepareAndroidOauthClientMasterLibraryUnspecifiedLibrary
+:samples:prepareDebugDependencies
+:samples:compileDebugAidl
+:samples:compileDebugRenderscript
+:samples:generateDebugBuildConfig
+:samples:generateDebugAssets UP-TO-DATE
+:samples:mergeDebugAssets
+:samples:generateDebugResValues
+:samples:generateDebugResources
+:samples:mergeDebugResources/tmp/rdisk/315/src/android-oauth-client-master/samples/res/drawable-nodpi/spinner_inner.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:samples:processDebugManifest
+:samples:processDebugResources
+:samples:generateDebugSources
+:samples:compileDebugJava
+:samples:preDexDebug
+:samples:dexDebug
+:samples:processDebugJavaRes UP-TO-DATE
+:samples:validateDebugSigning
+:samples:packageDebug
+:samples:zipalignDebug
+:samples:assembleDebug
+:samples:checkReleaseManifest
+:samples:prepareReleaseDependencies
+:samples:compileReleaseAidl
+:samples:compileReleaseRenderscript
+:samples:generateReleaseBuildConfig
+:samples:generateReleaseAssets UP-TO-DATE
+:samples:mergeReleaseAssets
+:samples:generateReleaseResValues
+:samples:generateReleaseResources
+:samples:mergeReleaseResources/tmp/rdisk/315/src/android-oauth-client-master/samples/res/drawable-nodpi/spinner_inner.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:samples:processReleaseManifest
+:samples:processReleaseResources
+:samples:generateReleaseSources
+:samples:compileReleaseJava
+:samples:lintVitalRelease
+:samples:compileReleaseNdk
+:samples:preDexRelease
+:samples:dexRelease
+:samples:processReleaseJavaRes UP-TO-DATE
+:samples:packageRelease
+:samples:assembleRelease
+:samples:assemble
+:samples:build
+
+BUILD SUCCESSFUL
+
+Total time: 27.541 secs
+
+2018-04-10 18:19:52,764 INFO  FullProcessService - Found APK file: /tmp/rdisk/315/src/android-oauth-client-master/samples/build/outputs/apk/samples-release-unsigned.apk

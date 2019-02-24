@@ -1,0 +1,9 @@
+2018-04-10 18:39:57,191 INFO  DownloadService - Downloading "https://github.com/arcao/slf4j-timber/archive/master.zip", attempt 3
+2018-04-10 18:39:57,197 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 18:39:58,220 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 18:39:58,220 INFO  DownloadService - Downloading "https://github.com/arcao/slf4j-timber/archive/master.zip", attempt 3
+2018-04-10 18:39:58,221 DEBUG FullProcessService - Repository https://github.com/arcao/slf4j-timber available: false
+2018-04-10 18:39:58,221 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:39:58,221 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:39:58,221 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:39:58,221 ERROR FullProcessService - Could not find generated or existed APK file

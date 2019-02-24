@@ -1,0 +1,138 @@
+2018-04-10 17:29:08,108 INFO  DownloadService - Downloading "https://github.com/codechimp-org/AppRater/archive/master.zip", attempt 3
+2018-04-10 17:29:08,792 INFO  DownloadService - Downloaded https://github.com/codechimp-org/AppRater/archive/master.zip, attempt 3
+2018-04-10 17:29:08,792 INFO  DownloadService - Size of file "/tmp/rdisk/395/master.zip": 554 KB
+2018-04-10 17:29:08,792 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 17:29:08,793 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/395/master.zip: true
+2018-04-10 17:29:08,793 DEBUG ZipUtil - Extracting '/tmp/rdisk/395/master.zip' into '/tmp/rdisk/395/src'.
+2018-04-10 17:29:08,811 INFO  FullProcessService - Size of directory with sources: 619 KB
+2018-04-10 17:29:08,811 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/395/src]
+2018-04-10 17:29:08,817 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/395/src/.git/
+
+2018-04-10 17:29:08,821 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/395/src/AppRater-master/gradlew
+2018-04-10 17:29:08,825 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/395/src/AppRater-master/AppRaterDemo/build.gradle /tmp/rdisk/395/src/AppRater-master/AppRaterLibrary/build.gradle /tmp/rdisk/395/src/AppRater-master/build.gradle
+2018-04-10 17:29:08,828 INFO  ProjectBuildService - All script(s): /tmp/rdisk/395/src/AppRater-master/settings.gradle /tmp/rdisk/395/src/AppRater-master/maven_push.gradle /tmp/rdisk/395/src/AppRater-master/build.gradle /tmp/rdisk/395/src/AppRater-master/AppRaterLibrary/build.gradle /tmp/rdisk/395/src/AppRater-master/AppRaterDemo/build.gradle
+2018-04-10 17:29:08,829 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 17:29:08,829 INFO  ProjectFixService - Fixing project...
+2018-04-10 17:29:08,839 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/395/src/AppRater-master/AppRaterDemo/local.properties
+2018-04-10 17:29:08,841 INFO  ProjectFixService - Build info for "/tmp/rdisk/395/src/AppRater-master/AppRaterDemo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=18]
+2018-04-10 17:29:08,841 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/395/src/AppRater-master/AppRaterLibrary/local.properties
+2018-04-10 17:29:08,842 INFO  ProjectFixService - Build info for "/tmp/rdisk/395/src/AppRater-master/AppRaterLibrary/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=18]
+2018-04-10 17:29:08,842 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/395/src/AppRater-master/local.properties
+2018-04-10 17:29:08,843 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-04-10 17:29:08,843 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-04-10 17:29:08,844 INFO  ProjectFixService - Build info for "/tmp/rdisk/395/src/AppRater-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=19,minSdkVersion=8,targetSdkVersion=18]
+2018-04-10 17:29:08,844 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 17:29:08,844 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:29:08,844 INFO  SysUtils - Execute command: [/tmp/rdisk/395/src/AppRater-master/gradlew, -b, /tmp/rdisk/395/src/AppRater-master/AppRaterDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:29:18,068 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-10 17:29:18,068 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 17:29:18,068 INFO  SysUtils - Execute command: [/tmp/rdisk/395/src/AppRater-master/gradlew, -b, /tmp/rdisk/395/src/AppRater-master/AppRaterDemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 17:29:30,637 INFO  SysUtils - Configuration on demand is an incubating feature.
+RELEASE BUILD NOT FOUND SIGNING FILE
+RELEASE BUILD
+Incremental java compilation is an incubating feature.
+:AppRaterDemo:preBuild UP-TO-DATE
+:AppRaterDemo:preDebugBuild UP-TO-DATE
+:AppRaterDemo:checkDebugManifest
+:AppRaterLibrary:preBuild UP-TO-DATE
+:AppRaterLibrary:preReleaseBuild UP-TO-DATE
+:AppRaterLibrary:checkReleaseManifest
+:AppRaterLibrary:prepareReleaseDependencies
+:AppRaterLibrary:compileReleaseAidl
+:AppRaterLibrary:compileReleaseNdk UP-TO-DATE
+:AppRaterLibrary:compileLint
+:AppRaterLibrary:copyReleaseLint UP-TO-DATE
+:AppRaterLibrary:mergeReleaseShaders
+:AppRaterLibrary:compileReleaseShaders
+:AppRaterLibrary:generateReleaseAssets
+:AppRaterLibrary:mergeReleaseAssets
+:AppRaterLibrary:mergeReleaseProguardFiles
+:AppRaterLibrary:packageReleaseRenderscript UP-TO-DATE
+:AppRaterLibrary:compileReleaseRenderscript
+:AppRaterLibrary:generateReleaseResValues
+:AppRaterLibrary:generateReleaseResources
+:AppRaterLibrary:packageReleaseResources
+:AppRaterLibrary:processReleaseManifest
+:AppRaterLibrary:generateReleaseBuildConfig
+:AppRaterLibrary:processReleaseResources
+:AppRaterLibrary:generateReleaseSources
+:AppRaterLibrary:incrementalReleaseJavaCompilationSafeguard
+:AppRaterLibrary:javaPreCompileRelease
+:AppRaterLibrary:compileReleaseJavaWithJavac
+:AppRaterLibrary:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:AppRaterLibrary:processReleaseJavaRes UP-TO-DATE
+:AppRaterLibrary:transformResourcesWithMergeJavaResForRelease
+:AppRaterLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+:AppRaterLibrary:mergeReleaseJniLibFolders
+:AppRaterLibrary:transformNativeLibsWithMergeJniLibsForRelease
+:AppRaterLibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:AppRaterLibrary:transformNativeLibsWithSyncJniLibsForRelease
+:AppRaterLibrary:bundleRelease
+:AppRaterDemo:prepareDebugDependencies
+:AppRaterDemo:compileDebugAidl
+:AppRaterDemo:compileDebugRenderscript
+:AppRaterDemo:generateDebugBuildConfig
+:AppRaterDemo:generateDebugResValues
+:AppRaterDemo:generateDebugResources
+:AppRaterDemo:mergeDebugResources
+:AppRaterDemo:processDebugManifest
+:AppRaterDemo:processDebugResources
+:AppRaterDemo:generateDebugSources
+:AppRaterDemo:incrementalDebugJavaCompilationSafeguard
+:AppRaterDemo:javaPreCompileDebug
+:AppRaterDemo:compileDebugJavaWithJavac
+:AppRaterDemo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:AppRaterDemo:compileDebugNdk UP-TO-DATE
+:AppRaterDemo:compileDebugSources
+:AppRaterDemo:mergeDebugShaders
+:AppRaterDemo:compileDebugShaders
+:AppRaterDemo:generateDebugAssets
+:AppRaterDemo:mergeDebugAssets
+:AppRaterDemo:transformClassesWithDexForDebug
+:AppRaterDemo:mergeDebugJniLibFolders
+:AppRaterDemo:transformNativeLibsWithMergeJniLibsForDebug
+:AppRaterDemo:transformNativeLibsWithStripDebugSymbolForDebug
+:AppRaterDemo:processDebugJavaRes UP-TO-DATE
+:AppRaterDemo:transformResourcesWithMergeJavaResForDebug
+:AppRaterDemo:validateSigningDebug
+:AppRaterDemo:packageDebug
+:AppRaterDemo:assembleDebug
+:AppRaterDemo:preReleaseBuild UP-TO-DATE
+:AppRaterDemo:checkReleaseManifest
+:AppRaterDemo:prepareReleaseDependencies
+:AppRaterDemo:compileReleaseAidl
+:AppRaterDemo:compileReleaseRenderscript
+:AppRaterDemo:generateReleaseBuildConfig
+:AppRaterDemo:generateReleaseResValues
+:AppRaterDemo:generateReleaseResources
+:AppRaterDemo:mergeReleaseResources
+:AppRaterDemo:processReleaseManifest
+:AppRaterDemo:processReleaseResources
+:AppRaterDemo:generateReleaseSources
+:AppRaterDemo:incrementalReleaseJavaCompilationSafeguard
+:AppRaterDemo:javaPreCompileRelease
+:AppRaterDemo:compileReleaseJavaWithJavac
+:AppRaterDemo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:AppRaterDemo:compileReleaseNdk UP-TO-DATE
+:AppRaterDemo:compileReleaseSources
+:AppRaterDemo:lintVitalRelease
+:AppRaterDemo:mergeReleaseShaders
+:AppRaterDemo:compileReleaseShaders
+:AppRaterDemo:generateReleaseAssets
+:AppRaterDemo:mergeReleaseAssets
+:AppRaterDemo:transformClassesWithDexForRelease
+:AppRaterDemo:mergeReleaseJniLibFolders
+:AppRaterDemo:transformNativeLibsWithMergeJniLibsForRelease
+:AppRaterDemo:transformNativeLibsWithStripDebugSymbolForRelease
+:AppRaterDemo:processReleaseJavaRes UP-TO-DATE
+:AppRaterDemo:transformResourcesWithMergeJavaResForRelease
+:AppRaterDemo:packageRelease
+:AppRaterDemo:assembleRelease
+:AppRaterDemo:assemble
+:AppRaterDemo:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.163 secs
+
+2018-04-10 17:29:30,662 INFO  FullProcessService - Found APK file: /tmp/rdisk/395/src/AppRater-master/AppRaterDemo/build/outputs/apk/AppRaterDemo-release-unsigned.apk

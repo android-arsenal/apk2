@@ -1,0 +1,278 @@
+2018-04-10 17:26:59,673 INFO  DownloadService - Downloading "https://github.com/47deg/appsly-android-rest/archive/master.zip", attempt 3
+2018-04-10 17:27:01,200 INFO  DownloadService - Downloaded https://github.com/47deg/appsly-android-rest/archive/master.zip, attempt 3
+2018-04-10 17:27:01,200 INFO  DownloadService - Size of file "/tmp/rdisk/398/master.zip": 1 MB
+2018-04-10 17:27:01,200 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 17:27:01,201 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/398/master.zip: true
+2018-04-10 17:27:01,201 DEBUG ZipUtil - Extracting '/tmp/rdisk/398/master.zip' into '/tmp/rdisk/398/src'.
+2018-04-10 17:27:01,241 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-10 17:27:01,241 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/398/src]
+2018-04-10 17:27:01,252 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/398/src/.git/
+
+2018-04-10 17:27:01,257 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/398/src/appsly-android-rest-master/gradlew
+2018-04-10 17:27:01,262 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build.gradle /tmp/rdisk/398/src/appsly-android-rest-master/android-rest/build.gradle /tmp/rdisk/398/src/appsly-android-rest-master/build.gradle
+2018-04-10 17:27:01,266 INFO  ProjectBuildService - All script(s): /tmp/rdisk/398/src/appsly-android-rest-master/settings.gradle /tmp/rdisk/398/src/appsly-android-rest-master/build.gradle /tmp/rdisk/398/src/appsly-android-rest-master/android-rest/build.gradle /tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build.gradle
+2018-04-10 17:27:01,266 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 17:27:01,266 INFO  ProjectFixService - Fixing project...
+2018-04-10 17:27:01,277 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/local.properties
+2018-04-10 17:27:01,277 INFO  ProjectFixService - Build info for "/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-10 17:27:01,278 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/398/src/appsly-android-rest-master/android-rest/local.properties
+2018-04-10 17:27:01,278 INFO  ProjectFixService - Build info for "/tmp/rdisk/398/src/appsly-android-rest-master/android-rest/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-10 17:27:01,278 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/398/src/appsly-android-rest-master/local.properties
+2018-04-10 17:27:01,279 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-2.1-all.zip
+2018-04-10 17:27:01,279 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-2.1-bin.zip)
+2018-04-10 17:27:01,280 INFO  ProjectFixService - Build info for "/tmp/rdisk/398/src/appsly-android-rest-master/build.gradle": [buildToolsVersion=21.0.1,compileSdkVersion=21,minSdkVersion=9,targetSdkVersion=21]
+2018-04-10 17:27:01,280 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 17:27:01,280 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:27:01,280 INFO  SysUtils - Execute command: [/tmp/rdisk/398/src/appsly-android-rest-master/gradlew, -b, /tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:27:11,953 INFO  ProjectTaskService - Detected possible tasks: 53
+2018-04-10 17:27:11,953 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 17:27:11,954 INFO  SysUtils - Execute command: [/tmp/rdisk/398/src/appsly-android-rest-master/gradlew, -b, /tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 17:27:48,123 INFO  SysUtils - Configuration on demand is an incubating feature.
+:android-rest-example:preBuild
+:android-rest-example:compileDebugNdk
+:android-rest:compileLint
+:android-rest:copyReleaseLint UP-TO-DATE
+:android-rest:mergeReleaseProguardFiles
+:android-rest:preBuild
+:android-rest:preReleaseBuild
+:android-rest:checkReleaseManifest
+:android-rest:prepareReleaseDependencies
+:android-rest:compileReleaseAidl
+:android-rest:compileReleaseRenderscript
+:android-rest:generateReleaseBuildConfig
+:android-rest:generateReleaseAssets UP-TO-DATE
+:android-rest:mergeReleaseAssets
+:android-rest:generateReleaseResValues
+:android-rest:generateReleaseResources
+:android-rest:packageReleaseResources
+:android-rest:processReleaseManifest
+:android-rest:processReleaseResources
+:android-rest:generateReleaseSources
+:android-rest:compileReleaseJava
+:android-rest:processReleaseJavaRes UP-TO-DATE
+:android-rest:packageReleaseJar
+:android-rest:compileReleaseNdk
+:android-rest:packageReleaseJniLibs UP-TO-DATE
+:android-rest:packageReleaseLocalJar UP-TO-DATE
+:android-rest:packageReleaseRenderscript UP-TO-DATE
+:android-rest:bundleRelease
+:android-rest-example:preDebugBuild
+:android-rest-example:checkDebugManifest
+:android-rest-example:preReleaseBuild
+:android-rest-example:prepareComAndroidSupportAppcompatV71910Library
+:android-rest-example:prepareLyAppsAndroidRest122SNAPSHOTLibrary
+:android-rest-example:prepareDebugDependencies
+:android-rest-example:compileDebugAidl
+:android-rest-example:compileDebugRenderscript
+:android-rest-example:generateDebugBuildConfig
+:android-rest-example:generateDebugAssets UP-TO-DATE
+:android-rest-example:mergeDebugAssets
+:android-rest-example:generateDebugResValues
+:android-rest-example:generateDebugResources
+:android-rest-example:mergeDebugResources/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_voice_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_go.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_clear_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_voice_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_voice_search.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_go.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_go.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_go.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_voice_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_search.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_clear_normal.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:android-rest-example:processDebugManifest
+:android-rest-example:processDebugResources
+:android-rest-example:generateDebugSources
+:android-rest-example:compileDebugJava
+:android-rest-example:preDexDebug
+:android-rest-example:dexDebug
+:android-rest-example:processDebugJavaRes UP-TO-DATE
+:android-rest-example:validateDebugSigning
+:android-rest-example:packageDebug
+:android-rest-example:zipalignDebug
+:android-rest-example:assembleDebug
+:android-rest-example:checkReleaseManifest
+:android-rest-example:prepareReleaseDependencies
+:android-rest-example:compileReleaseAidl
+:android-rest-example:compileReleaseRenderscript
+:android-rest-example:generateReleaseBuildConfig
+:android-rest-example:generateReleaseAssets UP-TO-DATE
+:android-rest-example:mergeReleaseAssets
+:android-rest-example:generateReleaseResValues
+:android-rest-example:generateReleaseResources
+:android-rest-example:mergeReleaseResources/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_voice_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_go.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_clear_normal.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_clear_disabled.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/snow.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_voice_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_voice_search.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-mdpi/abc_ic_go.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/mist.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-hdpi/abc_ic_go.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_go.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ic_voice_search.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_search.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/few_clouds_night.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/cloud.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/broken_clouds.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxxhdpi/shower_rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/rain.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/thunderstorm.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-mdpi/few_clouds_day.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xhdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xxhdpi/abc_ic_clear_normal.png: libpng warning: iCCP: profile 'icc': 'GRAY': Gray color space not permitted on RGB PNG
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-xxhdpi/sunny.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/tem_white.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/drawable-xhdpi/abc_ab_share_pack_holo_light.9.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+/tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/src/main/res/drawable-hdpi/moon.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+
+:android-rest-example:processReleaseManifest
+:android-rest-example:processReleaseResources
+:android-rest-example:generateReleaseSources
+:android-rest-example:compileReleaseJava
+:android-rest-example:lintVitalRelease
+:android-rest-example:compileReleaseNdk
+:android-rest-example:preDexRelease
+:android-rest-example:dexRelease
+:android-rest-example:processReleaseJavaRes UP-TO-DATE
+:android-rest-example:packageRelease
+:android-rest-example:assembleRelease
+:android-rest-example:assemble
+:android-rest-example:build
+
+BUILD SUCCESSFUL
+
+Total time: 35.68 secs
+
+2018-04-10 17:27:48,163 INFO  FullProcessService - Found APK file: /tmp/rdisk/398/src/appsly-android-rest-master/android-rest-example/build/outputs/apk/android-rest-example-release-unsigned.apk

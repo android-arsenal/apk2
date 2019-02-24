@@ -1,0 +1,235 @@
+2017-11-15 19:46:55,547 INFO  DownloadService - Downloading "https://github.com/SufficientlySecure/html-textview/archive/master.zip", attempt 3
+2017-11-15 19:46:57,062 INFO  DownloadService - Downloaded https://github.com/SufficientlySecure/html-textview/archive/master.zip, attempt 3
+2017-11-15 19:46:57,062 INFO  DownloadService - Size of file "/tmp/rdisk/476/master.zip": 118 KB
+2017-11-15 19:46:57,062 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-11-15 19:46:57,063 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/476/master.zip: true
+2017-11-15 19:46:57,063 DEBUG ZipUtil - Extracting '/tmp/rdisk/476/master.zip' into '/tmp/rdisk/476/src'.
+2017-11-15 19:46:57,068 INFO  FullProcessService - Size of directory with sources: 168 KB
+2017-11-15 19:46:57,068 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/476/src]
+2017-11-15 19:46:57,072 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/476/src/.git/
+
+2017-11-15 19:46:57,073 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/476/src/html-textview-master/gradlew
+2017-11-15 19:46:57,074 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/476/src/html-textview-master/HtmlTextView/build.gradle /tmp/rdisk/476/src/html-textview-master/example/build.gradle /tmp/rdisk/476/src/html-textview-master/build.gradle
+2017-11-15 19:46:57,075 INFO  ProjectBuildService - All script(s): /tmp/rdisk/476/src/html-textview-master/settings.gradle /tmp/rdisk/476/src/html-textview-master/example/build.gradle /tmp/rdisk/476/src/html-textview-master/build.gradle /tmp/rdisk/476/src/html-textview-master/HtmlTextView/build.gradle
+2017-11-15 19:46:57,075 INFO  ProjectBuildService - Remote scripts: none
+2017-11-15 19:46:57,075 INFO  ProjectFixService - Fixing project...
+2017-11-15 19:46:57,077 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/476/src/html-textview-master/HtmlTextView/local.properties
+2017-11-15 19:46:57,078 INFO  ProjectFixService - Build info for "/tmp/rdisk/476/src/html-textview-master/HtmlTextView/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=7,targetSdkVersion=25]
+2017-11-15 19:46:57,078 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/476/src/html-textview-master/example/local.properties
+2017-11-15 19:46:57,078 INFO  ProjectFixService - Build info for "/tmp/rdisk/476/src/html-textview-master/example/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2017-11-15 19:46:57,078 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/476/src/html-textview-master/local.properties
+2017-11-15 19:46:57,079 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.1-bin.zip
+2017-11-15 19:46:57,079 INFO  ProjectFixService - Build info for "/tmp/rdisk/476/src/html-textview-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2017-11-15 19:46:57,079 INFO  ProjectFixService - Project was maybe fixed
+2017-11-15 19:46:57,079 INFO  ProjectTaskService - Detecting possible tasks...
+2017-11-15 19:46:57,079 INFO  SysUtils - Execute command: [/tmp/rdisk/476/src/html-textview-master/gradlew, -b, /tmp/rdisk/476/src/html-textview-master/HtmlTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-11-15 19:47:05,708 INFO  ProjectTaskService - Detected possible tasks: 79
+2017-11-15 19:47:05,708 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2017-11-15 19:47:05,708 INFO  SysUtils - Execute command: [/tmp/rdisk/476/src/html-textview-master/gradlew, -b, /tmp/rdisk/476/src/html-textview-master/HtmlTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2017-11-15 19:47:16,402 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+:HtmlTextView:preBuild UP-TO-DATE
+:HtmlTextView:preDebugBuild UP-TO-DATE
+:HtmlTextView:checkDebugManifest
+:HtmlTextView:prepareDebugDependencies
+:HtmlTextView:compileDebugAidl
+:HtmlTextView:compileDebugNdk UP-TO-DATE
+:HtmlTextView:compileLint
+:HtmlTextView:copyDebugLint UP-TO-DATE
+:HtmlTextView:compileDebugRenderscript
+:HtmlTextView:generateDebugBuildConfig
+:HtmlTextView:generateDebugResValues
+:HtmlTextView:generateDebugResources
+:HtmlTextView:packageDebugResources
+:HtmlTextView:processDebugManifest
+:HtmlTextView:processDebugResources
+:HtmlTextView:generateDebugSources
+:HtmlTextView:incrementalDebugJavaCompilationSafeguard
+:HtmlTextView:compileDebugJavaWithJavac
+:HtmlTextView:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/476/src/html-textview-master/HtmlTextView/src/main/java/org/sufficientlysecure/htmltextview/HtmlTagHandler.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:HtmlTextView:extractDebugAnnotations
+:HtmlTextView:mergeDebugShaders
+:HtmlTextView:compileDebugShaders
+:HtmlTextView:generateDebugAssets
+:HtmlTextView:mergeDebugAssets
+:HtmlTextView:mergeDebugProguardFiles
+:HtmlTextView:packageDebugRenderscript UP-TO-DATE
+:HtmlTextView:processDebugJavaRes UP-TO-DATE
+:HtmlTextView:transformResourcesWithMergeJavaResForDebug
+:HtmlTextView:transformClassesAndResourcesWithSyncLibJarsForDebug
+:HtmlTextView:mergeDebugJniLibFolders
+:HtmlTextView:transformNative_libsWithMergeJniLibsForDebug
+:HtmlTextView:transformNative_libsWithSyncJniLibsForDebug
+:HtmlTextView:bundleDebug
+:HtmlTextView:compileDebugSources
+:HtmlTextView:assembleDebug
+:HtmlTextView:preReleaseBuild UP-TO-DATE
+:HtmlTextView:checkReleaseManifest
+:HtmlTextView:prepareReleaseDependencies
+:HtmlTextView:compileReleaseAidl
+:HtmlTextView:compileReleaseNdk UP-TO-DATE
+:HtmlTextView:copyReleaseLint UP-TO-DATE
+:HtmlTextView:compileReleaseRenderscript
+:HtmlTextView:generateReleaseBuildConfig
+:HtmlTextView:generateReleaseResValues
+:HtmlTextView:generateReleaseResources
+:HtmlTextView:packageReleaseResources
+:HtmlTextView:processReleaseManifest
+:HtmlTextView:processReleaseResources
+:HtmlTextView:generateReleaseSources
+:HtmlTextView:incrementalReleaseJavaCompilationSafeguard
+:HtmlTextView:compileReleaseJavaWithJavac
+:HtmlTextView:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/476/src/html-textview-master/HtmlTextView/src/main/java/org/sufficientlysecure/htmltextview/HtmlTagHandler.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:HtmlTextView:extractReleaseAnnotations
+:HtmlTextView:mergeReleaseShaders
+:HtmlTextView:compileReleaseShaders
+:HtmlTextView:generateReleaseAssets
+:HtmlTextView:mergeReleaseAssets
+:HtmlTextView:mergeReleaseProguardFiles
+:HtmlTextView:packageReleaseRenderscript UP-TO-DATE
+:HtmlTextView:processReleaseJavaRes UP-TO-DATE
+:HtmlTextView:transformResourcesWithMergeJavaResForRelease
+:HtmlTextView:transformClassesAndResourcesWithSyncLibJarsForRelease
+:HtmlTextView:mergeReleaseJniLibFolders
+:HtmlTextView:transformNative_libsWithMergeJniLibsForRelease
+:HtmlTextView:transformNative_libsWithSyncJniLibsForRelease
+:HtmlTextView:bundleRelease
+:HtmlTextView:compileReleaseSources
+:HtmlTextView:assembleRelease
+:HtmlTextView:assemble
+:HtmlTextView:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.449 secs
+
+2017-11-15 19:47:16,406 INFO  ProjectTaskService - Detecting possible tasks...
+2017-11-15 19:47:16,406 INFO  SysUtils - Execute command: [/tmp/rdisk/476/src/html-textview-master/gradlew, -b, /tmp/rdisk/476/src/html-textview-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-11-15 19:47:23,711 INFO  ProjectTaskService - Detected possible tasks: 71
+2017-11-15 19:47:23,711 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2017-11-15 19:47:23,711 INFO  SysUtils - Execute command: [/tmp/rdisk/476/src/html-textview-master/gradlew, -b, /tmp/rdisk/476/src/html-textview-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2017-11-15 19:47:48,698 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
+:HtmlTextView:preBuild UP-TO-DATE
+:HtmlTextView:preReleaseBuild UP-TO-DATE
+:HtmlTextView:checkReleaseManifest
+:HtmlTextView:prepareReleaseDependencies
+:HtmlTextView:compileReleaseAidl UP-TO-DATE
+:HtmlTextView:compileReleaseNdk UP-TO-DATE
+:HtmlTextView:compileLint UP-TO-DATE
+:HtmlTextView:copyReleaseLint UP-TO-DATE
+:HtmlTextView:compileReleaseRenderscript UP-TO-DATE
+:HtmlTextView:generateReleaseBuildConfig UP-TO-DATE
+:HtmlTextView:generateReleaseResValues UP-TO-DATE
+:HtmlTextView:generateReleaseResources UP-TO-DATE
+:HtmlTextView:packageReleaseResources UP-TO-DATE
+:HtmlTextView:processReleaseManifest UP-TO-DATE
+:HtmlTextView:processReleaseResources UP-TO-DATE
+:HtmlTextView:generateReleaseSources UP-TO-DATE
+:HtmlTextView:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:HtmlTextView:compileReleaseJavaWithJavac UP-TO-DATE
+:HtmlTextView:extractReleaseAnnotations UP-TO-DATE
+:HtmlTextView:mergeReleaseShaders UP-TO-DATE
+:HtmlTextView:compileReleaseShaders UP-TO-DATE
+:HtmlTextView:generateReleaseAssets UP-TO-DATE
+:HtmlTextView:mergeReleaseAssets UP-TO-DATE
+:HtmlTextView:mergeReleaseProguardFiles UP-TO-DATE
+:HtmlTextView:packageReleaseRenderscript UP-TO-DATE
+:HtmlTextView:processReleaseJavaRes UP-TO-DATE
+:HtmlTextView:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:HtmlTextView:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:HtmlTextView:mergeReleaseJniLibFolders UP-TO-DATE
+:HtmlTextView:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:HtmlTextView:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:HtmlTextView:bundleRelease UP-TO-DATE
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild UP-TO-DATE
+:example:checkDebugManifest
+:example:preReleaseBuild UP-TO-DATE
+:example:prepareComAndroidDatabindingAdapters121Library
+:example:prepareComAndroidDatabindingLibrary121Library
+:example:prepareComAndroidSupportAnimatedVectorDrawable2500Library
+:example:prepareComAndroidSupportAppcompatV72500Library
+:example:prepareComAndroidSupportSupportCompat2500Library
+:example:prepareComAndroidSupportSupportCoreUi2500Library
+:example:prepareComAndroidSupportSupportCoreUtils2500Library
+:example:prepareComAndroidSupportSupportFragment2500Library
+:example:prepareComAndroidSupportSupportMediaCompat2500Library
+:example:prepareComAndroidSupportSupportV42500Library
+:example:prepareComAndroidSupportSupportVectorDrawable2500Library
+:example:prepareHtmlTextviewMasterHtmlTextViewUnspecifiedLibrary
+:example:prepareDebugDependencies
+:example:compileDebugRenderscript
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:dataBindingProcessLayoutsDebug
+:example:compileDebugAidl
+:example:generateDebugBuildConfig
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:dataBindingExportBuildInfoDebug
+:example:incrementalDebugJavaCompilationSafeguard
+:example:compileDebugJavaWithJavac
+:example:compileDebugNdk UP-TO-DATE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexForDebug
+:example:mergeDebugJniLibFolders
+:example:transformNative_libsWithMergeJniLibsForDebug
+:example:processDebugJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseRenderscript
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:dataBindingProcessLayoutsRelease
+:example:compileReleaseAidl
+:example:generateReleaseBuildConfig
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:dataBindingExportBuildInfoRelease
+:example:incrementalReleaseJavaCompilationSafeguard
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk UP-TO-DATE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexForRelease
+:example:mergeReleaseJniLibFolders
+:example:transformNative_libsWithMergeJniLibsForRelease
+:example:processReleaseJavaRes UP-TO-DATE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.717 secs
+
+2017-11-15 19:47:48,730 INFO  FullProcessService - Found APK file: /tmp/rdisk/476/src/html-textview-master/example/build/outputs/apk/example-release-unsigned.apk

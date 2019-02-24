@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.github.johnpersano.supertoasts.demo",
+    "label" : "SuperToasts Demo",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0",
+    "versionCode" : 20,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB41BMVEUAAAD////////////////////////////////1+/vs9/b////////d8e9KtKoEmIoAloj////n9fQboZX///9nwbhowbj////////9/v4TnpH////////u+Pfv+Pfr9/Y0rKCP0cvG5+Th8vHY7+214d1/ysM6rqMCl4kJmoyi2dP3/PvT7erH6OXc8e/+///h8/FevbSn29Z3x8ALm40ipJiy39ui2dRBsaa44t5VubAyq5+l2tUEl4rD5uNau7J2xr90xr6Fzcac1tEZoJSCy8VTuK9mwLj7/f1jv7YBl4kVn5Lw+fjV7utyxb0go5eT0s2z4NzO6+jW7uyCzMVHs6nx+fjP6+mAy8QrqJzB5uLz+vn1+/qs3dgdopaZ1dD0+vq/5eE2rKENm45Zu7Gv3tpdvLQOnI9hvrX4/PwhpJdzxb14x8BLtasjpJjC5uOY1c+Q0ctgvrWLz8m649/K6eZNtqyIzscGmIt5yMDJ6eYDl4l2x7/+/v7m9fOg2NOBy8Tc8O/M6uckpZl6yMHB5eL5/fzF5+RlwLcFmIouqZ4yqp8lpZkImYxYurEvqp4vqZ5FsqgUnpHl9PM3raKX1M+95OCt3dluw7vj8/Lk9PP///9nwLj////////e8e/2+/smHbVNAAAAoXRSTlMAAl3E9v9eCrP//7Sk/////0D//6f//6bk///j/f////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////z/QaX//0+IhbUAAAHfSURBVEjHzZbrVxJBGMZBeAIRZAG1IMsuRhYqFWmKlQlUhJcyK0tSNFPLLMy8RmWmZhc1xbyVhX+qs7ALn9x99xw/8HyZmfPO75w57+w8z6pUWSp1jkYLSWk1h9SZ/To9kGuQVC6Qp0sDRpjyzZykzPkmGMX9FlhtnKxsVlgEoACFHEFFOCwAR+wOCuCwHxWA4mMcSceLBQAlNKAEBwCcOHnqtLX0jPNsGQk4dx5wlVdUuoELFynAJdg9l9lYVQ1c4bia2lqvJFAHXE3Nrl3ngXrghiTQADQINS8J8AF+oRa4eYsA3AaCd0KZDbJAYxP78Jtb7qZW91rvA22tTA/27dLDR/xbcbc/fsIWHYYw8JR/C537X1xXpDv5vtw9zyhH4tX7vM/FI8F+IsA08IIdHi8HyQDHhV4xYkgeeO17I9aiwLA88BYjYs0PvKMAo2JtDBinAJiY5CdlU8D7mDzw4SPwafqzMzIDfAlQ2jo7Nx/mL+Hrwrfv1IuL2X78XFxKzZcBDxt+eVeIJrAK+NgwncQoQDzIt613Db+pNrMObPhN2CT7knkruv1noWXyII2MBpDN+K8yu4+n7b4AO8oC5Z/SyFL9R0I+FBOZUEzG7q507O4Cep2yYM9RZ+tvyR6P45yBoIw++wAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2034,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"20\" android:versionName=\"2.0\" package=\"com.github.johnpersano.supertoasts.demo\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f070094\" android:label=\"SuperToasts Demo\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f070039\" android:label=\"SuperToasts Demo\" android:name=\"com.github.johnpersano.supertoasts.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f070094\" android:label=\"About\" android:name=\"com.github.johnpersano.supertoasts.demo.AboutActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f070094\" android:label=\"Playground\" android:name=\"com.github.johnpersano.supertoasts.demo.Playground\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1625077,
+  "crc32" : 4280384319,
+  "sha256" : "3c6931dd6a42b99eccb2502de524ebe71beb40e746e017ee1253293faeaae349",
+  "buildTime" : 1523309874000
+}

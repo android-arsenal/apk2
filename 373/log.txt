@@ -1,0 +1,10 @@
+2018-04-10 18:03:25,693 INFO  DownloadService - Downloading "https://github.com/embarkmobile/protobuf-j2me/archive/master.zip", attempt 3
+2018-04-10 18:03:26,090 INFO  DownloadService - Downloaded https://github.com/embarkmobile/protobuf-j2me/archive/master.zip, attempt 3
+2018-04-10 18:03:26,090 INFO  DownloadService - Size of file "/tmp/rdisk/373/master.zip": 24 KB
+2018-04-10 18:03:26,090 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:03:26,090 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/373/master.zip: false
+2018-04-10 18:03:26,090 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-04-10 18:03:26,090 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:03:26,090 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:03:26,090 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:03:26,091 ERROR FullProcessService - Could not find generated or existed APK file

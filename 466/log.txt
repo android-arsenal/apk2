@@ -1,0 +1,405 @@
+2018-04-09 22:30:38,757 INFO  DownloadService - Downloading "https://github.com/square/phrase/archive/master.zip", attempt 3
+2018-04-09 22:31:39,216 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 22:31:39,874 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 22:31:39,874 INFO  DownloadService - Downloading "https://github.com/square/phrase/archive/master.zip", attempt 3
+2018-04-09 22:32:41,200 DEBUG FullProcessService - Repository https://github.com/square/phrase available: true
+2018-04-09 22:32:41,200 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 22:32:41,200 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/square/phrase, /tmp/rdisk/466/src]
+2018-04-09 22:32:42,671 INFO  SysUtils - 
+2018-04-09 22:32:42,679 INFO  GitService - Deleted "/tmp/rdisk/466/src/.git": true
+2018-04-09 22:32:42,680 INFO  FullProcessService - Size of directory with sources: 116 KB
+2018-04-09 22:32:42,680 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/466/src]
+2018-04-09 22:32:42,684 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/466/src/.git/
+
+2018-04-09 22:32:42,686 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/466/src/gradlew
+2018-04-09 22:32:42,687 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/466/src/build.gradle
+2018-04-09 22:32:42,688 INFO  ProjectBuildService - All script(s): /tmp/rdisk/466/src/gradle-mvn-push.gradle /tmp/rdisk/466/src/build.gradle
+2018-04-09 22:32:42,688 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 22:32:42,688 INFO  ProjectFixService - Fixing project...
+2018-04-09 22:32:42,692 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/466/src/local.properties
+2018-04-09 22:32:42,693 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-09 22:32:42,693 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-09 22:32:42,694 INFO  ProjectFixService - Build info for "/tmp/rdisk/466/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=<null>]
+2018-04-09 22:32:42,694 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/466/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=11,targetSdkVersion=27]
+2018-04-09 22:32:42,694 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 22:32:42,694 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 22:32:42,694 INFO  SysUtils - Execute command: [/tmp/rdisk/466/src/gradlew, -b, /tmp/rdisk/466/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 22:32:49,845 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-04-09 22:32:49,845 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-04-09 22:32:49,845 INFO  SysUtils - Execute command: [/tmp/rdisk/466/src/gradlew, -b, /tmp/rdisk/466/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-04-09 22:32:59,477 INFO  SysUtils - Configuration on demand is an incubating feature.
+:androidJavadocs/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.PluralsRes;
+                                 ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:18: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:78: error: cannot find symbol
+  public static Phrase from(Fragment f, @StringRes int patternResourceId) {
+                                         ^
+  symbol:   class StringRes
+  location: class Phrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:87: error: cannot find symbol
+  public static Phrase from(View v, @StringRes int patternResourceId) {
+                                     ^
+  symbol:   class StringRes
+  location: class Phrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:96: error: cannot find symbol
+  public static Phrase from(Context c, @StringRes int patternResourceId) {
+                                        ^
+  symbol:   class StringRes
+  location: class Phrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:105: error: cannot find symbol
+  public static Phrase from(Resources r, @StringRes int patternResourceId) {
+                                          ^
+  symbol:   class StringRes
+  location: class Phrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:114: error: cannot find symbol
+  public static Phrase fromPlural(View v, @PluralsRes int patternResourceId, int quantity) {
+                                           ^
+  symbol:   class PluralsRes
+  location: class Phrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:123: error: cannot find symbol
+  public static Phrase fromPlural(Context c, @PluralsRes int patternResourceId, int quantity) {
+                                              ^
+  symbol:   class PluralsRes
+  location: class Phrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:132: error: cannot find symbol
+  public static Phrase fromPlural(Resources r, @PluralsRes int patternResourceId, int quantity) {
+                                                ^
+  symbol:   class PluralsRes
+  location: class Phrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:66: error: cannot find symbol
+  public static ListPhrase from(@NonNull CharSequence separator) {
+                                 ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:79: error: cannot find symbol
+  @NonNull public static ListPhrase from(@NonNull CharSequence twoElementSeparator,
+                                          ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:79: error: cannot find symbol
+  @NonNull public static ListPhrase from(@NonNull CharSequence twoElementSeparator,
+   ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:93: error: cannot find symbol
+  private ListPhrase(@NonNull CharSequence twoElementSeparator,
+                      ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:94: error: cannot find symbol
+      @NonNull CharSequence nonFinalElementSeparator, @NonNull CharSequence finalElementSeparator) {
+       ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:94: error: cannot find symbol
+      @NonNull CharSequence nonFinalElementSeparator, @NonNull CharSequence finalElementSeparator) {
+                                                       ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                         ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                                           ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                                                              ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+   ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:115: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items) {
+                                         ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:115: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items) {
+   ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:126: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items,
+                                         ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:127: error: cannot find symbol
+      @Nullable Formatter<T> formatter) {
+       ^
+  symbol:   class Nullable
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:126: error: cannot find symbol
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items,
+   ^
+  symbol:   class NonNull
+  location: class ListPhrase
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:66: warning: no @return
+  public static ListPhrase from(@NonNull CharSequence separator) {
+                           ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:79: warning: no @return
+  @NonNull public static ListPhrase from(@NonNull CharSequence twoElementSeparator,
+                                    ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: warning: no @param for <T>
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: warning: no @param for first
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: warning: no @param for second
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: warning: no @param for rest
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:106: warning: no @return
+  @NonNull public <T> CharSequence join(@NonNull T first, @NonNull T second, @NonNull T... rest) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:115: warning: no @param for <T>
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:115: warning: no @param for items
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:115: warning: no @return
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items) {
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:126: warning: no @param for <T>
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items,
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:126: warning: no @param for items
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items,
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:126: warning: no @param for formatter
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items,
+                                   ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java:126: warning: no @return
+  @NonNull public <T> CharSequence join(@NonNull Iterable<T> items,
+                                   ^
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class NonNull not found.
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:78: warning: no @param for f
+  public static Phrase from(Fragment f, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:78: warning: no @param for patternResourceId
+  public static Phrase from(Fragment f, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:78: warning: no @return
+  public static Phrase from(Fragment f, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:87: warning: no @param for v
+  public static Phrase from(View v, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:87: warning: no @param for patternResourceId
+  public static Phrase from(View v, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:87: warning: no @return
+  public static Phrase from(View v, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:96: warning: no @param for c
+  public static Phrase from(Context c, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:96: warning: no @param for patternResourceId
+  public static Phrase from(Context c, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:96: warning: no @return
+  public static Phrase from(Context c, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:105: warning: no @param for r
+  public static Phrase from(Resources r, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:105: warning: no @param for patternResourceId
+  public static Phrase from(Resources r, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:105: warning: no @return
+  public static Phrase from(Resources r, @StringRes int patternResourceId) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:114: warning: no @param for v
+  public static Phrase fromPlural(View v, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:114: warning: no @param for patternResourceId
+  public static Phrase fromPlural(View v, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:114: warning: no @param for quantity
+  public static Phrase fromPlural(View v, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:114: warning: no @return
+  public static Phrase fromPlural(View v, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:123: warning: no @param for c
+  public static Phrase fromPlural(Context c, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:123: warning: no @param for patternResourceId
+  public static Phrase fromPlural(Context c, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:123: warning: no @param for quantity
+  public static Phrase fromPlural(Context c, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:123: warning: no @return
+  public static Phrase fromPlural(Context c, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:132: warning: no @param for r
+  public static Phrase fromPlural(Resources r, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:132: warning: no @param for patternResourceId
+  public static Phrase fromPlural(Resources r, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:132: warning: no @param for quantity
+  public static Phrase fromPlural(Resources r, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:132: warning: no @return
+  public static Phrase fromPlural(Resources r, @PluralsRes int patternResourceId, int quantity) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:141: warning: no @param for pattern
+  public static Phrase from(CharSequence pattern) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:141: warning: no @return
+  public static Phrase from(CharSequence pattern) {
+                       ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:151: warning: no @param for key
+  public Phrase put(String key, CharSequence value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:151: warning: no @param for value
+  public Phrase put(String key, CharSequence value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:151: warning: no @return
+  public Phrase put(String key, CharSequence value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:170: warning: no @param for key
+  public Phrase put(String key, int value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:170: warning: no @param for value
+  public Phrase put(String key, int value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:170: warning: no @return
+  public Phrase put(String key, int value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:179: warning: no @param for key
+  public Phrase putOptional(String key, CharSequence value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:179: warning: no @param for value
+  public Phrase putOptional(String key, CharSequence value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:179: warning: no @return
+  public Phrase putOptional(String key, CharSequence value) {
+                ^
+/tmp/rdisk/466/src/src/main/java/com/squareup/phrase/Phrase.java:189: warning: no @param for key
+  public Phrase putOptional(String key, int value) {
+                ^
+
+100 warnings
+:androidJavadocsJar
+:androidSourcesJar
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:compileDebugNdk UP-TO-DATE
+:compileLint
+:copyDebugLint UP-TO-DATE
+:checkDebugManifest
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:compileDebugJavaWithJavacNote: /tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:extractDebugAnnotations
+:mergeDebugProguardFiles
+:packageDebugRenderscript UP-TO-DATE
+:processDebugJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mergeDebugJniLibFolders
+:transformNative_libsWithMergeJniLibsForDebug
+:transformNative_libsWithSyncJniLibsForDebug
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:preReleaseBuild UP-TO-DATE
+:compileReleaseNdk UP-TO-DATE
+:copyReleaseLint UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:generateReleaseAssets UP-TO-DATE
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:compileReleaseJavaWithJavacNote: /tmp/rdisk/466/src/src/main/java/com/squareup/phrase/ListPhrase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:extractReleaseAnnotations
+:mergeReleaseProguardFiles
+:packageReleaseRenderscript UP-TO-DATE
+:processReleaseJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mergeReleaseJniLibFolders
+:transformNative_libsWithMergeJniLibsForRelease
+:transformNative_libsWithSyncJniLibsForRelease
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:jarRelease
+:signArchives SKIPPED
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.197 secs
+
+2018-04-09 22:32:59,483 ERROR FullProcessService - Project build has not produced APK file
+2018-04-09 22:32:59,488 ERROR FullProcessService - Could not find generated or existed APK file

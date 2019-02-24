@@ -1,0 +1,10 @@
+2018-04-10 18:12:39,275 INFO  DownloadService - Downloading "https://github.com/Gnod/ParallaxListView/archive/master.zip", attempt 3
+2018-04-10 18:12:40,031 INFO  DownloadService - Downloaded https://github.com/Gnod/ParallaxListView/archive/master.zip, attempt 3
+2018-04-10 18:12:40,031 INFO  DownloadService - Size of file "/tmp/rdisk/339/master.zip": 2 MB
+2018-04-10 18:12:40,031 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:12:40,031 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/339/master.zip: false
+2018-04-10 18:12:40,031 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-04-10 18:12:40,031 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:12:40,031 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:12:40,031 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:12:40,032 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "ly.apps.android.rest.client.example",
+    "label" : "My Weather",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_LOCATION", "android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB41BMVEUAAAD////y8vLy8vLz8/Pz8/Pz8/Pz8/Pt7e3y8vL09PTz8/Py8vLv7+/z8/PMzMzt7e3z8/Pg4ODy8vLv7+/z8/Pq6ury6Ofux8Px8fHtvrrhYVXvzsztw7/w2tjpoJry7u7fTD/uxsLx4uDrr6rnkovnjITpnJXtwb3uxsPgUkbx5OPv0M7x3t3mhX3kc2nnkoromJHmh3/hX1TgVUnz8fHkeXDrrqnvzsvgUUXlgXjw3tzz8vLn5+fy8vLpn5jz8/Lx4N7pn5nx4uHx393y7Ozv09Huzcvx4d/u7u7kenHeSDvfSz/gU0beQzbiaV/tvbnx8fHmiIDolY7v0c7po53fTUHw8PDom5XiZVrw29nw2NbgV0vy8vLtwb7hXlPrsazx4+Lvz8zfSj3gVkrtw8Djal/hYFTsu7fz8PDuzMnw3NrolI3eRjnx5eTol5DiaF3x5uXlgXnlgnnrs67jcWjiZ1zjcGbw3dzstbHial/jb2Xy7e3qqqXjcmjw8PDfTEDstrLfTUDqqKLomZPjamDnjobolo/nkYrrtLDjbWPjbmPx8fHy5+bfT0LfT0PuyMXqpZ/hWk7iYlbnjIXgUUTrsKvy7ezpnpfuzcrhW0/jbGLjcWfiY1jrsavrrafuysbXo+irAAAAoXRSTlMABTx4pcfd6SqK3v8mpPkFcfAZtjHaMf//2v//////////////////////////////////////////////Kvn/////////////eP////////+l//////+l///////e////////////////////////////////////////////eP///////////////6T//////////////////////////7p+JCsAAAJgSURBVEjHY2AYAoCRiZmFlY2dnY2VhZmJkaByDk4ubiTAxcmBVzkPLx83GuDj5cGpnF9AkBsLEBTgx65eSJgbBxAWwqZeRJQbJxAVwVQvxg6XFpfA0MEuhuEeSYSslDSmHZJoruIHuV9GFiIpJw9VpYDsD1SfC4DEZBWVgKSyiqqaugZIraaWNpIOAZTwh4Snkg63rp6ivoGhkbGJiim3mTlK6CLHBy9M1MLSyhpE22iYWCmgeYMXod7WDiqma2nvAGU6GjuhabCzhWvghInpWTnA5Z1d0EOKEx5EsPSmrGjNjQdwwdIuE0xERR8u6erm7oGhgwmqwRMSv1JyqgZQGU0vbx9fP/8ANA3MUA2BYJ6EtLyaIcT0IMXgEFNu59CwYBsUDeFQDawwgQgjEGnqFRkF4UfHoIYUK1RDLEwgLh5kYkJMIkwgKdkCWUMsVAM8nSqkpALJtASEEoN0g4xMRJpF18Cdlc2dlJMrjtCQJ58vXSCOriEWoaCwKLm4BDVoFErz0Z3Eisg6ZeUVGKFfWYXu6XC4nFp1DWYE19ahB2s9TMClIQpLimhsSkKLOHjSaDbDmoZaWm1QkwYjLPG1tWPVIO7thpr44MlbtQN7Mi3oRE3e8AxU0oVdQ7cKWgZi6IFI9PZlYVNf0z8BRPVgFgLcEydhCyb7yZnohQCkmAEm1ClTp6HHxPQZTTMxihlIQQYqLUpmNc2egwy6+ubOxFKQIYrKzKx585GByoJMbEUlSmGMBWAWxqQX96RXKKRXWaD46LFDV27Xw4O3HrVFr3ZtianYAyEVeyAxFfsgAAAkXI8z2OR+0gAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1774,
+  "locales" : [ "", "sl", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "pt", "ar", "ru", "fa", "sk", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "es", "hy_AM", "tr", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "fr", "ja", "lo_LA", "iw", "de", "en_IN", "es_US", "nb", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"ly.apps.android.rest.client.example\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"21\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0b0000\" android:label=\"My Weather\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"My Weather\" android:name=\"ly.apps.android.rest.client.example.activities.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2068036,
+  "crc32" : 2401341634,
+  "sha256" : "7ebbe5a5af92dc882d4d68bbc207812adde714caa02a4b51d4f18bbd417fee8d",
+  "buildTime" : 1523381267000
+}

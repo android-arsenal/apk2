@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "sample.netcipher",
+    "label" : "NetCipherSample",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAABL1BMVEUAAAAAAAA1xjFT6lBU7FEAAAAaxBYm5yIe5hoAAAAAAAAe4RodlhwbPyAe0Rockh0aICEaHyEbQCAawBcckR0aIyEdqBwdjR0aJSEdqhwcjB0drBwciR0aJiEdrhwchx4dshwchB0aKCEdsRwcgh4aKSAdtBscgR4dtRwcax4dwxwe5RocfB0bKiAdtxwbWR8aLyAdwhscfB4duRwe5Bocbh4aLiEdvxsbeB4aKyEduhsccx4cdh4dvBwceh4bKSAdthwcdB4aLSEdvRwcfh0dsxsbcR4dwBscgx4aJyEbcB8ciR4aJCEcbB4bMSAewhscjx0bVR8aMyEdxRsclx0aIiEdxxscnR0bNyAdyBse3xoZvRUe4hoUnBIAAAAPeQ4Qew4Qfg4AAAAAAAAAAAAT8E2wAAAAZXRSTlMAA8X//wv///8SE///////////////////////////////////////////////////////////////////////////////////////////////////////////////Ecj//yQ2OqrVeNsAAAEoSURBVDjLtZNnV8JAEEUXMAskln12VOyVWFBjL9ixF+yGJvj/f4Nz1ONxVXbyQd+37LnJZmbuCBEkoXCkzphIOCQsGY0ZE5WWiMsYExkXNg/ZfwM5AaD6hkYWalJobmGgVoW2duZLHQqdCeafuojpZqrrUUj2Mi3oA5L9TJ8GgMEhppnDwMgo0/ExYsa1sTgTKR1xJ4GpaW12zgzSsxozR8y8PmBvAVhc+sIsAyur3y1w1+j08013nZ42fqribgKZrQ9mG9jZ/dWnPapm/405oLuzNaQ7BI5oBt4xkM7WNPNE4TThnQHnFwZ9L8mdK2JSRsfJQiB3zSzCzS1yd+y23D88Blipp/9cznfIz5uZvE9QwZfG+AVbFEvlZ2PKpaKwKtUXY6oV6xVKyVTUdbPbFwAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 833,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"sample.netcipher\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"22\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f050000\" android:label=\"NetCipherSample\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"NetCipherSampleActivity\" android:name=\"sample.netcipher.NetCipherSampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 489693,
+  "crc32" : 2931593913,
+  "sha256" : "c3ecb07a08c2e08b173b5e4cb13b77b266502e5756bae294f1efd5197cd5c205",
+  "buildTime" : 1496784440000
+}

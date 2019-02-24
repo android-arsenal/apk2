@@ -1,0 +1,21 @@
+2018-04-10 11:26:19,225 INFO  DownloadService - Downloading "https://github.com/airminer/jnlua-android/archive/master.zip", attempt 3
+2018-04-10 11:27:19,810 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 11:27:20,502 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 11:27:20,502 INFO  DownloadService - Downloading "https://github.com/airminer/jnlua-android/archive/master.zip", attempt 3
+2018-04-10 11:28:21,771 DEBUG FullProcessService - Repository https://github.com/airminer/jnlua-android available: true
+2018-04-10 11:28:21,771 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 11:28:21,771 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/airminer/jnlua-android, /tmp/rdisk/422/src]
+2018-04-10 11:28:23,568 INFO  SysUtils - 
+2018-04-10 11:28:23,573 INFO  GitService - Deleted "/tmp/rdisk/422/src/.git": true
+2018-04-10 11:28:23,578 INFO  FullProcessService - Size of directory with sources: 973 KB
+2018-04-10 11:28:23,578 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/422/src]
+2018-04-10 11:28:23,585 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/422/src/.git/
+
+2018-04-10 11:28:23,589 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 11:28:23,589 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 11:28:23,592 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 11:28:23,595 INFO  ProjectBuildService - All script(s): none
+2018-04-10 11:28:23,595 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 11:28:23,595 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 11:28:23,595 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 11:28:23,598 ERROR FullProcessService - Could not find generated or existed APK file

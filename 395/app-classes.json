@@ -1,0 +1,4 @@
+{
+  "org.codechimp.apprater" : [ "AmazonMarket", "AppRater", "AppRater$1", "AppRater$2", "AppRater$3", "AppRater$4", "ApplicationRatingInfo", "BuildConfig", "GoogleMarket", "Market", "R", "R$string" ],
+  "org.codechimp.appraterdemo" : [ "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style" ]
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "org.sufficientlysecure.donations.example",
+    "label" : "Donations Example",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAB+klEQVR42u2ZSyhEURjH72Ahj4SSUmwszNJG2UtslNlYKCmP8ciCaDILbJCUlURJNqYpkYV3YofE0kZKWSKJlOcc/zv3LK4zl+Y299x7Ft9Xv805tzv//5zvvL6raRQUFBSaxmZBgY3nM8GCSgZqwISN5wdAk2qjsApKQQXoM/5htgm2wCLoB5XGSLFtkK6agV5wB74B+4MYf2YU+FQRng2WuDiWJDE+YnkqiD+yIVzkDOR7JR4pwKImMadgJIkUmgIHprYdj+YDaxTEhUEWePzHwAcoBF1Ce5sX//65IOIT3CeRNg/gXWi7BhluGvDbnLTJUO2mgRaHxTNjc3PPQAg8O8ykLLE5YBysgyBIA+Wg3mH8/PeawRqYdmiJZRFhqLvBmIQUmjHOR7/a9p1YbV6El+5JNBCxWNlyUzGgp8ub8NJDiQY2hLavFNOIDJABMkAGyAAZYK+J27s0A1GLnTjVe3O8NGJ+6ZBEA61C27EThzn9CjjP77xh4+YkzYCP15ROwDIokXXElmTAvQtNuwQDw24awMRilw6KvwXFblcmdBMdfF7MWYja5X1hi+VRZ4X39YAiryt0VRYCQ6b+oEV/QKXCLhkgA5INdFr0N6hkQN+tn4QqdJ1g0Fy11g+IZap9oakFF+AGDCZ+gYmn0RXfPwIaBQUFhR4/+C4usHmhpzYAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1168,
+  "locales" : [ "", "sl", "es_MX", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"org.sufficientlysecure.donations.example\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:label=\"Donations Example\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Donations\" android:name=\"org.sufficientlysecure.donations.example.DonationsActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 782797,
+  "crc32" : 1831911304,
+  "sha256" : "5577fc0a556ef3c16fc6d5e11b7b17ac6d078dea0d34b5093cb61b515fc1a7c9",
+  "buildTime" : 1520778068000
+}

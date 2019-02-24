@@ -1,0 +1,12 @@
+22:47:43.799 [main] INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/clojure-android/neko/archive/master.zip", attempt 3
+22:47:46.227 [main] INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/clojure-android/neko/archive/master.zip, attempt 3
+22:47:46.859 [main] DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1465058862982-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1465058862982-0/src'.
+22:47:46.917 [main] INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 220 KB
+22:47:46.953 [main] INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): none
+22:47:46.954 [main] ERROR c.g.v.a.s.a.ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+22:47:46.978 [main] INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): none
+22:47:46.992 [main] INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): none
+22:47:46.999 [main] INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+22:47:46.999 [main] ERROR c.g.v.a.s.FullProcessService - Project is not correct Gradle project
+22:47:47.000 [main] ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+22:47:47.017 [main] ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

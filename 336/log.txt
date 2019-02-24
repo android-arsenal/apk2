@@ -1,0 +1,301 @@
+2018-05-15 04:27:45,063 INFO  DownloadService - Downloading "https://github.com/emilsjolander/sprinkles/archive/master.zip", attempt 3
+2018-05-15 04:27:45,713 INFO  DownloadService - Downloaded https://github.com/emilsjolander/sprinkles/archive/master.zip, attempt 3
+2018-05-15 04:27:45,713 INFO  DownloadService - Size of file "/tmp/rdisk/336/master.zip": 1 MB
+2018-05-15 04:27:45,713 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:27:45,713 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/336/master.zip: true
+2018-05-15 04:27:45,713 DEBUG ZipUtil - Extracting '/tmp/rdisk/336/master.zip' into '/tmp/rdisk/336/src'.
+2018-05-15 04:27:45,742 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-15 04:27:45,742 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/336/src]
+2018-05-15 04:27:45,747 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/336/src/.git/
+
+2018-05-15 04:27:45,750 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/336/src/sprinkles-master/gradlew
+2018-05-15 04:27:45,753 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/336/src/sprinkles-master/library/build.gradle /tmp/rdisk/336/src/sprinkles-master/sample/build.gradle /tmp/rdisk/336/src/sprinkles-master/build.gradle
+2018-05-15 04:27:45,756 INFO  ProjectBuildService - All script(s): /tmp/rdisk/336/src/sprinkles-master/settings.gradle /tmp/rdisk/336/src/sprinkles-master/sample/build.gradle /tmp/rdisk/336/src/sprinkles-master/library/build.gradle /tmp/rdisk/336/src/sprinkles-master/build.gradle
+2018-05-15 04:27:45,757 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/eaa6b5404b7594e6c23b884fdc5795f545db55dd/gradle-mvn-push.gradle", attempt 3
+2018-05-15 04:27:46,082 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/eaa6b5404b7594e6c23b884fdc5795f545db55dd/gradle-mvn-push.gradle, attempt 3
+2018-05-15 04:27:46,083 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/eaa6b5404b7594e6c23b884fdc5795f545db55dd/gradle-mvn-push.gradle
+2018-05-15 04:27:46,083 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:27:46,092 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/336/src/sprinkles-master/library/local.properties
+2018-05-15 04:27:46,093 INFO  ProjectFixService - Build info for "/tmp/rdisk/336/src/sprinkles-master/library/build.gradle": [buildToolsVersion=19.0.3,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:27:46,093 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/336/src/sprinkles-master/library/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:27:46,094 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/336/src/sprinkles-master/sample/local.properties
+2018-05-15 04:27:46,095 INFO  ProjectFixService - Build info for "/tmp/rdisk/336/src/sprinkles-master/sample/build.gradle": [buildToolsVersion=19.0.3,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:27:46,095 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/336/src/sprinkles-master/sample/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:27:46,096 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/336/src/sprinkles-master/local.properties
+2018-05-15 04:27:46,096 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.10-all.zip
+2018-05-15 04:27:46,096 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.10-bin.zip)
+2018-05-15 04:27:46,098 INFO  ProjectFixService - Build info for "/tmp/rdisk/336/src/sprinkles-master/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:27:46,098 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/336/src/sprinkles-master/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:27:46,098 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:27:46,098 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:27:46,098 INFO  SysUtils - Execute command: [/tmp/rdisk/336/src/sprinkles-master/gradlew, -b, /tmp/rdisk/336/src/sprinkles-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:28:02,451 INFO  ProjectTaskService - Detected possible tasks: 61
+2018-05-15 04:28:02,451 INFO  ProjectTaskService - Excluded tasks (13): lintDebug androidJavadocs deviceCheck lint androidSourcesJar connectedCheck uninstallAll androidJavadocsJar test check connectedAndroidTest lintRelease testDebug
+2018-05-15 04:28:02,451 INFO  SysUtils - Execute command: [/tmp/rdisk/336/src/sprinkles-master/gradlew, -b, /tmp/rdisk/336/src/sprinkles-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, build]
+2018-05-15 04:28:12,377 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debugTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.3 is ignored for debugTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+Creating properties on demand (a.k.a. dynamic properties) has been deprecated and is scheduled to be removed in Gradle 2.0. Please read http://gradle.org/docs/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html for information on the replacement for dynamic properties.
+Deprecated dynamic property: "destinationDir" on "task ':library:testDebugClasses'", value: "/tmp/rdisk/336/src/spr...".
+The Test.testReportDir property has been deprecated and is scheduled to be removed in Gradle 2.0. Please use the Test.getReports().getHtml().getDestination() property instead.
+:library:androidJavadocsJar
+:library:androidSourcesJar
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugProguardFiles
+:library:packageDebugAidl UP-TO-DATE
+:library:preBuild
+:library:preDebugBuild
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:compileDebugJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processDebugJavaRes UP-TO-DATE
+:library:packageDebugJar
+:library:compileDebugNdk
+:library:packageDebugJniLibs UP-TO-DATE
+:library:packageDebugLocalJar UP-TO-DATE
+:library:packageDebugRenderscript UP-TO-DATE
+:library:bundleDebug
+:library:assembleDebug
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:packageReleaseAidl UP-TO-DATE
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:library:assembleRelease
+:library:signArchives SKIPPED
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.396 secs
+
+2018-05-15 04:28:12,385 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:28:12,385 INFO  SysUtils - Execute command: [/tmp/rdisk/336/src/sprinkles-master/gradlew, -b, /tmp/rdisk/336/src/sprinkles-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:28:20,345 INFO  ProjectTaskService - Detected possible tasks: 56
+2018-05-15 04:28:20,346 INFO  ProjectTaskService - Excluded tasks (14): lintDebug androidJavadocs deviceCheck lint androidSourcesJar uninstallRelease connectedCheck uninstallAll androidJavadocsJar check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:28:20,346 INFO  SysUtils - Execute command: [/tmp/rdisk/336/src/sprinkles-master/gradlew, -b, /tmp/rdisk/336/src/sprinkles-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 04:28:27,886 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-15 04:28:27,886 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debugTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.3 is ignored for debugTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+Creating properties on demand (a.k.a. dynamic properties) has been deprecated and is scheduled to be removed in Gradle 2.0. Please read http://gradle.org/docs/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html for information on the replacement for dynamic properties.
+Deprecated dynamic property: "destinationDir" on "task ':library:testDebugClasses'", value: "/tmp/rdisk/336/src/spr...".
+The Test.testReportDir property has been deprecated and is scheduled to be removed in Gradle 2.0. Please use the Test.getReports().getHtml().getDestination() property instead.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':sample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':sample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:69)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:38)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.ProjectEvaluatingAction.configure(ProjectEvaluatingAction.java:52)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.select(DefaultBuildExecuter.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:46)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.Main.main(Main.java:37)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+BUILD FAILED
+
+Total time: 7.07 secs
+
+2018-05-15 04:28:27,886 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-05-15 04:28:27,887 INFO  SysUtils - Execute command: [/tmp/rdisk/336/src/sprinkles-master/gradlew, -b, /tmp/rdisk/336/src/sprinkles-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-15 04:28:49,805 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Dependency commons-logging:commons-logging:1.1.1 is ignored for debugTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+WARNING: Dependency org.apache.httpcomponents:httpclient:4.0.3 is ignored for debugTest as it may be conflicting with the internal version provided by Android.
+         In case of problem, please repackage it with jarjar to change the class packages
+Creating properties on demand (a.k.a. dynamic properties) has been deprecated and is scheduled to be removed in Gradle 2.0. Please read http://gradle.org/docs/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html for information on the replacement for dynamic properties.
+Deprecated dynamic property: "destinationDir" on "task ':library:testDebugClasses'", value: "/tmp/rdisk/336/src/spr...".
+The Test.testReportDir property has been deprecated and is scheduled to be removed in Gradle 2.0. Please use the Test.getReports().getHtml().getDestination() property instead.
+:sample:compileDebugNdk
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseAidl UP-TO-DATE
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:compileReleaseJava UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preBuild
+:sample:preDebugBuild
+:sample:checkDebugManifest
+:sample:preReleaseBuild
+:sample:prepareSeEmilsjolanderLibrary132SNAPSHOTLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:mergeDebugAssets
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:compileDebugJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sample:preDexDebug
+:sample:dexDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:validateDebugSigning
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:mergeReleaseAssets
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:compileReleaseJavaNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sample:lintVitalRelease SKIPPED
+:sample:compileReleaseNdk
+:sample:preDexRelease
+:sample:dexRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:compileLint
+:sample:lint
+Ran lint on variant debug: 8 issues found
+Ran lint on variant release: 8 issues found
+Wrote HTML report to file:/tmp/rdisk/336/src/sprinkles-master/sample/build/lint-results.html
+Wrote XML report to /tmp/rdisk/336/src/sprinkles-master/sample/build/lint-results.xml
+:sample:check
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.483 secs
+
+2018-05-15 04:28:49,818 INFO  FullProcessService - Found APK file: /tmp/rdisk/336/src/sprinkles-master/sample/build/apk/sample-release-unsigned.apk

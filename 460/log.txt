@@ -1,0 +1,280 @@
+2016-07-17 04:31:04,417 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/spockframework/spock/archive/master.zip", attempt 3
+2016-07-17 04:31:07,327 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/spockframework/spock/archive/master.zip, attempt 3
+2016-07-17 04:31:08,784 DEBUG o.z.z.ZipUtil - Extracting '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/master.zip' into '/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src'.
+2016-07-17 04:31:09,154 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 3 MB
+2016-07-17 04:31:09,336 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradlew
+2016-07-17 04:31:09,375 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/build.gradle
+2016-07-17 04:31:09,422 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/build.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradle/common.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradle/ide.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradle/publishMaven.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/settings.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-core/core.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-gradle/gradle.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-guice/guice.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-report/report.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-specs/specs.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-spring/boot-test/boot-test.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-spring/spring.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-tapestry/tapestry.gradle /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-unitils/unitils.gradle
+2016-07-17 04:31:09,449 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-07-17 04:31:09,451 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-07-17 04:31:09,600 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-07-17 04:31:09,601 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-07-17 04:31:09,620 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-17 04:31:09,622 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0
+2016-07-17 04:31:09,641 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-07-17 04:31:09,688 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-07-17 04:31:09,753 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/local.properties
+2016-07-17 04:31:09,778 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: false (https://services.gradle.org/distributions/gradle-2.13-bin.zip)
+2016-07-17 04:31:09,853 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-17 04:31:09,870 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-17 04:31:09,877 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/local.properties
+2016-07-17 04:31:09,894 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-07-17 04:31:09,895 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-07-17 04:31:09,896 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-07-17 04:31:09,906 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-17 04:31:09,911 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/build.gradle, tasks]
+2016-07-17 04:31:33,092 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 80
+2016-07-17 04:31:33,092 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: javadoc test check
+2016-07-17 04:31:33,093 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/build.gradle, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2016-07-17 04:33:21,988 INFO  c.g.v.a.s.a.ProjectBuildService - :buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:assemble UP-TO-DATE
+:build
+:spock-core:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+/private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-core/src/main/java/spock/lang/Specification.java:47: warning: '_' used as an identifier
+  public static final Object _ = Wildcard.INSTANCE;
+                             ^
+  (use of '_' as an identifier might not be supported in releases after Java SE 8)
+Note: /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-core/src/main/java/org/spockframework/runtime/extension/ExtensionUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings
+
+:spock-core:compileGroovywarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:spock-core:processResources
+:spock-core:classes
+:spock-core:jar
+:spock-core:javadocJar
+:spock-core:sourcesJar
+:spock-core:signArchives SKIPPED
+:spock-core:assemble
+:spock-core:build
+:spock-gradle:compileJava UP-TO-DATE
+:spock-gradle:compileGroovy
+:spock-gradle:processResources
+:spock-gradle:classes
+:spock-gradle:jar
+:spock-gradle:javadocJar
+:spock-gradle:sourcesJar
+:spock-gradle:signArchives SKIPPED
+:spock-gradle:assemble
+:spock-gradle:build
+:spock-guice:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:spock-guice:compileGroovy UP-TO-DATE
+:spock-guice:processResources UP-TO-DATE
+:spock-guice:classes
+:spock-guice:jar
+:spock-guice:javadocJar
+:spock-guice:sourcesJar
+:spock-guice:signArchives SKIPPED
+:spock-guice:assemble
+:spock-guice:build
+:spock-report:compileJava UP-TO-DATE
+:spock-report:compileGroovy
+:spock-report:processResources
+:spock-report:classes
+:spock-report:jar
+:spock-report:javadocJar
+:spock-report:sourcesJar
+:spock-report:signArchives SKIPPED
+:spock-report:assemble
+:spock-report:build
+:spock-specs:compileJava UP-TO-DATE
+:spock-specs:compileGroovy UP-TO-DATE
+:spock-specs:processResources UP-TO-DATE
+:spock-specs:classes UP-TO-DATE
+:spock-specs:jar
+:spock-specs:javadocJar
+:spock-specs:sourcesJar
+:spock-specs:signArchives SKIPPED
+:spock-specs:assemble
+:spock-specs:build
+:spock-spring:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:spock-spring:compileGroovy UP-TO-DATE
+:spock-spring:processResources
+:spock-spring:classes
+:spock-spring:jar
+:spock-spring:javadocJar
+:spock-spring:sourcesJar
+:spock-spring:signArchives SKIPPED
+:spock-spring:assemble
+:spock-spring:build
+:spock-tapestry:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: /private/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/spock-tapestry/src/main/java/org/spockframework/tapestry/TapestryExtension.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+:spock-tapestry:compileGroovy UP-TO-DATE
+:spock-tapestry:processResources
+:spock-tapestry:classes
+:spock-tapestry:jar
+:spock-tapestry:javadocJar
+:spock-tapestry:sourcesJar
+:spock-tapestry:signArchives SKIPPED
+:spock-tapestry:assemble
+:spock-tapestry:build
+:spock-unitils:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:spock-unitils:compileGroovy UP-TO-DATE
+:spock-unitils:processResources UP-TO-DATE
+:spock-unitils:classes
+:spock-unitils:jar
+:spock-unitils:javadocJar
+:spock-unitils:sourcesJar
+:spock-unitils:signArchives SKIPPED
+:spock-unitils:assemble
+:spock-unitils:build
+:spock-spring:boot-test:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:spock-spring:boot-test:compileGroovy UP-TO-DATE
+:spock-spring:boot-test:processResources
+:spock-spring:boot-test:classes
+:spock-spring:boot-test:findMainClass
+:spock-spring:boot-test:jar
+:spock-spring:boot-test:javadocJar
+:spock-spring:boot-test:sourcesJar
+:spock-spring:boot-test:signArchives SKIPPED
+:spock-spring:boot-test:bootRepackage
+:spock-spring:boot-test:assemble
+:spock-spring:boot-test:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 48.277 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.13/userguide/gradle_daemon.html
+
+2016-07-17 04:33:22,059 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-07-17 04:33:22,060 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/build.gradle, tasks]
+2016-07-17 04:33:27,957 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 55
+2016-07-17 04:33:27,957 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-07-17 04:33:27,958 INFO  c.g.v.a.u.SysUtils - Execute command: [/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/gradlew, -b, /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-07-17 04:33:33,755 INFO  c.g.v.a.s.a.ProjectBuildService - :buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:compileJava UP-TO-DATE
+:compileGroovy
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Cannot infer Groovy class path because no Groovy Jar was found on class path: configuration ':compileClasspath'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleException: Cannot infer Groovy class path because no Groovy Jar was found on class path: configuration ':compileClasspath'
+	at org.gradle.api.tasks.GroovyRuntime$1.createDelegate(GroovyRuntime.java:87)
+	at org.gradle.api.internal.file.collections.LazilyInitializedFileCollection.visitContents(LazilyInitializedFileCollection.java:30)
+	at org.gradle.api.internal.file.collections.DefaultFileCollectionResolveContext.resolveNested(DefaultFileCollectionResolveContext.java:143)
+	at org.gradle.api.internal.file.collections.DefaultFileCollectionResolveContext.doResolve(DefaultFileCollectionResolveContext.java:101)
+	at org.gradle.api.internal.file.collections.DefaultFileCollectionResolveContext.resolveAsFileTrees(DefaultFileCollectionResolveContext.java:74)
+	at org.gradle.api.internal.file.collections.DefaultFileCollectionResolveContext$FileTreeConverter.convertInto(DefaultFileCollectionResolveContext.java:188)
+	at org.gradle.api.internal.file.collections.DefaultFileCollectionResolveContext.doResolve(DefaultFileCollectionResolveContext.java:98)
+	at org.gradle.api.internal.file.collections.DefaultFileCollectionResolveContext.resolveAsFileTrees(DefaultFileCollectionResolveContext.java:74)
+	at org.gradle.api.internal.changedetection.state.DefaultFileCollectionSnapshotter.visitFiles(DefaultFileCollectionSnapshotter.java:41)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter.snapshot(AbstractFileCollectionSnapshotter.java:57)
+	at org.gradle.api.internal.changedetection.state.DefaultFileCollectionSnapshotter.snapshot(DefaultFileCollectionSnapshotter.java:29)
+	at org.gradle.api.internal.changedetection.rules.AbstractFileSnapshotTaskStateChanges.createSnapshot(AbstractFileSnapshotTaskStateChanges.java:47)
+	at org.gradle.api.internal.changedetection.rules.InputFilesTaskStateChanges.<init>(InputFilesTaskStateChanges.java:33)
+	at org.gradle.api.internal.changedetection.rules.TaskUpToDateState.<init>(TaskUpToDateState.java:52)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:142)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:73)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:81)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:241)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:214)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+
+BUILD FAILED
+
+Total time: 5.268 secs
+
+2016-07-17 04:33:33,757 ERROR c.g.v.a.s.a.ProjectBuildService - Can not build project using script "/var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1468708263893-0/src/spock-master/buildSrc/build.gradle"
+2016-07-17 04:33:33,812 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-07-17 04:33:33,866 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

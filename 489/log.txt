@@ -1,0 +1,180 @@
+2018-05-16 17:44:31,462 INFO  DownloadService - Downloading "https://github.com/square/spoon/archive/master.zip", attempt 3
+2018-05-16 17:44:35,631 INFO  DownloadService - Downloaded https://github.com/square/spoon/archive/master.zip, attempt 3
+2018-05-16 17:44:35,632 INFO  DownloadService - Size of file "/tmp/rdisk/489/master.zip": 19 MB
+2018-05-16 17:44:35,632 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-16 17:44:35,633 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/489/master.zip: true
+2018-05-16 17:44:35,633 DEBUG ZipUtil - Extracting '/tmp/rdisk/489/master.zip' into '/tmp/rdisk/489/src'.
+2018-05-16 17:44:35,890 INFO  FullProcessService - Size of directory with sources: 24 MB
+2018-05-16 17:44:35,890 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/489/src]
+2018-05-16 17:44:35,895 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/489/src/.git/
+
+2018-05-16 17:44:35,910 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/489/src/spoon-master/gradlew
+2018-05-16 17:44:35,926 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/489/src/spoon-master/spoon-client/build.gradle /tmp/rdisk/489/src/spoon-master/test-app/build.gradle /tmp/rdisk/489/src/spoon-master/build.gradle /tmp/rdisk/489/src/spoon-master/spoon-common/build.gradle /tmp/rdisk/489/src/spoon-master/spoon-runner/build.gradle /tmp/rdisk/489/src/spoon-master/third-party/axmlparser/build.gradle
+2018-05-16 17:44:35,940 INFO  ProjectBuildService - All script(s): /tmp/rdisk/489/src/spoon-master/third-party/axmlparser/build.gradle /tmp/rdisk/489/src/spoon-master/test-app/build.gradle /tmp/rdisk/489/src/spoon-master/spoon-runner/build.gradle /tmp/rdisk/489/src/spoon-master/spoon-common/build.gradle /tmp/rdisk/489/src/spoon-master/spoon-client/build.gradle /tmp/rdisk/489/src/spoon-master/settings.gradle /tmp/rdisk/489/src/spoon-master/gradle/gradle-mvn-push.gradle /tmp/rdisk/489/src/spoon-master/build.gradle
+2018-05-16 17:44:35,941 INFO  ProjectBuildService - Remote scripts: none
+2018-05-16 17:44:35,941 INFO  ProjectFixService - Fixing project...
+2018-05-16 17:44:35,976 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/489/src/spoon-master/spoon-client/local.properties
+2018-05-16 17:44:35,981 INFO  ProjectFixService - Build info for "/tmp/rdisk/489/src/spoon-master/spoon-client/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:44:35,982 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/489/src/spoon-master/spoon-client/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:44:35,982 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/489/src/spoon-master/test-app/local.properties
+2018-05-16 17:44:35,987 INFO  ProjectFixService - Build info for "/tmp/rdisk/489/src/spoon-master/test-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:44:35,987 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/489/src/spoon-master/test-app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:44:35,988 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/489/src/spoon-master/local.properties
+2018-05-16 17:44:35,989 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2018-05-16 17:44:35,989 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2018-05-16 17:44:35,994 INFO  ProjectFixService - Build info for "/tmp/rdisk/489/src/spoon-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:44:35,994 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/489/src/spoon-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:44:35,995 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/489/src/spoon-master/spoon-common/local.properties
+2018-05-16 17:44:36,001 INFO  ProjectFixService - Build info for "/tmp/rdisk/489/src/spoon-master/spoon-common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:44:36,001 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/489/src/spoon-master/spoon-common/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:44:36,001 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/489/src/spoon-master/spoon-runner/local.properties
+2018-05-16 17:44:36,006 INFO  ProjectFixService - Build info for "/tmp/rdisk/489/src/spoon-master/spoon-runner/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:44:36,006 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/489/src/spoon-master/spoon-runner/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:44:36,007 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/489/src/spoon-master/third-party/axmlparser/local.properties
+2018-05-16 17:44:36,012 INFO  ProjectFixService - Build info for "/tmp/rdisk/489/src/spoon-master/third-party/axmlparser/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-16 17:44:36,013 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/489/src/spoon-master/third-party/axmlparser/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-16 17:44:36,013 INFO  ProjectFixService - Project was maybe fixed
+2018-05-16 17:44:36,013 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:44:36,013 INFO  SysUtils - Execute command: [/tmp/rdisk/489/src/spoon-master/gradlew, -b, /tmp/rdisk/489/src/spoon-master/spoon-client/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:44:44,286 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-05-16 17:44:44,286 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-16 17:44:44,286 INFO  SysUtils - Execute command: [/tmp/rdisk/489/src/spoon-master/gradlew, -b, /tmp/rdisk/489/src/spoon-master/spoon-client/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-16 17:45:01,793 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':spoon-client' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':spoon-client' is deprecated. Use 'testImplementation' instead.
+:spoon-client:androidJavadocs/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:17: error: package org.junit.rules does not exist
+import org.junit.rules.TestRule;
+                      ^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:18: error: package org.junit.runner does not exist
+import org.junit.runner.Description;
+                       ^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:19: error: package org.junit.runners.model does not exist
+import org.junit.runners.model.Statement;
+                              ^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:28: error: package com.squareup.spoon.internal does not exist
+import static com.squareup.spoon.internal.Constants.NAME_SEPARATOR;
+                                         ^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:28: error: static import only from classes and interfaces
+import static com.squareup.spoon.internal.Constants.NAME_SEPARATOR;
+^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:29: error: package com.squareup.spoon.internal does not exist
+import static com.squareup.spoon.internal.Constants.SPOON_FILES;
+                                         ^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:29: error: static import only from classes and interfaces
+import static com.squareup.spoon.internal.Constants.SPOON_FILES;
+^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:30: error: package com.squareup.spoon.internal does not exist
+import static com.squareup.spoon.internal.Constants.SPOON_SCREENSHOTS;
+                                         ^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:30: error: static import only from classes and interfaces
+import static com.squareup.spoon.internal.Constants.SPOON_SCREENSHOTS;
+^
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:47: error: cannot find symbol
+public final class SpoonRule implements TestRule {
+                                        ^
+  symbol: class TestRule
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:55: error: cannot find symbol
+  @Override public Statement apply(Statement base, Description description) {
+                                   ^
+  symbol:   class Statement
+  location: class SpoonRule
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:55: error: cannot find symbol
+  @Override public Statement apply(Statement base, Description description) {
+                                                   ^
+  symbol:   class Description
+  location: class SpoonRule
+/tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java:55: error: cannot find symbol
+  @Override public Statement apply(Statement base, Description description) {
+                   ^
+  symbol:   class Statement
+  location: class SpoonRule
+
+13 warnings
+:spoon-client:androidJavadocsJar
+:spoon-client:androidSourcesJar
+:spoon-client:preBuild UP-TO-DATE
+:spoon-client:preDebugBuild UP-TO-DATE
+:spoon-client:compileDebugAidl
+:spoon-client:compileDebugNdk NO-SOURCE
+:spoon-client:compileDebugRenderscript
+:spoon-client:checkDebugManifest
+:spoon-client:generateDebugBuildConfig
+:spoon-client:prepareLintJar
+:spoon-client:generateDebugResValues
+:spoon-client:generateDebugResources
+:spoon-client:packageDebugResources
+:spoon-client:platformAttrExtractor
+:spoon-client:processDebugManifest
+:spoon-common:compileJava
+:spoon-common:processResources NO-SOURCE
+:spoon-common:classes
+:spoon-common:jar
+:spoon-client:javaPreCompileDebug
+:spoon-client:mergeDebugShaders
+:spoon-client:compileDebugShaders
+:spoon-client:generateDebugAssets
+:spoon-client:mergeDebugAssets
+:spoon-client:mergeDebugConsumerProguardFiles
+:spoon-client:packageDebugRenderscript NO-SOURCE
+:spoon-client:processDebugJavaRes NO-SOURCE
+:spoon-client:mergeDebugJniLibFolders
+:spoon-client:transformNativeLibsWithMergeJniLibsForDebug
+:spoon-client:transformNativeLibsWithStripDebugSymbolForDebug
+:spoon-client:transformNativeLibsWithSyncJniLibsForDebug
+:spoon-client:preReleaseBuild UP-TO-DATE
+:spoon-client:compileReleaseAidl
+:spoon-client:compileReleaseNdk NO-SOURCE
+:spoon-client:compileReleaseRenderscript
+:spoon-client:checkReleaseManifest
+:spoon-client:generateReleaseBuildConfig
+:spoon-client:generateReleaseResValues
+:spoon-client:generateReleaseResources
+:spoon-client:packageReleaseResources
+:spoon-client:processReleaseManifest
+:spoon-client:javaPreCompileRelease
+:spoon-client:mergeReleaseShaders
+:spoon-client:compileReleaseShaders
+:spoon-client:generateReleaseAssets
+:spoon-client:mergeReleaseAssets
+:spoon-client:mergeReleaseConsumerProguardFiles
+:spoon-client:packageReleaseRenderscript NO-SOURCE
+:spoon-client:processReleaseJavaRes NO-SOURCE
+:spoon-client:mergeReleaseJniLibFolders
+:spoon-client:transformNativeLibsWithMergeJniLibsForRelease
+:spoon-client:transformNativeLibsWithStripDebugSymbolForRelease
+:spoon-client:transformNativeLibsWithSyncJniLibsForRelease
+:spoon-client:mergeReleaseResources
+:spoon-client:verifyReleaseResources
+:spoon-client:processDebugResources
+:spoon-client:generateDebugSources
+:spoon-client:compileDebugJavaWithJavacNote: /tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:spoon-client:extractDebugAnnotations
+:spoon-client:transformResourcesWithMergeJavaResForDebug
+:spoon-client:transformClassesAndResourcesWithSyncLibJarsForDebug
+:spoon-client:bundleDebug
+:spoon-client:compileDebugSources
+:spoon-client:assembleDebug
+:spoon-client:processReleaseResources
+:spoon-client:generateReleaseSources
+:spoon-client:compileReleaseJavaWithJavacNote: /tmp/rdisk/489/src/spoon-master/spoon-client/src/main/java/com/squareup/spoon/SpoonRule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:spoon-client:extractReleaseAnnotations
+:spoon-client:transformResourcesWithMergeJavaResForRelease
+:spoon-client:transformClassesAndResourcesWithSyncLibJarsForRelease
+:spoon-client:bundleRelease
+:spoon-client:compileReleaseSources
+:spoon-client:assembleRelease
+:spoon-client:signArchives SKIPPED
+:spoon-client:assemble
+:spoon-client:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 17s
+53 actionable tasks: 53 executed
+
+2018-05-16 17:45:01,816 INFO  FullProcessService - Found APK file: /tmp/rdisk/489/src/spoon-master/third-party/axmlparser/src/test/resources/manifestUtf8.apk

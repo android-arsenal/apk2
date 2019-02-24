@@ -1,0 +1,113 @@
+2018-04-09 22:04:57,212 INFO  DownloadService - Downloading "https://github.com/MichaelEvans/ChromaHashView/archive/master.zip", attempt 3
+2018-04-09 22:05:57,826 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-09 22:05:58,674 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-09 22:05:58,674 INFO  DownloadService - Downloading "https://github.com/MichaelEvans/ChromaHashView/archive/master.zip", attempt 3
+2018-04-09 22:07:00,790 DEBUG FullProcessService - Repository https://github.com/MichaelEvans/ChromaHashView available: true
+2018-04-09 22:07:00,790 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-09 22:07:00,790 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MichaelEvans/ChromaHashView, /tmp/rdisk/479/src]
+2018-04-09 22:07:06,458 INFO  SysUtils - 
+2018-04-09 22:07:06,469 INFO  GitService - Deleted "/tmp/rdisk/479/src/.git": true
+2018-04-09 22:07:06,471 INFO  FullProcessService - Size of directory with sources: 11 MB
+2018-04-09 22:07:06,471 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/479/src]
+2018-04-09 22:07:06,476 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/479/src/.git/
+
+2018-04-09 22:07:06,478 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/479/src/gradlew
+2018-04-09 22:07:06,481 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/479/src/demo/build.gradle /tmp/rdisk/479/src/library/build.gradle /tmp/rdisk/479/src/build.gradle
+2018-04-09 22:07:06,482 INFO  ProjectBuildService - All script(s): /tmp/rdisk/479/src/settings.gradle /tmp/rdisk/479/src/library/build.gradle /tmp/rdisk/479/src/demo/build.gradle /tmp/rdisk/479/src/build.gradle
+2018-04-09 22:07:06,483 INFO  ProjectBuildService - Remote scripts: none
+2018-04-09 22:07:06,483 INFO  ProjectFixService - Fixing project...
+2018-04-09 22:07:06,488 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/479/src/demo/local.properties
+2018-04-09 22:07:06,488 INFO  ProjectFixService - Build info for "/tmp/rdisk/479/src/demo/build.gradle": [buildToolsVersion=19.0.3,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-09 22:07:06,488 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/479/src/demo/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=14,targetSdkVersion=19]
+2018-04-09 22:07:06,489 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/479/src/library/local.properties
+2018-04-09 22:07:06,489 INFO  ProjectFixService - Build info for "/tmp/rdisk/479/src/library/build.gradle": [buildToolsVersion=19.0.3,compileSdkVersion=19,minSdkVersion=5,targetSdkVersion=19]
+2018-04-09 22:07:06,489 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/479/src/library/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=7,targetSdkVersion=19]
+2018-04-09 22:07:06,489 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/479/src/local.properties
+2018-04-09 22:07:06,490 INFO  WrapperPropertiesFixService - Gradle wrapper: http://services.gradle.org/distributions/gradle-1.10-all.zip
+2018-04-09 22:07:06,490 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://services.gradle.org/distributions/gradle-1.10-bin.zip)
+2018-04-09 22:07:06,490 INFO  ProjectFixService - Build info for "/tmp/rdisk/479/src/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=19,minSdkVersion=7,targetSdkVersion=19]
+2018-04-09 22:07:06,491 INFO  ProjectFixService - Project was maybe fixed
+2018-04-09 22:07:06,491 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-09 22:07:06,491 INFO  SysUtils - Execute command: [/tmp/rdisk/479/src/gradlew, -b, /tmp/rdisk/479/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-09 22:07:15,164 INFO  ProjectTaskService - Detected possible tasks: 48
+2018-04-09 22:07:15,164 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-09 22:07:15,164 INFO  SysUtils - Execute command: [/tmp/rdisk/479/src/gradlew, -b, /tmp/rdisk/479/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-09 22:07:26,528 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo:compileDebugNdk
+:demo:preBuild
+:demo:preDebugBuild
+:demo:checkDebugManifest
+:demo:preReleaseBuild
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:packageReleaseAidl UP-TO-DATE
+:library:preBuild
+:library:preReleaseBuild
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:compileReleaseJava
+:library:processReleaseJavaRes UP-TO-DATE
+:library:packageReleaseJar
+:library:compileReleaseNdk
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:demo:prepareSrcLibraryUnspecifiedLibrary
+:demo:prepareDebugDependencies
+:demo:compileDebugAidl
+:demo:compileDebugRenderscript
+:demo:generateDebugBuildConfig
+:demo:mergeDebugAssets
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:demo:mergeDebugResources
+:demo:processDebugManifest
+:demo:processDebugResources
+:demo:generateDebugSources
+:demo:compileDebugJava
+:demo:preDexDebug
+:demo:dexDebug
+:demo:processDebugJavaRes UP-TO-DATE
+:demo:validateDebugSigning
+:demo:packageDebug
+:demo:assembleDebug
+:demo:checkReleaseManifest
+:demo:prepareReleaseDependencies
+:demo:compileReleaseAidl
+:demo:compileReleaseRenderscript
+:demo:generateReleaseBuildConfig
+:demo:mergeReleaseAssets
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:demo:mergeReleaseResources
+:demo:processReleaseManifest
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:demo:compileReleaseJava
+:demo:lintVitalRelease
+:demo:compileReleaseNdk
+:demo:preDexRelease
+:demo:dexRelease
+:demo:processReleaseJavaRes UP-TO-DATE
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.942 secs
+
+2018-04-09 22:07:26,538 INFO  FullProcessService - Found APK file: /tmp/rdisk/479/src/demo/build/apk/demo-release-unsigned.apk

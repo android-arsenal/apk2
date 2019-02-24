@@ -1,0 +1,103 @@
+2018-04-10 18:10:02,412 INFO  DownloadService - Downloading "https://github.com/johncarl81/parceler/archive/master.zip", attempt 3
+2018-04-10 18:10:02,992 INFO  DownloadService - Downloaded https://github.com/johncarl81/parceler/archive/master.zip, attempt 3
+2018-04-10 18:10:02,992 INFO  DownloadService - Size of file "/tmp/rdisk/346/master.zip": 765 KB
+2018-04-10 18:10:02,992 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:10:02,993 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/346/master.zip: true
+2018-04-10 18:10:02,993 DEBUG ZipUtil - Extracting '/tmp/rdisk/346/master.zip' into '/tmp/rdisk/346/src'.
+2018-04-10 18:10:03,033 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-04-10 18:10:03,033 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/346/src]
+2018-04-10 18:10:03,038 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/346/src/.git/
+
+2018-04-10 18:10:03,044 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/346/src/parceler-master/examples/gradle/gradlew
+2018-04-10 18:10:03,050 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/build.gradle /tmp/rdisk/346/src/parceler-master/examples/gradle/build.gradle
+2018-04-10 18:10:03,056 INFO  ProjectBuildService - All script(s): /tmp/rdisk/346/src/parceler-master/examples/gradle/settings.gradle /tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/build.gradle /tmp/rdisk/346/src/parceler-master/examples/gradle/build.gradle
+2018-04-10 18:10:03,057 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:10:03,057 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:10:03,069 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/local.properties
+2018-04-10 18:10:03,069 INFO  ProjectFixService - Build info for "/tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-10 18:10:03,070 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/346/src/parceler-master/examples/gradle/local.properties
+2018-04-10 18:10:03,070 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.12-all.zip
+2018-04-10 18:10:03,070 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.12-bin.zip)
+2018-04-10 18:10:03,071 INFO  ProjectFixService - Build info for "/tmp/rdisk/346/src/parceler-master/examples/gradle/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-04-10 18:10:03,072 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:10:03,072 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:10:03,072 INFO  SysUtils - Execute command: [/tmp/rdisk/346/src/parceler-master/examples/gradle/gradlew, -b, /tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:10:17,340 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-04-10 18:10:17,340 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:10:17,341 INFO  SysUtils - Execute command: [/tmp/rdisk/346/src/parceler-master/examples/gradle/gradlew, -b, /tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:10:30,145 INFO  SysUtils - Configuration on demand is an incubating feature.
+No resolved dependencies found when searching for the jacoco version.
+:gradleParceler:preBuild UP-TO-DATE
+:gradleParceler:preDebugBuild UP-TO-DATE
+:gradleParceler:checkDebugManifest
+:gradleParceler:prepareDebugDependencies
+:gradleParceler:compileDebugAidl
+:gradleParceler:compileDebugRenderscript
+:gradleParceler:generateDebugBuildConfig
+:gradleParceler:generateDebugAssets UP-TO-DATE
+:gradleParceler:mergeDebugAssets
+:gradleParceler:generateDebugResValues
+:gradleParceler:generateDebugResources
+:gradleParceler:mergeDebugResources
+:gradleParceler:processDebugManifest
+:gradleParceler:processDebugResources
+:gradleParceler:generateDebugSources
+:gradleParceler:compileDebugJavaWithJavac/tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/src/main/java/org/demo/ExampleParcel.java:25: warning: Parceler: Reflection is required to access private field: String message, consider using non-private.
+    private String message;
+                   ^
+/tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/src/main/java/org/demo/ExampleParcel.java:25: warning: Parceler: Reflection is required to modify private field: String message, consider using non-private.
+    private String message;
+                   ^
+2 warnings
+
+:gradleParceler:compileDebugNdk UP-TO-DATE
+:gradleParceler:compileDebugSources
+:gradleParceler:transformClassesWithDexForDebug
+:gradleParceler:mergeDebugJniLibFolders
+:gradleParceler:transformNative_libsWithMergeJniLibsForDebug
+:gradleParceler:processDebugJavaRes UP-TO-DATE
+:gradleParceler:transformResourcesWithMergeJavaResForDebug
+:gradleParceler:validateDebugSigning
+:gradleParceler:packageDebug
+:gradleParceler:zipalignDebug
+:gradleParceler:assembleDebug
+:gradleParceler:preReleaseBuild UP-TO-DATE
+:gradleParceler:checkReleaseManifest
+:gradleParceler:prepareReleaseDependencies
+:gradleParceler:compileReleaseAidl
+:gradleParceler:compileReleaseRenderscript
+:gradleParceler:generateReleaseBuildConfig
+:gradleParceler:generateReleaseAssets UP-TO-DATE
+:gradleParceler:mergeReleaseAssets
+:gradleParceler:generateReleaseResValues
+:gradleParceler:generateReleaseResources
+:gradleParceler:mergeReleaseResources
+:gradleParceler:processReleaseManifest
+:gradleParceler:processReleaseResources
+:gradleParceler:generateReleaseSources
+:gradleParceler:compileReleaseJavaWithJavac/tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/src/main/java/org/demo/ExampleParcel.java:25: warning: Parceler: Reflection is required to access private field: String message, consider using non-private.
+    private String message;
+                   ^
+/tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/src/main/java/org/demo/ExampleParcel.java:25: warning: Parceler: Reflection is required to modify private field: String message, consider using non-private.
+    private String message;
+                   ^
+2 warnings
+
+:gradleParceler:compileReleaseNdk UP-TO-DATE
+:gradleParceler:compileReleaseSources
+:gradleParceler:lintVitalRelease
+:gradleParceler:transformClassesWithDexForRelease
+:gradleParceler:mergeReleaseJniLibFolders
+:gradleParceler:transformNative_libsWithMergeJniLibsForRelease
+:gradleParceler:processReleaseJavaRes UP-TO-DATE
+:gradleParceler:transformResourcesWithMergeJavaResForRelease
+:gradleParceler:packageRelease
+:gradleParceler:assembleRelease
+:gradleParceler:assemble
+:gradleParceler:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.378 secs
+
+2018-04-10 18:10:30,158 INFO  FullProcessService - Found APK file: /tmp/rdisk/346/src/parceler-master/examples/gradle/gradleParceler/build/outputs/apk/gradleParceler-release-unsigned.apk

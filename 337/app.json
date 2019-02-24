@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.example",
+    "label" : "SugarExample",
+    "icon" : "res/drawable-ldpi-v4/icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/icon.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1575,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.example\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"23\" />\n\t<application android:label=\"SugarExample\" android:icon=\"res/drawable-ldpi-v4/icon.png\" android:name=\"com.example.ClientApp\">\n\t\t<activity android:label=\"SugarExample\" android:name=\"com.example.activities.SugarActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"DATABASE\" android:value=\"sugar_example.db\" />\n\t\t<meta-data android:name=\"VERSION\" android:value=\"3\" />\n\t\t<meta-data android:name=\"QUERY_LOG\" android:value=\"true\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1222326,
+  "crc32" : 2365294785,
+  "sha256" : "8ec8794f38759bf21c2562887836f9022dac519ee58a0bba7b0c43f10e433924",
+  "buildTime" : 1526358458000
+}

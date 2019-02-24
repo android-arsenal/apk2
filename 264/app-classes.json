@@ -1,0 +1,5 @@
+{
+  "de.halfbit.pinnedsection" : [ "BuildConfig", "PinnedSectionListView", "PinnedSectionListView$1", "PinnedSectionListView$2", "PinnedSectionListView$3", "PinnedSectionListView$PinnedSection", "PinnedSectionListView$PinnedSectionListAdapter" ],
+  "de.halfbit.pinnedsection.examples" : [ "PinnedSectionListActivity", "PinnedSectionListActivity$FastScrollAdapter", "PinnedSectionListActivity$Item", "PinnedSectionListActivity$SimpleAdapter" ],
+  "de.halfbit.pinnedsection.examples.pinnedsection" : [ "BuildConfig", "R", "R$attr", "R$color", "R$drawable", "R$id", "R$layout", "R$menu", "R$string", "R$style" ]
+}

@@ -1,0 +1,226 @@
+2018-04-10 07:18:49,706 INFO  DownloadService - Downloading "https://github.com/Chainfire/libsuperuser/archive/master.zip", attempt 3
+2018-04-10 07:19:50,365 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 07:19:51,040 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 07:19:51,040 INFO  DownloadService - Downloading "https://github.com/Chainfire/libsuperuser/archive/master.zip", attempt 3
+2018-04-10 07:20:52,265 DEBUG FullProcessService - Repository https://github.com/Chainfire/libsuperuser available: true
+2018-04-10 07:20:52,265 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 07:20:52,265 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Chainfire/libsuperuser, /tmp/rdisk/451/src]
+2018-04-10 07:20:53,968 INFO  SysUtils - 
+2018-04-10 07:20:53,979 INFO  GitService - Deleted "/tmp/rdisk/451/src/.git": true
+2018-04-10 07:20:53,981 INFO  FullProcessService - Size of directory with sources: 221 KB
+2018-04-10 07:20:53,981 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/451/src]
+2018-04-10 07:20:53,985 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/451/src/.git/
+
+2018-04-10 07:20:53,987 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/451/src/gradlew
+2018-04-10 07:20:53,989 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/451/src/libsuperuser/build.gradle /tmp/rdisk/451/src/libsuperuser_example/build.gradle /tmp/rdisk/451/src/build.gradle
+2018-04-10 07:20:53,990 INFO  ProjectBuildService - All script(s): /tmp/rdisk/451/src/settings.gradle /tmp/rdisk/451/src/libsuperuser_example/build.gradle /tmp/rdisk/451/src/libsuperuser/build.gradle /tmp/rdisk/451/src/build.gradle
+2018-04-10 07:20:53,991 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 07:20:53,991 INFO  ProjectFixService - Fixing project...
+2018-04-10 07:20:53,995 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/451/src/libsuperuser/local.properties
+2018-04-10 07:20:53,995 INFO  ProjectFixService - Build info for "/tmp/rdisk/451/src/libsuperuser/build.gradle": [buildToolsVersion=21.1.0,compileSdkVersion=21,minSdkVersion=4,targetSdkVersion=21]
+2018-04-10 07:20:53,995 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/451/src/libsuperuser/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2018-04-10 07:20:53,996 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/451/src/libsuperuser_example/local.properties
+2018-04-10 07:20:53,997 INFO  ProjectFixService - Build info for "/tmp/rdisk/451/src/libsuperuser_example/build.gradle": [buildToolsVersion=21.1.0,compileSdkVersion=21,minSdkVersion=4,targetSdkVersion=21]
+2018-04-10 07:20:53,997 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/451/src/libsuperuser_example/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2018-04-10 07:20:53,997 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/451/src/local.properties
+2018-04-10 07:20:53,998 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2018-04-10 07:20:53,998 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2018-04-10 07:20:53,999 INFO  ProjectFixService - Build info for "/tmp/rdisk/451/src/build.gradle": [buildToolsVersion=21.1.1,compileSdkVersion=21,minSdkVersion=7,targetSdkVersion=21]
+2018-04-10 07:20:53,999 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 07:20:53,999 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 07:20:53,999 INFO  SysUtils - Execute command: [/tmp/rdisk/451/src/gradlew, -b, /tmp/rdisk/451/src/libsuperuser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 07:21:05,122 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-10 07:21:05,123 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-04-10 07:21:05,123 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-04-10 07:21:05,123 INFO  SysUtils - Execute command: [/tmp/rdisk/451/src/gradlew, -b, /tmp/rdisk/451/src/libsuperuser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-10 07:21:24,330 INFO  SysUtils - Configuration on demand is an incubating feature.
+:libsuperuser:preBuild UP-TO-DATE
+:libsuperuser:preDebugBuild UP-TO-DATE
+:libsuperuser:compileDebugNdk UP-TO-DATE
+:libsuperuser:compileLint
+:libsuperuser:copyDebugLint UP-TO-DATE
+:libsuperuser:mergeDebugProguardFiles
+:libsuperuser:packageDebugRenderscript UP-TO-DATE
+:libsuperuser:checkDebugManifest
+:libsuperuser:prepareDebugDependencies
+:libsuperuser:compileDebugRenderscript
+:libsuperuser:generateDebugResValues
+:libsuperuser:generateDebugResources
+:libsuperuser:packageDebugResources
+:libsuperuser:compileDebugAidl
+:libsuperuser:generateDebugBuildConfig
+:libsuperuser:generateDebugAssets UP-TO-DATE
+:libsuperuser:mergeDebugAssets
+:libsuperuser:processDebugManifest
+:libsuperuser:processDebugResources
+:libsuperuser:generateDebugSources
+:libsuperuser:compileDebugJavaWithJavacNote: /tmp/rdisk/451/src/libsuperuser/src/eu/chainfire/libsuperuser/Shell.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:libsuperuser:processDebugJavaRes UP-TO-DATE
+:libsuperuser:transformResourcesWithMergeJavaResForDebug
+:libsuperuser:transformClassesAndResourcesWithSyncLibJarsForDebug
+:libsuperuser:mergeDebugJniLibFolders
+:libsuperuser:transformNative_libsWithMergeJniLibsForDebug
+:libsuperuser:transformNative_libsWithSyncJniLibsForDebug
+:libsuperuser:bundleDebug
+:libsuperuser:compileDebugSources
+:libsuperuser:assembleDebug
+:libsuperuser:preReleaseBuild UP-TO-DATE
+:libsuperuser:compileReleaseNdk UP-TO-DATE
+:libsuperuser:copyReleaseLint UP-TO-DATE
+:libsuperuser:mergeReleaseProguardFiles
+:libsuperuser:packageReleaseRenderscript UP-TO-DATE
+:libsuperuser:checkReleaseManifest
+:libsuperuser:prepareReleaseDependencies
+:libsuperuser:compileReleaseRenderscript
+:libsuperuser:generateReleaseResValues
+:libsuperuser:generateReleaseResources
+:libsuperuser:packageReleaseResources
+:libsuperuser:compileReleaseAidl
+:libsuperuser:generateReleaseBuildConfig
+:libsuperuser:generateReleaseAssets UP-TO-DATE
+:libsuperuser:mergeReleaseAssets
+:libsuperuser:processReleaseManifest
+:libsuperuser:processReleaseResources
+:libsuperuser:generateReleaseSources
+:libsuperuser:compileReleaseJavaWithJavacNote: /tmp/rdisk/451/src/libsuperuser/src/eu/chainfire/libsuperuser/Shell.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:libsuperuser:processReleaseJavaRes UP-TO-DATE
+:libsuperuser:transformResourcesWithMergeJavaResForRelease
+:libsuperuser:transformClassesAndResourcesWithSyncLibJarsForRelease
+:libsuperuser:mergeReleaseJniLibFolders
+:libsuperuser:transformNative_libsWithMergeJniLibsForRelease
+:libsuperuser:transformNative_libsWithSyncJniLibsForRelease
+:libsuperuser:bundleRelease
+:libsuperuser:compileReleaseSources
+:libsuperuser:assembleRelease
+:libsuperuser:javadoc/tmp/rdisk/451/src/libsuperuser/src/eu/chainfire/libsuperuser/Shell.java:987: warning - Tag @link: can't find setOnSTDOUTLineListener(OnLineListener) in eu.chainfire.libsuperuser.Shell.Builder
+
+1 warning
+:libsuperuser:javadocJar
+:libsuperuser:sourcesJar
+:libsuperuser:assemble
+:libsuperuser:lint
+Wrote HTML report to file:///tmp/rdisk/451/src/libsuperuser/build/outputs/lint-results.html
+Wrote XML report to file:///tmp/rdisk/451/src/libsuperuser/build/outputs/lint-results.xml
+Lint found 0 errors and 5 warnings
+:libsuperuser:preDebugUnitTestBuild UP-TO-DATE
+:libsuperuser:prepareDebugUnitTestDependencies
+:libsuperuser:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:libsuperuser:processDebugUnitTestJavaRes UP-TO-DATE
+:libsuperuser:compileDebugUnitTestSources UP-TO-DATE
+:libsuperuser:mockableAndroidJar
+:libsuperuser:assembleDebugUnitTest
+:libsuperuser:testDebugUnitTest
+:libsuperuser:preReleaseUnitTestBuild UP-TO-DATE
+:libsuperuser:prepareReleaseUnitTestDependencies
+:libsuperuser:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:libsuperuser:processReleaseUnitTestJavaRes UP-TO-DATE
+:libsuperuser:compileReleaseUnitTestSources UP-TO-DATE
+:libsuperuser:assembleReleaseUnitTest
+:libsuperuser:testReleaseUnitTest
+:libsuperuser:test
+:libsuperuser:check
+:libsuperuser:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.774 secs
+
+2018-04-10 07:21:24,338 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 07:21:24,338 INFO  SysUtils - Execute command: [/tmp/rdisk/451/src/gradlew, -b, /tmp/rdisk/451/src/libsuperuser_example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 07:21:30,808 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-04-10 07:21:30,809 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 07:21:30,809 INFO  SysUtils - Execute command: [/tmp/rdisk/451/src/gradlew, -b, /tmp/rdisk/451/src/libsuperuser_example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 07:21:43,250 INFO  SysUtils - Configuration on demand is an incubating feature.
+:libsuperuser:preBuild UP-TO-DATE
+:libsuperuser:preReleaseBuild UP-TO-DATE
+:libsuperuser:compileReleaseNdk UP-TO-DATE
+:libsuperuser:compileLint
+:libsuperuser:copyReleaseLint UP-TO-DATE
+:libsuperuser:mergeReleaseProguardFiles UP-TO-DATE
+:libsuperuser:packageReleaseRenderscript UP-TO-DATE
+:libsuperuser:checkReleaseManifest
+:libsuperuser:prepareReleaseDependencies
+:libsuperuser:compileReleaseRenderscript UP-TO-DATE
+:libsuperuser:generateReleaseResValues UP-TO-DATE
+:libsuperuser:generateReleaseResources UP-TO-DATE
+:libsuperuser:packageReleaseResources UP-TO-DATE
+:libsuperuser:compileReleaseAidl UP-TO-DATE
+:libsuperuser:generateReleaseBuildConfig UP-TO-DATE
+:libsuperuser:generateReleaseAssets UP-TO-DATE
+:libsuperuser:mergeReleaseAssets UP-TO-DATE
+:libsuperuser:processReleaseManifest UP-TO-DATE
+:libsuperuser:processReleaseResources UP-TO-DATE
+:libsuperuser:generateReleaseSources UP-TO-DATE
+:libsuperuser:compileReleaseJavaWithJavac UP-TO-DATE
+:libsuperuser:processReleaseJavaRes UP-TO-DATE
+:libsuperuser:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:libsuperuser:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:libsuperuser:mergeReleaseJniLibFolders UP-TO-DATE
+:libsuperuser:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:libsuperuser:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:libsuperuser:bundleRelease UP-TO-DATE
+:libsuperuser_example:preBuild UP-TO-DATE
+:libsuperuser_example:preDebugBuild UP-TO-DATE
+:libsuperuser_example:checkDebugManifest
+:libsuperuser_example:preReleaseBuild UP-TO-DATE
+:libsuperuser_example:prepareEuChainfireLibsuperuser100201804100721Library
+:libsuperuser_example:prepareDebugDependencies
+:libsuperuser_example:compileDebugAidl
+:libsuperuser_example:compileDebugRenderscript
+:libsuperuser_example:generateDebugBuildConfig
+:libsuperuser_example:generateDebugAssets UP-TO-DATE
+:libsuperuser_example:mergeDebugAssets
+:libsuperuser_example:generateDebugResValues
+:libsuperuser_example:generateDebugResources
+:libsuperuser_example:mergeDebugResources
+:libsuperuser_example:processDebugManifest
+:libsuperuser_example:processDebugResources
+:libsuperuser_example:generateDebugSources
+:libsuperuser_example:compileDebugJavaWithJavac
+:libsuperuser_example:compileDebugNdk UP-TO-DATE
+:libsuperuser_example:compileDebugSources
+:libsuperuser_example:transformClassesWithDexForDebug
+:libsuperuser_example:mergeDebugJniLibFolders
+:libsuperuser_example:transformNative_libsWithMergeJniLibsForDebug
+:libsuperuser_example:processDebugJavaRes UP-TO-DATE
+:libsuperuser_example:transformResourcesWithMergeJavaResForDebug
+:libsuperuser_example:validateDebugSigning
+:libsuperuser_example:packageDebug
+:libsuperuser_example:zipalignDebug
+:libsuperuser_example:assembleDebug
+:libsuperuser_example:checkReleaseManifest
+:libsuperuser_example:prepareReleaseDependencies
+:libsuperuser_example:compileReleaseAidl
+:libsuperuser_example:compileReleaseRenderscript
+:libsuperuser_example:generateReleaseBuildConfig
+:libsuperuser_example:generateReleaseAssets UP-TO-DATE
+:libsuperuser_example:mergeReleaseAssets
+:libsuperuser_example:generateReleaseResValues
+:libsuperuser_example:generateReleaseResources
+:libsuperuser_example:mergeReleaseResources
+:libsuperuser_example:processReleaseManifest
+:libsuperuser_example:processReleaseResources
+:libsuperuser_example:generateReleaseSources
+:libsuperuser_example:compileReleaseJavaWithJavac
+:libsuperuser_example:compileReleaseNdk UP-TO-DATE
+:libsuperuser_example:compileReleaseSources
+:libsuperuser_example:lintVitalRelease
+:libsuperuser_example:transformClassesWithDexForRelease
+:libsuperuser_example:mergeReleaseJniLibFolders
+:libsuperuser_example:transformNative_libsWithMergeJniLibsForRelease
+:libsuperuser_example:processReleaseJavaRes UP-TO-DATE
+:libsuperuser_example:transformResourcesWithMergeJavaResForRelease
+:libsuperuser_example:packageRelease
+:libsuperuser_example:assembleRelease
+:libsuperuser_example:assemble
+:libsuperuser_example:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.999 secs
+
+2018-04-10 07:21:43,263 INFO  FullProcessService - Found APK file: /tmp/rdisk/451/src/libsuperuser_example/build/outputs/apk/libsuperuser_example-release-unsigned.apk

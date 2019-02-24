@@ -1,0 +1,9 @@
+2018-04-10 18:40:00,939 INFO  DownloadService - Downloading "https://github.com/tallan/Letter-Section-List/archive/master.zip", attempt 3
+2018-04-10 18:40:00,939 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 18:40:01,460 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 18:40:01,461 INFO  DownloadService - Downloading "https://github.com/tallan/Letter-Section-List/archive/master.zip", attempt 3
+2018-04-10 18:40:01,461 DEBUG FullProcessService - Repository https://github.com/tallan/Letter-Section-List available: false
+2018-04-10 18:40:01,461 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:40:01,461 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:40:01,461 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:40:01,462 ERROR FullProcessService - Could not find generated or existed APK file

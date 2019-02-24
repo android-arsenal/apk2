@@ -1,0 +1,21 @@
+2018-04-10 11:11:10,882 INFO  DownloadService - Downloading "https://github.com/karlmdavis/ksoap2-android/archive/master.zip", attempt 3
+2018-04-10 11:12:11,335 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 11:12:12,060 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 11:12:12,060 INFO  DownloadService - Downloading "https://github.com/karlmdavis/ksoap2-android/archive/master.zip", attempt 3
+2018-04-10 11:13:13,299 DEBUG FullProcessService - Repository https://github.com/karlmdavis/ksoap2-android available: true
+2018-04-10 11:13:13,299 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 11:13:13,299 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/karlmdavis/ksoap2-android, /tmp/rdisk/429/src]
+2018-04-10 11:13:14,863 INFO  SysUtils - 
+2018-04-10 11:13:14,870 INFO  GitService - Deleted "/tmp/rdisk/429/src/.git": true
+2018-04-10 11:13:14,875 INFO  FullProcessService - Size of directory with sources: 280 KB
+2018-04-10 11:13:14,875 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/429/src]
+2018-04-10 11:13:14,887 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/429/src/.git/
+
+2018-04-10 11:13:14,892 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 11:13:14,892 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 11:13:14,896 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 11:13:14,900 INFO  ProjectBuildService - All script(s): none
+2018-04-10 11:13:14,900 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 11:13:14,900 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 11:13:14,900 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 11:13:14,904 ERROR FullProcessService - Could not find generated or existed APK file

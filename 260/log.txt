@@ -1,0 +1,9 @@
+2018-04-10 18:40:03,702 INFO  DownloadService - Downloading "https://github.com/ManuelPeinado/MultiChoiceAdapter/archive/master.zip", attempt 3
+2018-04-10 18:40:03,702 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 18:40:04,701 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 18:40:04,701 INFO  DownloadService - Downloading "https://github.com/ManuelPeinado/MultiChoiceAdapter/archive/master.zip", attempt 3
+2018-04-10 18:40:04,702 DEBUG FullProcessService - Repository https://github.com/ManuelPeinado/MultiChoiceAdapter available: false
+2018-04-10 18:40:04,702 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:40:04,702 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:40:04,702 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:40:04,702 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,147 @@
+2018-05-16 17:45:06,791 INFO  DownloadService - Downloading "https://github.com/greenrobot/greenDAO/archive/master.zip", attempt 3
+2018-05-16 17:45:07,317 INFO  DownloadService - Downloaded https://github.com/greenrobot/greenDAO/archive/master.zip, attempt 3
+2018-05-16 17:45:07,317 INFO  DownloadService - Size of file "/tmp/rdisk/332/master.zip": 671 KB
+2018-05-16 17:45:07,317 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-16 17:45:07,318 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/332/master.zip: true
+2018-05-16 17:45:07,318 DEBUG ZipUtil - Extracting '/tmp/rdisk/332/master.zip' into '/tmp/rdisk/332/src'.
+2018-05-16 17:45:07,370 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-16 17:45:07,370 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/332/src]
+2018-05-16 17:45:07,375 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/332/src/.git/
+
+2018-05-16 17:45:07,385 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/332/src/greenDAO-master/gradlew
+2018-05-16 17:45:07,396 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/build.gradle /tmp/rdisk/332/src/greenDAO-master/examples/RxDaoExample/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTest/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestEntityAnnotation/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestPerformance/build.gradle /tmp/rdisk/332/src/greenDAO-master/build.gradle /tmp/rdisk/332/src/greenDAO-master/DaoCore/build.gradle /tmp/rdisk/332/src/greenDAO-master/DaoGenerator/build.gradle /tmp/rdisk/332/src/greenDAO-master/greendao-api/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestBase/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestGenerator/build.gradle
+2018-05-16 17:45:07,405 INFO  ProjectBuildService - All script(s): /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestPerformance/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestGenerator/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestEntityAnnotation/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestBase/build.gradle /tmp/rdisk/332/src/greenDAO-master/tests/DaoTest/build.gradle /tmp/rdisk/332/src/greenDAO-master/settings.gradle /tmp/rdisk/332/src/greenDAO-master/greendao-api/build.gradle /tmp/rdisk/332/src/greenDAO-master/examples/RxDaoExample/build.gradle /tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/build.gradle /tmp/rdisk/332/src/greenDAO-master/build.gradle /tmp/rdisk/332/src/greenDAO-master/DaoGenerator/build.gradle /tmp/rdisk/332/src/greenDAO-master/DaoCore/build.gradle
+2018-05-16 17:45:07,406 INFO  ProjectBuildService - Remote scripts: none
+2018-05-16 17:45:07,406 INFO  ProjectFixService - Fixing project...
+2018-05-16 17:45:07,427 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/local.properties
+2018-05-16 17:45:07,431 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-16 17:45:07,431 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-16 17:45:07,431 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/examples/RxDaoExample/local.properties
+2018-05-16 17:45:07,434 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/examples/RxDaoExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-16 17:45:07,434 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/examples/RxDaoExample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-05-16 17:45:07,435 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/tests/DaoTest/local.properties
+2018-05-16 17:45:07,439 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=5,targetSdkVersion=27]
+2018-05-16 17:45:07,439 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTest/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,440 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestEntityAnnotation/local.properties
+2018-05-16 17:45:07,444 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestEntityAnnotation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=5,targetSdkVersion=27]
+2018-05-16 17:45:07,444 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestEntityAnnotation/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,445 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestPerformance/local.properties
+2018-05-16 17:45:07,449 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestPerformance/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=5,targetSdkVersion=27]
+2018-05-16 17:45:07,449 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestPerformance/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,450 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/local.properties
+2018-05-16 17:45:07,450 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-05-16 17:45:07,450 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-05-16 17:45:07,454 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=25]
+2018-05-16 17:45:07,454 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=25]
+2018-05-16 17:45:07,455 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/DaoCore/local.properties
+2018-05-16 17:45:07,459 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/DaoCore/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,459 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/DaoCore/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,460 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/DaoGenerator/local.properties
+2018-05-16 17:45:07,465 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/DaoGenerator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,465 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/DaoGenerator/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,465 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/greendao-api/local.properties
+2018-05-16 17:45:07,470 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/greendao-api/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,470 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/greendao-api/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,470 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestBase/local.properties
+2018-05-16 17:45:07,474 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestBase/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,474 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestBase/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,475 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/332/src/greenDAO-master/tests/DaoTestGenerator/local.properties
+2018-05-16 17:45:07,479 INFO  ProjectFixService - Build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestGenerator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,479 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/332/src/greenDAO-master/tests/DaoTestGenerator/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=7,targetSdkVersion=27]
+2018-05-16 17:45:07,479 INFO  ProjectFixService - Project was maybe fixed
+2018-05-16 17:45:07,479 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-16 17:45:07,479 INFO  SysUtils - Execute command: [/tmp/rdisk/332/src/greenDAO-master/gradlew, -b, /tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-16 17:45:16,856 INFO  ProjectTaskService - Detected possible tasks: 75
+2018-05-16 17:45:16,856 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-16 17:45:16,856 INFO  SysUtils - Execute command: [/tmp/rdisk/332/src/greenDAO-master/gradlew, -b, /tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-16 17:45:54,180 INFO  SysUtils - Configuration on demand is an incubating feature.
+Signing information missing/incomplete for DaoCore
+Signing information missing/incomplete for DaoGenerator
+Signing information missing/incomplete for examples
+Signing information missing/incomplete for greendao-api
+Signing information missing/incomplete for tests
+Signing information missing/incomplete for DaoExample
+Signing information missing/incomplete for RxDaoExample
+Signing information missing/incomplete for DaoTest
+Signing information missing/incomplete for DaoTestBase
+Signing information missing/incomplete for DaoTestEntityAnnotation
+Signing information missing/incomplete for DaoTestGenerator
+Signing information missing/incomplete for DaoTestPerformance
+Settings sonatypeUsername/sonatypePassword missing/incomplete for DaoExample
+:examples:DaoExample:preBuild UP-TO-DATE
+:examples:DaoExample:preDebugBuild
+:examples:DaoExample:compileDebugAidl
+:examples:DaoExample:compileDebugRenderscript
+:examples:DaoExample:checkDebugManifest
+:examples:DaoExample:generateDebugBuildConfig
+:examples:DaoExample:greendaoPrepare
+:examples:DaoExample:greendao
+:examples:DaoExample:prepareLintJar
+:examples:DaoExample:mainApkListPersistenceDebug
+:examples:DaoExample:generateDebugResValues
+:examples:DaoExample:generateDebugResources
+:examples:DaoExample:mergeDebugResources
+:examples:DaoExample:createDebugCompatibleScreenManifests
+:examples:DaoExample:processDebugManifest
+:examples:DaoExample:splitsDiscoveryTaskDebug
+:examples:DaoExample:processDebugResources
+:examples:DaoExample:generateDebugSources
+:examples:DaoExample:javaPreCompileDebug
+:examples:DaoExample:compileDebugJavaWithJavac
+:examples:DaoExample:compileDebugNdk NO-SOURCE
+:examples:DaoExample:compileDebugSources
+:examples:DaoExample:mergeDebugShaders
+:examples:DaoExample:compileDebugShaders
+:examples:DaoExample:generateDebugAssets
+:examples:DaoExample:mergeDebugAssets
+:examples:DaoExample:transformClassesWithDexBuilderForDebug
+:examples:DaoExample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:examples:DaoExample:transformDexArchiveWithDexMergerForDebug
+:examples:DaoExample:mergeDebugJniLibFolders
+:examples:DaoExample:transformNativeLibsWithMergeJniLibsForDebug
+:examples:DaoExample:transformNativeLibsWithStripDebugSymbolForDebug
+:examples:DaoExample:processDebugJavaRes NO-SOURCE
+:examples:DaoExample:transformResourcesWithMergeJavaResForDebug
+:examples:DaoExample:validateSigningDebug
+:examples:DaoExample:packageDebug
+:examples:DaoExample:assembleDebug
+:examples:DaoExample:preReleaseBuild
+:examples:DaoExample:compileReleaseAidl
+:examples:DaoExample:compileReleaseRenderscript
+:examples:DaoExample:checkReleaseManifest
+:examples:DaoExample:generateReleaseBuildConfig
+:examples:DaoExample:mainApkListPersistenceRelease
+:examples:DaoExample:generateReleaseResValues
+:examples:DaoExample:generateReleaseResources
+:examples:DaoExample:mergeReleaseResources
+:examples:DaoExample:createReleaseCompatibleScreenManifests
+:examples:DaoExample:processReleaseManifest
+:examples:DaoExample:splitsDiscoveryTaskRelease
+:examples:DaoExample:processReleaseResources
+:examples:DaoExample:generateReleaseSources
+:examples:DaoExample:javaPreCompileRelease
+:examples:DaoExample:compileReleaseJavaWithJavac
+:examples:DaoExample:compileReleaseNdk NO-SOURCE
+:examples:DaoExample:compileReleaseSources
+:examples:DaoExample:lintVitalRelease
+:examples:DaoExample:mergeReleaseShaders
+:examples:DaoExample:compileReleaseShaders
+:examples:DaoExample:generateReleaseAssets
+:examples:DaoExample:mergeReleaseAssets
+:examples:DaoExample:transformClassesWithDexBuilderForRelease
+:examples:DaoExample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:examples:DaoExample:transformDexArchiveWithDexMergerForRelease
+:examples:DaoExample:mergeReleaseJniLibFolders
+:examples:DaoExample:transformNativeLibsWithMergeJniLibsForRelease
+:examples:DaoExample:transformNativeLibsWithStripDebugSymbolForRelease
+:examples:DaoExample:processReleaseJavaRes NO-SOURCE
+:examples:DaoExample:transformResourcesWithMergeJavaResForRelease
+:examples:DaoExample:packageRelease
+:examples:DaoExample:assembleRelease
+:examples:DaoExample:assemble
+:examples:DaoExample:build
+
+BUILD SUCCESSFUL in 36s
+55 actionable tasks: 55 executed
+
+2018-05-16 17:45:54,237 INFO  FullProcessService - Found APK file: /tmp/rdisk/332/src/greenDAO-master/examples/DaoExample/build/outputs/apk/release/DaoExample-release-unsigned.apk

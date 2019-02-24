@@ -1,0 +1,5 @@
+{
+  "com.chiralcode.colorpicker" : [ "ColorPicker" ],
+  "com.readystatesoftware.systembartint" : [ "BuildConfig", "SystemBarTintManager", "SystemBarTintManager$1", "SystemBarTintManager$SystemBarConfig" ],
+  "com.readystatesoftware.systembartint.sample" : [ "BuildConfig", "ColorActivity", "ColorActivity$1", "DefaultActivity", "MatchActionBarActivity", "R", "R$attr", "R$color", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SamplesListActivity", "SamplesListActivity$IntentAdapter" ]
+}

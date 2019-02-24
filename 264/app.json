@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.hb.examples.pinnedsection",
+    "label" : "Pinned Section Demo",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 21,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"com.hb.examples.pinnedsection\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f040001\" android:label=\"Pinned Section Demo\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"Pinned Section Demo\" android:name=\"de.halfbit.pinnedsection.examples.PinnedSectionListActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 41873,
+  "crc32" : 666683959,
+  "sha256" : "ad3807ec6566962b19cca6db61404bcfc4e27736eca7d826c21c5080598c6bc2",
+  "buildTime" : 1508185143000
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.simrge.playview",
+    "label" : "PlayView",
+    "icon" : "res/drawable-ldpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "8",
+    "targetSdkVersion" : "17",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 610,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.simrge.playview\">\n\t<uses-sdk android:minSdkVersion=\"8\" android:targetSdkVersion=\"17\" />\n\t<application android:theme=\"resourceId:0x7f0a0053\" android:label=\"PlayView\" android:icon=\"res/drawable-ldpi/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"PlayView\" android:name=\"com.simrge.playview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 682971,
+  "crc32" : 822721775,
+  "sha256" : "6fa2def81fcf6b89bd63aae4877032c3bd96e4c587fa1ff0201976eea78a2c0d",
+  "buildTime" : 1496784440000
+}

@@ -1,0 +1,927 @@
+2018-05-15 04:31:45,262 INFO  DownloadService - Downloading "https://github.com/loopj/android-async-http/archive/master.zip", attempt 3
+2018-05-15 04:31:45,760 INFO  DownloadService - Downloaded https://github.com/loopj/android-async-http/archive/master.zip, attempt 3
+2018-05-15 04:31:45,760 INFO  DownloadService - Size of file "/tmp/rdisk/310/master.zip": 855 KB
+2018-05-15 04:31:45,760 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:31:45,761 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/310/master.zip: true
+2018-05-15 04:31:45,761 DEBUG ZipUtil - Extracting '/tmp/rdisk/310/master.zip' into '/tmp/rdisk/310/src'.
+2018-05-15 04:31:45,787 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-15 04:31:45,787 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/310/src]
+2018-05-15 04:31:45,798 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/310/src/.git/
+
+2018-05-15 04:31:45,804 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/310/src/android-async-http-master/gradlew
+2018-05-15 04:31:45,808 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/310/src/android-async-http-master/library/build.gradle /tmp/rdisk/310/src/android-async-http-master/sample/build.gradle /tmp/rdisk/310/src/android-async-http-master/build.gradle
+2018-05-15 04:31:45,812 INFO  ProjectBuildService - All script(s): /tmp/rdisk/310/src/android-async-http-master/settings.gradle /tmp/rdisk/310/src/android-async-http-master/sample/build.gradle /tmp/rdisk/310/src/android-async-http-master/maven_push.gradle /tmp/rdisk/310/src/android-async-http-master/library/build.gradle /tmp/rdisk/310/src/android-async-http-master/build.gradle
+2018-05-15 04:31:45,813 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:31:45,813 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:31:45,823 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/310/src/android-async-http-master/library/local.properties
+2018-05-15 04:31:45,824 INFO  ProjectFixService - Build info for "/tmp/rdisk/310/src/android-async-http-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-15 04:31:45,824 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/310/src/android-async-http-master/sample/local.properties
+2018-05-15 04:31:45,824 INFO  ProjectFixService - Build info for "/tmp/rdisk/310/src/android-async-http-master/sample/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-15 04:31:45,824 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/310/src/android-async-http-master/local.properties
+2018-05-15 04:31:45,825 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.5-all.zip
+2018-05-15 04:31:45,825 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.5-bin.zip)
+2018-05-15 04:31:45,826 INFO  ProjectFixService - Build info for "/tmp/rdisk/310/src/android-async-http-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-05-15 04:31:45,826 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:31:45,826 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:31:45,826 INFO  SysUtils - Execute command: [/tmp/rdisk/310/src/android-async-http-master/gradlew, -b, /tmp/rdisk/310/src/android-async-http-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:31:56,841 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-05-15 04:31:56,841 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-15 04:31:56,841 INFO  SysUtils - Execute command: [/tmp/rdisk/310/src/android-async-http-master/gradlew, -b, /tmp/rdisk/310/src/android-async-http-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-15 04:32:07,687 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-15 04:32:07,687 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidJavadocs/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:36: error: cannot find symbol
+import java.util.concurrent.ConcurrentSkipList;
+                           ^
+  symbol:   class ConcurrentSkipList
+  location: package java.util.concurrent
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:102: error: cannot find symbol
+    protected final ConcurrentSkipList<String, String> urlParams = new ConcurrentSkipList<String, String>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:103: error: cannot find symbol
+    protected final ConcurrentSkipList<String, StreamWrapper> streamParams = new ConcurrentSkipList<String, StreamWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:104: error: cannot find symbol
+    protected final ConcurrentSkipList<String, FileWrapper> fileParams = new ConcurrentSkipList<String, FileWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:105: error: cannot find symbol
+    protected final ConcurrentSkipList<String, List<FileWrapper>> fileArrayParams = new ConcurrentSkipList<String, List<FileWrapper>>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:106: error: cannot find symbol
+    protected final ConcurrentSkipList<String, Object> urlParamsWithObjects = new ConcurrentSkipList<String, Object>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+
+6 warnings
+:library:androidJavadocsJar
+:library:androidSourcesJar
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugProguardFiles
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:processDebugJavaRes UP-TO-DATE
+:library:compileDebugJavaWithJavac/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:36: error: cannot find symbol
+import java.util.concurrent.ConcurrentSkipList;
+                           ^
+  symbol:   class ConcurrentSkipList
+  location: package java.util.concurrent
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:102: error: cannot find symbol
+    protected final ConcurrentSkipList<String, String> urlParams = new ConcurrentSkipList<String, String>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:103: error: cannot find symbol
+    protected final ConcurrentSkipList<String, StreamWrapper> streamParams = new ConcurrentSkipList<String, StreamWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:104: error: cannot find symbol
+    protected final ConcurrentSkipList<String, FileWrapper> fileParams = new ConcurrentSkipList<String, FileWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:105: error: cannot find symbol
+    protected final ConcurrentSkipList<String, List<FileWrapper>> fileArrayParams = new ConcurrentSkipList<String, List<FileWrapper>>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:106: error: cannot find symbol
+    protected final ConcurrentSkipList<String, Object> urlParamsWithObjects = new ConcurrentSkipList<String, Object>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:102: error: cannot find symbol
+    protected final ConcurrentSkipList<String, String> urlParams = new ConcurrentSkipList<String, String>();
+                                                                       ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:103: error: cannot find symbol
+    protected final ConcurrentSkipList<String, StreamWrapper> streamParams = new ConcurrentSkipList<String, StreamWrapper>();
+                                                                                 ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:104: error: cannot find symbol
+    protected final ConcurrentSkipList<String, FileWrapper> fileParams = new ConcurrentSkipList<String, FileWrapper>();
+                                                                             ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:105: error: cannot find symbol
+    protected final ConcurrentSkipList<String, List<FileWrapper>> fileArrayParams = new ConcurrentSkipList<String, List<FileWrapper>>();
+                                                                                        ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:106: error: cannot find symbol
+    protected final ConcurrentSkipList<String, Object> urlParamsWithObjects = new ConcurrentSkipList<String, Object>();
+                                                                                  ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:391: warning: [unchecked] unchecked cast
+                ((List<Object>) params).add(value);
+                                ^
+  required: List<Object>
+  found:    Object
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:393: warning: [unchecked] unchecked cast
+                ((Set<Object>) params).add(value);
+                               ^
+  required: Set<Object>
+  found:    Object
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:428: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:437: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:446: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:455: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, List<FileWrapper>> entry : fileArrayParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:533: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:538: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, Object> entry : urlParamsWithObjects.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:543: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:548: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:578: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:589: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:598: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:604: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, List<FileWrapper>> entry : fileArrayParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:617: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:630: warning: [unchecked] unchecked method invocation: constructor <init> in class ArrayList is applied to given types
+            List list = new ArrayList<Object>(map.keySet());
+                        ^
+  required: Collection<? extends E>
+  found: Set
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:630: warning: [unchecked] unchecked conversion
+            List list = new ArrayList<Object>(map.keySet());
+                                                        ^
+  required: Collection<? extends E>
+  found:    Set
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:633: warning: [unchecked] unchecked method invocation: method sort in class Collections is applied to given types
+                Collections.sort(list);
+                                ^
+  required: List<T>
+  found: List
+  where T is a type-variable:
+    T extends Comparable<? super T> declared in method <T>sort(List<T>)
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:633: warning: [unchecked] unchecked conversion
+                Collections.sort(list);
+                                 ^
+  required: List<T>
+  found:    List
+  where T is a type-variable:
+    T extends Comparable<? super T> declared in method <T>sort(List<T>)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+24 errors
+6 warnings
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:208)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:186)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:62)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:111)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher$6.run(DefaultGradleLauncher.java:174)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:47)
+	at org.gradle.initialization.DefaultGradleLauncher.runBuildOperation(DefaultGradleLauncher.java:189)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:171)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:104)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:97)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.runRootBuildOperation(DefaultGradleLauncher.java:184)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:97)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:93)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:27)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:72)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:47)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:101)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:157)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:137)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:91)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:243)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:230)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 61 more
+
+
+BUILD FAILED
+
+Total time: 10.397 secs
+
+2018-05-15 04:32:07,695 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:32:07,695 INFO  SysUtils - Execute command: [/tmp/rdisk/310/src/android-async-http-master/gradlew, -b, /tmp/rdisk/310/src/android-async-http-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:32:14,794 INFO  ProjectTaskService - Detected possible tasks: 84
+2018-05-15 04:32:14,795 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-05-15 04:32:14,795 INFO  SysUtils - Execute command: [/tmp/rdisk/310/src/android-async-http-master/gradlew, -b, /tmp/rdisk/310/src/android-async-http-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-05-15 04:32:22,856 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-15 04:32:22,857 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJavaWithJavac/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:36: error: cannot find symbol
+import java.util.concurrent.ConcurrentSkipList;
+                           ^
+  symbol:   class ConcurrentSkipList
+  location: package java.util.concurrent
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:102: error: cannot find symbol
+    protected final ConcurrentSkipList<String, String> urlParams = new ConcurrentSkipList<String, String>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:103: error: cannot find symbol
+    protected final ConcurrentSkipList<String, StreamWrapper> streamParams = new ConcurrentSkipList<String, StreamWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:104: error: cannot find symbol
+    protected final ConcurrentSkipList<String, FileWrapper> fileParams = new ConcurrentSkipList<String, FileWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:105: error: cannot find symbol
+    protected final ConcurrentSkipList<String, List<FileWrapper>> fileArrayParams = new ConcurrentSkipList<String, List<FileWrapper>>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:106: error: cannot find symbol
+    protected final ConcurrentSkipList<String, Object> urlParamsWithObjects = new ConcurrentSkipList<String, Object>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:102: error: cannot find symbol
+    protected final ConcurrentSkipList<String, String> urlParams = new ConcurrentSkipList<String, String>();
+                                                                       ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:103: error: cannot find symbol
+    protected final ConcurrentSkipList<String, StreamWrapper> streamParams = new ConcurrentSkipList<String, StreamWrapper>();
+                                                                                 ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:104: error: cannot find symbol
+    protected final ConcurrentSkipList<String, FileWrapper> fileParams = new ConcurrentSkipList<String, FileWrapper>();
+                                                                             ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:105: error: cannot find symbol
+    protected final ConcurrentSkipList<String, List<FileWrapper>> fileArrayParams = new ConcurrentSkipList<String, List<FileWrapper>>();
+                                                                                        ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:106: error: cannot find symbol
+    protected final ConcurrentSkipList<String, Object> urlParamsWithObjects = new ConcurrentSkipList<String, Object>();
+                                                                                  ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:391: warning: [unchecked] unchecked cast
+                ((List<Object>) params).add(value);
+                                ^
+  required: List<Object>
+  found:    Object
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:393: warning: [unchecked] unchecked cast
+                ((Set<Object>) params).add(value);
+                               ^
+  required: Set<Object>
+  found:    Object
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:428: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:437: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:446: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:455: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, List<FileWrapper>> entry : fileArrayParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:533: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:538: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, Object> entry : urlParamsWithObjects.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:543: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:548: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:578: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:589: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:598: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:604: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, List<FileWrapper>> entry : fileArrayParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:617: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:630: warning: [unchecked] unchecked method invocation: constructor <init> in class ArrayList is applied to given types
+            List list = new ArrayList<Object>(map.keySet());
+                        ^
+  required: Collection<? extends E>
+  found: Set
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:630: warning: [unchecked] unchecked conversion
+            List list = new ArrayList<Object>(map.keySet());
+                                                        ^
+  required: Collection<? extends E>
+  found:    Set
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:633: warning: [unchecked] unchecked method invocation: method sort in class Collections is applied to given types
+                Collections.sort(list);
+                                ^
+  required: List<T>
+  found: List
+  where T is a type-variable:
+    T extends Comparable<? super T> declared in method <T>sort(List<T>)
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:633: warning: [unchecked] unchecked conversion
+                Collections.sort(list);
+                                 ^
+  required: List<T>
+  found:    List
+  where T is a type-variable:
+    T extends Comparable<? super T> declared in method <T>sort(List<T>)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+24 errors
+6 warnings
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:compileReleaseJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:compileReleaseJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:208)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:186)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:62)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:111)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher$6.run(DefaultGradleLauncher.java:174)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:47)
+	at org.gradle.initialization.DefaultGradleLauncher.runBuildOperation(DefaultGradleLauncher.java:189)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:171)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:104)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:97)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.runRootBuildOperation(DefaultGradleLauncher.java:184)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:97)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:93)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:27)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:72)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:47)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:101)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:157)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:137)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:91)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:243)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:230)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 61 more
+
+
+BUILD FAILED
+
+Total time: 7.615 secs
+
+2018-05-15 04:32:22,865 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:32:22,865 INFO  SysUtils - Execute command: [/tmp/rdisk/310/src/android-async-http-master/gradlew, -b, /tmp/rdisk/310/src/android-async-http-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:32:30,077 INFO  ProjectTaskService - Detected possible tasks: 102
+2018-05-15 04:32:30,077 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-05-15 04:32:30,077 INFO  SysUtils - Execute command: [/tmp/rdisk/310/src/android-async-http-master/gradlew, -b, /tmp/rdisk/310/src/android-async-http-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-05-15 04:32:38,126 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-15 04:32:38,127 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:androidJavadocs UP-TO-DATE
+:library:androidJavadocsJar UP-TO-DATE
+:library:androidSourcesJar UP-TO-DATE
+:library:compileLint
+:library:copyDebugLint UP-TO-DATE
+:library:mergeDebugProguardFiles UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:prepareDebugDependencies
+:library:compileDebugAidl UP-TO-DATE
+:library:compileDebugRenderscript UP-TO-DATE
+:library:generateDebugBuildConfig UP-TO-DATE
+:library:generateDebugAssets UP-TO-DATE
+:library:mergeDebugAssets UP-TO-DATE
+:library:generateDebugResValues UP-TO-DATE
+:library:generateDebugResources UP-TO-DATE
+:library:packageDebugResources UP-TO-DATE
+:library:processDebugManifest UP-TO-DATE
+:library:processDebugResources UP-TO-DATE
+:library:generateDebugSources UP-TO-DATE
+:library:processDebugJavaRes UP-TO-DATE
+:library:compileDebugJavaWithJavac/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:36: error: cannot find symbol
+import java.util.concurrent.ConcurrentSkipList;
+                           ^
+  symbol:   class ConcurrentSkipList
+  location: package java.util.concurrent
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:102: error: cannot find symbol
+    protected final ConcurrentSkipList<String, String> urlParams = new ConcurrentSkipList<String, String>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:103: error: cannot find symbol
+    protected final ConcurrentSkipList<String, StreamWrapper> streamParams = new ConcurrentSkipList<String, StreamWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:104: error: cannot find symbol
+    protected final ConcurrentSkipList<String, FileWrapper> fileParams = new ConcurrentSkipList<String, FileWrapper>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:105: error: cannot find symbol
+    protected final ConcurrentSkipList<String, List<FileWrapper>> fileArrayParams = new ConcurrentSkipList<String, List<FileWrapper>>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:106: error: cannot find symbol
+    protected final ConcurrentSkipList<String, Object> urlParamsWithObjects = new ConcurrentSkipList<String, Object>();
+                    ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:102: error: cannot find symbol
+    protected final ConcurrentSkipList<String, String> urlParams = new ConcurrentSkipList<String, String>();
+                                                                       ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:103: error: cannot find symbol
+    protected final ConcurrentSkipList<String, StreamWrapper> streamParams = new ConcurrentSkipList<String, StreamWrapper>();
+                                                                                 ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:104: error: cannot find symbol
+    protected final ConcurrentSkipList<String, FileWrapper> fileParams = new ConcurrentSkipList<String, FileWrapper>();
+                                                                             ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:105: error: cannot find symbol
+    protected final ConcurrentSkipList<String, List<FileWrapper>> fileArrayParams = new ConcurrentSkipList<String, List<FileWrapper>>();
+                                                                                        ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:106: error: cannot find symbol
+    protected final ConcurrentSkipList<String, Object> urlParamsWithObjects = new ConcurrentSkipList<String, Object>();
+                                                                                  ^
+  symbol:   class ConcurrentSkipList
+  location: class RequestParams
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:391: warning: [unchecked] unchecked cast
+                ((List<Object>) params).add(value);
+                                ^
+  required: List<Object>
+  found:    Object
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:393: warning: [unchecked] unchecked cast
+                ((Set<Object>) params).add(value);
+                               ^
+  required: Set<Object>
+  found:    Object
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:428: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:437: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:446: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:455: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, List<FileWrapper>> entry : fileArrayParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:533: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:538: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, Object> entry : urlParamsWithObjects.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:543: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:548: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:578: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:589: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, StreamWrapper> entry : streamParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:598: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, FileWrapper> entry : fileParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:604: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, List<FileWrapper>> entry : fileArrayParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:617: error: package ConcurrentSkipList does not exist
+        for (ConcurrentSkipList.Entry<String, String> entry : urlParams.entrySet()) {
+                               ^
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:630: warning: [unchecked] unchecked method invocation: constructor <init> in class ArrayList is applied to given types
+            List list = new ArrayList<Object>(map.keySet());
+                        ^
+  required: Collection<? extends E>
+  found: Set
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:630: warning: [unchecked] unchecked conversion
+            List list = new ArrayList<Object>(map.keySet());
+                                                        ^
+  required: Collection<? extends E>
+  found:    Set
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:633: warning: [unchecked] unchecked method invocation: method sort in class Collections is applied to given types
+                Collections.sort(list);
+                                ^
+  required: List<T>
+  found: List
+  where T is a type-variable:
+    T extends Comparable<? super T> declared in method <T>sort(List<T>)
+/tmp/rdisk/310/src/android-async-http-master/library/src/main/java/com/loopj/android/http/RequestParams.java:633: warning: [unchecked] unchecked conversion
+                Collections.sort(list);
+                                 ^
+  required: List<T>
+  found:    List
+  where T is a type-variable:
+    T extends Comparable<? super T> declared in method <T>sort(List<T>)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+24 errors
+6 warnings
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':library:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':library:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:208)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:186)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:62)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:111)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher$6.run(DefaultGradleLauncher.java:174)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:47)
+	at org.gradle.initialization.DefaultGradleLauncher.runBuildOperation(DefaultGradleLauncher.java:189)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:171)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:104)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:97)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.runRootBuildOperation(DefaultGradleLauncher.java:184)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:97)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:93)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:27)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:72)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:50)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:27)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:40)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:47)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:101)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:157)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:137)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:91)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:243)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:219)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:230)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:208)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 61 more
+
+
+BUILD FAILED
+
+Total time: 7.572 secs
+
+2018-05-15 04:32:38,135 ERROR FullProcessService - Project build has not produced APK file
+2018-05-15 04:32:38,142 ERROR FullProcessService - Could not find generated or existed APK file

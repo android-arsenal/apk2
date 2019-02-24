@@ -1,0 +1,53 @@
+2018-05-15 04:21:45,630 INFO  DownloadService - Downloading "https://github.com/hierynomus/sshj/archive/master.zip", attempt 3
+2018-05-15 04:21:46,120 INFO  DownloadService - Downloaded https://github.com/hierynomus/sshj/archive/master.zip, attempt 3
+2018-05-15 04:21:46,120 INFO  DownloadService - Size of file "/tmp/rdisk/439/master.zip": 541 KB
+2018-05-15 04:21:46,120 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:21:46,121 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/439/master.zip: true
+2018-05-15 04:21:46,121 DEBUG ZipUtil - Extracting '/tmp/rdisk/439/master.zip' into '/tmp/rdisk/439/src'.
+2018-05-15 04:21:46,174 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-05-15 04:21:46,175 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/439/src]
+2018-05-15 04:21:46,180 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/439/src/.git/
+
+2018-05-15 04:21:46,189 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/439/src/sshj-master/gradlew
+2018-05-15 04:21:46,210 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/439/src/sshj-master/build.gradle
+2018-05-15 04:21:46,218 INFO  ProjectBuildService - All script(s): /tmp/rdisk/439/src/sshj-master/settings.gradle /tmp/rdisk/439/src/sshj-master/build.gradle /tmp/rdisk/439/src/sshj-master/build-publishing.gradle
+2018-05-15 04:21:46,219 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:21:46,219 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:21:46,238 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/439/src/sshj-master/local.properties
+2018-05-15 04:21:46,239 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.3-all.zip
+2018-05-15 04:21:46,239 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.3-bin.zip)
+2018-05-15 04:21:46,243 INFO  ProjectFixService - Build info for "/tmp/rdisk/439/src/sshj-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:21:46,243 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/439/src/sshj-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:21:46,245 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:21:46,245 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:21:46,245 INFO  SysUtils - Execute command: [/tmp/rdisk/439/src/sshj-master/gradlew, -b, /tmp/rdisk/439/src/sshj-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:21:58,455 INFO  ProjectTaskService - Detected possible tasks: 75
+2018-05-15 04:21:58,455 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2018-05-15 04:21:58,455 INFO  SysUtils - Execute command: [/tmp/rdisk/439/src/sshj-master/gradlew, -b, /tmp/rdisk/439/src/sshj-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2018-05-15 04:22:10,566 INFO  SysUtils - Configuration on demand is an incubating feature.
+Failed to open repository, trying to work without it org.eclipse.jgit.errors.RepositoryNotFoundException: repository not found: /tmp/rdisk/439/src/sshj-master
+Could not resolve current position on uninitialized repository, returning default
+Couldn't perform check uncommitted changes command on uninitialized repository
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+Note: /tmp/rdisk/439/src/sshj-master/src/main/java/net/schmizz/sshj/SSHClient.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:compileGroovy SKIPPED
+:processResources NO-SOURCE
+:classes
+:generatePomFileForMavenPublication
+:generatePomPropertiesFile
+:osgiClasses
+:writeSshjVersionProperties
+:jar
+:assemble
+:build
+
+BUILD SUCCESSFUL in 11s
+6 actionable tasks: 6 executed
+
+2018-05-15 04:22:10,589 ERROR FullProcessService - Project build has not produced APK file
+2018-05-15 04:22:10,610 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,738 @@
+2018-04-10 18:15:42,662 INFO  DownloadService - Downloading "https://github.com/bingzer/dbquery/archive/master.zip", attempt 3
+2018-04-10 18:15:44,554 INFO  DownloadService - Downloaded https://github.com/bingzer/dbquery/archive/master.zip, attempt 3
+2018-04-10 18:15:44,555 INFO  DownloadService - Size of file "/tmp/rdisk/331/master.zip": 1 MB
+2018-04-10 18:15:44,555 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:15:44,555 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/331/master.zip: true
+2018-04-10 18:15:44,555 DEBUG ZipUtil - Extracting '/tmp/rdisk/331/master.zip' into '/tmp/rdisk/331/src'.
+2018-04-10 18:15:44,603 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-04-10 18:15:44,603 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/331/src]
+2018-04-10 18:15:44,619 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/331/src/.git/
+
+2018-04-10 18:15:44,630 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/331/src/DbQuery-master/gradlew
+2018-04-10 18:15:44,636 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build.gradle /tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build.gradle /tmp/rdisk/331/src/DbQuery-master/Library/build.gradle /tmp/rdisk/331/src/DbQuery-master/Sample/build.gradle /tmp/rdisk/331/src/DbQuery-master/build.gradle
+2018-04-10 18:15:44,641 INFO  ProjectBuildService - All script(s): /tmp/rdisk/331/src/DbQuery-master/settings.gradle /tmp/rdisk/331/src/DbQuery-master/build.gradle /tmp/rdisk/331/src/DbQuery-master/Sample/build.gradle /tmp/rdisk/331/src/DbQuery-master/Library/build.gradle /tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build.gradle /tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build.gradle
+2018-04-10 18:15:44,642 INFO  DownloadService - Downloading "https://raw.github.com/bingzer/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-04-10 18:15:44,971 INFO  DownloadService - Downloaded https://raw.github.com/bingzer/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-04-10 18:15:44,972 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/bingzer/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-04-10 18:15:44,972 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:15:44,990 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/local.properties
+2018-04-10 18:15:44,992 INFO  ProjectFixService - Build info for "/tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:15:44,993 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:15:44,993 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/local.properties
+2018-04-10 18:15:44,996 INFO  ProjectFixService - Build info for "/tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:15:44,996 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:15:44,996 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/331/src/DbQuery-master/Library/local.properties
+2018-04-10 18:15:44,999 INFO  ProjectFixService - Build info for "/tmp/rdisk/331/src/DbQuery-master/Library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:15:44,999 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/331/src/DbQuery-master/Library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:15:44,999 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/331/src/DbQuery-master/Sample/local.properties
+2018-04-10 18:15:45,019 INFO  ProjectFixService - Build info for "/tmp/rdisk/331/src/DbQuery-master/Sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:15:45,019 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/331/src/DbQuery-master/Sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:15:45,020 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/331/src/DbQuery-master/local.properties
+2018-04-10 18:15:45,020 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-04-10 18:15:45,020 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-04-10 18:15:45,023 INFO  ProjectFixService - Build info for "/tmp/rdisk/331/src/DbQuery-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:15:45,023 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/331/src/DbQuery-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:15:45,024 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:15:45,024 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:15:45,024 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:15:55,839 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-10 18:15:55,839 INFO  ProjectTaskService - Detected possible tasks: 4
+2018-04-10 18:15:55,839 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2018-04-10 18:15:55,839 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2018-04-10 18:16:16,650 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:Extensions:ContentQuery:preBuild UP-TO-DATE
+:Extensions:ContentQuery:preDebugBuild UP-TO-DATE
+:Extensions:ContentQuery:compileDebugNdk UP-TO-DATE
+:Extensions:ContentQuery:compileLint
+:Extensions:ContentQuery:copyDebugLint UP-TO-DATE
+:Extensions:ContentQuery:mergeDebugProguardFiles
+:Extensions:ContentQuery:packageDebugRenderscript UP-TO-DATE
+:Extensions:ContentQuery:checkDebugManifest
+:Library:preBuild UP-TO-DATE
+:Library:preReleaseBuild UP-TO-DATE
+:Library:compileReleaseNdk UP-TO-DATE
+:Library:compileLint
+:Library:copyReleaseLint UP-TO-DATE
+:Library:mergeReleaseProguardFiles
+:Library:packageReleaseRenderscript UP-TO-DATE
+:Library:checkReleaseManifest
+:Library:prepareReleaseDependencies
+:Library:compileReleaseRenderscript
+:Library:generateReleaseResValues
+:Library:generateReleaseResources
+:Library:packageReleaseResources
+:Library:compileReleaseAidl
+:Library:generateReleaseBuildConfig
+:Library:mergeReleaseShaders
+:Library:compileReleaseShaders
+:Library:generateReleaseAssets
+:Library:mergeReleaseAssets
+:Library:processReleaseManifest
+:Library:processReleaseResources
+:Library:generateReleaseSources
+:Library:incrementalReleaseJavaCompilationSafeguard
+:Library:compileReleaseJavaWithJavac
+:Library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:Library:processReleaseJavaRes UP-TO-DATE
+:Library:transformResourcesWithMergeJavaResForRelease
+:Library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Library:mergeReleaseJniLibFolders
+:Library:transformNative_libsWithMergeJniLibsForRelease
+:Library:transformNative_libsWithSyncJniLibsForRelease
+:Library:bundleRelease
+:Extensions:ContentQuery:preDebugAndroidTestBuild UP-TO-DATE
+:Extensions:ContentQuery:preDebugUnitTestBuild UP-TO-DATE
+:Extensions:ContentQuery:preReleaseBuild UP-TO-DATE
+:Extensions:ContentQuery:preReleaseUnitTestBuild UP-TO-DATE
+:Extensions:ContentQuery:prepareComBingzerAndroidDbvLibrary220SNAPSHOTLibrary
+:Extensions:ContentQuery:prepareDebugDependencies
+:Extensions:ContentQuery:compileDebugRenderscript
+:Extensions:ContentQuery:generateDebugResValues
+:Extensions:ContentQuery:generateDebugResources
+:Extensions:ContentQuery:packageDebugResources
+:Extensions:ContentQuery:compileDebugAidl
+:Extensions:ContentQuery:generateDebugBuildConfig
+:Extensions:ContentQuery:mergeDebugShaders
+:Extensions:ContentQuery:compileDebugShaders
+:Extensions:ContentQuery:generateDebugAssets
+:Extensions:ContentQuery:mergeDebugAssets
+:Extensions:ContentQuery:mergeDebugResources
+:Extensions:ContentQuery:processDebugManifest
+:Extensions:ContentQuery:processDebugResources
+:Extensions:ContentQuery:generateDebugSources
+:Extensions:ContentQuery:incrementalDebugJavaCompilationSafeguard
+:Extensions:ContentQuery:compileDebugJavaWithJavac
+:Extensions:ContentQuery:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:Extensions:ContentQuery:processDebugJavaRes UP-TO-DATE
+:Extensions:ContentQuery:transformResourcesWithMergeJavaResForDebug
+:Extensions:ContentQuery:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Extensions:ContentQuery:mergeDebugJniLibFolders
+:Extensions:ContentQuery:transformNative_libsWithMergeJniLibsForDebug
+:Extensions:ContentQuery:transformNative_libsWithSyncJniLibsForDebug
+:Extensions:ContentQuery:bundleDebug
+:Extensions:ContentQuery:compileDebugSources
+:Extensions:ContentQuery:assembleDebug
+:Extensions:ContentQuery:compileReleaseNdk UP-TO-DATE
+:Extensions:ContentQuery:copyReleaseLint UP-TO-DATE
+:Extensions:ContentQuery:mergeReleaseProguardFiles
+:Extensions:ContentQuery:packageReleaseRenderscript UP-TO-DATE
+:Extensions:ContentQuery:checkReleaseManifest
+:Extensions:ContentQuery:prepareReleaseDependencies
+:Extensions:ContentQuery:compileReleaseRenderscript
+:Extensions:ContentQuery:generateReleaseResValues
+:Extensions:ContentQuery:generateReleaseResources
+:Extensions:ContentQuery:packageReleaseResources
+:Extensions:ContentQuery:compileReleaseAidl
+:Extensions:ContentQuery:generateReleaseBuildConfig
+:Extensions:ContentQuery:mergeReleaseShaders
+:Extensions:ContentQuery:compileReleaseShaders
+:Extensions:ContentQuery:generateReleaseAssets
+:Extensions:ContentQuery:mergeReleaseAssets
+:Extensions:ContentQuery:mergeReleaseResources
+:Extensions:ContentQuery:processReleaseManifest
+:Extensions:ContentQuery:processReleaseResources
+:Extensions:ContentQuery:generateReleaseSources
+:Extensions:ContentQuery:incrementalReleaseJavaCompilationSafeguard
+:Extensions:ContentQuery:compileReleaseJavaWithJavac
+:Extensions:ContentQuery:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:Extensions:ContentQuery:processReleaseJavaRes UP-TO-DATE
+:Extensions:ContentQuery:transformResourcesWithMergeJavaResForRelease
+:Extensions:ContentQuery:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Extensions:ContentQuery:mergeReleaseJniLibFolders
+:Extensions:ContentQuery:transformNative_libsWithMergeJniLibsForRelease
+:Extensions:ContentQuery:transformNative_libsWithSyncJniLibsForRelease
+:Extensions:ContentQuery:bundleRelease
+:Extensions:ContentQuery:compileReleaseSources
+:Extensions:ContentQuery:assembleRelease
+:Extensions:ContentQuery:signArchives SKIPPED
+:Extensions:ContentQuery:assemble
+:Extensions:ContentQuery:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+Wrote HTML report to file:///tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/331/src/DbQuery-master/Extensions/ContentQuery/build/outputs/lint-results-debug.xml
+:Extensions:ContentQuery:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Extensions:ContentQuery:prepareDebugUnitTestDependencies
+:Extensions:ContentQuery:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:Extensions:ContentQuery:processDebugUnitTestJavaRes UP-TO-DATE
+:Extensions:ContentQuery:compileDebugUnitTestSources UP-TO-DATE
+:Extensions:ContentQuery:mockableAndroidJar
+:Extensions:ContentQuery:assembleDebugUnitTest
+:Extensions:ContentQuery:testDebugUnitTest
+:Extensions:ContentQuery:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Extensions:ContentQuery:prepareReleaseUnitTestDependencies
+:Extensions:ContentQuery:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:Extensions:ContentQuery:processReleaseUnitTestJavaRes UP-TO-DATE
+:Extensions:ContentQuery:compileReleaseUnitTestSources UP-TO-DATE
+:Extensions:ContentQuery:assembleReleaseUnitTest
+:Extensions:ContentQuery:testReleaseUnitTest
+:Extensions:ContentQuery:test
+:Extensions:ContentQuery:check
+:Extensions:ContentQuery:build
+
+BUILD SUCCESSFUL
+
+Total time: 20.393 secs
+
+2018-04-10 18:16:16,669 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:16:16,670 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:16:24,999 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-10 18:16:24,999 INFO  ProjectTaskService - Detected possible tasks: 4
+2018-04-10 18:16:24,999 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2018-04-10 18:16:25,000 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2018-04-10 18:16:37,204 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:Extensions:DataProvider:preBuild UP-TO-DATE
+:Extensions:DataProvider:preDebugBuild UP-TO-DATE
+:Extensions:DataProvider:compileDebugNdk UP-TO-DATE
+:Extensions:DataProvider:compileLint
+:Extensions:DataProvider:copyDebugLint UP-TO-DATE
+:Extensions:DataProvider:mergeDebugProguardFiles
+:Extensions:DataProvider:packageDebugRenderscript UP-TO-DATE
+:Extensions:DataProvider:checkDebugManifest
+:Library:preBuild UP-TO-DATE
+:Library:preReleaseBuild UP-TO-DATE
+:Library:compileReleaseNdk UP-TO-DATE
+:Library:compileLint
+:Library:copyReleaseLint UP-TO-DATE
+:Library:mergeReleaseProguardFiles UP-TO-DATE
+:Library:packageReleaseRenderscript UP-TO-DATE
+:Library:checkReleaseManifest
+:Library:prepareReleaseDependencies
+:Library:compileReleaseRenderscript UP-TO-DATE
+:Library:generateReleaseResValues UP-TO-DATE
+:Library:generateReleaseResources UP-TO-DATE
+:Library:packageReleaseResources UP-TO-DATE
+:Library:compileReleaseAidl UP-TO-DATE
+:Library:generateReleaseBuildConfig UP-TO-DATE
+:Library:mergeReleaseShaders UP-TO-DATE
+:Library:compileReleaseShaders UP-TO-DATE
+:Library:generateReleaseAssets UP-TO-DATE
+:Library:mergeReleaseAssets UP-TO-DATE
+:Library:processReleaseManifest UP-TO-DATE
+:Library:processReleaseResources UP-TO-DATE
+:Library:generateReleaseSources UP-TO-DATE
+:Library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Library:compileReleaseJavaWithJavac UP-TO-DATE
+:Library:processReleaseJavaRes UP-TO-DATE
+:Library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Library:mergeReleaseJniLibFolders UP-TO-DATE
+:Library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Library:bundleRelease UP-TO-DATE
+:Extensions:DataProvider:preDebugAndroidTestBuild UP-TO-DATE
+:Extensions:DataProvider:preDebugUnitTestBuild UP-TO-DATE
+:Extensions:DataProvider:preReleaseBuild UP-TO-DATE
+:Extensions:DataProvider:preReleaseUnitTestBuild UP-TO-DATE
+:Extensions:DataProvider:prepareComBingzerAndroidDbvLibrary220SNAPSHOTLibrary
+:Extensions:DataProvider:prepareDebugDependencies
+:Extensions:DataProvider:compileDebugRenderscript
+:Extensions:DataProvider:generateDebugResValues
+:Extensions:DataProvider:generateDebugResources
+:Extensions:DataProvider:packageDebugResources
+:Extensions:DataProvider:compileDebugAidl
+:Extensions:DataProvider:generateDebugBuildConfig
+:Extensions:DataProvider:mergeDebugShaders
+:Extensions:DataProvider:compileDebugShaders
+:Extensions:DataProvider:generateDebugAssets
+:Extensions:DataProvider:mergeDebugAssets
+:Extensions:DataProvider:mergeDebugResources
+:Extensions:DataProvider:processDebugManifest
+:Extensions:DataProvider:processDebugResources
+:Extensions:DataProvider:generateDebugSources
+:Extensions:DataProvider:incrementalDebugJavaCompilationSafeguard
+:Extensions:DataProvider:compileDebugJavaWithJavac
+:Extensions:DataProvider:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:Extensions:DataProvider:processDebugJavaRes UP-TO-DATE
+:Extensions:DataProvider:transformResourcesWithMergeJavaResForDebug
+:Extensions:DataProvider:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Extensions:DataProvider:mergeDebugJniLibFolders
+:Extensions:DataProvider:transformNative_libsWithMergeJniLibsForDebug
+:Extensions:DataProvider:transformNative_libsWithSyncJniLibsForDebug
+:Extensions:DataProvider:bundleDebug
+:Extensions:DataProvider:compileDebugSources
+:Extensions:DataProvider:assembleDebug
+:Extensions:DataProvider:compileReleaseNdk UP-TO-DATE
+:Extensions:DataProvider:copyReleaseLint UP-TO-DATE
+:Extensions:DataProvider:mergeReleaseProguardFiles
+:Extensions:DataProvider:packageReleaseRenderscript UP-TO-DATE
+:Extensions:DataProvider:checkReleaseManifest
+:Extensions:DataProvider:prepareReleaseDependencies
+:Extensions:DataProvider:compileReleaseRenderscript
+:Extensions:DataProvider:generateReleaseResValues
+:Extensions:DataProvider:generateReleaseResources
+:Extensions:DataProvider:packageReleaseResources
+:Extensions:DataProvider:compileReleaseAidl
+:Extensions:DataProvider:generateReleaseBuildConfig
+:Extensions:DataProvider:mergeReleaseShaders
+:Extensions:DataProvider:compileReleaseShaders
+:Extensions:DataProvider:generateReleaseAssets
+:Extensions:DataProvider:mergeReleaseAssets
+:Extensions:DataProvider:mergeReleaseResources
+:Extensions:DataProvider:processReleaseManifest
+:Extensions:DataProvider:processReleaseResources
+:Extensions:DataProvider:generateReleaseSources
+:Extensions:DataProvider:incrementalReleaseJavaCompilationSafeguard
+:Extensions:DataProvider:compileReleaseJavaWithJavac
+:Extensions:DataProvider:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:Extensions:DataProvider:processReleaseJavaRes UP-TO-DATE
+:Extensions:DataProvider:transformResourcesWithMergeJavaResForRelease
+:Extensions:DataProvider:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Extensions:DataProvider:mergeReleaseJniLibFolders
+:Extensions:DataProvider:transformNative_libsWithMergeJniLibsForRelease
+:Extensions:DataProvider:transformNative_libsWithSyncJniLibsForRelease
+:Extensions:DataProvider:bundleRelease
+:Extensions:DataProvider:compileReleaseSources
+:Extensions:DataProvider:assembleRelease
+:Extensions:DataProvider:signArchives SKIPPED
+:Extensions:DataProvider:assemble
+:Extensions:DataProvider:lint
+Ran lint on variant debug: 0 issues found
+Ran lint on variant release: 0 issues found
+Wrote HTML report to file:///tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/331/src/DbQuery-master/Extensions/DataProvider/build/outputs/lint-results-debug.xml
+:Extensions:DataProvider:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Extensions:DataProvider:prepareDebugUnitTestDependencies
+:Extensions:DataProvider:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:Extensions:DataProvider:processDebugUnitTestJavaRes UP-TO-DATE
+:Extensions:DataProvider:compileDebugUnitTestSources UP-TO-DATE
+:Extensions:DataProvider:mockableAndroidJar
+:Extensions:DataProvider:assembleDebugUnitTest
+:Extensions:DataProvider:testDebugUnitTest
+:Extensions:DataProvider:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Extensions:DataProvider:prepareReleaseUnitTestDependencies
+:Extensions:DataProvider:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:Extensions:DataProvider:processReleaseUnitTestJavaRes UP-TO-DATE
+:Extensions:DataProvider:compileReleaseUnitTestSources UP-TO-DATE
+:Extensions:DataProvider:assembleReleaseUnitTest
+:Extensions:DataProvider:testReleaseUnitTest
+:Extensions:DataProvider:test
+:Extensions:DataProvider:check
+:Extensions:DataProvider:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.78 secs
+
+2018-04-10 18:16:37,229 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:16:37,229 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:16:45,377 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-04-10 18:16:45,377 INFO  ProjectTaskService - Detected possible tasks: 4
+2018-04-10 18:16:45,377 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2018-04-10 18:16:45,377 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2018-04-10 18:16:59,383 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:Library:preBuild UP-TO-DATE
+:Library:preDebugBuild UP-TO-DATE
+:Library:compileDebugNdk UP-TO-DATE
+:Library:compileLint
+:Library:copyDebugLint UP-TO-DATE
+:Library:mergeDebugProguardFiles
+:Library:packageDebugRenderscript UP-TO-DATE
+:Library:checkDebugManifest
+:Library:prepareDebugDependencies
+:Library:compileDebugRenderscript
+:Library:generateDebugResValues
+:Library:generateDebugResources
+:Library:packageDebugResources
+:Library:compileDebugAidl
+:Library:generateDebugBuildConfig
+:Library:mergeDebugShaders
+:Library:compileDebugShaders
+:Library:generateDebugAssets
+:Library:mergeDebugAssets
+:Library:processDebugManifest
+:Library:processDebugResources
+:Library:generateDebugSources
+:Library:incrementalDebugJavaCompilationSafeguard
+:Library:compileDebugJavaWithJavac
+:Library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:Library:processDebugJavaRes UP-TO-DATE
+:Library:transformResourcesWithMergeJavaResForDebug
+:Library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Library:mergeDebugJniLibFolders
+:Library:transformNative_libsWithMergeJniLibsForDebug
+:Library:transformNative_libsWithSyncJniLibsForDebug
+:Library:bundleDebug
+:Library:compileDebugSources
+:Library:assembleDebug
+:Library:preReleaseBuild UP-TO-DATE
+:Library:compileReleaseNdk UP-TO-DATE
+:Library:copyReleaseLint UP-TO-DATE
+:Library:mergeReleaseProguardFiles UP-TO-DATE
+:Library:packageReleaseRenderscript UP-TO-DATE
+:Library:checkReleaseManifest
+:Library:prepareReleaseDependencies
+:Library:compileReleaseRenderscript UP-TO-DATE
+:Library:generateReleaseResValues UP-TO-DATE
+:Library:generateReleaseResources UP-TO-DATE
+:Library:packageReleaseResources UP-TO-DATE
+:Library:compileReleaseAidl UP-TO-DATE
+:Library:generateReleaseBuildConfig UP-TO-DATE
+:Library:mergeReleaseShaders UP-TO-DATE
+:Library:compileReleaseShaders UP-TO-DATE
+:Library:generateReleaseAssets UP-TO-DATE
+:Library:mergeReleaseAssets UP-TO-DATE
+:Library:processReleaseManifest UP-TO-DATE
+:Library:processReleaseResources UP-TO-DATE
+:Library:generateReleaseSources UP-TO-DATE
+:Library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Library:compileReleaseJavaWithJavac UP-TO-DATE
+:Library:processReleaseJavaRes UP-TO-DATE
+:Library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Library:mergeReleaseJniLibFolders UP-TO-DATE
+:Library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Library:bundleRelease UP-TO-DATE
+:Library:compileReleaseSources UP-TO-DATE
+:Library:assembleRelease UP-TO-DATE
+:Library:signArchives SKIPPED
+:Library:assemble
+:Library:lint
+Ran lint on variant debug: 6 issues found
+Ran lint on variant release: 6 issues found
+Wrote HTML report to file:///tmp/rdisk/331/src/DbQuery-master/Library/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/331/src/DbQuery-master/Library/build/outputs/lint-results-debug.xml
+:Library:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Library:preDebugUnitTestBuild UP-TO-DATE
+:Library:prepareDebugUnitTestDependencies
+:Library:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:Library:processDebugUnitTestJavaRes UP-TO-DATE
+:Library:compileDebugUnitTestSources UP-TO-DATE
+:Library:mockableAndroidJar
+:Library:assembleDebugUnitTest
+:Library:testDebugUnitTest
+:Library:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Library:preReleaseUnitTestBuild UP-TO-DATE
+:Library:prepareReleaseUnitTestDependencies
+:Library:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:Library:processReleaseUnitTestJavaRes UP-TO-DATE
+:Library:compileReleaseUnitTestSources UP-TO-DATE
+:Library:assembleReleaseUnitTest
+:Library:testReleaseUnitTest
+:Library:test
+:Library:check
+:Library:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.551 secs
+
+2018-04-10 18:16:59,413 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:16:59,413 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:17:08,067 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-04-10 18:17:08,067 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:17:08,067 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:17:16,081 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-10 18:17:16,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':Sample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':Sample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:63)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$3.run(DefaultGradleLauncher.java:143)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:55)
+
+
+BUILD FAILED
+
+Total time: 7.576 secs
+
+2018-04-10 18:17:16,081 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-04-10 18:17:16,081 INFO  SysUtils - Execute command: [/tmp/rdisk/331/src/DbQuery-master/gradlew, -b, /tmp/rdisk/331/src/DbQuery-master/Sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-04-10 18:17:34,753 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:Library:preBuild UP-TO-DATE
+:Library:preReleaseBuild UP-TO-DATE
+:Library:compileReleaseNdk UP-TO-DATE
+:Library:compileLint
+:Library:copyReleaseLint UP-TO-DATE
+:Library:mergeReleaseProguardFiles UP-TO-DATE
+:Library:packageReleaseRenderscript UP-TO-DATE
+:Library:checkReleaseManifest
+:Library:prepareReleaseDependencies
+:Library:compileReleaseRenderscript UP-TO-DATE
+:Library:generateReleaseResValues UP-TO-DATE
+:Library:generateReleaseResources UP-TO-DATE
+:Library:packageReleaseResources UP-TO-DATE
+:Library:compileReleaseAidl UP-TO-DATE
+:Library:generateReleaseBuildConfig UP-TO-DATE
+:Library:mergeReleaseShaders UP-TO-DATE
+:Library:compileReleaseShaders UP-TO-DATE
+:Library:generateReleaseAssets UP-TO-DATE
+:Library:mergeReleaseAssets UP-TO-DATE
+:Library:processReleaseManifest UP-TO-DATE
+:Library:processReleaseResources UP-TO-DATE
+:Library:generateReleaseSources UP-TO-DATE
+:Library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Library:compileReleaseJavaWithJavac UP-TO-DATE
+:Library:processReleaseJavaRes UP-TO-DATE
+:Library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Library:mergeReleaseJniLibFolders UP-TO-DATE
+:Library:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Library:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Library:bundleRelease UP-TO-DATE
+:Sample:preBuild UP-TO-DATE
+:Sample:preDebugBuild UP-TO-DATE
+:Sample:checkDebugManifest
+:Sample:preReleaseBuild UP-TO-DATE
+:Extensions:ContentQuery:preBuild UP-TO-DATE
+:Extensions:ContentQuery:preReleaseBuild UP-TO-DATE
+:Extensions:ContentQuery:compileReleaseNdk UP-TO-DATE
+:Extensions:ContentQuery:compileLint
+:Extensions:ContentQuery:copyReleaseLint UP-TO-DATE
+:Extensions:ContentQuery:mergeReleaseProguardFiles UP-TO-DATE
+:Extensions:ContentQuery:packageReleaseRenderscript UP-TO-DATE
+:Extensions:ContentQuery:checkReleaseManifest
+:Extensions:ContentQuery:preDebugAndroidTestBuild UP-TO-DATE
+:Extensions:ContentQuery:preDebugBuild UP-TO-DATE
+:Extensions:ContentQuery:preDebugUnitTestBuild UP-TO-DATE
+:Extensions:ContentQuery:preReleaseUnitTestBuild UP-TO-DATE
+:Extensions:ContentQuery:prepareComBingzerAndroidDbvLibrary220SNAPSHOTLibrary UP-TO-DATE
+:Extensions:ContentQuery:prepareReleaseDependencies
+:Extensions:ContentQuery:compileReleaseRenderscript UP-TO-DATE
+:Extensions:ContentQuery:generateReleaseResValues UP-TO-DATE
+:Extensions:ContentQuery:generateReleaseResources UP-TO-DATE
+:Extensions:ContentQuery:packageReleaseResources UP-TO-DATE
+:Extensions:ContentQuery:compileReleaseAidl UP-TO-DATE
+:Extensions:ContentQuery:generateReleaseBuildConfig UP-TO-DATE
+:Extensions:ContentQuery:mergeReleaseShaders UP-TO-DATE
+:Extensions:ContentQuery:compileReleaseShaders UP-TO-DATE
+:Extensions:ContentQuery:generateReleaseAssets UP-TO-DATE
+:Extensions:ContentQuery:mergeReleaseAssets UP-TO-DATE
+:Extensions:ContentQuery:mergeReleaseResources UP-TO-DATE
+:Extensions:ContentQuery:processReleaseManifest UP-TO-DATE
+:Extensions:ContentQuery:processReleaseResources UP-TO-DATE
+:Extensions:ContentQuery:generateReleaseSources UP-TO-DATE
+:Extensions:ContentQuery:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Extensions:ContentQuery:compileReleaseJavaWithJavac UP-TO-DATE
+:Extensions:ContentQuery:processReleaseJavaRes UP-TO-DATE
+:Extensions:ContentQuery:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Extensions:ContentQuery:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Extensions:ContentQuery:mergeReleaseJniLibFolders UP-TO-DATE
+:Extensions:ContentQuery:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Extensions:ContentQuery:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Extensions:ContentQuery:bundleRelease UP-TO-DATE
+:Extensions:DataProvider:preBuild UP-TO-DATE
+:Extensions:DataProvider:preReleaseBuild UP-TO-DATE
+:Extensions:DataProvider:compileReleaseNdk UP-TO-DATE
+:Extensions:DataProvider:compileLint
+:Extensions:DataProvider:copyReleaseLint UP-TO-DATE
+:Extensions:DataProvider:mergeReleaseProguardFiles UP-TO-DATE
+:Extensions:DataProvider:packageReleaseRenderscript UP-TO-DATE
+:Extensions:DataProvider:checkReleaseManifest
+:Extensions:DataProvider:preDebugAndroidTestBuild UP-TO-DATE
+:Extensions:DataProvider:preDebugBuild UP-TO-DATE
+:Extensions:DataProvider:preDebugUnitTestBuild UP-TO-DATE
+:Extensions:DataProvider:preReleaseUnitTestBuild UP-TO-DATE
+:Extensions:DataProvider:prepareComBingzerAndroidDbvLibrary220SNAPSHOTLibrary UP-TO-DATE
+:Extensions:DataProvider:prepareReleaseDependencies
+:Extensions:DataProvider:compileReleaseRenderscript UP-TO-DATE
+:Extensions:DataProvider:generateReleaseResValues UP-TO-DATE
+:Extensions:DataProvider:generateReleaseResources UP-TO-DATE
+:Extensions:DataProvider:packageReleaseResources UP-TO-DATE
+:Extensions:DataProvider:compileReleaseAidl UP-TO-DATE
+:Extensions:DataProvider:generateReleaseBuildConfig UP-TO-DATE
+:Extensions:DataProvider:mergeReleaseShaders UP-TO-DATE
+:Extensions:DataProvider:compileReleaseShaders UP-TO-DATE
+:Extensions:DataProvider:generateReleaseAssets UP-TO-DATE
+:Extensions:DataProvider:mergeReleaseAssets UP-TO-DATE
+:Extensions:DataProvider:mergeReleaseResources UP-TO-DATE
+:Extensions:DataProvider:processReleaseManifest UP-TO-DATE
+:Extensions:DataProvider:processReleaseResources UP-TO-DATE
+:Extensions:DataProvider:generateReleaseSources UP-TO-DATE
+:Extensions:DataProvider:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Extensions:DataProvider:compileReleaseJavaWithJavac UP-TO-DATE
+:Extensions:DataProvider:processReleaseJavaRes UP-TO-DATE
+:Extensions:DataProvider:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Extensions:DataProvider:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Extensions:DataProvider:mergeReleaseJniLibFolders UP-TO-DATE
+:Extensions:DataProvider:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Extensions:DataProvider:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Extensions:DataProvider:bundleRelease UP-TO-DATE
+:Sample:prepareComBingzerAndroidDbvContentQuery220SNAPSHOTLibrary
+:Sample:prepareComBingzerAndroidDbvDataProvider220SNAPSHOTLibrary
+:Sample:prepareComBingzerAndroidDbvLibrary220SNAPSHOTLibrary
+:Sample:prepareDebugDependencies
+:Sample:compileDebugAidl
+:Sample:compileDebugRenderscript
+:Sample:generateDebugBuildConfig
+:Sample:mergeDebugShaders
+:Sample:compileDebugShaders
+:Sample:generateDebugAssets
+:Sample:mergeDebugAssets
+:Sample:generateDebugResValues
+:Sample:generateDebugResources
+:Sample:mergeDebugResources
+:Sample:processDebugManifest
+:Sample:processDebugResources
+:Sample:generateDebugSources
+:Sample:incrementalDebugJavaCompilationSafeguard
+:Sample:compileDebugJavaWithJavac
+:Sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/331/src/DbQuery-master/Sample/src/main/java/com/bingzer/android/dbv/sample/activities/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/331/src/DbQuery-master/Sample/src/main/java/com/bingzer/android/dbv/sample/Helper.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:Sample:compileDebugNdk UP-TO-DATE
+:Sample:compileDebugSources
+:Sample:prePackageMarkerForDebug
+:Sample:transformClassesWithDexForDebug
+To run dex in process, the Gradle daemon needs a larger heap.
+It currently has approximately 1623 MB.
+For faster builds, increase the maximum heap size for the Gradle daemon to more than 2048 MB.
+To do this set org.gradle.jvmargs=-Xmx2048M in the project gradle.properties.
+For more information see https://docs.gradle.org/current/userguide/build_environment.html
+:Sample:mergeDebugJniLibFolders
+:Sample:transformNative_libsWithMergeJniLibsForDebug
+:Sample:processDebugJavaRes UP-TO-DATE
+:Sample:transformResourcesWithMergeJavaResForDebug
+:Sample:validateDebugSigning
+:Sample:packageDebug
+:Sample:zipalignDebug
+:Sample:assembleDebug
+:Sample:checkReleaseManifest
+:Sample:prepareReleaseDependencies
+:Sample:compileReleaseAidl
+:Sample:compileReleaseRenderscript
+:Sample:generateReleaseBuildConfig
+:Sample:mergeReleaseShaders
+:Sample:compileReleaseShaders
+:Sample:generateReleaseAssets
+:Sample:mergeReleaseAssets
+:Sample:generateReleaseResValues
+:Sample:generateReleaseResources
+:Sample:mergeReleaseResources
+:Sample:processReleaseManifest
+:Sample:processReleaseResources
+:Sample:generateReleaseSources
+:Sample:incrementalReleaseJavaCompilationSafeguard
+:Sample:compileReleaseJavaWithJavac
+:Sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/331/src/DbQuery-master/Sample/src/main/java/com/bingzer/android/dbv/sample/activities/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /tmp/rdisk/331/src/DbQuery-master/Sample/src/main/java/com/bingzer/android/dbv/sample/Helper.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:Sample:compileReleaseNdk UP-TO-DATE
+:Sample:compileReleaseSources
+:Sample:lintVitalRelease
+:Sample:prePackageMarkerForRelease
+:Sample:transformClassesWithDexForRelease
+:Sample:mergeReleaseJniLibFolders
+:Sample:transformNative_libsWithMergeJniLibsForRelease
+:Sample:processReleaseJavaRes UP-TO-DATE
+:Sample:transformResourcesWithMergeJavaResForRelease
+:Sample:packageRelease
+:Sample:assembleRelease
+:Sample:assemble
+:Sample:compileLint
+:Sample:lint
+Ran lint on variant release: 11 issues found
+Ran lint on variant debug: 11 issues found
+Wrote HTML report to file:///tmp/rdisk/331/src/DbQuery-master/Sample/build/outputs/lint-results-debug.html
+Wrote XML report to file:///tmp/rdisk/331/src/DbQuery-master/Sample/build/outputs/lint-results-debug.xml
+:Sample:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Sample:preDebugUnitTestBuild UP-TO-DATE
+:Sample:prepareDebugUnitTestDependencies
+:Sample:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:Sample:processDebugUnitTestJavaRes UP-TO-DATE
+:Sample:compileDebugUnitTestSources UP-TO-DATE
+:Sample:mockableAndroidJar
+:Sample:assembleDebugUnitTest
+:Sample:testDebugUnitTest
+:Sample:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:Sample:preReleaseUnitTestBuild UP-TO-DATE
+:Sample:prepareReleaseUnitTestDependencies
+:Sample:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:Sample:processReleaseUnitTestJavaRes UP-TO-DATE
+:Sample:compileReleaseUnitTestSources UP-TO-DATE
+:Sample:assembleReleaseUnitTest
+:Sample:testReleaseUnitTest
+:Sample:test
+:Sample:check
+:Sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.216 secs
+
+2018-04-10 18:17:34,794 INFO  FullProcessService - Found APK file: /tmp/rdisk/331/src/DbQuery-master/Sample/build/outputs/apk/dbquery-sample-release-unsigned.apk

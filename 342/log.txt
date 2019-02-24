@@ -1,0 +1,102 @@
+2018-04-10 18:10:32,551 INFO  DownloadService - Downloading "https://github.com/frankiesardo/auto-parcel/archive/master.zip", attempt 3
+2018-04-10 18:10:32,940 INFO  DownloadService - Downloaded https://github.com/frankiesardo/auto-parcel/archive/master.zip, attempt 3
+2018-04-10 18:10:32,940 INFO  DownloadService - Size of file "/tmp/rdisk/342/master.zip": 121 KB
+2018-04-10 18:10:32,940 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:10:32,940 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/342/master.zip: true
+2018-04-10 18:10:32,940 DEBUG ZipUtil - Extracting '/tmp/rdisk/342/master.zip' into '/tmp/rdisk/342/src'.
+2018-04-10 18:10:32,948 INFO  FullProcessService - Size of directory with sources: 138 KB
+2018-04-10 18:10:32,948 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/342/src]
+2018-04-10 18:10:32,958 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/342/src/.git/
+
+2018-04-10 18:10:32,960 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/342/src/auto-parcel-master/sample/gradlew
+2018-04-10 18:10:32,962 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/342/src/auto-parcel-master/sample/build.gradle
+2018-04-10 18:10:32,964 INFO  ProjectBuildService - All script(s): /tmp/rdisk/342/src/auto-parcel-master/sample/build.gradle
+2018-04-10 18:10:32,964 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:10:32,964 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:10:32,969 INFO  LocalPropertiesFixService - Updated fake /tmp/rdisk/342/src/auto-parcel-master/sample/local.properties
+2018-04-10 18:10:32,970 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-04-10 18:10:32,970 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-04-10 18:10:32,970 INFO  ProjectFixService - Build info for "/tmp/rdisk/342/src/auto-parcel-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-04-10 18:10:32,970 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:10:32,970 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:10:32,971 INFO  SysUtils - Execute command: [/tmp/rdisk/342/src/auto-parcel-master/sample/gradlew, -b, /tmp/rdisk/342/src/auto-parcel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:10:39,241 INFO  ProjectTaskService - Detected possible tasks: 56
+2018-04-10 18:10:39,241 INFO  ProjectTaskService - Excluded tasks (11): lintDebug deviceCheck lint uninstallRelease connectedCheck uninstallAll check connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:10:39,242 INFO  SysUtils - Execute command: [/tmp/rdisk/342/src/auto-parcel-master/sample/gradlew, -b, /tmp/rdisk/342/src/auto-parcel-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, connectedCheck, -x, uninstallAll, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:10:54,222 INFO  SysUtils - Configuration on demand is an incubating feature.
+:preBuild
+:compileDebugNdk
+:preDebugBuild
+:checkDebugManifest
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:compileDebugJavawarning: @AutoValue classes cannot have abstract methods other than property getters and Builder converters
+warning: @AutoValue classes cannot have abstract methods other than property getters and Builder converters
+/tmp/rdisk/342/src/auto-parcel-master/sample/src/main/java/model2/Address.java:9: warning: An @AutoValue property that is a primitive array returns the original array, which can therefore be modified by the caller. If this OK, you can suppress this warning with @SuppressWarnings("mutable"). Otherwise, you should replace the property with an immutable type, perhaps a simple wrapper around the original array.
+    public abstract double[] coordinates();
+                             ^
+/tmp/rdisk/342/src/auto-parcel-master/sample/src/main/java/model2/Address.java:9: warning: An @AutoValue property that is a primitive array returns the original array, which can therefore be modified by the caller. If this OK, you can suppress this warning with @SuppressWarnings("mutable"). Otherwise, you should replace the property with an immutable type, perhaps a simple wrapper around the original array.
+    public abstract double[] coordinates();
+                             ^
+Note: /tmp/rdisk/342/src/auto-parcel-master/sample/build/generated/source/apt/debug/model3/AutoValue_Person.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:preDexDebug
+:dexDebug
+:processDebugJavaRes UP-TO-DATE
+:validateDebugSigning
+:packageDebug
+:zipalignDebug
+:assembleDebug
+:preReleaseBuild
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:generateReleaseAssets UP-TO-DATE
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:compileReleaseJavawarning: @AutoValue classes cannot have abstract methods other than property getters and Builder converters
+warning: @AutoValue classes cannot have abstract methods other than property getters and Builder converters
+/tmp/rdisk/342/src/auto-parcel-master/sample/src/main/java/model2/Address.java:9: warning: An @AutoValue property that is a primitive array returns the original array, which can therefore be modified by the caller. If this OK, you can suppress this warning with @SuppressWarnings("mutable"). Otherwise, you should replace the property with an immutable type, perhaps a simple wrapper around the original array.
+    public abstract double[] coordinates();
+                             ^
+/tmp/rdisk/342/src/auto-parcel-master/sample/src/main/java/model2/Address.java:9: warning: An @AutoValue property that is a primitive array returns the original array, which can therefore be modified by the caller. If this OK, you can suppress this warning with @SuppressWarnings("mutable"). Otherwise, you should replace the property with an immutable type, perhaps a simple wrapper around the original array.
+    public abstract double[] coordinates();
+                             ^
+Note: /tmp/rdisk/342/src/auto-parcel-master/sample/build/generated/source/apt/release/model3/AutoValue_Person.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+:lintVitalRelease
+:compileReleaseNdk
+:preDexRelease
+:dexRelease
+:processReleaseJavaRes UP-TO-DATE
+:packageRelease
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.543 secs
+
+2018-04-10 18:10:54,230 INFO  FullProcessService - Found APK file: /tmp/rdisk/342/src/auto-parcel-master/sample/build/outputs/apk/sample-release-unsigned.apk

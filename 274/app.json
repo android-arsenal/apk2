@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.example.timber",
+    "label" : "Timber",
+    "icon" : null,
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 844,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"com.example.timber\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"27\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:label=\"Timber\" android:name=\"com.example.timber.ExampleApp\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"Timber\" android:name=\"com.example.timber.ui.DemoActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 219268,
+  "crc32" : 3831036941,
+  "sha256" : "1663dad1a585fde5d4c1b49c013f69052d14907bc8cbf577a3b20fb4e4891026",
+  "buildTime" : 1526358881000
+}

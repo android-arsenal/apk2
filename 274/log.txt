@@ -1,0 +1,171 @@
+2018-05-15 04:33:52,384 INFO  DownloadService - Downloading "https://github.com/JakeWharton/timber/archive/master.zip", attempt 3
+2018-05-15 04:33:52,839 INFO  DownloadService - Downloaded https://github.com/JakeWharton/timber/archive/master.zip, attempt 3
+2018-05-15 04:33:52,840 INFO  DownloadService - Size of file "/tmp/rdisk/274/master.zip": 554 KB
+2018-05-15 04:33:52,840 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:33:52,840 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/274/master.zip: true
+2018-05-15 04:33:52,840 DEBUG ZipUtil - Extracting '/tmp/rdisk/274/master.zip' into '/tmp/rdisk/274/src'.
+2018-05-15 04:33:52,850 INFO  FullProcessService - Size of directory with sources: 665 KB
+2018-05-15 04:33:52,850 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/274/src]
+2018-05-15 04:33:52,855 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/274/src/.git/
+
+2018-05-15 04:33:52,857 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/274/src/timber-master/gradlew
+2018-05-15 04:33:52,860 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/274/src/timber-master/timber-sample/build.gradle /tmp/rdisk/274/src/timber-master/timber/build.gradle /tmp/rdisk/274/src/timber-master/build.gradle /tmp/rdisk/274/src/timber-master/timber-lint/build.gradle
+2018-05-15 04:33:52,862 INFO  ProjectBuildService - All script(s): /tmp/rdisk/274/src/timber-master/timber/build.gradle /tmp/rdisk/274/src/timber-master/timber-sample/build.gradle /tmp/rdisk/274/src/timber-master/timber-lint/build.gradle /tmp/rdisk/274/src/timber-master/settings.gradle /tmp/rdisk/274/src/timber-master/gradle/gradle-mvn-push.gradle /tmp/rdisk/274/src/timber-master/build.gradle
+2018-05-15 04:33:52,862 INFO  ProjectBuildService - Remote scripts: none
+2018-05-15 04:33:52,862 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:33:52,870 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/274/src/timber-master/timber-sample/local.properties
+2018-05-15 04:33:52,873 INFO  ProjectFixService - Build info for "/tmp/rdisk/274/src/timber-master/timber-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:33:52,873 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/274/src/timber-master/timber-sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:33:52,873 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/274/src/timber-master/timber/local.properties
+2018-05-15 04:33:52,876 INFO  ProjectFixService - Build info for "/tmp/rdisk/274/src/timber-master/timber/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:33:52,876 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/274/src/timber-master/timber/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:33:52,877 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/274/src/timber-master/local.properties
+2018-05-15 04:33:52,877 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-05-15 04:33:52,877 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-05-15 04:33:52,880 INFO  ProjectFixService - Build info for "/tmp/rdisk/274/src/timber-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:33:52,881 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/274/src/timber-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:33:52,881 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/274/src/timber-master/timber-lint/local.properties
+2018-05-15 04:33:52,884 INFO  ProjectFixService - Build info for "/tmp/rdisk/274/src/timber-master/timber-lint/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:33:52,884 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/274/src/timber-master/timber-lint/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:33:52,885 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:33:52,885 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:33:52,885 INFO  SysUtils - Execute command: [/tmp/rdisk/274/src/timber-master/gradlew, -b, /tmp/rdisk/274/src/timber-master/timber-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:34:01,452 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-05-15 04:34:01,452 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-05-15 04:34:01,452 INFO  SysUtils - Execute command: [/tmp/rdisk/274/src/timber-master/gradlew, -b, /tmp/rdisk/274/src/timber-master/timber-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-05-15 04:34:41,750 INFO  SysUtils - Configuration on demand is an incubating feature.
+:timber:preBuild UP-TO-DATE
+:timber:preDebugBuild UP-TO-DATE
+:timber:compileDebugAidl
+:timber:compileDebugRenderscript
+:timber:checkDebugManifest
+:timber:generateDebugBuildConfig SKIPPED
+:timber:generateDebugResValues
+:timber:generateDebugResources
+:timber:packageDebugResources
+:timber:platformAttrExtractor
+:timber:processDebugManifest
+:timber-lint:compileKotlin
+:timber-lint:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:timber-lint:processResources NO-SOURCE
+:timber-lint:classes
+:timber-lint:jar
+:timber:prepareLintJar
+:timber:javaPreCompileDebug
+:timber:processDebugJavaRes NO-SOURCE
+:timber-sample:preBuild UP-TO-DATE
+:timber-sample:preDebugBuild
+:timber-sample:compileDebugAidl
+:timber:generateDebugRFile
+:timber:generateDebugSources
+:timber:compileDebugJavaWithJavac
+:timber:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:timber:packageDebugRenderscript NO-SOURCE
+:timber-sample:compileDebugRenderscript
+:timber-sample:checkDebugManifest
+:timber-sample:generateDebugBuildConfig
+:timber-sample:prepareLintJar
+:timber-sample:mainApkListPersistenceDebug
+:timber-sample:generateDebugResValues
+:timber-sample:generateDebugResources
+:timber-sample:mergeDebugResources
+:timber-sample:createDebugCompatibleScreenManifests
+:timber-sample:processDebugManifest
+:timber-sample:splitsDiscoveryTaskDebug
+:timber-sample:processDebugResources
+:timber-sample:generateDebugSources
+:timber-sample:javaPreCompileDebug
+:timber-sample:compileDebugJavaWithJavac
+:timber-sample:compileDebugNdk NO-SOURCE
+:timber-sample:compileDebugSources
+:timber:mergeDebugShaders
+:timber:compileDebugShaders
+:timber:generateDebugAssets
+:timber:packageDebugAssets
+:timber-sample:mergeDebugShaders
+:timber-sample:compileDebugShaders
+:timber-sample:generateDebugAssets
+:timber-sample:mergeDebugAssets
+:timber-sample:transformClassesWithDexBuilderForDebug
+:timber-sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:timber-sample:transformDexArchiveWithDexMergerForDebug
+:timber:compileDebugNdk NO-SOURCE
+:timber:mergeDebugJniLibFolders
+:timber:transformNativeLibsWithMergeJniLibsForDebug
+:timber:transformNativeLibsWithStripDebugSymbolForDebug
+:timber:transformNativeLibsWithIntermediateJniLibsForDebug
+:timber-sample:mergeDebugJniLibFolders
+:timber-sample:transformNativeLibsWithMergeJniLibsForDebug
+:timber-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:timber-sample:processDebugJavaRes NO-SOURCE
+:timber-sample:transformResourcesWithMergeJavaResForDebug
+:timber-sample:validateSigningDebug
+:timber-sample:packageDebug
+:timber-sample:assembleDebug
+:timber:preReleaseBuild UP-TO-DATE
+:timber:compileReleaseAidl
+:timber:compileReleaseRenderscript
+:timber:checkReleaseManifest
+:timber:generateReleaseBuildConfig SKIPPED
+:timber:generateReleaseResValues
+:timber:generateReleaseResources
+:timber:packageReleaseResources
+:timber:processReleaseManifest
+:timber:generateReleaseRFile
+:timber:generateReleaseSources
+:timber:javaPreCompileRelease
+:timber:compileReleaseJavaWithJavac
+:timber:processReleaseJavaRes NO-SOURCE
+:timber:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:timber-sample:preReleaseBuild
+:timber-sample:compileReleaseAidl
+:timber:packageReleaseRenderscript NO-SOURCE
+:timber-sample:compileReleaseRenderscript
+:timber-sample:checkReleaseManifest
+:timber-sample:generateReleaseBuildConfig
+:timber-sample:mainApkListPersistenceRelease
+:timber-sample:generateReleaseResValues
+:timber-sample:generateReleaseResources
+:timber-sample:mergeReleaseResources
+:timber-sample:createReleaseCompatibleScreenManifests
+:timber-sample:processReleaseManifest
+:timber-sample:splitsDiscoveryTaskRelease
+:timber-sample:processReleaseResources
+:timber-sample:generateReleaseSources
+:timber-sample:javaPreCompileRelease
+:timber-sample:compileReleaseJavaWithJavac
+:timber-sample:compileReleaseNdk NO-SOURCE
+:timber-sample:compileReleaseSources
+:timber-sample:lintVitalRelease
+:timber:mergeReleaseShaders
+:timber:compileReleaseShaders
+:timber:generateReleaseAssets
+:timber:packageReleaseAssets
+:timber-sample:mergeReleaseShaders
+:timber-sample:compileReleaseShaders
+:timber-sample:generateReleaseAssets
+:timber-sample:mergeReleaseAssets
+:timber-sample:transformClassesWithDexBuilderForRelease
+:timber-sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:timber-sample:transformDexArchiveWithDexMergerForRelease
+:timber:compileReleaseNdk NO-SOURCE
+:timber:mergeReleaseJniLibFolders
+:timber:transformNativeLibsWithMergeJniLibsForRelease
+:timber:transformNativeLibsWithStripDebugSymbolForRelease
+:timber:transformNativeLibsWithIntermediateJniLibsForRelease
+:timber-sample:mergeReleaseJniLibFolders
+:timber-sample:transformNativeLibsWithMergeJniLibsForRelease
+:timber-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:timber-sample:processReleaseJavaRes NO-SOURCE
+:timber-sample:transformResourcesWithMergeJavaResForRelease
+:timber-sample:packageRelease
+:timber-sample:assembleRelease
+:timber-sample:assemble
+:timber-sample:build
+
+BUILD SUCCESSFUL in 39s
+92 actionable tasks: 92 executed
+
+2018-05-15 04:34:41,768 INFO  FullProcessService - Found APK file: /tmp/rdisk/274/src/timber-master/timber-sample/build/outputs/apk/release/timber-sample-release-unsigned.apk

@@ -1,0 +1,19 @@
+{
+  "com.google.api" : [ "Files", "GoogleAPI", "GoogleAPIException" ],
+  "com.google.api.translate" : [ "Language", "Translate", "TranslateV1", "TranslateV2" ],
+  "com.googlecode.leptonica.android" : [ "AdaptiveMap", "Binarize", "Box", "Boxa", "Clip", "Constants", "Convert", "Edge", "Enhance", "GrayQuant", "JpegIO", "MorphApp", "Pix", "Pixa", "Pixa$PixIterator", "ReadFile", "Rotate", "Scale", "Scale$1", "Scale$ScaleType", "Skew", "WriteFile" ],
+  "com.googlecode.tesseract.android" : [ "BuildConfig", "PageIterator", "ResultIterator", "TessBaseAPI", "TessBaseAPI$PageIteratorLevel", "TessBaseAPI$PageSegMode", "TessBaseAPI$ProgressNotifier", "TessBaseAPI$ProgressValues", "TessPdfRenderer" ],
+  "com.memetix.mst" : [ "MicrosoftTranslatorAPI" ],
+  "com.memetix.mst.detect" : [ "Detect" ],
+  "com.memetix.mst.language" : [ "Language", "Language$GetLanguagesForTranslateService", "Language$LanguageService", "SpokenDialect", "SpokenDialect$SpokenDialectService" ],
+  "com.memetix.mst.sentence" : [ "BreakSentences" ],
+  "com.memetix.mst.speak" : [ "Speak" ],
+  "com.memetix.mst.translate" : [ "Translate" ],
+  "com.tecnick.htmlutils.htmlentities" : [ "HTMLEntities" ],
+  "edu.sfsu.cs.orange.ocr" : [ "BeepManager", "BeepManager$1", "BuildConfig", "CaptureActivity", "CaptureActivity$1", "CaptureActivityHandler", "CaptureActivityHandler$State", "DecodeHandler", "DecodeThread", "FinishListener", "HelpActivity", "HelpActivity$1", "HelpActivity$HelpClient", "HelpActivity$HelpClient$1", "LuminanceSource", "OcrCharacterHelper", "OcrInitAsyncTask", "OcrRecognizeAsyncTask", "OcrResult", "OcrResultFailure", "OcrResultText", "PlanarYUVLuminanceSource", "PreferencesActivity", "R", "R$array", "R$attr", "R$color", "R$drawable", "R$id", "R$layout", "R$raw", "R$string", "R$styleable", "R$xml", "ViewfinderView" ],
+  "edu.sfsu.cs.orange.ocr.camera" : [ "AutoFocusManager", "AutoFocusManager$1", "AutoFocusManager$2", "CameraConfigurationManager", "CameraConfigurationManager$1", "CameraManager", "PreviewCallback", "ShutterButton", "ShutterButton$1", "ShutterButton$OnShutterButtonListener" ],
+  "edu.sfsu.cs.orange.ocr.language" : [ "LanguageCodeHelper", "TranslateAsyncTask", "Translator", "TranslatorBing", "TranslatorGoogle" ],
+  "org.json.simple" : [ "ItemList", "JSONArray", "JSONAware", "JSONObject", "JSONStreamAware", "JSONValue" ],
+  "org.json.simple.parser" : [ "ContainerFactory", "ContentHandler", "JSONParser", "ParseException", "Yylex", "Yytoken" ],
+  "org.xeustechnologies.jtar" : [ "Octal", "TarConstants", "TarEntry", "TarHeader", "TarInputStream", "TarOutputStream", "TarUtils" ]
+}

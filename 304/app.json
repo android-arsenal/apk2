@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "flow.sample.tree",
+    "label" : "Flow Tree Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0-alpha4-SNAPSHOT",
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : null,
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2165,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionName=\"1.0.0-alpha4-SNAPSHOT\" package=\"flow.sample.tree\">\n\t<uses-sdk android:minSdkVersion=\"14\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"Flow Tree Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"flow.sample.tree.TreeSampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1797194,
+  "crc32" : 2421996391,
+  "sha256" : "585825f45367e900b1cfc246988fb9ffc43812f20ec16613c2dccfeb584c9b7a",
+  "buildTime" : 1523384655000
+}

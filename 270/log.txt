@@ -1,0 +1,9 @@
+2018-04-10 18:39:58,238 INFO  DownloadService - Downloading "https://github.com/JakeWharton/hugo/archive/master.zip", attempt 3
+2018-04-10 18:39:58,239 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 18:39:58,700 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 18:39:58,700 INFO  DownloadService - Downloading "https://github.com/JakeWharton/hugo/archive/master.zip", attempt 3
+2018-04-10 18:39:58,701 DEBUG FullProcessService - Repository https://github.com/JakeWharton/hugo available: false
+2018-04-10 18:39:58,701 ERROR FullProcessService - Could not find directory with sources
+2018-04-10 18:39:58,701 ERROR FullProcessService - Project will not be processed
+2018-04-10 18:39:58,701 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 18:39:58,701 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,21 @@
+2018-04-10 11:08:55,155 INFO  DownloadService - Downloading "https://github.com/bulldog2011/nano/archive/master.zip", attempt 3
+2018-04-10 11:09:55,842 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-04-10 11:09:56,676 INFO  GithubDownloadService - Default branch of this repository: master
+2018-04-10 11:09:56,676 INFO  DownloadService - Downloading "https://github.com/bulldog2011/nano/archive/master.zip", attempt 3
+2018-04-10 11:10:58,011 DEBUG FullProcessService - Repository https://github.com/bulldog2011/nano available: true
+2018-04-10 11:10:58,011 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-04-10 11:10:58,012 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/bulldog2011/nano, /tmp/rdisk/430/src]
+2018-04-10 11:11:10,367 INFO  SysUtils - 
+2018-04-10 11:11:10,428 INFO  GitService - Deleted "/tmp/rdisk/430/src/.git": true
+2018-04-10 11:11:10,522 INFO  FullProcessService - Size of directory with sources: 16 MB
+2018-04-10 11:11:10,522 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/430/src]
+2018-04-10 11:11:10,527 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/430/src/.git/
+
+2018-04-10 11:11:10,583 INFO  ProjectBuildService - Gradle wrapper(s): none
+2018-04-10 11:11:10,583 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2018-04-10 11:11:10,636 INFO  ProjectBuildService - Build script(s): none
+2018-04-10 11:11:10,690 INFO  ProjectBuildService - All script(s): none
+2018-04-10 11:11:10,690 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 11:11:10,690 ERROR FullProcessService - Project is not correct Gradle project
+2018-04-10 11:11:10,690 ERROR FullProcessService - Project build has not produced APK file
+2018-04-10 11:11:10,744 ERROR FullProcessService - Could not find generated or existed APK file

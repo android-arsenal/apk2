@@ -1,0 +1,231 @@
+2018-05-15 04:25:12,557 INFO  DownloadService - Downloading "https://github.com/jpardogo/GoogleProgressBar/archive/master.zip", attempt 3
+2018-05-15 04:25:14,358 INFO  DownloadService - Downloaded https://github.com/jpardogo/GoogleProgressBar/archive/master.zip, attempt 3
+2018-05-15 04:25:14,358 INFO  DownloadService - Size of file "/tmp/rdisk/368/master.zip": 525 KB
+2018-05-15 04:25:14,358 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-05-15 04:25:14,359 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/368/master.zip: true
+2018-05-15 04:25:14,359 DEBUG ZipUtil - Extracting '/tmp/rdisk/368/master.zip' into '/tmp/rdisk/368/src'.
+2018-05-15 04:25:14,374 INFO  FullProcessService - Size of directory with sources: 628 KB
+2018-05-15 04:25:14,374 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/368/src]
+2018-05-15 04:25:14,382 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/368/src/.git/
+
+2018-05-15 04:25:14,384 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/368/src/GoogleProgressBar-master/gradlew
+2018-05-15 04:25:14,387 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/368/src/GoogleProgressBar-master/example/build.gradle /tmp/rdisk/368/src/GoogleProgressBar-master/library/build.gradle /tmp/rdisk/368/src/GoogleProgressBar-master/build.gradle
+2018-05-15 04:25:14,390 INFO  ProjectBuildService - All script(s): /tmp/rdisk/368/src/GoogleProgressBar-master/settings.gradle /tmp/rdisk/368/src/GoogleProgressBar-master/library/build.gradle /tmp/rdisk/368/src/GoogleProgressBar-master/example/build.gradle /tmp/rdisk/368/src/GoogleProgressBar-master/build.gradle
+2018-05-15 04:25:14,390 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2018-05-15 04:25:14,530 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2018-05-15 04:25:14,530 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/gradle-mvn-push.gradle
+2018-05-15 04:25:14,530 INFO  ProjectFixService - Fixing project...
+2018-05-15 04:25:14,538 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/368/src/GoogleProgressBar-master/example/local.properties
+2018-05-15 04:25:14,540 INFO  ProjectFixService - Build info for "/tmp/rdisk/368/src/GoogleProgressBar-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:25:14,540 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/368/src/GoogleProgressBar-master/example/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:25:14,541 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/368/src/GoogleProgressBar-master/library/local.properties
+2018-05-15 04:25:14,543 INFO  ProjectFixService - Build info for "/tmp/rdisk/368/src/GoogleProgressBar-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:25:14,543 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/368/src/GoogleProgressBar-master/library/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:25:14,543 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/368/src/GoogleProgressBar-master/local.properties
+2018-05-15 04:25:14,544 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-05-15 04:25:14,544 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-05-15 04:25:14,546 INFO  ProjectFixService - Build info for "/tmp/rdisk/368/src/GoogleProgressBar-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-05-15 04:25:14,546 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/368/src/GoogleProgressBar-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-05-15 04:25:14,546 INFO  ProjectFixService - Project was maybe fixed
+2018-05-15 04:25:14,546 INFO  ProjectTaskService - Detecting possible tasks...
+2018-05-15 04:25:14,546 INFO  SysUtils - Execute command: [/tmp/rdisk/368/src/GoogleProgressBar-master/gradlew, -b, /tmp/rdisk/368/src/GoogleProgressBar-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-05-15 04:25:22,690 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-05-15 04:25:22,690 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar androidJavadocs deviceCheck lint androidSourcesJar uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll androidJavadocsJar testRelease test check connectedAndroidTest installDebug lintRelease testDebug connectedAndroidTestDebug uninstallDebug
+2018-05-15 04:25:22,690 INFO  SysUtils - Execute command: [/tmp/rdisk/368/src/GoogleProgressBar-master/gradlew, -b, /tmp/rdisk/368/src/GoogleProgressBar-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, androidJavadocsJar, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, -x, uninstallDebug, build]
+2018-05-15 04:25:29,545 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-15 04:25:29,545 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'androidJavadocs' not found in project ':example'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in project ':example'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:101)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:64)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.access$100(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:48)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildExecuter.configure(DefaultBuildExecuter.java:42)
+	at org.gradle.execution.DefaultBuildExecuter.select(DefaultBuildExecuter.java:35)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:142)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
+	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+
+
+BUILD FAILED
+
+Total time: 6.424 secs
+
+2018-05-15 04:25:29,545 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-05-15 04:25:29,546 INFO  SysUtils - Execute command: [/tmp/rdisk/368/src/GoogleProgressBar-master/gradlew, -b, /tmp/rdisk/368/src/GoogleProgressBar-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-05-15 04:26:04,551 INFO  SysUtils - Configuration on demand is an incubating feature.
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild UP-TO-DATE
+:example:checkDebugManifest
+:example:preReleaseBuild UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:mergeReleaseProguardFiles
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:compileReleaseJava
+:library:packageReleaseJar
+:library:compileReleaseNdk UP-TO-DATE
+:library:packageReleaseJniLibs UP-TO-DATE
+:library:packageReleaseLocalJar UP-TO-DATE
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:bundleRelease
+:example:prepareComAndroidSupportAppcompatV72220Library
+:example:prepareComAndroidSupportSupportV42220Library
+:example:prepareComJpardogoGoogleprogressbarLibrary120Library
+:example:prepareDebugDependencies
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:generateDebugBuildConfig
+:example:generateDebugAssets UP-TO-DATE
+:example:mergeDebugAssets
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:processDebugManifest
+:example:processDebugResources
+:example:generateDebugSources
+:example:processDebugJavaRes UP-TO-DATE
+:example:compileDebugJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:example:compileDebugNdk UP-TO-DATE
+:example:compileDebugSources
+:example:preDexDebug
+:example:dexDebug
+:example:validateDebugSigning
+:example:packageDebug
+:example:zipalignDebug
+:example:assembleDebug
+:example:checkReleaseManifest
+:example:prepareReleaseDependencies
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:generateReleaseBuildConfig
+:example:generateReleaseAssets UP-TO-DATE
+:example:mergeReleaseAssets
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:processReleaseManifest
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:processReleaseJavaRes UP-TO-DATE
+:example:compileReleaseJavaNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:example:compileReleaseNdk UP-TO-DATE
+:example:compileReleaseSources
+:example:lintVitalRelease SKIPPED
+:example:preDexRelease
+:example:dexRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:compileLint
+:example:lint
+Ran lint on variant debug: 17 issues found
+Ran lint on variant release: 17 issues found
+Wrote HTML report to file:/tmp/rdisk/368/src/GoogleProgressBar-master/example/build/outputs/lint-results.html
+Wrote XML report to /tmp/rdisk/368/src/GoogleProgressBar-master/example/build/outputs/lint-results.xml
+:example:preCompileDebugUnitTestJava
+:example:preDebugUnitTestBuild UP-TO-DATE
+:example:prepareDebugUnitTestDependencies
+:example:processDebugUnitTestJavaRes UP-TO-DATE
+:example:compileDebugUnitTestJava UP-TO-DATE
+:example:compileDebugUnitTestSources UP-TO-DATE
+:example:mockableAndroidJar
+:example:assembleDebugUnitTest
+:example:testDebug
+:example:preCompileReleaseUnitTestJava
+:example:preReleaseUnitTestBuild UP-TO-DATE
+:example:prepareReleaseUnitTestDependencies
+:example:processReleaseUnitTestJavaRes UP-TO-DATE
+:example:compileReleaseUnitTestJava UP-TO-DATE
+:example:compileReleaseUnitTestSources UP-TO-DATE
+:example:assembleReleaseUnitTest
+:example:testRelease
+:example:test
+:example:check
+:example:build
+
+BUILD SUCCESSFUL
+
+Total time: 34.572 secs
+
+2018-05-15 04:26:04,590 INFO  FullProcessService - Found APK file: /tmp/rdisk/368/src/GoogleProgressBar-master/example/build/outputs/apk/example-release-unsigned.apk

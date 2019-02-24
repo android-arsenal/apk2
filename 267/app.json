@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.emilsjolander.components.StickyScrollViewItems",
+    "label" : "StickyScrollViewItems",
+    "icon" : "res/drawable-ldpi/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "7",
+    "targetSdkVersion" : "14",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAKKUlEQVRYw7WYe7BfVXXHP2uf8/v97u95b24SkhQSE0ggJMBUAwoU0I5WLDDjoNAHqBQYUZHSkSklUjqWjlbHMEgqFNuKk9IyKknUaAAjShAJ4REwiSSEBONNyDv3+Xuc5z579Y9z74WUS+Uq3TN7zu+3z95nfdd3fdfa52yYRHvm4DV/+p/PnXf8ZNa8MHLtWd9/8aL5b3W+mczDn9+6a7GnpbX3bzinODamuqY7cfedorp6ker6Oa+fv0dvnPfyrn0/evLRfY23akOYZLvrh+c+UJ/iv/Sxc6/YZc3IZxS30KFeW1+ViCBT6eq4rPHDmjf3jqe2PbTuiUf23b385q33vq2AHtRp/Jn0A7D14A1nZtJ6bt5xcxHx8Sni0cUIhxhgN7HGRFFElhR5/hf9O2+8ZMMpIoLqIkS2//4h25ZeNw6m6e785KyZPb+YPWMOiWQUmYrQrRlFMhUMDXBV1axMFMWcuLh88gOb3vvjux8+Z5bIdu5YveTtC9kB909/mcjIN0ErCaEWqABWRD0QsGTEGhEmIWHQIQgCbbdbxB1kuD95KOy4y3ds7w+PP76Hf7x685va8d4KmM3xp2eo8e4fTPbMxM3QinuXDLrtYiUllYxYLXGWkiQpUZgSRwnE3TK/8Qk5OrJTO0Hr5E7L7lv22R2bHl9ziL/7+ilseGTgd8+yVjP4xGD7yIKh4SPaE18ovfrHBM2UViuk1erkvdmh1QwJ2hFBJwFb5eTplzLDXCypjXBWll+zdG4N4Kt//fLkQ7Zq84e57A/XAPDI7o8OOQl6nMYYV0dcESmGGM9HENQJzjmsddjUkqYpSZyCrTNwdFjVWGkPp+zfM3zzvbe9csekRf0fjnEwqzZfdnqzOdLTbncIO5mGUZMgGSQMYjrtMO+dgKAdEgYRYRgThQlJbOmE/Rg/EZtYMuuwibt0Inv3/PjdbwT0m+xz44OffB1MG5bPCjsJUZBqHFrJNZISBglREBN2RnsYE4UxSZSSxJYkyUjTDJtlWGs1TVNcJgvHnntEv3DGb/SmBQC1KR63f+tMAHyAzQM3Mc+7E9V/Kw8xeFeH1gV7B/p+OXBEPndw+6zvHensvLxY9D9U782o1D2KJRADIgoo6gRVBaMgii8CYnCZYhMlaBZkcH8hsza8fuPATb2NWrQ2w1+4d/AVs+Lpcx+86j1PXQdw7d+fdKyGfrLnivtUk2tUffoP97Pn1wMPnLZk7oMEM9f86MGNumPLgDSHYlTB8wzFoofnG8SAAuo011GixJHFphlGhGqjoHNOnCq1Hv+leadny088derd1XqX3xoJ9EBfW5557PCpa1cc2DHO0Fh7ecuh08JkAPCIOo4DezrTi17nnVNmvcCFV/bKJVdPRfCwiSGNHWkMNlVs5rBphtMMxMEYWyjOOZLIyciA4+De4cbBPv+4WndLuiohaeKkNZTRHMpKYxiOAaTqJZlVUCWzjsyqF7b8WL2QdtPiFwRjDCKjxIqg6ojCCJESIhm+KWIzN7aeNHHEkRI0DVGkrlQUUYeAQG4K1HMTAkJFnctnOQV1FDKLpKnDeIoIOHEogELBqzKttpj3v3spjcpMfrZ5GbsO/owsbZPaLC8HmaKZkjmHOsisilNwmcM5xakSh3EwMUMQ6higTAEpOJulWUa+OBOMgZ7qXN4x7TxOPv5PmNW7aHz9hWfeytnta3hp7zp2Hfg5+45sxTlwucDAKZ5nxGVqVPNEyAl4bcPwj62SJr/vRrNH1QgSZXbUu8zhsgIychoXvO9vECHnXGSUe6G7NpOzF13F0b1FXmm/hCla1Cm+V1WlBZpTrE7VOcRlShgk4YSFUZVInZJ3QE0RJHfOKarCrN4zOOu0S7j1q5fy/JbHCaLOuJ6SNGbPqzv54l2fIkj6ufCsWwijAFXFMyVRpzicyZ+FjI4TBNHEGhIRq6NJksfXYW2WGVU0A+cpSRKycP4SvnzLan668X5WPvxzpnWfxPQpc9i84zGqtTKfuuo2pk+ZzeNPryJLNS8LLtewbzxfGXXQgapwaF8UTixqTOJU0UwVRQRTsFmaFB045zDO5JEZJfcD5/wVcdLhmS0Ps37TN7n+Y1+nVm0go+VNEKxVTAEUBacozmnOEDrqaLsfO/FeptLJU1HFOcU5awxezpiOhe1YF0rFKicct5gZM6ZTr3aPgwGI4gBcni2aaf7TjQJRcsE7AUgmBCQiYa78fJFTRYwZr8LqRnPxf7V8jXu9FvN9MLMogqrJi6aini9eLurXgMGbMCRIpC43PgpKnLPpmK5UFXTiNxY9xrH8WiwVcyecUCo0UIdiUM0zeDRxPAAd0n9+I6AwsHttarAp2BiylOFK1xQr4o8L/dXD21j50HKGho8eC+M1ggiCNhueXccDq++gWOzCqYITRKtZ1OE5tbVBtVVn43ImWW0dwBS5lYuvWPTaK+y31l3JCxv37IgDrysY8dzwgGw6vD+4/fzzL7CxbX3cuiZiDGKUbbvX89zmR2k228yatoDUJvQd/CXvPPWD/PSJ1Xx77ZdZ99Q91HvB9w2CUU8aMjKY9P/38q03nP2+U59tVOe92Gny3aODu2+77MqL7fqHtrDrV0dzBd5+70f4wme+B8BFV5zo1bsb1Th06Q9WbA3vW/UP7zjc2tQX2j71Cz5iRFyW73VJpCTtOifNeD/D6XYGD2WkhT78UoZf8HLdqaJZgSKz+fXOVx9d+e+bPzhRyD9923l844tPHvv68RefXcx37tn2hsmfv/OiFZH2XdVVMfgFTwUnmm+OCiLDQyGlUoEsFS2VfRHJc81apzZx4tI6SaeU7N23fcnaFYdf/L0+g25Z9iEGBtsFv9BaisgtjUat2lWuIKI4rEImiEGMh8HDGF9VPVEnmsSJdDqtOAqjR8Ow+aX7l+16+rLrFqAmZfU3+iYPaOmyD/OVm9eM/7/6b5fs3L9v/4J6vUZ3b516o0GlUotKpZL6fsET4/k2TUwQhAwNDjDU38FF5btXrIhvrMsWvXbp6Yw0W6z61743ten/X4DGwLzncnhmJUydWUoi69McChncGRCHB7Cx+dqz6w/eCsh7L5n9k0408oFKpUypq0DBL+PT1V+XLQpw31d+9Vs/ufy3dAyzMr9W634ybWaZWl1pDjlGBi1JYIpTu+fLx294V2Xn7uddoVymUi9TLHoq+JJ2ZFIHGv5kJhdKxhRLgvE8NQZRJzQdFIsWz4dyzXdlr0itUcT3jWRpgXYyQWl/u86HRKQlxuB5IsWyR7lWoFwphweP9mm1UXWNnnJa6y5QaRS0q+JT6jJ4nnT+3wB1mvHyLOlKjPZQ8qZSLNYPZa65FmD2cX8UFivZd6ZOnRFM7z1Benvn4Bf8rYmM/NeknJ7M5HM/UuaM0xfO9bzy+b7XFUVB/MSGjRsOv/hYfv/6L803PY0T/qDUVVvimdLQwJHDW7/2+SeH//z6MzB+zLf/5eXfauN/AIWeFA6/kZenAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 456,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.emilsjolander.components.StickyScrollViewItems\">\n\t<uses-sdk android:minSdkVersion=\"7\" android:targetSdkVersion=\"14\" />\n\t<application android:label=\"StickyScrollViewItems\" android:icon=\"res/drawable-ldpi/ic_launcher.png\">\n\t\t<activity android:label=\"StickyScrollViewItems\" android:name=\"com.emilsjolander.components.StickyScrollViewItems.samples.TestActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 252338,
+  "crc32" : 596897332,
+  "sha256" : "0192386b92924193f2dc4fe60f15b46f31c98639bdb060447e3d5876129d4f39",
+  "buildTime" : 1526361663000
+}

@@ -1,0 +1,483 @@
+2018-04-10 17:59:11,550 INFO  DownloadService - Downloading "https://github.com/dm77/barcodescanner/archive/master.zip", attempt 3
+2018-04-10 17:59:12,775 INFO  DownloadService - Downloaded https://github.com/dm77/barcodescanner/archive/master.zip, attempt 3
+2018-04-10 17:59:12,775 INFO  DownloadService - Size of file "/tmp/rdisk/387/master.zip": 6 MB
+2018-04-10 17:59:12,775 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 17:59:12,969 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/387/master.zip: true
+2018-04-10 17:59:12,969 DEBUG ZipUtil - Extracting '/tmp/rdisk/387/master.zip' into '/tmp/rdisk/387/src'.
+2018-04-10 17:59:13,066 INFO  FullProcessService - Size of directory with sources: 9 MB
+2018-04-10 17:59:13,066 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/387/src]
+2018-04-10 17:59:13,071 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/387/src/.git/
+
+2018-04-10 17:59:13,077 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/387/src/barcodescanner-master/gradlew
+2018-04-10 17:59:13,082 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/387/src/barcodescanner-master/build.gradle /tmp/rdisk/387/src/barcodescanner-master/zbar-sample/build.gradle /tmp/rdisk/387/src/barcodescanner-master/zxing-sample/build.gradle /tmp/rdisk/387/src/barcodescanner-master/core/build.gradle /tmp/rdisk/387/src/barcodescanner-master/zbar/build.gradle /tmp/rdisk/387/src/barcodescanner-master/zxing/build.gradle
+2018-04-10 17:59:13,087 INFO  ProjectBuildService - All script(s): /tmp/rdisk/387/src/barcodescanner-master/zxing/build.gradle /tmp/rdisk/387/src/barcodescanner-master/zxing-sample/build.gradle /tmp/rdisk/387/src/barcodescanner-master/zbar/build.gradle /tmp/rdisk/387/src/barcodescanner-master/zbar-sample/build.gradle /tmp/rdisk/387/src/barcodescanner-master/settings.gradle /tmp/rdisk/387/src/barcodescanner-master/dependencies.gradle /tmp/rdisk/387/src/barcodescanner-master/core/build.gradle /tmp/rdisk/387/src/barcodescanner-master/build.gradle
+2018-04-10 17:59:13,088 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 17:59:13,088 INFO  ProjectFixService - Fixing project...
+2018-04-10 17:59:13,099 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/387/src/barcodescanner-master/local.properties
+2018-04-10 17:59:13,100 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
+2018-04-10 17:59:13,100 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
+2018-04-10 17:59:13,106 INFO  ProjectFixService - Build info for "/tmp/rdisk/387/src/barcodescanner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:59:13,107 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/387/src/barcodescanner-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:59:13,109 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/387/src/barcodescanner-master/zbar-sample/local.properties
+2018-04-10 17:59:13,113 INFO  ProjectFixService - Build info for "/tmp/rdisk/387/src/barcodescanner-master/zbar-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:59:13,114 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/387/src/barcodescanner-master/zbar-sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:59:13,114 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/387/src/barcodescanner-master/zxing-sample/local.properties
+2018-04-10 17:59:13,119 INFO  ProjectFixService - Build info for "/tmp/rdisk/387/src/barcodescanner-master/zxing-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:59:13,119 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/387/src/barcodescanner-master/zxing-sample/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:59:13,120 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/387/src/barcodescanner-master/core/local.properties
+2018-04-10 17:59:13,124 INFO  ProjectFixService - Build info for "/tmp/rdisk/387/src/barcodescanner-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:59:13,124 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/387/src/barcodescanner-master/core/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:59:13,125 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/387/src/barcodescanner-master/zbar/local.properties
+2018-04-10 17:59:13,129 INFO  ProjectFixService - Build info for "/tmp/rdisk/387/src/barcodescanner-master/zbar/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:59:13,130 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/387/src/barcodescanner-master/zbar/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:59:13,130 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/387/src/barcodescanner-master/zxing/local.properties
+2018-04-10 17:59:13,135 INFO  ProjectFixService - Build info for "/tmp/rdisk/387/src/barcodescanner-master/zxing/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 17:59:13,135 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/387/src/barcodescanner-master/zxing/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 17:59:13,135 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 17:59:13,135 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 17:59:13,136 INFO  SysUtils - Execute command: [/tmp/rdisk/387/src/barcodescanner-master/gradlew, -b, /tmp/rdisk/387/src/barcodescanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 17:59:22,957 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-04-10 17:59:22,957 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 17:59:22,958 INFO  SysUtils - Execute command: [/tmp/rdisk/387/src/barcodescanner-master/gradlew, -b, /tmp/rdisk/387/src/barcodescanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 17:59:59,950 INFO  SysUtils - Configuration on demand is an incubating feature.
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:checkDebugManifest
+:core:preDebugAndroidTestBuild UP-TO-DATE
+:core:preDebugUnitTestBuild UP-TO-DATE
+:core:preReleaseBuild UP-TO-DATE
+:core:preReleaseUnitTestBuild UP-TO-DATE
+:core:prepareComAndroidSupportSupportCompat2531Library
+:core:prepareComAndroidSupportSupportCoreUi2531Library
+:core:prepareComAndroidSupportSupportCoreUtils2531Library
+:core:prepareComAndroidSupportSupportFragment2531Library
+:core:prepareComAndroidSupportSupportMediaCompat2531Library
+:core:prepareComAndroidSupportSupportV42531Library
+:core:prepareDebugDependencies
+:core:compileDebugAidl
+:core:compileDebugNdk NO-SOURCE
+:core:compileLint
+:core:copyDebugLint NO-SOURCE
+:core:compileDebugRenderscript
+:core:generateDebugBuildConfig
+:core:generateDebugResValues
+:core:generateDebugResources
+:core:mergeDebugResources
+:core:processDebugManifest
+:core:processDebugResources
+:core:generateDebugSources
+:core:incrementalDebugJavaCompilationSafeguard
+:core:javaPreCompileDebug
+:core:compileDebugJavaWithJavac
+:core:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:core:extractDebugAnnotations
+:core:mergeDebugShaders
+:core:compileDebugShaders
+:core:generateDebugAssets
+:core:mergeDebugAssets
+:core:mergeDebugProguardFiles
+:core:packageDebugRenderscript NO-SOURCE
+:core:packageDebugResources
+:core:processDebugJavaRes NO-SOURCE
+:core:transformResourcesWithMergeJavaResForDebug
+:core:transformClassesAndResourcesWithSyncLibJarsForDebug
+:core:mergeDebugJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForDebug
+:core:transformNativeLibsWithStripDebugSymbolForDebug
+:core:transformNativeLibsWithSyncJniLibsForDebug
+:core:bundleDebug
+:core:compileDebugSources
+:core:assembleDebug
+:core:checkReleaseManifest
+:core:prepareReleaseDependencies
+:core:compileReleaseAidl
+:core:compileReleaseNdk NO-SOURCE
+:core:copyReleaseLint NO-SOURCE
+:core:compileReleaseRenderscript
+:core:generateReleaseBuildConfig
+:core:generateReleaseResValues
+:core:generateReleaseResources
+:core:mergeReleaseResources
+:core:processReleaseManifest
+:core:processReleaseResources
+:core:generateReleaseSources
+:core:incrementalReleaseJavaCompilationSafeguard
+:core:javaPreCompileRelease
+:core:compileReleaseJavaWithJavac
+:core:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:core:extractReleaseAnnotations
+:core:mergeReleaseShaders
+:core:compileReleaseShaders
+:core:generateReleaseAssets
+:core:mergeReleaseAssets
+:core:mergeReleaseProguardFiles
+:core:packageReleaseRenderscript NO-SOURCE
+:core:packageReleaseResources
+:core:processReleaseJavaRes NO-SOURCE
+:core:transformResourcesWithMergeJavaResForRelease
+:core:transformClassesAndResourcesWithSyncLibJarsForRelease
+:core:mergeReleaseJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForRelease
+:core:transformNativeLibsWithStripDebugSymbolForRelease
+:core:transformNativeLibsWithSyncJniLibsForRelease
+:core:bundleRelease
+:core:compileReleaseSources
+:core:assembleRelease
+:core:assemble
+:core:build
+:zbar:preBuild UP-TO-DATE
+:zbar:preDebugBuild UP-TO-DATE
+:zbar:checkDebugManifest
+:zbar:preDebugAndroidTestBuild UP-TO-DATE
+:zbar:preDebugUnitTestBuild UP-TO-DATE
+:zbar:preReleaseBuild UP-TO-DATE
+:zbar:preReleaseUnitTestBuild UP-TO-DATE
+:zbar:prepareComAndroidSupportSupportCompat2531Library
+:zbar:prepareComAndroidSupportSupportCoreUi2531Library
+:zbar:prepareComAndroidSupportSupportCoreUtils2531Library
+:zbar:prepareComAndroidSupportSupportFragment2531Library
+:zbar:prepareComAndroidSupportSupportMediaCompat2531Library
+:zbar:prepareComAndroidSupportSupportV42531Library
+:zbar:prepareMeDm7BarcodescannerCore198Library
+:zbar:prepareDebugDependencies
+:zbar:compileDebugAidl
+:zbar:compileDebugNdk NO-SOURCE
+:zbar:compileLint
+:zbar:copyDebugLint NO-SOURCE
+:zbar:compileDebugRenderscript
+:zbar:generateDebugBuildConfig
+:zbar:generateDebugResValues
+:zbar:generateDebugResources
+:zbar:mergeDebugResources
+:zbar:processDebugManifest
+:zbar:processDebugResources
+:zbar:generateDebugSources
+:zbar:incrementalDebugJavaCompilationSafeguard
+:zbar:javaPreCompileDebug
+:zbar:compileDebugJavaWithJavac
+:zbar:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zbar/src/main/java/me/dm7/barcodescanner/zbar/ZBarScannerView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zbar:extractDebugAnnotations
+:zbar:mergeDebugShaders
+:zbar:compileDebugShaders
+:zbar:generateDebugAssets
+:zbar:mergeDebugAssets
+:zbar:mergeDebugProguardFiles
+:zbar:packageDebugRenderscript NO-SOURCE
+:zbar:packageDebugResources
+:zbar:processDebugJavaRes NO-SOURCE
+:zbar:transformResourcesWithMergeJavaResForDebug
+:zbar:transformClassesAndResourcesWithSyncLibJarsForDebug
+:zbar:mergeDebugJniLibFolders
+:zbar:transformNativeLibsWithMergeJniLibsForDebug
+:zbar:transformNativeLibsWithStripDebugSymbolForDebug
+:zbar:transformNativeLibsWithSyncJniLibsForDebug
+:zbar:bundleDebug
+:zbar:compileDebugSources
+:zbar:assembleDebug
+:zbar:checkReleaseManifest
+:zbar:prepareReleaseDependencies
+:zbar:compileReleaseAidl
+:zbar:compileReleaseNdk NO-SOURCE
+:zbar:copyReleaseLint NO-SOURCE
+:zbar:compileReleaseRenderscript
+:zbar:generateReleaseBuildConfig
+:zbar:generateReleaseResValues
+:zbar:generateReleaseResources
+:zbar:mergeReleaseResources
+:zbar:processReleaseManifest
+:zbar:processReleaseResources
+:zbar:generateReleaseSources
+:zbar:incrementalReleaseJavaCompilationSafeguard
+:zbar:javaPreCompileRelease
+:zbar:compileReleaseJavaWithJavac
+:zbar:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zbar/src/main/java/me/dm7/barcodescanner/zbar/ZBarScannerView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zbar:extractReleaseAnnotations
+:zbar:mergeReleaseShaders
+:zbar:compileReleaseShaders
+:zbar:generateReleaseAssets
+:zbar:mergeReleaseAssets
+:zbar:mergeReleaseProguardFiles
+:zbar:packageReleaseRenderscript NO-SOURCE
+:zbar:packageReleaseResources
+:zbar:processReleaseJavaRes NO-SOURCE
+:zbar:transformResourcesWithMergeJavaResForRelease
+:zbar:transformClassesAndResourcesWithSyncLibJarsForRelease
+:zbar:mergeReleaseJniLibFolders
+:zbar:transformNativeLibsWithMergeJniLibsForRelease
+:zbar:transformNativeLibsWithStripDebugSymbolForRelease
+:zbar:transformNativeLibsWithSyncJniLibsForRelease
+:zbar:bundleRelease
+:zbar:compileReleaseSources
+:zbar:assembleRelease
+:zbar:assemble
+:zbar:build
+:zbar-sample:preBuild UP-TO-DATE
+:zbar-sample:preDebugBuild UP-TO-DATE
+:zbar-sample:checkDebugManifest
+:zbar-sample:preReleaseBuild UP-TO-DATE
+:zbar-sample:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:zbar-sample:prepareComAndroidSupportAppcompatV72531Library
+:zbar-sample:prepareComAndroidSupportDesign2531Library
+:zbar-sample:prepareComAndroidSupportRecyclerviewV72531Library
+:zbar-sample:prepareComAndroidSupportSupportCompat2531Library
+:zbar-sample:prepareComAndroidSupportSupportCoreUi2531Library
+:zbar-sample:prepareComAndroidSupportSupportCoreUtils2531Library
+:zbar-sample:prepareComAndroidSupportSupportFragment2531Library
+:zbar-sample:prepareComAndroidSupportSupportMediaCompat2531Library
+:zbar-sample:prepareComAndroidSupportSupportV42531Library
+:zbar-sample:prepareComAndroidSupportSupportVectorDrawable2531Library
+:zbar-sample:prepareComAndroidSupportTransition2531Library
+:zbar-sample:prepareMeDm7BarcodescannerCore198Library
+:zbar-sample:prepareMeDm7BarcodescannerZbar198Library
+:zbar-sample:prepareDebugDependencies
+:zbar-sample:compileDebugAidl
+:zbar-sample:compileDebugRenderscript
+:zbar-sample:generateDebugBuildConfig
+:zbar-sample:generateDebugResValues
+:zbar-sample:generateDebugResources
+:zbar-sample:mergeDebugResources
+:zbar-sample:processDebugManifest
+:zbar-sample:processDebugResources
+:zbar-sample:generateDebugSources
+:zbar-sample:incrementalDebugJavaCompilationSafeguard
+:zbar-sample:javaPreCompileDebug
+:zbar-sample:compileDebugJavaWithJavac
+:zbar-sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zbar-sample/src/main/java/me/dm7/barcodescanner/zbar/sample/CameraSelectorDialogFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zbar-sample:compileDebugNdk NO-SOURCE
+:zbar-sample:compileDebugSources
+:zbar-sample:mergeDebugShaders
+:zbar-sample:compileDebugShaders
+:zbar-sample:generateDebugAssets
+:zbar-sample:mergeDebugAssets
+:zbar-sample:transformClassesWithDexForDebug
+:zbar-sample:mergeDebugJniLibFolders
+:zbar-sample:transformNativeLibsWithMergeJniLibsForDebug
+:zbar-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:zbar-sample:processDebugJavaRes NO-SOURCE
+:zbar-sample:transformResourcesWithMergeJavaResForDebug
+:zbar-sample:validateSigningDebug
+:zbar-sample:packageDebug
+:zbar-sample:assembleDebug
+:zbar-sample:checkReleaseManifest
+:zbar-sample:prepareReleaseDependencies
+:zbar-sample:compileReleaseAidl
+:zbar-sample:compileReleaseRenderscript
+:zbar-sample:generateReleaseBuildConfig
+:zbar-sample:generateReleaseResValues
+:zbar-sample:generateReleaseResources
+:zbar-sample:mergeReleaseResources
+:zbar-sample:processReleaseManifest
+:zbar-sample:processReleaseResources
+:zbar-sample:generateReleaseSources
+:zbar-sample:incrementalReleaseJavaCompilationSafeguard
+:zbar-sample:javaPreCompileRelease
+:zbar-sample:compileReleaseJavaWithJavac
+:zbar-sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zbar-sample/src/main/java/me/dm7/barcodescanner/zbar/sample/CameraSelectorDialogFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zbar-sample:compileReleaseNdk NO-SOURCE
+:zbar-sample:compileReleaseSources
+:zbar-sample:lintVitalRelease
+:zbar-sample:mergeReleaseShaders
+:zbar-sample:compileReleaseShaders
+:zbar-sample:generateReleaseAssets
+:zbar-sample:mergeReleaseAssets
+:zbar-sample:transformClassesWithDexForRelease
+:zbar-sample:mergeReleaseJniLibFolders
+:zbar-sample:transformNativeLibsWithMergeJniLibsForRelease
+:zbar-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:zbar-sample:processReleaseJavaRes NO-SOURCE
+:zbar-sample:transformResourcesWithMergeJavaResForRelease
+:zbar-sample:packageRelease
+:zbar-sample:assembleRelease
+:zbar-sample:assemble
+:zbar-sample:build
+:zxing:preBuild UP-TO-DATE
+:zxing:preDebugBuild UP-TO-DATE
+:zxing:checkDebugManifest
+:zxing:preDebugAndroidTestBuild UP-TO-DATE
+:zxing:preDebugUnitTestBuild UP-TO-DATE
+:zxing:preReleaseBuild UP-TO-DATE
+:zxing:preReleaseUnitTestBuild UP-TO-DATE
+:zxing:prepareComAndroidSupportSupportCompat2531Library
+:zxing:prepareComAndroidSupportSupportCoreUi2531Library
+:zxing:prepareComAndroidSupportSupportCoreUtils2531Library
+:zxing:prepareComAndroidSupportSupportFragment2531Library
+:zxing:prepareComAndroidSupportSupportMediaCompat2531Library
+:zxing:prepareComAndroidSupportSupportV42531Library
+:zxing:prepareMeDm7BarcodescannerCore198Library
+:zxing:prepareDebugDependencies
+:zxing:compileDebugAidl
+:zxing:compileDebugNdk NO-SOURCE
+:zxing:compileLint
+:zxing:copyDebugLint NO-SOURCE
+:zxing:compileDebugRenderscript
+:zxing:generateDebugBuildConfig
+:zxing:generateDebugResValues
+:zxing:generateDebugResources
+:zxing:mergeDebugResources
+:zxing:processDebugManifest
+:zxing:processDebugResources
+:zxing:generateDebugSources
+:zxing:incrementalDebugJavaCompilationSafeguard
+:zxing:javaPreCompileDebug
+:zxing:compileDebugJavaWithJavac
+:zxing:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zxing/src/main/java/me/dm7/barcodescanner/zxing/ZXingScannerView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zxing:extractDebugAnnotations
+:zxing:mergeDebugShaders
+:zxing:compileDebugShaders
+:zxing:generateDebugAssets
+:zxing:mergeDebugAssets
+:zxing:mergeDebugProguardFiles
+:zxing:packageDebugRenderscript NO-SOURCE
+:zxing:packageDebugResources
+:zxing:processDebugJavaRes NO-SOURCE
+:zxing:transformResourcesWithMergeJavaResForDebug
+:zxing:transformClassesAndResourcesWithSyncLibJarsForDebug
+:zxing:mergeDebugJniLibFolders
+:zxing:transformNativeLibsWithMergeJniLibsForDebug
+:zxing:transformNativeLibsWithStripDebugSymbolForDebug
+:zxing:transformNativeLibsWithSyncJniLibsForDebug
+:zxing:bundleDebug
+:zxing:compileDebugSources
+:zxing:assembleDebug
+:zxing:checkReleaseManifest
+:zxing:prepareReleaseDependencies
+:zxing:compileReleaseAidl
+:zxing:compileReleaseNdk NO-SOURCE
+:zxing:copyReleaseLint NO-SOURCE
+:zxing:compileReleaseRenderscript
+:zxing:generateReleaseBuildConfig
+:zxing:generateReleaseResValues
+:zxing:generateReleaseResources
+:zxing:mergeReleaseResources
+:zxing:processReleaseManifest
+:zxing:processReleaseResources
+:zxing:generateReleaseSources
+:zxing:incrementalReleaseJavaCompilationSafeguard
+:zxing:javaPreCompileRelease
+:zxing:compileReleaseJavaWithJavac
+:zxing:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zxing/src/main/java/me/dm7/barcodescanner/zxing/ZXingScannerView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zxing:extractReleaseAnnotations
+:zxing:mergeReleaseShaders
+:zxing:compileReleaseShaders
+:zxing:generateReleaseAssets
+:zxing:mergeReleaseAssets
+:zxing:mergeReleaseProguardFiles
+:zxing:packageReleaseRenderscript NO-SOURCE
+:zxing:packageReleaseResources
+:zxing:processReleaseJavaRes NO-SOURCE
+:zxing:transformResourcesWithMergeJavaResForRelease
+:zxing:transformClassesAndResourcesWithSyncLibJarsForRelease
+:zxing:mergeReleaseJniLibFolders
+:zxing:transformNativeLibsWithMergeJniLibsForRelease
+:zxing:transformNativeLibsWithStripDebugSymbolForRelease
+:zxing:transformNativeLibsWithSyncJniLibsForRelease
+:zxing:bundleRelease
+:zxing:compileReleaseSources
+:zxing:assembleRelease
+:zxing:assemble
+:zxing:build
+:zxing-sample:preBuild UP-TO-DATE
+:zxing-sample:preDebugBuild UP-TO-DATE
+:zxing-sample:checkDebugManifest
+:zxing-sample:preReleaseBuild UP-TO-DATE
+:zxing-sample:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:zxing-sample:prepareComAndroidSupportAppcompatV72531Library
+:zxing-sample:prepareComAndroidSupportDesign2531Library
+:zxing-sample:prepareComAndroidSupportRecyclerviewV72531Library
+:zxing-sample:prepareComAndroidSupportSupportCompat2531Library
+:zxing-sample:prepareComAndroidSupportSupportCoreUi2531Library
+:zxing-sample:prepareComAndroidSupportSupportCoreUtils2531Library
+:zxing-sample:prepareComAndroidSupportSupportFragment2531Library
+:zxing-sample:prepareComAndroidSupportSupportMediaCompat2531Library
+:zxing-sample:prepareComAndroidSupportSupportV42531Library
+:zxing-sample:prepareComAndroidSupportSupportVectorDrawable2531Library
+:zxing-sample:prepareComAndroidSupportTransition2531Library
+:zxing-sample:prepareMeDm7BarcodescannerCore198Library
+:zxing-sample:prepareMeDm7BarcodescannerZxing198Library
+:zxing-sample:prepareDebugDependencies
+:zxing-sample:compileDebugAidl
+:zxing-sample:compileDebugRenderscript
+:zxing-sample:generateDebugBuildConfig
+:zxing-sample:generateDebugResValues
+:zxing-sample:generateDebugResources
+:zxing-sample:mergeDebugResources
+:zxing-sample:processDebugManifest
+:zxing-sample:processDebugResources
+:zxing-sample:generateDebugSources
+:zxing-sample:incrementalDebugJavaCompilationSafeguard
+:zxing-sample:javaPreCompileDebug
+:zxing-sample:compileDebugJavaWithJavac
+:zxing-sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zxing-sample/src/main/java/me/dm7/barcodescanner/zxing/sample/CameraSelectorDialogFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zxing-sample:compileDebugNdk NO-SOURCE
+:zxing-sample:compileDebugSources
+:zxing-sample:mergeDebugShaders
+:zxing-sample:compileDebugShaders
+:zxing-sample:generateDebugAssets
+:zxing-sample:mergeDebugAssets
+:zxing-sample:transformClassesWithDexForDebug
+:zxing-sample:mergeDebugJniLibFolders
+:zxing-sample:transformNativeLibsWithMergeJniLibsForDebug
+:zxing-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:zxing-sample:processDebugJavaRes NO-SOURCE
+:zxing-sample:transformResourcesWithMergeJavaResForDebug
+:zxing-sample:validateSigningDebug
+:zxing-sample:packageDebug
+:zxing-sample:assembleDebug
+:zxing-sample:checkReleaseManifest
+:zxing-sample:prepareReleaseDependencies
+:zxing-sample:compileReleaseAidl
+:zxing-sample:compileReleaseRenderscript
+:zxing-sample:generateReleaseBuildConfig
+:zxing-sample:generateReleaseResValues
+:zxing-sample:generateReleaseResources
+:zxing-sample:mergeReleaseResources
+:zxing-sample:processReleaseManifest
+:zxing-sample:processReleaseResources
+:zxing-sample:generateReleaseSources
+:zxing-sample:incrementalReleaseJavaCompilationSafeguard
+:zxing-sample:javaPreCompileRelease
+:zxing-sample:compileReleaseJavaWithJavac
+:zxing-sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/387/src/barcodescanner-master/zxing-sample/src/main/java/me/dm7/barcodescanner/zxing/sample/CameraSelectorDialogFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:zxing-sample:compileReleaseNdk NO-SOURCE
+:zxing-sample:compileReleaseSources
+:zxing-sample:lintVitalRelease
+:zxing-sample:mergeReleaseShaders
+:zxing-sample:compileReleaseShaders
+:zxing-sample:generateReleaseAssets
+:zxing-sample:mergeReleaseAssets
+:zxing-sample:transformClassesWithDexForRelease
+:zxing-sample:mergeReleaseJniLibFolders
+:zxing-sample:transformNativeLibsWithMergeJniLibsForRelease
+:zxing-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:zxing-sample:processReleaseJavaRes NO-SOURCE
+:zxing-sample:transformResourcesWithMergeJavaResForRelease
+:zxing-sample:packageRelease
+:zxing-sample:assembleRelease
+:zxing-sample:assemble
+:zxing-sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 36.674 secs
+
+2018-04-10 18:00:00,099 INFO  FullProcessService - Found APK file: /tmp/rdisk/387/src/barcodescanner-master/zxing-sample/build/outputs/apk/zxing-sample-release-unsigned.apk

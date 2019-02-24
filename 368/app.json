@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.jpardogo.android.googleprogressbar",
+    "label" : "GoogleProgressBar",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.0",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "22",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAIOUlEQVRo3u2Ze3BU1R3Hv+c+9m52N7vZBDaTsDxCEoFEHhUhvFqcIpbWtlbqqCBtGQX+QKe1TB37mNaZdto6itPpqC1Mp52hY7VjC9oyUjWIQIuFCiFCgITIQkIe7DOb3b3ve8/pH27sJk2TTbLr2Bl/f+3zd36f83uec4FP5BOZkpDxfrDu7odvqq1d9rDk9Nwmis4awnEeSm3Ntuw+XUv/M9rb/psDL/70+McOYPr0Rs+Xv/6dZz2+6gcG01RMywZ0wwalDIQADpGHxyWirFRkph57u+304e3/OPy70McCYNln7p/Z9Ol7Xk9probYgDquEq/HgUAZEl3tx+77y8u7D+ezcF1dneTz+ZxnzpxJA6AFAwgGG8u/uOWJd6IpaZ6qWXkrEniCGdP5wUuth24/emjv6ZHfb9vUVLn13todgenOO1xOcYFDJOU8B6Kb0E3T7klljHdbO9IvfW3ngYMA2GQBuK3f3PuHlFl5v6bbE94NnicI+LS23+7e/CkAFgAsXbrU9dwTDU/Wzyl5yCOlXMxOAVQBmPUfE4gE8G6A96M3wrf9qzWxa/MjrzTntWbum6Ur7lpeHlz1dEah/GTcyRhgM2egvmZWquPCiZPfe2Tl/Ce/u/DoTcHMF0TaJcIeBJg+SsRYAFUBOwGvSw3U1QQ2rV87z7PvzxfemggAv3Ld1h9nzIqlU0kqy6Lwej3+zy7uOfXtbY3NAU/PHNjJ/KOCmeBZggtWla5et/bmqn1/uvDaWD/ncsOY8WVNhagMml2yZNumhgPlzu4qUHVyyWn1YXmjuWP/3o2PjVUthwEYtmNWQQBMSYSVqAUzpqSHpxGsvlX44X133zw/HwBeUw1XoeqzqtOC6PE5wp4d99Z/f4StowJAluNKoQCcolEgTTZqg/qdADzjAiiDPeGCdEc7heB0vWDdNuDL+B/d3nTPaLmQC2DLg72XqG1OecGG6hBKJFIwAEIoamaIt4wWRrkfWIn+C3ui11ssxtgUlmNYv+hcEWYeo3Jk3xoJYA7EQqci10+fUFL9k1rENGTUeM9iTWO84ACabgijhZCQ85oCyFzvPLKLE6SDsxs+X+32VoOQnP9YOmYNXMIcuQelZho24RFzVuBy6VwMeuegt/PtzLamcxwhJa5CGs8YQySuZkadwUa81wGEeq8e/waj1r7AzFurK6oXgRccmBF9D1+6cRRVdERyytfA4mfQIlVib9/VX2iqvREoaSwkgKpRXOsxL47Wzvn/CmDApJaZHIyH3iCEq7VMNbhC6+K3RI7Dy+z/ORFW2zI2LJh7S9SZeX/hYnFOIQFOX5CVx59q/xaAxMhBih81CwEDQDo90HVstRWl24XUSiGfzpmRJSHpCZavNDmpgFXo75et8389dGMPAHU8DwzzBAA8u3btr10Z2ZPvOOpSTS5qWKhaLBTE+HiG4eeZ2VV1SxYNXDnadmLMRjbSnF2rVm32xxOVE130xlGGs/2sAMkLPN0pIcyZcNR7fzB3zfz6iQDw5YytYObEG9tMW8BPWiV0J6cGsfcih2PECwDoY7HShq82/WikzWMC6KpeMdlzqmGL2Nnpw/nIJPqJxbD7vIB9hv/Dym8zCqWc3lURrKjKF4CkFNWcbFdWHQRxhwM7u/14/pKAtJqfnpZ+hoda3dhPywBueCFICrJn/leWP5jb0MbKNHZdV0K62w0nmdgJM8xTyBUOEACWyOMFowyvnDex3q1itc/AglKKCh/34W5fSzC0ZgQ0D0g4T1yAOHoFo4yCCzhWZe02xwOgx/v6fr+QCNvvLK9wDuvI48ipOieIMNy5siTiVUvEq3GA9VNIhgmRAArjwNziB3uaR+GyS7n6XICxQsiKmWboVDr5ZoeqIN9QSggMh1eWjp0jDg6GR4LslsA8Yh73gzmjgkiHDXVjllEA8uvx+GP7o+HOd9Mp2ONAaIRhz+1eqH5H0W7iDGq4c+0eL7gpALNdUY4QDks6FWUGACIQAgJAZxT9hg7GgLibx3MbfOia50ExxRjQaKw59FR2bhs36hiADIArr8ViW+e53RuiprEFQK3NmJsQQgUgoS+cJt54YMY06uRRbLEGtFTuUJdPv6cA0gDMDln+Y4csvwHADUDMKqLBssDPKiRuHUHxxYqqkYkCDEEoWbcls//jsopEkrTPMYuuI2JxPcAYgx1RQ7kTKTfhKwJAy4ZVKuuZ9I2WKy/K7TGj2LtvJjQYPZk3h+5dJwMwqlfNQTOUOhdtYzYt6u4nT/aEwy3dLxcagAHQ7GvpX6XbInRqFwJjVJ+wDKMrfTDrfTvfMpqvUDUm93IOYU1JTdlMvkQsqPG2ZiFy6P3e2JGrDwIYKAYAA0DVcLKVY9xGV42/hHMURjW1KOLNIS3TGnvUTKpnR57KClk2bFiQYdBuM6Xd4Qz6RN45tVMZ1S3E3rpmyxejz6Tboy9lKyAtFgADYJpJrY8ZuGrGlNsEryQJZRImMggOJawRVRBrvmqqlxO/HHwv/DyA2NAAVyyAoX5hmEm1W08oJ5liLTMTajlf6gDvEscFYYzBShlItfQj+U5vVL4UfzzTEXsBQGRodBjt8FQMEQH4AFR5F1dud/idm8SAa1rJ7DI4Ai6IXic4Jw8QAqpbsNIGjKgCrScFrTeVoYr1t4GTvc8A6MomrT7W6a9YwgMoAVAOYJqrxr/BObP0c4Tj6kGpn1I4AEYIx5kcTwYZZV3WgHps8FxkP4AwgDgAObfmf9QAQ/oFAE58cL/vBeACIOWMMTS7w8pQZ892ewN5PFj7KOavXI8IOXMUGTGi2NndtjGB58T/9/JvWG+oTT2ZLrMAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1359,
+  "locales" : [ "", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "af", "in", "vi", "fr_CA", "sr", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.2.0\" package=\"com.jpardogo.android.googleprogressbar\" platformBuildVersionCode=\"22\" platformBuildVersionName=\"5.1.1-1819727\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"22\" />\n\t<application android:theme=\"resourceId:0x7f080077\" android:label=\"GoogleProgressBar\" android:icon=\"res/drawable-mdpi-v4/ic_launcher.png\" android:name=\"com.jpardogo.android.googleprogressbar.GPBApp\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"GoogleProgressBar\" android:name=\"com.jpardogo.android.googleprogressbar.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Settings\" android:name=\"com.jpardogo.android.googleprogressbar.SettingsActivity\" android:parentActivityName=\"com.jpardogo.android.googleprogressbar.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"com.jpardogo.android.googleprogressbar.MainActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1089360,
+  "crc32" : 3888863387,
+  "sha256" : "b52b88b63a386d02ef3374f462989b10815476278ee0e96e99fcf3f4a4ba30ec",
+  "buildTime" : 1526358353000
+}

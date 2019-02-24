@@ -1,0 +1,975 @@
+2018-04-10 18:22:48,835 INFO  DownloadService - Downloading "https://github.com/square/flow/archive/master.zip", attempt 3
+2018-04-10 18:22:50,768 INFO  DownloadService - Downloaded https://github.com/square/flow/archive/master.zip, attempt 3
+2018-04-10 18:22:50,768 INFO  DownloadService - Size of file "/tmp/rdisk/304/master.zip": 377 KB
+2018-04-10 18:22:50,768 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-04-10 18:22:50,769 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/304/master.zip: true
+2018-04-10 18:22:50,769 DEBUG ZipUtil - Extracting '/tmp/rdisk/304/master.zip' into '/tmp/rdisk/304/src'.
+2018-04-10 18:22:50,800 INFO  FullProcessService - Size of directory with sources: 478 KB
+2018-04-10 18:22:50,800 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/304/src]
+2018-04-10 18:22:50,805 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/304/src/.git/
+
+2018-04-10 18:22:50,812 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/304/src/flow-master/gradlew
+2018-04-10 18:22:50,820 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/304/src/flow-master/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-basic/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-helloworld/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-intents/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-multikey/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-orientation-lock/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-tree/build.gradle /tmp/rdisk/304/src/flow-master/flow/build.gradle
+2018-04-10 18:22:50,826 INFO  ProjectBuildService - All script(s): /tmp/rdisk/304/src/flow-master/settings.gradle /tmp/rdisk/304/src/flow-master/gradle/gradle-mvn-push.gradle /tmp/rdisk/304/src/flow-master/flow/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-tree/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-orientation-lock/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-multikey/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-intents/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-helloworld/build.gradle /tmp/rdisk/304/src/flow-master/flow-sample-basic/build.gradle /tmp/rdisk/304/src/flow-master/build.gradle
+2018-04-10 18:22:50,827 INFO  ProjectBuildService - Remote scripts: none
+2018-04-10 18:22:50,827 INFO  ProjectFixService - Fixing project...
+2018-04-10 18:22:50,845 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/local.properties
+2018-04-10 18:22:50,845 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-04-10 18:22:50,845 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-04-10 18:22:50,851 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,851 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,852 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/flow-sample-basic/local.properties
+2018-04-10 18:22:50,857 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/flow-sample-basic/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,857 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/flow-sample-basic/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,858 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/flow-sample-helloworld/local.properties
+2018-04-10 18:22:50,863 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/flow-sample-helloworld/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,863 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/flow-sample-helloworld/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,864 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/flow-sample-intents/local.properties
+2018-04-10 18:22:50,869 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/flow-sample-intents/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,869 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/flow-sample-intents/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,870 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/flow-sample-multikey/local.properties
+2018-04-10 18:22:50,875 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/flow-sample-multikey/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,875 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/flow-sample-multikey/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,875 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/flow-sample-orientation-lock/local.properties
+2018-04-10 18:22:50,881 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/flow-sample-orientation-lock/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,881 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/flow-sample-orientation-lock/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,881 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/flow-sample-tree/local.properties
+2018-04-10 18:22:50,887 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/flow-sample-tree/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,887 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/flow-sample-tree/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,887 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/304/src/flow-master/flow/local.properties
+2018-04-10 18:22:50,893 INFO  ProjectFixService - Build info for "/tmp/rdisk/304/src/flow-master/flow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-04-10 18:22:50,893 INFO  ProjectFixService - Fixed build info for "/tmp/rdisk/304/src/flow-master/flow/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=27,minSdkVersion=27,targetSdkVersion=27]
+2018-04-10 18:22:50,893 INFO  ProjectFixService - Project was maybe fixed
+2018-04-10 18:22:50,893 INFO  ProjectTaskService - Detecting possible tasks...
+2018-04-10 18:22:50,893 INFO  SysUtils - Execute command: [/tmp/rdisk/304/src/flow-master/gradlew, -b, /tmp/rdisk/304/src/flow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-04-10 18:23:01,625 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-04-10 18:23:01,626 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-04-10 18:23:01,626 INFO  SysUtils - Execute command: [/tmp/rdisk/304/src/flow-master/gradlew, -b, /tmp/rdisk/304/src/flow-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-04-10 18:24:17,090 INFO  SysUtils - Configuration on demand is an incubating feature.
+:flow:androidJavadocs/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/TreeKey.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyManager.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyManager.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/ServicesFactory.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyParceler.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/NotPersistentHistoryFilter.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/HistoryFilter.java:3: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/MultiKey.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyDispatcher.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyDispatcher.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Dispatcher.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyChanger.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyChanger.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/InternalLifecycleIntegration.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/InternalLifecycleIntegration.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Flow.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.CheckResult;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Flow.java:23: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Flow.java:24: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Installer.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Installer.java:23: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/InternalContextWrapper.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/DefaultKeyChanger.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/DefaultKeyChanger.java:22: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/TreeKey.java:27: error: cannot find symbol
+  @NonNull Object getParentKey();
+   ^
+  symbol:   class NonNull
+  location: interface TreeKey
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:25: error: cannot find symbol
+  @Nullable public final History origin;
+   ^
+  symbol:   class Nullable
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:26: error: cannot find symbol
+  @NonNull public final History destination;
+   ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:27: error: cannot find symbol
+  @NonNull public final Direction direction;
+   ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:30: error: cannot find symbol
+  Traversal(@Nullable History from, @NonNull History to, @NonNull Direction direction,
+             ^
+  symbol:   class Nullable
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:30: error: cannot find symbol
+  Traversal(@Nullable History from, @NonNull History to, @NonNull Direction direction,
+                                     ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:30: error: cannot find symbol
+  Traversal(@Nullable History from, @NonNull History to, @NonNull Direction direction,
+                                                          ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:43: error: cannot find symbol
+  @NonNull public Context createContext(@NonNull Object key, @NonNull Context baseContext) {
+                                         ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:43: error: cannot find symbol
+  @NonNull public Context createContext(@NonNull Object key, @NonNull Context baseContext) {
+                                                              ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:43: error: cannot find symbol
+  @NonNull public Context createContext(@NonNull Object key, @NonNull Context baseContext) {
+   ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:47: error: cannot find symbol
+  @NonNull public State getState(@NonNull Object key) {
+                                  ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Traversal.java:47: error: cannot find symbol
+  @NonNull public State getState(@NonNull Object key) {
+   ^
+  symbol:   class NonNull
+  location: class Traversal
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:44: error: cannot find symbol
+  @NonNull public static Builder emptyBuilder() {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:49: error: cannot find symbol
+  @NonNull public static History single(@NonNull Object key) {
+                                         ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:49: error: cannot find symbol
+  @NonNull public static History single(@NonNull Object key) {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:66: error: cannot find symbol
+  @NonNull public <T> Iterable<T> framesFromBottom() {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:70: error: cannot find symbol
+  @NonNull public <T> Iterable<T> framesFromTop() {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:75: error: cannot find symbol
+  @Deprecated @NonNull public <T> Iterator<T> reverseIterator() {
+               ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:80: error: cannot find symbol
+  @Deprecated @NonNull @Override public Iterator<Object> iterator() {
+               ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:88: error: cannot find symbol
+  @NonNull public <T> T top() {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:93: error: cannot find symbol
+  @NonNull public <T> T peek(int index) {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:98: error: cannot find symbol
+  @NonNull List<Object> asList() {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:110: error: cannot find symbol
+  @NonNull public Builder buildUpon() {
+   ^
+  symbol:   class NonNull
+  location: class History
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyManager.java:112: error: cannot find symbol
+  @NonNull private ManagedServices ensureNode(@Nullable Services parent, Object key) {
+                                               ^
+  symbol:   class Nullable
+  location: class KeyManager
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyManager.java:112: error: cannot find symbol
+  @NonNull private ManagedServices ensureNode(@Nullable Services parent, Object key) {
+   ^
+  symbol:   class NonNull
+  location: class KeyManager
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:37: error: cannot find symbol
+  @NonNull public static State empty(@NonNull final Object key) {
+                                      ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:37: error: cannot find symbol
+  @NonNull public static State empty(@NonNull final Object key) {
+   ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:41: error: cannot find symbol
+  @NonNull static State fromBundle(@NonNull Bundle savedState, @NonNull KeyParceler parceler) {
+                                    ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:41: error: cannot find symbol
+  @NonNull static State fromBundle(@NonNull Bundle savedState, @NonNull KeyParceler parceler) {
+                                                                ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:41: error: cannot find symbol
+  @NonNull static State fromBundle(@NonNull Bundle savedState, @NonNull KeyParceler parceler) {
+   ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:57: error: cannot find symbol
+  @Nullable private Bundle bundle;
+   ^
+  symbol:   class Nullable
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:58: error: cannot find symbol
+  @NonNull private Map<Integer, SparseArray<Parcelable>> viewStateById = new LinkedHashMap<>();
+   ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:65: error: cannot find symbol
+  @NonNull public final <T> T getKey() {
+   ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:74: error: cannot find symbol
+  public void save(@NonNull View view) {
+                    ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:83: error: cannot find symbol
+  public void restore(@NonNull View view) {
+                       ^
+  symbol:   class NonNull
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:90: error: cannot find symbol
+  public void setBundle(@Nullable Bundle bundle) {
+                         ^
+  symbol:   class Nullable
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:94: error: cannot find symbol
+  @Nullable public Bundle getBundle() {
+   ^
+  symbol:   class Nullable
+  location: class State
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:131: error: cannot find symbol
+    @NonNull public Builder clear() {
+     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:146: error: cannot find symbol
+    @NonNull public Builder push(@NonNull Object key) {
+                                  ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:146: error: cannot find symbol
+    @NonNull public Builder push(@NonNull Object key) {
+     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:154: error: cannot find symbol
+    @NonNull public Builder pushAll(@NonNull Collection<?> c) {
+                                     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:154: error: cannot find symbol
+    @NonNull public Builder pushAll(@NonNull Collection<?> c) {
+     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:163: error: cannot find symbol
+    @Nullable public Object peek() {
+     ^
+  symbol:   class Nullable
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:167: error: cannot find symbol
+    @NonNull public boolean isEmpty() {
+     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:191: error: cannot find symbol
+    @NonNull public Builder popTo(@NonNull Object state) {
+                                   ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:191: error: cannot find symbol
+    @NonNull public Builder popTo(@NonNull Object state) {
+     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:200: error: cannot find symbol
+    @NonNull public Builder pop(int count) {
+     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/History.java:210: error: cannot find symbol
+    @NonNull public History build() {
+     ^
+  symbol:   class NonNull
+  location: class Builder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/ServicesFactory.java:26: error: cannot find symbol
+  public abstract void bindServices(@NonNull Services.Binder services);
+                                     ^
+  symbol:   class NonNull
+  location: class ServicesFactory
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/ServicesFactory.java:32: error: cannot find symbol
+  public void tearDownServices(@NonNull Services services) {
+                                ^
+  symbol:   class NonNull
+  location: class ServicesFactory
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:52: error: cannot find symbol
+  @Nullable private final Services delegate;
+   ^
+  symbol:   class Nullable
+  location: class Services
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:55: error: cannot find symbol
+  private Services(Object key, @Nullable Services delegate, Map<String, Object> localServices) {
+                                ^
+  symbol:   class Nullable
+  location: class Services
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:61: error: cannot find symbol
+  @Nullable public <T> T getService(@NonNull String name) {
+                                     ^
+  symbol:   class NonNull
+  location: class Services
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:61: error: cannot find symbol
+  @Nullable public <T> T getService(@NonNull String name) {
+   ^
+  symbol:   class Nullable
+  location: class Services
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:71: error: cannot find symbol
+  @NonNull public <T> T getKey() {
+   ^
+  symbol:   class NonNull
+  location: class Services
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:76: error: cannot find symbol
+  @NonNull Binder extend(@NonNull Object key) {
+                          ^
+  symbol:   class NonNull
+  location: class Services
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:76: error: cannot find symbol
+  @NonNull Binder extend(@NonNull Object key) {
+   ^
+  symbol:   class NonNull
+  location: class Services
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyParceler.java:27: error: cannot find symbol
+  @NonNull Parcelable toParcelable(@NonNull Object key);
+                                    ^
+  symbol:   class NonNull
+  location: interface KeyParceler
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyParceler.java:27: error: cannot find symbol
+  @NonNull Parcelable toParcelable(@NonNull Object key);
+   ^
+  symbol:   class NonNull
+  location: interface KeyParceler
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyParceler.java:28: error: cannot find symbol
+  @NonNull Object toKey(@NonNull Parcelable parcelable);
+                         ^
+  symbol:   class NonNull
+  location: interface KeyParceler
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/KeyParceler.java:28: error: cannot find symbol
+  @NonNull Object toKey(@NonNull Parcelable parcelable);
+   ^
+  symbol:   class NonNull
+  location: interface KeyParceler
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:41: error: cannot find symbol
+    @NonNull public Binder bind(@NonNull String serviceName, @NonNull Object service) {
+                                 ^
+  symbol:   class NonNull
+  location: class Binder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:41: error: cannot find symbol
+    @NonNull public Binder bind(@NonNull String serviceName, @NonNull Object service) {
+                                                              ^
+  symbol:   class NonNull
+  location: class Binder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:41: error: cannot find symbol
+    @NonNull public Binder bind(@NonNull String serviceName, @NonNull Object service) {
+     ^
+  symbol:   class NonNull
+  location: class Binder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/Services.java:46: error: cannot find symbol
+    @NonNull Services build() {
+     ^
+  symbol:   class NonNull
+  location: class Binder
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:138: error: cannot find symbol
+    @Override public void save(@NonNull View view) {
+                                ^
+  symbol:   class NonNull
+  location: class EmptyState
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:141: error: cannot find symbol
+    @Override public void restore(@NonNull View view) {
+                                   ^
+  symbol:   class NonNull
+  location: class EmptyState
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/State.java:147: error: cannot find symbol
+    @Nullable @Override public Bundle getBundle() {
+     ^
+  symbol:   class Nullable
+  location: class EmptyState
+/tmp/rdisk/304/src/flow-master/flow/src/main/java/flow/NotPersistentHistoryFilter.java:10: error: cannot find symbol
+  @NonNull @Override public History scrubHistory(@NonNull History history) {
+                                                  ^
+  symbol:   class NonNull
+  location: class NotPersistentHistoryFilter
+
+100 warnings
+:flow:androidJavadocsJar
+:flow:androidSourcesJar
+:flow:preBuild UP-TO-DATE
+:flow:preDebugBuild UP-TO-DATE
+:flow:compileDebugAidl
+:flow:compileDebugNdk NO-SOURCE
+:flow:compileDebugRenderscript
+:flow:checkDebugManifest
+:flow:generateDebugBuildConfig
+:flow:prepareLintJar
+:flow:generateDebugResValues
+:flow:generateDebugResources
+:flow:packageDebugResources
+:flow:platformAttrExtractor
+:flow:processDebugManifest
+:flow:javaPreCompileDebug
+:flow:mergeDebugShaders
+:flow:compileDebugShaders
+:flow:generateDebugAssets
+:flow:mergeDebugAssets
+:flow:mergeDebugConsumerProguardFiles
+:flow:packageDebugRenderscript NO-SOURCE
+:flow:processDebugJavaRes NO-SOURCE
+:flow:mergeDebugJniLibFolders
+:flow:transformNativeLibsWithMergeJniLibsForDebug
+:flow:processDebugResources
+:flow:generateDebugSources
+:flow:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:flow:extractDebugAnnotations
+:flow:transformResourcesWithMergeJavaResForDebug
+:flow:transformClassesAndResourcesWithSyncLibJarsForDebug
+:flow:transformNativeLibsWithStripDebugSymbolForDebug
+:flow:transformNativeLibsWithSyncJniLibsForDebug
+:flow:bundleDebug
+:flow:compileDebugSources
+:flow:assembleDebug
+:flow:preReleaseBuild UP-TO-DATE
+:flow:compileReleaseAidl
+:flow:compileReleaseNdk NO-SOURCE
+:flow:compileReleaseRenderscript
+:flow:checkReleaseManifest
+:flow:generateReleaseBuildConfig
+:flow:generateReleaseResValues
+:flow:generateReleaseResources
+:flow:packageReleaseResources
+:flow:processReleaseManifest
+:flow:processReleaseResources
+:flow:generateReleaseSources
+:flow:javaPreCompileRelease
+:flow:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:flow:extractReleaseAnnotations
+:flow:mergeReleaseShaders
+:flow:compileReleaseShaders
+:flow:generateReleaseAssets
+:flow:mergeReleaseAssets
+:flow:mergeReleaseConsumerProguardFiles
+:flow:packageReleaseRenderscript NO-SOURCE
+:flow:processReleaseJavaRes NO-SOURCE
+:flow:transformResourcesWithMergeJavaResForRelease
+:flow:transformClassesAndResourcesWithSyncLibJarsForRelease
+:flow:mergeReleaseJniLibFolders
+:flow:transformNativeLibsWithMergeJniLibsForRelease
+:flow:transformNativeLibsWithStripDebugSymbolForRelease
+:flow:transformNativeLibsWithSyncJniLibsForRelease
+:flow:bundleRelease
+:flow:compileReleaseSources
+:flow:mergeReleaseResources
+:flow:verifyReleaseResources
+:flow:assembleRelease
+:flow:signArchives SKIPPED
+:flow:assemble
+:flow:build
+:flow:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:flow-sample-basic:preBuild UP-TO-DATE
+:flow-sample-basic:preDebugBuild
+:flow-sample-basic:compileDebugAidl
+:flow-sample-basic:compileDebugRenderscript
+:flow-sample-basic:checkDebugManifest
+:flow-sample-basic:generateDebugBuildConfig
+:flow-sample-basic:prepareLintJar
+:flow-sample-basic:generateDebugResValues
+:flow-sample-basic:generateDebugResources
+:flow-sample-basic:mergeDebugResources
+:flow-sample-basic:createDebugCompatibleScreenManifests
+:flow-sample-basic:processDebugManifest
+:flow-sample-basic:splitsDiscoveryTaskDebug
+:flow-sample-basic:processDebugResources
+:flow-sample-basic:generateDebugSources
+:flow-sample-basic:javaPreCompileDebug
+:flow-sample-basic:compileDebugJavaWithJavac
+:flow-sample-basic:compileDebugNdk NO-SOURCE
+:flow-sample-basic:compileDebugSources
+:flow-sample-basic:mergeDebugShaders
+:flow-sample-basic:compileDebugShaders
+:flow-sample-basic:generateDebugAssets
+:flow-sample-basic:mergeDebugAssets
+:flow-sample-basic:transformClassesWithDexBuilderForDebug
+:flow-sample-basic:transformDexArchiveWithExternalLibsDexMergerForDebug
+:flow-sample-basic:transformDexArchiveWithDexMergerForDebug
+:flow:transformNativeLibsWithIntermediateJniLibsForDebug
+:flow-sample-basic:mergeDebugJniLibFolders
+:flow-sample-basic:transformNativeLibsWithMergeJniLibsForDebug
+:flow-sample-basic:transformNativeLibsWithStripDebugSymbolForDebug
+:flow-sample-basic:processDebugJavaRes NO-SOURCE
+:flow-sample-basic:transformResourcesWithMergeJavaResForDebug
+:flow-sample-basic:validateSigningDebug
+:flow-sample-basic:packageDebug
+:flow-sample-basic:assembleDebug
+:flow:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:flow-sample-basic:preReleaseBuild
+:flow-sample-basic:compileReleaseAidl
+:flow-sample-basic:compileReleaseRenderscript
+:flow-sample-basic:checkReleaseManifest
+:flow-sample-basic:generateReleaseBuildConfig
+:flow-sample-basic:generateReleaseResValues
+:flow-sample-basic:generateReleaseResources
+:flow-sample-basic:mergeReleaseResources
+:flow-sample-basic:createReleaseCompatibleScreenManifests
+:flow-sample-basic:processReleaseManifest
+:flow-sample-basic:splitsDiscoveryTaskRelease
+:flow-sample-basic:processReleaseResources
+:flow-sample-basic:generateReleaseSources
+:flow-sample-basic:javaPreCompileRelease
+:flow-sample-basic:compileReleaseJavaWithJavac
+:flow-sample-basic:compileReleaseNdk NO-SOURCE
+:flow-sample-basic:compileReleaseSources
+:flow-sample-basic:mergeReleaseShaders
+:flow-sample-basic:compileReleaseShaders
+:flow-sample-basic:generateReleaseAssets
+:flow-sample-basic:mergeReleaseAssets
+:flow-sample-basic:transformClassesWithPreDexForRelease
+:flow-sample-basic:transformDexWithDexForRelease
+:flow:transformNativeLibsWithIntermediateJniLibsForRelease
+:flow-sample-basic:mergeReleaseJniLibFolders
+:flow-sample-basic:transformNativeLibsWithMergeJniLibsForRelease
+:flow-sample-basic:transformNativeLibsWithStripDebugSymbolForRelease
+:flow-sample-basic:processReleaseJavaRes NO-SOURCE
+:flow-sample-basic:transformResourcesWithMergeJavaResForRelease
+:flow-sample-basic:packageRelease
+:flow-sample-basic:lintVitalRelease
+:flow-sample-basic:assembleRelease
+:flow-sample-basic:assemble
+:flow-sample-basic:build
+:flow-sample-helloworld:preBuild UP-TO-DATE
+:flow-sample-helloworld:preDebugBuild
+:flow-sample-helloworld:compileDebugAidl
+:flow-sample-helloworld:compileDebugRenderscript
+:flow-sample-helloworld:checkDebugManifest
+:flow-sample-helloworld:generateDebugBuildConfig
+:flow-sample-helloworld:prepareLintJar
+:flow-sample-helloworld:generateDebugResValues
+:flow-sample-helloworld:generateDebugResources
+:flow-sample-helloworld:mergeDebugResources
+:flow-sample-helloworld:createDebugCompatibleScreenManifests
+:flow-sample-helloworld:processDebugManifest
+:flow-sample-helloworld:splitsDiscoveryTaskDebug
+:flow-sample-helloworld:processDebugResources
+:flow-sample-helloworld:generateDebugSources
+:flow-sample-helloworld:javaPreCompileDebug
+:flow-sample-helloworld:compileDebugJavaWithJavac
+:flow-sample-helloworld:compileDebugNdk NO-SOURCE
+:flow-sample-helloworld:compileDebugSources
+:flow-sample-helloworld:mergeDebugShaders
+:flow-sample-helloworld:compileDebugShaders
+:flow-sample-helloworld:generateDebugAssets
+:flow-sample-helloworld:mergeDebugAssets
+:flow-sample-helloworld:transformClassesWithDexBuilderForDebug
+:flow-sample-helloworld:transformDexArchiveWithExternalLibsDexMergerForDebug
+:flow-sample-helloworld:transformDexArchiveWithDexMergerForDebug
+:flow-sample-helloworld:mergeDebugJniLibFolders
+:flow-sample-helloworld:transformNativeLibsWithMergeJniLibsForDebug
+:flow-sample-helloworld:transformNativeLibsWithStripDebugSymbolForDebug
+:flow-sample-helloworld:processDebugJavaRes NO-SOURCE
+:flow-sample-helloworld:transformResourcesWithMergeJavaResForDebug
+:flow-sample-helloworld:validateSigningDebug
+:flow-sample-helloworld:packageDebug
+:flow-sample-helloworld:assembleDebug
+:flow-sample-helloworld:preReleaseBuild
+:flow-sample-helloworld:compileReleaseAidl
+:flow-sample-helloworld:compileReleaseRenderscript
+:flow-sample-helloworld:checkReleaseManifest
+:flow-sample-helloworld:generateReleaseBuildConfig
+:flow-sample-helloworld:generateReleaseResValues
+:flow-sample-helloworld:generateReleaseResources
+:flow-sample-helloworld:mergeReleaseResources
+:flow-sample-helloworld:createReleaseCompatibleScreenManifests
+:flow-sample-helloworld:processReleaseManifest
+:flow-sample-helloworld:splitsDiscoveryTaskRelease
+:flow-sample-helloworld:processReleaseResources
+:flow-sample-helloworld:generateReleaseSources
+:flow-sample-helloworld:javaPreCompileRelease
+:flow-sample-helloworld:compileReleaseJavaWithJavac
+:flow-sample-helloworld:compileReleaseNdk NO-SOURCE
+:flow-sample-helloworld:compileReleaseSources
+:flow-sample-helloworld:mergeReleaseShaders
+:flow-sample-helloworld:compileReleaseShaders
+:flow-sample-helloworld:generateReleaseAssets
+:flow-sample-helloworld:mergeReleaseAssets
+:flow-sample-helloworld:transformClassesWithPreDexForRelease
+:flow-sample-helloworld:transformDexWithDexForRelease
+:flow-sample-helloworld:mergeReleaseJniLibFolders
+:flow-sample-helloworld:transformNativeLibsWithMergeJniLibsForRelease
+:flow-sample-helloworld:transformNativeLibsWithStripDebugSymbolForRelease
+:flow-sample-helloworld:processReleaseJavaRes NO-SOURCE
+:flow-sample-helloworld:transformResourcesWithMergeJavaResForRelease
+:flow-sample-helloworld:packageRelease
+:flow-sample-helloworld:lintVitalRelease
+:flow-sample-helloworld:assembleRelease
+:flow-sample-helloworld:assemble
+:flow-sample-helloworld:build
+:flow-sample-intents:preBuild UP-TO-DATE
+:flow-sample-intents:preDebugBuild
+:flow-sample-intents:compileDebugAidl
+:flow-sample-intents:compileDebugRenderscript
+:flow-sample-intents:checkDebugManifest
+:flow-sample-intents:generateDebugBuildConfig
+:flow-sample-intents:prepareLintJar
+:flow-sample-intents:generateDebugResValues
+:flow-sample-intents:generateDebugResources
+:flow-sample-intents:mergeDebugResources
+:flow-sample-intents:createDebugCompatibleScreenManifests
+:flow-sample-intents:processDebugManifest
+:flow-sample-intents:splitsDiscoveryTaskDebug
+:flow-sample-intents:processDebugResources
+:flow-sample-intents:generateDebugSources
+:flow-sample-intents:javaPreCompileDebug
+:flow-sample-intents:compileDebugJavaWithJavac
+:flow-sample-intents:compileDebugNdk NO-SOURCE
+:flow-sample-intents:compileDebugSources
+:flow-sample-intents:mergeDebugShaders
+:flow-sample-intents:compileDebugShaders
+:flow-sample-intents:generateDebugAssets
+:flow-sample-intents:mergeDebugAssets
+:flow-sample-intents:transformClassesWithDexBuilderForDebug
+:flow-sample-intents:transformDexArchiveWithExternalLibsDexMergerForDebug
+:flow-sample-intents:transformDexArchiveWithDexMergerForDebug
+:flow-sample-intents:mergeDebugJniLibFolders
+:flow-sample-intents:transformNativeLibsWithMergeJniLibsForDebug
+:flow-sample-intents:transformNativeLibsWithStripDebugSymbolForDebug
+:flow-sample-intents:processDebugJavaRes NO-SOURCE
+:flow-sample-intents:transformResourcesWithMergeJavaResForDebug
+:flow-sample-intents:validateSigningDebug
+:flow-sample-intents:packageDebug
+:flow-sample-intents:assembleDebug
+:flow-sample-intents:preReleaseBuild
+:flow-sample-intents:compileReleaseAidl
+:flow-sample-intents:compileReleaseRenderscript
+:flow-sample-intents:checkReleaseManifest
+:flow-sample-intents:generateReleaseBuildConfig
+:flow-sample-intents:generateReleaseResValues
+:flow-sample-intents:generateReleaseResources
+:flow-sample-intents:mergeReleaseResources
+:flow-sample-intents:createReleaseCompatibleScreenManifests
+:flow-sample-intents:processReleaseManifest
+:flow-sample-intents:splitsDiscoveryTaskRelease
+:flow-sample-intents:processReleaseResources
+:flow-sample-intents:generateReleaseSources
+:flow-sample-intents:javaPreCompileRelease
+:flow-sample-intents:compileReleaseJavaWithJavac
+:flow-sample-intents:compileReleaseNdk NO-SOURCE
+:flow-sample-intents:compileReleaseSources
+:flow-sample-intents:mergeReleaseShaders
+:flow-sample-intents:compileReleaseShaders
+:flow-sample-intents:generateReleaseAssets
+:flow-sample-intents:mergeReleaseAssets
+:flow-sample-intents:transformClassesWithPreDexForRelease
+:flow-sample-intents:transformDexWithDexForRelease
+:flow-sample-intents:mergeReleaseJniLibFolders
+:flow-sample-intents:transformNativeLibsWithMergeJniLibsForRelease
+:flow-sample-intents:transformNativeLibsWithStripDebugSymbolForRelease
+:flow-sample-intents:processReleaseJavaRes NO-SOURCE
+:flow-sample-intents:transformResourcesWithMergeJavaResForRelease
+:flow-sample-intents:packageRelease
+:flow-sample-intents:lintVitalRelease
+:flow-sample-intents:assembleRelease
+:flow-sample-intents:assemble
+:flow-sample-intents:build
+:flow-sample-multikey:preBuild UP-TO-DATE
+:flow-sample-multikey:preDebugBuild
+:flow-sample-multikey:compileDebugAidl
+:flow-sample-multikey:compileDebugRenderscript
+:flow-sample-multikey:checkDebugManifest
+:flow-sample-multikey:generateDebugBuildConfig
+:flow-sample-multikey:prepareLintJar
+:flow-sample-multikey:generateDebugResValues
+:flow-sample-multikey:generateDebugResources
+:flow-sample-multikey:mergeDebugResources
+:flow-sample-multikey:createDebugCompatibleScreenManifests
+:flow-sample-multikey:processDebugManifest
+:flow-sample-multikey:splitsDiscoveryTaskDebug
+:flow-sample-multikey:processDebugResources
+:flow-sample-multikey:generateDebugSources
+:flow-sample-multikey:javaPreCompileDebug
+:flow-sample-multikey:compileDebugJavaWithJavac
+:flow-sample-multikey:compileDebugNdk NO-SOURCE
+:flow-sample-multikey:compileDebugSources
+:flow-sample-multikey:mergeDebugShaders
+:flow-sample-multikey:compileDebugShaders
+:flow-sample-multikey:generateDebugAssets
+:flow-sample-multikey:mergeDebugAssets
+:flow-sample-multikey:transformClassesWithDexBuilderForDebug
+:flow-sample-multikey:transformDexArchiveWithExternalLibsDexMergerForDebug
+:flow-sample-multikey:transformDexArchiveWithDexMergerForDebug
+:flow-sample-multikey:mergeDebugJniLibFolders
+:flow-sample-multikey:transformNativeLibsWithMergeJniLibsForDebug
+:flow-sample-multikey:transformNativeLibsWithStripDebugSymbolForDebug
+:flow-sample-multikey:processDebugJavaRes NO-SOURCE
+:flow-sample-multikey:transformResourcesWithMergeJavaResForDebug
+:flow-sample-multikey:validateSigningDebug
+:flow-sample-multikey:packageDebug
+:flow-sample-multikey:assembleDebug
+:flow-sample-multikey:preReleaseBuild
+:flow-sample-multikey:compileReleaseAidl
+:flow-sample-multikey:compileReleaseRenderscript
+:flow-sample-multikey:checkReleaseManifest
+:flow-sample-multikey:generateReleaseBuildConfig
+:flow-sample-multikey:generateReleaseResValues
+:flow-sample-multikey:generateReleaseResources
+:flow-sample-multikey:mergeReleaseResources
+:flow-sample-multikey:createReleaseCompatibleScreenManifests
+:flow-sample-multikey:processReleaseManifest
+:flow-sample-multikey:splitsDiscoveryTaskRelease
+:flow-sample-multikey:processReleaseResources
+:flow-sample-multikey:generateReleaseSources
+:flow-sample-multikey:javaPreCompileRelease
+:flow-sample-multikey:compileReleaseJavaWithJavac
+:flow-sample-multikey:compileReleaseNdk NO-SOURCE
+:flow-sample-multikey:compileReleaseSources
+:flow-sample-multikey:mergeReleaseShaders
+:flow-sample-multikey:compileReleaseShaders
+:flow-sample-multikey:generateReleaseAssets
+:flow-sample-multikey:mergeReleaseAssets
+:flow-sample-multikey:transformClassesWithPreDexForRelease
+:flow-sample-multikey:transformDexWithDexForRelease
+:flow-sample-multikey:mergeReleaseJniLibFolders
+:flow-sample-multikey:transformNativeLibsWithMergeJniLibsForRelease
+:flow-sample-multikey:transformNativeLibsWithStripDebugSymbolForRelease
+:flow-sample-multikey:processReleaseJavaRes NO-SOURCE
+:flow-sample-multikey:transformResourcesWithMergeJavaResForRelease
+:flow-sample-multikey:packageRelease
+:flow-sample-multikey:lintVitalRelease
+:flow-sample-multikey:assembleRelease
+:flow-sample-multikey:assemble
+:flow-sample-multikey:build
+:flow-sample-orientation-lock:preBuild UP-TO-DATE
+:flow-sample-orientation-lock:preDebugBuild
+:flow-sample-orientation-lock:compileDebugAidl
+:flow-sample-orientation-lock:compileDebugRenderscript
+:flow-sample-orientation-lock:checkDebugManifest
+:flow-sample-orientation-lock:generateDebugBuildConfig
+:flow-sample-orientation-lock:prepareLintJar
+:flow-sample-orientation-lock:generateDebugResValues
+:flow-sample-orientation-lock:generateDebugResources
+:flow-sample-orientation-lock:mergeDebugResources
+:flow-sample-orientation-lock:createDebugCompatibleScreenManifests
+:flow-sample-orientation-lock:processDebugManifest
+:flow-sample-orientation-lock:splitsDiscoveryTaskDebug
+:flow-sample-orientation-lock:processDebugResources
+:flow-sample-orientation-lock:generateDebugSources
+:flow-sample-orientation-lock:javaPreCompileDebug
+:flow-sample-orientation-lock:compileDebugJavaWithJavac
+:flow-sample-orientation-lock:compileDebugNdk NO-SOURCE
+:flow-sample-orientation-lock:compileDebugSources
+:flow-sample-orientation-lock:mergeDebugShaders
+:flow-sample-orientation-lock:compileDebugShaders
+:flow-sample-orientation-lock:generateDebugAssets
+:flow-sample-orientation-lock:mergeDebugAssets
+:flow-sample-orientation-lock:transformClassesWithDexBuilderForDebug
+:flow-sample-orientation-lock:transformDexArchiveWithExternalLibsDexMergerForDebug
+:flow-sample-orientation-lock:transformDexArchiveWithDexMergerForDebug
+:flow-sample-orientation-lock:mergeDebugJniLibFolders
+:flow-sample-orientation-lock:transformNativeLibsWithMergeJniLibsForDebug
+:flow-sample-orientation-lock:transformNativeLibsWithStripDebugSymbolForDebug
+:flow-sample-orientation-lock:processDebugJavaRes NO-SOURCE
+:flow-sample-orientation-lock:transformResourcesWithMergeJavaResForDebug
+:flow-sample-orientation-lock:validateSigningDebug
+:flow-sample-orientation-lock:packageDebug
+:flow-sample-orientation-lock:assembleDebug
+:flow-sample-orientation-lock:preReleaseBuild
+:flow-sample-orientation-lock:compileReleaseAidl
+:flow-sample-orientation-lock:compileReleaseRenderscript
+:flow-sample-orientation-lock:checkReleaseManifest
+:flow-sample-orientation-lock:generateReleaseBuildConfig
+:flow-sample-orientation-lock:generateReleaseResValues
+:flow-sample-orientation-lock:generateReleaseResources
+:flow-sample-orientation-lock:mergeReleaseResources
+:flow-sample-orientation-lock:createReleaseCompatibleScreenManifests
+:flow-sample-orientation-lock:processReleaseManifest
+:flow-sample-orientation-lock:splitsDiscoveryTaskRelease
+:flow-sample-orientation-lock:processReleaseResources
+:flow-sample-orientation-lock:generateReleaseSources
+:flow-sample-orientation-lock:javaPreCompileRelease
+:flow-sample-orientation-lock:compileReleaseJavaWithJavac
+:flow-sample-orientation-lock:compileReleaseNdk NO-SOURCE
+:flow-sample-orientation-lock:compileReleaseSources
+:flow-sample-orientation-lock:mergeReleaseShaders
+:flow-sample-orientation-lock:compileReleaseShaders
+:flow-sample-orientation-lock:generateReleaseAssets
+:flow-sample-orientation-lock:mergeReleaseAssets
+:flow-sample-orientation-lock:transformClassesWithPreDexForRelease
+:flow-sample-orientation-lock:transformDexWithDexForRelease
+:flow-sample-orientation-lock:mergeReleaseJniLibFolders
+:flow-sample-orientation-lock:transformNativeLibsWithMergeJniLibsForRelease
+:flow-sample-orientation-lock:transformNativeLibsWithStripDebugSymbolForRelease
+:flow-sample-orientation-lock:processReleaseJavaRes NO-SOURCE
+:flow-sample-orientation-lock:transformResourcesWithMergeJavaResForRelease
+:flow-sample-orientation-lock:packageRelease
+:flow-sample-orientation-lock:lintVitalRelease
+:flow-sample-orientation-lock:assembleRelease
+:flow-sample-orientation-lock:assemble
+:flow-sample-orientation-lock:build
+:flow-sample-tree:preBuild UP-TO-DATE
+:flow-sample-tree:preDebugBuild
+:flow-sample-tree:compileDebugAidl
+:flow-sample-tree:compileDebugRenderscript
+:flow-sample-tree:checkDebugManifest
+:flow-sample-tree:generateDebugBuildConfig
+:flow-sample-tree:prepareLintJar
+:flow-sample-tree:generateDebugResValues
+:flow-sample-tree:generateDebugResources
+:flow-sample-tree:mergeDebugResources
+:flow-sample-tree:createDebugCompatibleScreenManifests
+:flow-sample-tree:processDebugManifest
+:flow-sample-tree:splitsDiscoveryTaskDebug
+:flow-sample-tree:processDebugResources
+:flow-sample-tree:generateDebugSources
+:flow-sample-tree:javaPreCompileDebug
+:flow-sample-tree:compileDebugJavaWithJavac
+:flow-sample-tree:compileDebugNdk NO-SOURCE
+:flow-sample-tree:compileDebugSources
+:flow-sample-tree:mergeDebugShaders
+:flow-sample-tree:compileDebugShaders
+:flow-sample-tree:generateDebugAssets
+:flow-sample-tree:mergeDebugAssets
+:flow-sample-tree:transformClassesWithDexBuilderForDebug
+:flow-sample-tree:transformDexArchiveWithExternalLibsDexMergerForDebug
+:flow-sample-tree:transformDexArchiveWithDexMergerForDebug
+:flow-sample-tree:mergeDebugJniLibFolders
+:flow-sample-tree:transformNativeLibsWithMergeJniLibsForDebug
+:flow-sample-tree:transformNativeLibsWithStripDebugSymbolForDebug
+:flow-sample-tree:processDebugJavaRes NO-SOURCE
+:flow-sample-tree:transformResourcesWithMergeJavaResForDebug
+:flow-sample-tree:validateSigningDebug
+:flow-sample-tree:packageDebug
+:flow-sample-tree:assembleDebug
+:flow-sample-tree:preReleaseBuild
+:flow-sample-tree:compileReleaseAidl
+:flow-sample-tree:compileReleaseRenderscript
+:flow-sample-tree:checkReleaseManifest
+:flow-sample-tree:generateReleaseBuildConfig
+:flow-sample-tree:generateReleaseResValues
+:flow-sample-tree:generateReleaseResources
+:flow-sample-tree:mergeReleaseResources
+:flow-sample-tree:createReleaseCompatibleScreenManifests
+:flow-sample-tree:processReleaseManifest
+:flow-sample-tree:splitsDiscoveryTaskRelease
+:flow-sample-tree:processReleaseResources
+:flow-sample-tree:generateReleaseSources
+:flow-sample-tree:javaPreCompileRelease
+:flow-sample-tree:compileReleaseJavaWithJavac
+:flow-sample-tree:compileReleaseNdk NO-SOURCE
+:flow-sample-tree:compileReleaseSources
+:flow-sample-tree:mergeReleaseShaders
+:flow-sample-tree:compileReleaseShaders
+:flow-sample-tree:generateReleaseAssets
+:flow-sample-tree:mergeReleaseAssets
+:flow-sample-tree:transformClassesWithPreDexForRelease
+:flow-sample-tree:transformDexWithDexForRelease
+:flow-sample-tree:mergeReleaseJniLibFolders
+:flow-sample-tree:transformNativeLibsWithMergeJniLibsForRelease
+:flow-sample-tree:transformNativeLibsWithStripDebugSymbolForRelease
+:flow-sample-tree:processReleaseJavaRes NO-SOURCE
+:flow-sample-tree:transformResourcesWithMergeJavaResForRelease
+:flow-sample-tree:packageRelease
+:flow-sample-tree:lintVitalRelease
+:flow-sample-tree:assembleRelease
+:flow-sample-tree:assemble
+:flow-sample-tree:build
+
+BUILD SUCCESSFUL in 1m 14s
+355 actionable tasks: 355 executed
+
+2018-04-10 18:24:17,365 INFO  FullProcessService - Found APK file: /tmp/rdisk/304/src/flow-master/flow-sample-tree/build/outputs/apk/release/flow-sample-tree-release-unsigned.apk

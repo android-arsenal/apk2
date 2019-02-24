@@ -1,0 +1,306 @@
+2018-03-11 14:20:18,150 INFO  DownloadService - Downloading "https://github.com/SufficientlySecure/donations/archive/master.zip", attempt 3
+2018-03-11 14:20:19,252 INFO  DownloadService - Downloaded https://github.com/SufficientlySecure/donations/archive/master.zip, attempt 3
+2018-03-11 14:20:19,252 INFO  DownloadService - Size of file "/tmp/1520778018145-0/master.zip": 213 KB
+2018-03-11 14:20:19,252 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-03-11 14:20:19,253 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/1520778018145-0/master.zip: true
+2018-03-11 14:20:19,253 DEBUG ZipUtil - Extracting '/tmp/1520778018145-0/master.zip' into '/tmp/1520778018145-0/src'.
+2018-03-11 14:20:19,265 INFO  FullProcessService - Size of directory with sources: 334 KB
+2018-03-11 14:20:19,265 INFO  SysUtils - Execute command: [git, init, /tmp/1520778018145-0/src]
+2018-03-11 14:20:19,271 INFO  SysUtils - Initialized empty Git repository in /tmp/1520778018145-0/src/.git/
+
+2018-03-11 14:20:19,273 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/1520778018145-0/src/donations-master/gradlew
+2018-03-11 14:20:19,275 INFO  ProjectBuildService - Build script(s): /tmp/1520778018145-0/src/donations-master/Donations/build.gradle /tmp/1520778018145-0/src/donations-master/example/build.gradle /tmp/1520778018145-0/src/donations-master/build.gradle
+2018-03-11 14:20:19,276 INFO  ProjectBuildService - All script(s): /tmp/1520778018145-0/src/donations-master/build.gradle /tmp/1520778018145-0/src/donations-master/settings.gradle /tmp/1520778018145-0/src/donations-master/example/build.gradle /tmp/1520778018145-0/src/donations-master/Donations/build.gradle
+2018-03-11 14:20:19,276 INFO  ProjectBuildService - Remote scripts: none
+2018-03-11 14:20:19,276 INFO  ProjectFixService - Fixing project...
+2018-03-11 14:20:19,280 INFO  LocalPropertiesFixService - Created fake /tmp/1520778018145-0/src/donations-master/Donations/local.properties
+2018-03-11 14:20:19,280 INFO  ProjectFixService - Build info for "/tmp/1520778018145-0/src/donations-master/Donations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-03-11 14:20:19,280 INFO  LocalPropertiesFixService - Created fake /tmp/1520778018145-0/src/donations-master/example/local.properties
+2018-03-11 14:20:19,281 INFO  ProjectFixService - Build info for "/tmp/1520778018145-0/src/donations-master/example/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-03-11 14:20:19,281 INFO  LocalPropertiesFixService - Created fake /tmp/1520778018145-0/src/donations-master/local.properties
+2018-03-11 14:20:19,282 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-03-11 14:20:19,282 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-03-11 14:20:19,282 INFO  ProjectFixService - Build info for "/tmp/1520778018145-0/src/donations-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-03-11 14:20:19,283 INFO  ProjectFixService - Project was maybe fixed
+2018-03-11 14:20:19,283 INFO  ProjectTaskService - Detecting possible tasks...
+2018-03-11 14:20:19,283 INFO  SysUtils - Execute command: [/tmp/1520778018145-0/src/donations-master/gradlew, -b, /tmp/1520778018145-0/src/donations-master/Donations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-03-11 14:20:28,808 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-03-11 14:20:28,809 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-03-11 14:20:28,809 INFO  SysUtils - Execute command: [/tmp/1520778018145-0/src/donations-master/gradlew, -b, /tmp/1520778018145-0/src/donations-master/Donations/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-03-11 14:20:46,034 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':Donations' is deprecated. Use 'implementation' instead.
+:Donations:preBuild UP-TO-DATE
+:Donations:preDebugBuild UP-TO-DATE
+:Donations:compileDebugAidl
+:Donations:compileDebugNdk NO-SOURCE
+:Donations:compileDebugRenderscript
+:Donations:checkDebugManifest
+:Donations:generateDebugBuildConfig
+:Donations:prepareLintJar
+:Donations:generateDebugResValues
+:Donations:generateDebugResources
+:Donations:packageDebugResources
+:Donations:platformAttrExtractor
+:Donations:processDebugManifest
+:Donations:javaPreCompileDebug
+:Donations:processDebugResources
+:Donations:generateDebugSources
+:Donations:compileDebugJavaWithJavacNote: /tmp/1520778018145-0/src/donations-master/Donations/src/main/java/org/sufficientlysecure/donations/DonationsFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:Donations:extractDebugAnnotations
+:Donations:mergeDebugShaders
+:Donations:compileDebugShaders
+:Donations:generateDebugAssets
+:Donations:mergeDebugAssets
+:Donations:mergeDebugConsumerProguardFiles
+:Donations:packageDebugRenderscript NO-SOURCE
+:Donations:processDebugJavaRes NO-SOURCE
+:Donations:transformResourcesWithMergeJavaResForDebug
+:Donations:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Donations:mergeDebugJniLibFolders
+:Donations:transformNativeLibsWithMergeJniLibsForDebug
+:Donations:transformNativeLibsWithStripDebugSymbolForDebug
+:Donations:transformNativeLibsWithSyncJniLibsForDebug
+:Donations:bundleDebug
+:Donations:compileDebugSources
+:Donations:assembleDebug
+:Donations:preReleaseBuild UP-TO-DATE
+:Donations:compileReleaseAidl
+:Donations:compileReleaseNdk NO-SOURCE
+:Donations:compileReleaseRenderscript
+:Donations:checkReleaseManifest
+:Donations:generateReleaseBuildConfig
+:Donations:generateReleaseResValues
+:Donations:generateReleaseResources
+:Donations:packageReleaseResources
+:Donations:processReleaseManifest
+:Donations:processReleaseResources
+:Donations:generateReleaseSources
+:Donations:javaPreCompileRelease
+:Donations:compileReleaseJavaWithJavacNote: /tmp/1520778018145-0/src/donations-master/Donations/src/main/java/org/sufficientlysecure/donations/DonationsFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:Donations:extractReleaseAnnotations
+:Donations:mergeReleaseShaders
+:Donations:compileReleaseShaders
+:Donations:generateReleaseAssets
+:Donations:mergeReleaseAssets
+:Donations:mergeReleaseConsumerProguardFiles
+:Donations:packageReleaseRenderscript NO-SOURCE
+:Donations:processReleaseJavaRes NO-SOURCE
+:Donations:transformResourcesWithMergeJavaResForRelease
+:Donations:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Donations:mergeReleaseJniLibFolders
+:Donations:transformNativeLibsWithMergeJniLibsForRelease
+:Donations:transformNativeLibsWithStripDebugSymbolForRelease
+:Donations:transformNativeLibsWithSyncJniLibsForRelease
+:Donations:bundleRelease
+:Donations:compileReleaseSources
+:Donations:mergeReleaseResources
+:Donations:verifyReleaseResources
+:Donations:assembleRelease
+:Donations:assemble
+:Donations:build
+
+BUILD SUCCESSFUL in 16s
+48 actionable tasks: 48 executed
+
+2018-03-11 14:20:46,050 INFO  ProjectTaskService - Detecting possible tasks...
+2018-03-11 14:20:46,050 INFO  SysUtils - Execute command: [/tmp/1520778018145-0/src/donations-master/gradlew, -b, /tmp/1520778018145-0/src/donations-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-03-11 14:20:53,227 INFO  ProjectTaskService - Detected possible tasks: 84
+2018-03-11 14:20:53,227 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-03-11 14:20:53,228 INFO  SysUtils - Execute command: [/tmp/1520778018145-0/src/donations-master/gradlew, -b, /tmp/1520778018145-0/src/donations-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-03-11 14:21:20,323 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':example' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':Donations' is deprecated. Use 'implementation' instead.
+:Donations:preBuild UP-TO-DATE
+:Donations:preDebugBuild UP-TO-DATE
+:Donations:compileDebugAidl UP-TO-DATE
+:Donations:compileDebugRenderscript UP-TO-DATE
+:Donations:checkDebugManifest UP-TO-DATE
+:Donations:generateDebugBuildConfig UP-TO-DATE
+:Donations:prepareLintJar UP-TO-DATE
+:Donations:generateDebugResValues UP-TO-DATE
+:Donations:generateDebugResources UP-TO-DATE
+:Donations:packageDebugResources UP-TO-DATE
+:Donations:platformAttrExtractor UP-TO-DATE
+:Donations:processDebugManifest UP-TO-DATE
+:Donations:processDebugResources UP-TO-DATE
+:Donations:generateDebugSources UP-TO-DATE
+:Donations:javaPreCompileDebug UP-TO-DATE
+:Donations:compileDebugJavaWithJavac UP-TO-DATE
+:Donations:processDebugJavaRes NO-SOURCE
+:Donations:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:preBuild UP-TO-DATE
+:example:preFdroidDebugBuild
+:example:compileFdroidDebugAidl
+:Donations:packageDebugRenderscript NO-SOURCE
+:example:compileFdroidDebugRenderscript
+:example:checkFdroidDebugManifest
+:example:generateFdroidDebugBuildConfig
+:example:prepareLintJar
+:example:generateFdroidDebugResValues
+:example:generateFdroidDebugResources
+:example:mergeFdroidDebugResources
+:example:createFdroidDebugCompatibleScreenManifests
+:example:processFdroidDebugManifest
+:example:splitsDiscoveryTaskFdroidDebug
+:example:processFdroidDebugResources
+:example:generateFdroidDebugSources
+:example:javaPreCompileFdroidDebug
+:example:compileFdroidDebugJavaWithJavac
+:example:compileFdroidDebugNdk NO-SOURCE
+:example:compileFdroidDebugSources
+:Donations:mergeDebugShaders UP-TO-DATE
+:Donations:compileDebugShaders UP-TO-DATE
+:Donations:generateDebugAssets UP-TO-DATE
+:Donations:mergeDebugAssets UP-TO-DATE
+:example:mergeFdroidDebugShaders
+:example:compileFdroidDebugShaders
+:example:generateFdroidDebugAssets
+:example:mergeFdroidDebugAssets
+:example:transformClassesWithDexBuilderForFdroidDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForFdroidDebug
+:example:transformDexArchiveWithDexMergerForFdroidDebug
+:Donations:compileDebugNdk NO-SOURCE
+:Donations:mergeDebugJniLibFolders UP-TO-DATE
+:Donations:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:Donations:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:Donations:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:mergeFdroidDebugJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForFdroidDebug
+:example:transformNativeLibsWithStripDebugSymbolForFdroidDebug
+:example:processFdroidDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForFdroidDebug
+:example:validateSigningFdroidDebug
+:example:packageFdroidDebug
+:example:assembleFdroidDebug
+:example:preGoogleDebugBuild
+:example:compileGoogleDebugAidl
+:example:compileGoogleDebugRenderscript
+:example:checkGoogleDebugManifest
+:example:generateGoogleDebugBuildConfig
+:example:generateGoogleDebugResValues
+:example:generateGoogleDebugResources
+:example:mergeGoogleDebugResources
+:example:createGoogleDebugCompatibleScreenManifests
+:example:processGoogleDebugManifest
+:example:splitsDiscoveryTaskGoogleDebug
+:example:processGoogleDebugResources
+:example:generateGoogleDebugSources
+:example:javaPreCompileGoogleDebug
+:example:compileGoogleDebugJavaWithJavac
+:example:compileGoogleDebugNdk NO-SOURCE
+:example:compileGoogleDebugSources
+:example:mergeGoogleDebugShaders
+:example:compileGoogleDebugShaders
+:example:generateGoogleDebugAssets
+:example:mergeGoogleDebugAssets
+:example:transformClassesWithDexBuilderForGoogleDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForGoogleDebug
+:example:transformDexArchiveWithDexMergerForGoogleDebug
+:example:mergeGoogleDebugJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForGoogleDebug
+:example:transformNativeLibsWithStripDebugSymbolForGoogleDebug
+:example:processGoogleDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForGoogleDebug
+:example:validateSigningGoogleDebug
+:example:packageGoogleDebug
+:example:assembleGoogleDebug
+:example:assembleDebug
+:Donations:preReleaseBuild UP-TO-DATE
+:Donations:compileReleaseAidl UP-TO-DATE
+:Donations:compileReleaseRenderscript UP-TO-DATE
+:Donations:checkReleaseManifest UP-TO-DATE
+:Donations:generateReleaseBuildConfig UP-TO-DATE
+:Donations:generateReleaseResValues UP-TO-DATE
+:Donations:generateReleaseResources UP-TO-DATE
+:Donations:packageReleaseResources UP-TO-DATE
+:Donations:processReleaseManifest UP-TO-DATE
+:Donations:processReleaseResources UP-TO-DATE
+:Donations:generateReleaseSources UP-TO-DATE
+:Donations:javaPreCompileRelease UP-TO-DATE
+:Donations:compileReleaseJavaWithJavac UP-TO-DATE
+:Donations:processReleaseJavaRes NO-SOURCE
+:Donations:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:preFdroidReleaseBuild
+:example:compileFdroidReleaseAidl
+:Donations:packageReleaseRenderscript NO-SOURCE
+:example:compileFdroidReleaseRenderscript
+:example:checkFdroidReleaseManifest
+:example:generateFdroidReleaseBuildConfig
+:example:generateFdroidReleaseResValues
+:example:generateFdroidReleaseResources
+:example:mergeFdroidReleaseResources
+:example:createFdroidReleaseCompatibleScreenManifests
+:example:processFdroidReleaseManifest
+:example:splitsDiscoveryTaskFdroidRelease
+:example:processFdroidReleaseResources
+:example:generateFdroidReleaseSources
+:example:javaPreCompileFdroidRelease
+:example:compileFdroidReleaseJavaWithJavac
+:example:compileFdroidReleaseNdk NO-SOURCE
+:example:compileFdroidReleaseSources
+:example:lintVitalFdroidRelease
+:Donations:mergeReleaseShaders UP-TO-DATE
+:Donations:compileReleaseShaders UP-TO-DATE
+:Donations:generateReleaseAssets UP-TO-DATE
+:Donations:mergeReleaseAssets UP-TO-DATE
+:example:mergeFdroidReleaseShaders
+:example:compileFdroidReleaseShaders
+:example:generateFdroidReleaseAssets
+:example:mergeFdroidReleaseAssets
+:example:transformClassesWithPreDexForFdroidRelease
+:example:transformDexWithDexForFdroidRelease
+:Donations:compileReleaseNdk NO-SOURCE
+:Donations:mergeReleaseJniLibFolders UP-TO-DATE
+:Donations:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:Donations:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:Donations:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:mergeFdroidReleaseJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForFdroidRelease
+:example:transformNativeLibsWithStripDebugSymbolForFdroidRelease
+:example:processFdroidReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForFdroidRelease
+:example:packageFdroidRelease
+:example:assembleFdroidRelease
+:example:preGoogleReleaseBuild
+:example:compileGoogleReleaseAidl
+:example:compileGoogleReleaseRenderscript
+:example:checkGoogleReleaseManifest
+:example:generateGoogleReleaseBuildConfig
+:example:generateGoogleReleaseResValues
+:example:generateGoogleReleaseResources
+:example:mergeGoogleReleaseResources
+:example:createGoogleReleaseCompatibleScreenManifests
+:example:processGoogleReleaseManifest
+:example:splitsDiscoveryTaskGoogleRelease
+:example:processGoogleReleaseResources
+:example:generateGoogleReleaseSources
+:example:javaPreCompileGoogleRelease
+:example:compileGoogleReleaseJavaWithJavac
+:example:compileGoogleReleaseNdk NO-SOURCE
+:example:compileGoogleReleaseSources
+:example:lintVitalGoogleRelease
+:example:mergeGoogleReleaseShaders
+:example:compileGoogleReleaseShaders
+:example:generateGoogleReleaseAssets
+:example:mergeGoogleReleaseAssets
+:example:transformClassesWithPreDexForGoogleRelease
+:example:transformDexWithDexForGoogleRelease
+:example:mergeGoogleReleaseJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForGoogleRelease
+:example:transformNativeLibsWithStripDebugSymbolForGoogleRelease
+:example:processGoogleReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForGoogleRelease
+:example:packageGoogleRelease
+:example:assembleGoogleRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 25s
+137 actionable tasks: 103 executed, 34 up-to-date
+
+2018-03-11 14:21:20,381 INFO  FullProcessService - Found APK file: /tmp/1520778018145-0/src/donations-master/example/build/outputs/apk/fdroid/debug/example-fdroid-debug.apk

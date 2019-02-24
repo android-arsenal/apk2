@@ -1,0 +1,36 @@
+{
+  "meta" : {
+    "packageName" : "org.onepf.sample.trivialdrive",
+    "label" : "TrivialDrive",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "0.9.8.7",
+    "versionCode" : 24,
+    "installLocation" : null,
+    "minSdkVersion" : "10",
+    "targetSdkVersion" : "21",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "org.onepf.openiab.permission.BILLING", "com.android.vending.BILLING", "com.nokia.payment.BILLING", "com.sec.android.iap.permission.BILLING", "android.permission.RECEIVE_SMS", "android.permission.SEND_SMS", "android.permission.READ_PHONE_STATE", "com.slideme.sam.manager.inapp.permission.BILLING", "com.skubit.BILLING" ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.telephony",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAACN1BMVEX///8hsuAcquP/qnH9rWMituQhs+Ehs97/rmL+rmX/sWYhsd4it+UhtOIitN//rGT/r2X/smb9rGMhs+Ehs+Ekrdv/rWT+rmX/rmQiuOchtOIgst/8q2T/sGX/s2citeMhs+Iist8kpNvtpFv9rWT+rmX/sGUhst8iuegitOEgsN//rGH+r2T+rWMituUis+IhseAAqv//qlX9rWT+r2Uhs+Ait+Yhs+Edr9v4qF/+rmQiuOYhs+Egsd/8q2P+r2QitOIhtOIhst8cquP/qmP9rWT/r2UiuechtOINqur/lEz/rmQfr98ituNF0sS1z4b/qmEeruAsutZZ4LZv9Kho9KyR35fntm3/qWAgsN8fsN89ycpn7Kxv8qds8Kln8qx27KTGxn3+q2Igsd4ltNtT27tt8ahq8apn8qud2ZH1r2Yjs9xJ0sJr8Klu8qho8qtt8Kmw0Ij4rmX+rGM0wdFh57Fv86dm86yB5p/YvXUer+AmtdpQ2Lxu9Kts9Kyi14/ysGggtuc9zMrEyX7/sGT/q2IhsuAhs+EAofL/gj7+rmT/rWQitOEis98kkrbbkkn9rWL+r2X/sGYhsd8itOEfstz7qmH+r2Uis+AkqtvzqmH9rWQis+Ehs97/rmT+r2X/smchtOEgs9n/rGD+r2QhteIhtOArqtX/qlX/rWT/sGUis+Efsdz7qWL+rmUhtOIms9n/pmb/r2QhtOEhst78rWP+r2UhtOEhsd7/qmL+rmQhsN79rmOAsAL1AAAAvXRSTlMAogkJov/DLy/D////7mlp7v///6ocHKr//95PT97///2PDg6P/f///8s3N8v///NzAwNz8///syMjs//lWFjl//+ZEhKZ///SPEPS///4+P//////////////////////////////////////////////////////////////////6ur///+8Ji28//h/Bwd/+P//1UJC1Z4VFZ7pXl7p/7soKLv3fQYGfffUQUHUnBQUnOhdXei6Jye6dHQlIST6AAABnElEQVQ4y2NgoB5gZMIvz8wCJFjZ2PGp4eDkApLcPLx8uNXwCwgKgRRxC/OIiGJXIibOJSEEUcTNLSkljU2NjKyckBBcEbe8gqISuhJlFVU1IWRF3OoamlqoarR15HSFUBVxc+vpGxgilBgZm3AJCWEo4jY1M7eAqbG0EpQQwqaIm9vaxhaixs5eTkgIhyJuB0cnZwYGF1c3NyHcirjV3T08vbxhLsahiNvH18+fK0AIr6LAoOCQ0LDwCDyKIqOiY2Lj4uITEgOScClKTkmNTYsDgvSMzKwkXCZl5+TmgRTlFxQWFeN0U2BJaVlcXHlFZUQxHodXVdfU1tU3BOAPgsjGpuaWVvxB0CbZ3tHZJdeNTxFrT28fA0P/hImTcCqa7D5lKiSCp02Xw+E7R/kZM2FJZdZsNTdsiszmzEVOmPPmL8BQ1Ca5cBFq8l28BOZ+mCLWpcuWo2eEFStXTUJSNNl99RpsWWrtOrD7wYoc5NdvwJ45N24CuR+kyGzzFtzZfOu2BSBF1tt34Cswdu6SA5K7l+MvelbsoWI5BwDE3XDq/Q69bwAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 560,
+  "locales" : [ "", "ru" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"24\" android:versionName=\"0.9.8.7\" package=\"org.onepf.sample.trivialdrive\" platformBuildVersionCode=\"21\" platformBuildVersionName=\"5.0.1-1624448\">\n\t<uses-sdk android:minSdkVersion=\"10\" android:targetSdkVersion=\"21\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"org.onepf.openiab.permission.BILLING\" />\n\t<uses-permission android:name=\"com.android.vending.BILLING\" />\n\t<uses-permission android:name=\"com.nokia.payment.BILLING\" />\n\t<uses-permission android:name=\"com.sec.android.iap.permission.BILLING\" />\n\t<uses-feature android:name=\"android.hardware.telephony\" android:required=\"false\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_SMS\" />\n\t<uses-permission android:name=\"android.permission.SEND_SMS\" />\n\t<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />\n\t<uses-permission android:name=\"com.slideme.sam.manager.inapp.permission.BILLING\" />\n\t<uses-permission android:name=\"com.skubit.BILLING\" />\n\t<application android:theme=\"resourceId:0x7f050000\" android:label=\"TrivialDrive\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:name=\"org.onepf.sample.trivialdrive.MyApp\" android:allowBackup=\"false\">\n\t\t<meta-data android:name=\"iap:api_version\" android:value=\"13\" />\n\t\t<activity android:label=\"OPF Trivial Drive\" android:name=\"org.onepf.sample.trivialdrive.MainActivity\" android:screenOrientation=\"portrait\" android:configChanges=\"0x480\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"com.amazon.device.iap.ResponseReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.amazon.inapp.purchasing.NOTIFY\" android:permission=\"com.amazon.inapp.purchasing.Permission.NOTIFY\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<receiver android:name=\"mp.MpSMSReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.provider.Telephony.SMS_RECEIVED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<service android:name=\"mp.MpService\" />\n\t\t<service android:name=\"mp.StatusUpdateService\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"mp.MpActivity\" android:configChanges=\"0x4a0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 447857,
+  "crc32" : 1954927163,
+  "sha256" : "ffdece18d9b106b7812cedf64b1eac02b9f3230c55ae74fadd869a5e9ee8dd0e",
+  "buildTime" : 1523383272000
+}

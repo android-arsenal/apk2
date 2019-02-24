@@ -1,0 +1,4 @@
+{
+  "me.grantland.autofittextview.sample" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "R$styleable", "SampleActivity", "SampleActivity$1" ],
+  "me.grantland.widget" : [ "AutofitHelper", "AutofitHelper$1", "AutofitHelper$AutofitOnLayoutChangeListener", "AutofitHelper$AutofitTextWatcher", "AutofitHelper$OnTextSizeChangeListener", "AutofitLayout", "AutofitTextView", "BuildConfig", "R", "R$attr", "R$styleable" ]
+}

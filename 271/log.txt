@@ -1,0 +1,7 @@
+2016-08-05 00:21:32,574 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/qos-ch/slf4j/archive/master.zip", attempt 3
+2016-08-05 00:21:35,018 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/qos-ch/slf4j/archive/master.zip, attempt 3
+2016-08-05 00:21:36,829 INFO  c.g.v.a.s.FullProcessService - Archive with sources does not contain any build script
+2016-08-05 00:21:36,830 ERROR c.g.v.a.s.FullProcessService - Could not find directory with sources
+2016-08-05 00:21:36,830 ERROR c.g.v.a.s.FullProcessService - Project will not be processed
+2016-08-05 00:21:36,830 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-08-05 00:21:36,880 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

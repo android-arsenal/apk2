@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.devspark.robototextview.sample",
+    "label" : "Android-RobotoTextView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "4.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAB0VBMVEUAAABVqv9AgP+AgP9DhvJEiPdGhPZNgP9ChfVBhPNBhPNBg/NBg/I9fOgAAABAg/FBgvFBg/JBg/I+fugsZLw3bs9AgvA+fukrW6o3Z8FAg/ArVaQ0acQqWaYuW6RAgu8+fOQeRIAAVaoAAAA4cdI1asQAAAAMGDc0aMI8euA+fOY+feQ8e+EyZr4MFzQAAAAAAAAPI0IXMl0YMFwXL1szM2YAAAAAAAAAQL9BhPNBg/JDhPJHh/JEhfKqx/j9/f2yzfno7/zt8/xGhvJxovV5p/Wvy/i30PlFhfLr8vzw9PxIh/J2pfV8qfW0zvm60fnu8/zz9vxKifN7qPWKs/aArPbl7vzi6/u91PlJiPLx9fyryPinxvj09/xLivN/q/ZuoPWDr/a90/nq8fzo8PzC1/qxzPn2+f1OjPOCrvZ3pvWGsPbB1vrw9fzv9PzF2fpOi/O40fn4+v1RjfOHsfa/1fmUuve+1PmLs/bG2vrK3Pr5+/1TjvOMtPaPtvfL3Pr8/f33+f3N3vpVkPP6+/3J3PrL3fr7/P1WkfORt/eTuffO3/r8/P1YkvNZkvPR4PrT4vtZk/OVuveZvPeXu/dgl/Rfl/TV4/tChfRAgu9Age7wSmYHAAAAOXRSTlMAAwQCEx4dCpbo7JaYmgHq+f386hcl7+8qJe4qJysc7OwiAwiprQMqsO3w7+2xLAkgQk1LTAULDgSfRIASAAAB9klEQVRIx2NgoBdgZCIAGFGUMzMTNhJZDZDJwsqGF7CygJXB1LNzcHIRAJzc7HAdzAw8llaEAS8fVAMjAwu/lYCgEF4gKGApLMIA8TkTg6iYlRAh84UsxSWASiEaJKVQNVjbgIAtugZphAY0G+zsQcCBaA3WjmANTs7EanCxhwBXYjW4QTW4E6nBwxOqwcubOA0+9jDgS5wGP7gGf6I02ASAnQMiAoOI0RAMNjwETIYSo8EdpDLMOhxERRChITIKpDLaKgZExcYR1hAPdouLVQKYTiSsIQmkLtnDyjoFxEglqCEuFqQuDRbf6RmENGTCU1EWmJVNSEMOSFUuKE0454GY+QQ0FKQjYrgQxCwqxq+hBOyO0jIQKAezK/BrqLRHB1V4NRQXYWiorsGnodYeE9Th01APUtHQCAMNIG4THg3NLSAVrfDYbQNx2ztwa+hEdgOc34VbQzdIvqcXrqGvByTQj1NDbztIfgJSvpwANmEiLg2TwC6YjKRhMlhkCi4NYPPspyJpmAYWmY6pAVIYg4tgG5QSFSGEokGGuOJeFqqBkUFO3pJwhTJDQZFBCVplKavMnGE5Ay+wnDFLVRlex6mpa2hqaWvhAdpaOrp6aohqVN/A0MjY2NgEBwBKGRka6CNX1KZm5gSAmSlq5a9kQQAo0a0VAwAR2Gm0p/Jt7wAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1591,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"4.0.0\" package=\"com.devspark.robototextview.sample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0800ac\" android:label=\"Android-RobotoTextView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\">\n\t\t<activity android:name=\"com.devspark.robototextview.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.devspark.robototextview.sample.InflaterActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 6007198,
+  "crc32" : 515063260,
+  "sha256" : "439aac01aced5b547e78d4ab1130c91a907a3ae0aa5fb7482d7b670f4cf9be01",
+  "buildTime" : 1523312610000
+}
